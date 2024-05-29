@@ -1,17 +1,17 @@
 ## Latest build
-The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
+The lastest package built was python-asgiref-3.7.2-1.el9.src.rpm
 
-The build completed at Thu May 30 01:49:50 AM CEST 2024
+The build completed at Thu May 30 01:50:22 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
+[Build Log](logs/python-asgiref-3.7.2-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
-python3.11-asgiref-3.7.2-1.el9 | python-asgiref-3.7.2-1.el9.src.rpm | **Missing** |
+python3.11-asgiref-3.7.2-1.el9 | python-asgiref-3.7.2-1.el9.src.rpm | Built | [Log](logs/python-asgiref-3.7.2-1.el9.src.rpm.log)
 python3.11-async-timeout-4.0.3-1.el9 | python-async-timeout-4.0.3-1.el9.src.rpm | **Missing** |
 python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** |
 python3.11-autobahn-23.6.2-1.el9 | python-autobahn-23.6.2-1.el9.src.rpm | **Missing** |
@@ -87,4 +87,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-77 total packages, 0 packages built successfully, 77 packages left to fix
+77 total packages, 1 packages built successfully, 76 packages left to fix
