@@ -1,0 +1,135 @@
+INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/ --resultdir /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/ --no-clean /opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-charset-normalizer-3.3.2-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+INFO: Start(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-charset-normalizer-3.3.2-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+Mock Version: 5.5
+INFO: Mock Version: 5.5
+Start(bootstrap): chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+INFO: enabled package manager cache
+Start(bootstrap): cleaning package manager metadata
+Finish(bootstrap): cleaning package manager metadata
+INFO: Package manager dnf detected and used (fallback)
+Finish(bootstrap): chroot init
+Start: chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+Start: unpacking root cache
+Finish: unpacking root cache
+INFO: enabled package manager cache
+Start: cleaning package manager metadata
+Finish: cleaning package manager metadata
+INFO: enabled HW Info plugin
+INFO: Package manager dnf detected and used (direct choice)
+INFO: Buildroot is handled by package management downloaded with a bootstrap image:
+  rpm-4.16.1.3-29.el9.x86_64
+  python3-dnf-4.14.0-9.el9.noarch
+  python3-dnf-plugins-core-4.3.0-13.el9.noarch
+  yum-4.14.0-9.el9.noarch
+Finish: chroot init
+Start: build phase for python-charset-normalizer-3.3.2-1.el9.src.rpm
+Start: build setup for python-charset-normalizer-3.3.2-1.el9.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717027200
+Wrote: /builddir/build/SRPMS/python-charset-normalizer-3.3.2-1.el9.src.rpm
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                       [===                                                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                       [===                                                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                                                                              109 kB/s | 2.2 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                        [   ===                                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                     [      ===                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                       [         ===                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                           [            ===                                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                  151 kB/s |  19 kB     00:00    
+Dependencies resolved.
+================================================================================================================================================================================================================================================
+ Package                                                            Architecture                                  Version                                                        Repository                                                Size
+================================================================================================================================================================================================================================================
+Installing:
+ [1mgcc                                                               [m x86_64                                        11.4.1-3.el9                                                   appstream                                                 32 M
+ [1mpython3.11-devel                                                  [m x86_64                                        3.11.7-1.el9                                                   appstream                                                281 k
+Installing dependencies:
+ [1mannobin                                                           [m x86_64                                        12.31-2.el9                                                    appstream                                                1.0 M
+ [1mcpp                                                               [m x86_64                                        11.4.1-3.el9                                                   appstream                                                 11 M
+ [1mexpat                                                             [m x86_64                                        2.5.0-2.el9_4                                                  baseos                                                   119 k
+ [1mgcc-plugin-annobin                                                [m x86_64                                        11.4.1-3.el9                                                   appstream                                                 49 k
+ [1mglibc-devel                                                       [m x86_64                                        2.34-100.el9_4.2                                               appstream                                                 42 k
+ [1mglibc-headers                                                     [m x86_64                                        2.34-100.el9_4.2                                               appstream                                                548 k
+ [1mkernel-headers                                                    [m x86_64                                        5.14.0-427.18.1.el9_4                                          appstream                                                7.4 M
+ [1mlibedit                                                           [m x86_64                                        3.1-38.20210216cvs.el9                                         baseos                                                   107 k
+ [1mlibmpc                                                            [m x86_64                                        1.2.1-4.el9                                                    appstream                                                 65 k
+ [1mlibnsl2                                                           [m x86_64                                        2.0.0-1.el9                                                    appstream                                                 33 k
+ [1mlibtirpc                                                          [m x86_64                                        1.3.3-8.el9_4                                                  baseos                                                    96 k
+ [1mlibxcrypt-devel                                                   [m x86_64                                        4.4.18-3.el9                                                   appstream                                                 32 k
+ [1mllvm-libs                                                         [m x86_64                                        17.0.6-5.el9                                                   appstream                                                 25 M
+ [1mmake                                                              [m x86_64                                        1:4.3-8.el9                                                    baseos                                                   541 k
+ [1mmpdecimal                                                         [m x86_64                                        2.5.1-3.el9                                                    appstream                                                 88 k
+ [1mpyproject-rpm-macros                                              [m noarch                                        1.12.0-1.el9                                                   codeready-builder                                         43 k
+ [1mpython-rpm-macros                                                 [m noarch                                        3.9-53.el9                                                     appstream                                                 17 k
+ [1mpython3                                                           [m x86_64                                        3.9.18-3.el9                                                   baseos                                                    29 k
+ [1mpython3-libs                                                      [m x86_64                                        3.9.18-3.el9                                                   baseos                                                   7.8 M
+ [1mpython3-packaging                                                 [m noarch                                        20.9-5.el9                                                     appstream                                                 81 k
+ [1mpython3-pip-wheel                                                 [m noarch                                        21.2.3-8.el9                                                   baseos                                                   1.1 M
+ [1mpython3-pyparsing                                                 [m noarch                                        2.4.7-9.el9                                                    baseos                                                   154 k
+ [1mpython3-rpm-generators                                            [m noarch                                        12-9.el9                                                       appstream                                                 29 k
+ [1mpython3-rpm-macros                                                [m noarch                                        3.9-53.el9                                                     appstream                                                 11 k
+ [1mpython3-setuptools-wheel                                          [m noarch                                        53.0.0-12.el9                                                  baseos                                                   470 k
+ [1mpython3.11                                                        [m x86_64                                        3.11.7-1.el9                                                   appstream                                                 29 k
+ [1mpython3.11-libs                                                   [m x86_64                                        3.11.7-1.el9                                                   appstream                                                9.9 M
+ [1mpython3.11-pip-wheel                                              [m noarch                                        22.3.1-5.el9                                                   appstream                                                1.4 M
+ [1mpython3.11-setuptools-wheel                                       [m noarch                                        65.5.1-2.el9                                                   appstream                                                714 k
+
+Transaction Summary
+================================================================================================================================================================================================================================================
+Install  31 Packages
+
+Total size: 100 M
+Installed size: 310 M
+Downloading Packages:
+[SKIPPED] python3-pyparsing-2.4.7-9.el9.noarch.rpm: Already downloaded                                                                                                                                                                         
+[SKIPPED] python3-setuptools-wheel-53.0.0-12.el9.noarch.rpm: Already downloaded                                                                                                                                                                
+[SKIPPED] libedit-3.1-38.20210216cvs.el9.x86_64.rpm: Already downloaded                                                                                                                                                                        
+[SKIPPED] expat-2.5.0-2.el9_4.x86_64.rpm: Already downloaded                                                                                                                                                                                   
+[SKIPPED] libtirpc-1.3.3-8.el9_4.x86_64.rpm: Already downloaded                                                                                                                                                                                
+[SKIPPED] make-4.3-8.el9.x86_64.rpm: Already downloaded                                                                                                                                                                                        
+[SKIPPED] python3-3.9.18-3.el9.x86_64.rpm: Already downloaded                                                                                                                                                                                  
+[SKIPPED] python3-libs-3.9.18-3.el9.x86_64.rpm: Already downloaded                                                                                                                                                                             
+[SKIPPED] python3-pip-wheel-21.2.3-8.el9.noarch.rpm: Already downloaded                                                                                                                                                                        
+[SKIPPED] libmpc-1.2.1-4.el9.x86_64.rpm: Already downloaded                                                                                                                                                                                    
+[SKIPPED] libnsl2-2.0.0-1.el9.x86_64.rpm: Already downloaded                                                                                                                                                                                   
+[SKIPPED] libxcrypt-devel-4.4.18-3.el9.x86_64.rpm: Already downloaded                                                                                                                                                                          
+[SKIPPED] python3-packaging-20.9-5.el9.noarch.rpm: Already downloaded                                                                                                                                                                          
+[SKIPPED] python3.11-setuptools-wheel-65.5.1-2.el9.noarch.rpm: Already downloaded                                                                                                                                                              
+[SKIPPED] mpdecimal-2.5.1-3.el9.x86_64.rpm: Already downloaded                                                                                                                                                                                 
+[SKIPPED] gcc-plugin-annobin-11.4.1-3.el9.x86_64.rpm: Already downloaded                                                                                                                                                                       
+[SKIPPED] python-rpm-macros-3.9-53.el9.noarch.rpm: Already downloaded                                                                                                                                                                          
+[SKIPPED] python3.11-devel-3.11.7-1.el9.x86_64.rpm: Already downloaded                                                                                                                                                                         
+[SKIPPED] annobin-12.31-2.el9.x86_64.rpm: Already downloaded                                                                                                                                                                                   
+[SKIPPED] cpp-11.4.1-3.el9.x86_64.rpm: Already downloaded                                                                                                                                                                                      
+[SKIPPED] llvm-libs-17.0.6-5.el9.x86_64.rpm: Already downloaded                                                                                                                                                                                
+[SKIPPED] python3-rpm-generators-12-9.el9.noarch.rpm: Already downloaded                                                                                                                                                                       
+[SKIPPED] python3-rpm-macros-3.9-53.el9.noarch.rpm: Already downloaded                                                                                                                                                                         
+[SKIPPED] python3.11-libs-3.11.7-1.el9.x86_64.rpm: Already downloaded                                                                                                                                                                          
+[SKIPPED] python3.11-pip-wheel-22.3.1-5.el9.noarch.rpm: Already downloaded                                                                                                                                                                     
+[SKIPPED] gcc-11.4.1-3.el9.x86_64.rpm: Already downloaded                                                                                                                                                                                      
+[SKIPPED] python3.11-3.11.7-1.el9.x86_64.rpm: Already downloaded                                                                                                                                                                               
+[SKIPPED] kernel-headers-5.14.0-427.18.1.el9_4.x86_64.rpm: Already downloaded                                                                                                                                                                  
+[SKIPPED] glibc-devel-2.34-100.el9_4.2.x86_64.rpm: Already downloaded                                                                                                                                                                          
+[SKIPPED] glibc-headers-2.34-100.el9_4.2.x86_64.rpm: Already downloaded                                                                                                                                                                        
+[SKIPPED] pyproject-rpm-macros-1.12.0-1.el9.noarch.rpm: Already downloaded                                                                                                                                                                     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
