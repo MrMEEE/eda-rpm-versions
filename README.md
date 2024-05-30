@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-drf-spectacular-0.26.2-1.el9.src.rpm
+The lastest package built was python-google-auth-2.28.1-1.el9.src.rpm
 
-The build completed at Fri May 31 01:05:13 AM CEST 2024
+The build completed at Fri May 31 01:05:46 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-drf-spectacular-0.26.2-1.el9.src.rpm.log)
+[Build Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
