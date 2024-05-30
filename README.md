@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-incremental-22.10.0-1.el9.src.rpm
+The lastest package built was python-inflection-0.5.1-1.el9.src.rpm
 
-The build completed at Thu May 30 02:15:59 AM CEST 2024
+The build completed at Thu May 30 02:16:33 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -43,7 +43,7 @@ python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | 
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-idna-3.6-1.el9 | python-idna-3.6-1.el9.src.rpm | Built | [Log](logs/python-idna-3.6-1.el9.src.rpm.log)
 python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
-python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | **Missing** |
+python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | **Missing** |
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | **Missing** |
 python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | **Missing** |
@@ -87,4 +87,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-77 total packages, 10 packages built successfully, 67 packages left to fix
+77 total packages, 11 packages built successfully, 66 packages left to fix
