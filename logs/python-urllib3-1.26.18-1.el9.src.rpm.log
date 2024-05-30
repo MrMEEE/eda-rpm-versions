@@ -38,7 +38,7 @@ Start: build phase for python-urllib3-1.26.18-1.el9.src.rpm
 Start: build setup for python-urllib3-1.26.18-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717027200
+setting SOURCE_DATE_EPOCH=1717113600
 Wrote: /builddir/build/SRPMS/python-urllib3-1.26.18-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -46,41 +46,39 @@ Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                       [===                                                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                                                                              527 kB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                       [===                                                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                                                                              520 kB/s |  38 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                        [   ===                                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                     [      ===                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                             18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                       [         ===                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                               20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                           [            ===                                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                  110 kB/s |  19 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                           [               ===                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                           [                  ===                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                       18% [==================-                                                                                 ]  12 MB/s | 3.7 MB     00:01 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                       42% [==========================================                                                          ]  13 MB/s | 8.9 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                       56% [========================================================-                                           ]  12 MB/s |  12 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                       74% [==========================================================================-                         ]  12 MB/s |  16 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                       85% [=====================================================================================-              ]  12 MB/s |  18 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                       99% [===================================================================================================-]  12 MB/s |  21 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                  5.8 MB/s |  21 MB     00:03    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      867 kB/s |  41 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - 100% [========================================]  49 kB/s |  19 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                           26 kB/s |  19 kB     00:00    
 No matching package to install: 'python3.11-python-ntlm'
 Not all dependencies satisfied
 Error: Some packages could not be found.
 Finish: build setup for python-urllib3-1.26.18-1.el9.src.rpm
 Finish: build phase for python-urllib3-1.26.18-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-urllib3-1.26.18-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 23 seconds
+ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-urllib3-1.26.18-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 8 seconds
 INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M cab38cefee624acb8d24c08d9842939e -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.jijmuunu:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root//builddir/build/SRPMS/python-urllib3-1.26.18-1.el9.src.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M bd716f66f93a451598e3a5a2e43341d8 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.km0arvxj:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root//builddir/build/SRPMS/python-urllib3-1.26.18-1.el9.src.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                                                                              527 kB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                                                                              520 kB/s |  38 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                                                                                16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                                                                             18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                               20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                  110 kB/s |  19 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                  5.8 MB/s |  21 MB     00:03    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      867 kB/s |  41 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                        20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                     23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                       24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                           26 kB/s |  19 kB     00:00    
 No matching package to install: 'python3.11-python-ntlm'
 Not all dependencies satisfied
 Error: Some packages could not be found.
 
 Directory walk started
-Directory walk done - 45 packages
+Directory walk done - 48 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
