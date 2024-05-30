@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twisted-iocpsupport-1.0.3-1.el9.src.rpm
+The lastest package built was python-txaio-23.1.1-1.el9.src.rpm
 
-The build completed at Thu May 30 03:21:20 AM CEST 2024
+The build completed at Thu May 30 03:22:18 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-twisted-iocpsupport-1.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
