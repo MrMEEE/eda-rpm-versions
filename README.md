@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-automat-22.10.0-1.el9.src.rpm
+The lastest package built was python-cffi-1.16.0-1.el9.src.rpm
 
-The build completed at Thu May 30 02:42:52 AM CEST 2024
+The build completed at Thu May 30 02:43:40 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-cffi-1.16.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -18,7 +18,7 @@ python3.11-autobahn-23.6.2-1.el9 | python-autobahn-23.6.2-1.el9.src.rpm | **Miss
 python3.11-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
 python3.11-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.3.2-1.el9.src.rpm.log)
 python3.11-certifi-2023.7.22-1.el9 | python-certifi-2023.7.22-1.el9.src.rpm | Built | [Log](logs/python-certifi-2023.7.22-1.el9.src.rpm.log)
-python3.11-cffi-1.16.0-1.el9 | python-cffi-1.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cffi-1.16.0-1.el9.src.rpm.log)
+python3.11-cffi-1.16.0-1.el9 | python-cffi-1.16.0-1.el9.src.rpm | Built | [Log](logs/python-cffi-1.16.0-1.el9.src.rpm.log)
 python3.11-channels-3.0.5-1.el9 | python-channels-3.0.5-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-3.0.5-1.el9.src.rpm.log)
 python3.11-charset-normalizer-3.3.2-1.el9 | python-charset-normalizer-3.3.2-1.el9.src.rpm | Built | [Log](logs/python-charset-normalizer-3.3.2-1.el9.src.rpm.log)
 python3.11-click-8.1.7-1.el9 | python-click-8.1.7-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.7-1.el9.src.rpm.log)
@@ -87,4 +87,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-77 total packages, 31 packages built successfully, 46 packages left to fix
+77 total packages, 32 packages built successfully, 45 packages left to fix
