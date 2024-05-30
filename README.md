@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-tabulate-0.9.0-1.el9.src.rpm
+The lastest package built was python-tomli-2.0.1-1.el9.src.rpm
 
-The build completed at Thu May 30 02:35:00 AM CEST 2024
+The build completed at Thu May 30 02:35:34 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -75,7 +75,7 @@ python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.
 python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
 python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | **Missing** | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
-python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | **Missing** |
+python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
 python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | **Missing** |
 python3.11-twisted-iocpsupport-1.0.3-1.el9 | python-twisted-iocpsupport-1.0.3-1.el9.src.rpm | **Missing** |
 python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | **Missing** |
@@ -87,4 +87,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-77 total packages, 25 packages built successfully, 52 packages left to fix
+77 total packages, 26 packages built successfully, 51 packages left to fix
