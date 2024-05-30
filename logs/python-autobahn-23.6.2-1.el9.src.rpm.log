@@ -46,12 +46,12 @@ Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      1.5 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      3.4 MB/s |  38 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      9.6 MB/s |  41 kB     00:00    
 Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          161 kB/s |  19 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           37 kB/s |  19 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                                Architecture      Version                    Repository                    Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-autobahn-23.6.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717113600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.8yGG8D
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.IIo4Ek
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.8yGG8D
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.gM0RQh
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.b3W4bs
 + umask 022
 + cd /builddir/build/BUILD
 + cd autobahn-23.6.2
@@ -222,10 +222,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          133 kB/s |  19 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           37 kB/s |  19 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -280,7 +280,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717113600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.znvYP7
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Liegyr
 + umask 022
 + cd /builddir/build/BUILD
 + cd autobahn-23.6.2
@@ -570,10 +570,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           37 kB/s |  19 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           53 kB/s |  19 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -581,41 +581,1850 @@ Package python3.11-packaging-21.3-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(txaio) >= 21.2.1'
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-autobahn-23.6.2-1.el9.src.rpm
-Finish: build phase for python-autobahn-23.6.2-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-autobahn-23.6.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 20 seconds
-INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 6c3e887f0ca74044aa169caba1c0c06b -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv._9y9zt8_:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-autobahn-23.6.2-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+========================================================================================================================
+ Package                          Architecture    Version                Repository                                Size
+========================================================================================================================
+Installing:
+ [1mpython3.11-cryptography         [m x86_64          41.0.7-1.el9           _opt_edarpm_rpmbuilds_010_RPMS_          1.1 M
+ [1mpython3.11-hyperlink            [m noarch          21.0.0-1.el9           _opt_edarpm_rpmbuilds_010_RPMS_          137 k
+ [1mpython3.11-txaio                [m noarch          23.1.1-1.el9           _opt_edarpm_rpmbuilds_010_RPMS_           48 k
+Installing dependencies:
+ [1mpython3.11-cffi                 [m x86_64          1.16.0-1.el9           _opt_edarpm_rpmbuilds_010_RPMS_          301 k
+ [1mpython3.11-idna                 [m noarch          3.6-1.el9              _opt_edarpm_rpmbuilds_010_RPMS_           99 k
+ [1mpython3.11-pycparser            [m noarch          2.21-1.el9             _opt_edarpm_rpmbuilds_010_RPMS_          243 k
+
+Transaction Summary
+========================================================================================================================
+Install  6 Packages
+
+Total size: 1.9 M
+Installed size: 8.2 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [==============                                                                             ] 1/1  Preparing        :  [==============================                                                             ] 1/1  Preparing        :  [=============================================                                              ] 1/1  Preparing        :  [============================================================                               ] 1/1  Preparing        :  [===========================================================================                ] 1/1  Preparing        :                                                                                                1/1 
+  Installing       : python3.11-pycparser-2.21-1.el9.noarch [                                                     ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=                                                    ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==                                                   ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===                                                  ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [====                                                 ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=====                                                ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=======                                              ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [========                                             ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=========                                            ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==========                                           ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===========                                          ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [============                                         ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=============                                        ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==============                                       ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===============                                      ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [================                                     ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==================                                   ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===================                                  ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [====================                                 ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=====================                                ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [======================                               ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=======================                              ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [========================                             ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=========================                            ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==========================                           ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===========================                          ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [============================                         ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=============================                        ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===============================                      ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [================================                     ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=================================                    ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==================================                   ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [====================================                 ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=====================================                ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [======================================               ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=======================================              ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [========================================             ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=========================================            ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==========================================           ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===========================================          ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=============================================        ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==============================================       ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===============================================      ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [================================================     ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=================================================    ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==================================================   ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===================================================  ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==================================================== ] 1/6  Installing       : python3.11-pycparser-2.21-1.el9.noarch                                                         1/6 
+  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [                                                        ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=                                                       ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==                                                      ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===                                                     ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [====                                                    ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [======                                                  ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=======                                                 ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [========                                                ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=========                                               ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==========                                              ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===========                                             ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [============                                            ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==============                                          ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===============                                         ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [================                                        ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=================                                       ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===================                                     ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [====================                                    ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=====================                                   ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [======================                                  ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [========================                                ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=========================                               ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==========================                              ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===========================                             ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [============================                            ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==============================                          ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===============================                         ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=================================                       ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==================================                      ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===================================                     ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [====================================                    ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=====================================                   ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [======================================                  ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=======================================                 ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [========================================                ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=========================================               ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==========================================              ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===========================================             ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [============================================            ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=============================================           ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===============================================         ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [================================================        ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=================================================       ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==================================================      ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===================================================     ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [====================================================    ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=====================================================   ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [======================================================  ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [======================================================= ] 2/6  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64                                                            2/6 
+  Installing       : python3.11-idna-3.6-1.el9.noarch [                                                           ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [=                                                          ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [==                                                         ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [=======                                                    ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [========                                                   ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [============                                               ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [===============                                            ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [===================                                        ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [=======================                                    ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [===========================                                ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [==============================                             ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [===============================                            ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [================================                           ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [=================================                          ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [===================================                        ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [======================================                     ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [=======================================                    ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [========================================                   ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [===========================================                ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [===============================================            ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [===================================================        ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [======================================================     ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch [========================================================== ] 3/6  Installing       : python3.11-idna-3.6-1.el9.noarch                                                               3/6 
+  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [                                                   ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=                                                  ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==                                                 ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=====                                              ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [========                                           ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==========                                         ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [===========                                        ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=============                                      ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==============                                     ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [===============                                    ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [================                                   ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=================                                  ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [====================                               ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=======================                            ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [===========================                        ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==============================                     ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [===============================                    ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [================================                   ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=================================                  ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [====================================               ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [======================================             ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=======================================            ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==========================================         ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=============================================      ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [================================================   ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=================================================  ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [================================================== ] 4/6  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch                                                       4/6 
+  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [                                                ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=                                               ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==                                              ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===                                             ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [====                                            ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=====                                           ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [======                                          ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=======                                         ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [========                                        ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=========                                       ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==========                                      ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===========                                     ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [============                                    ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=============                                   ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==============                                  ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===============                                 ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [================                                ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=================                               ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==================                              ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===================                             ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [====================                            ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=====================                           ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [======================                          ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=======================                         ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [========================                        ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=========================                       ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==========================                      ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===========================                     ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [============================                    ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=============================                   ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==============================                  ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===============================                 ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [================================                ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=================================               ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==================================              ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===================================             ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [====================================            ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=====================================           ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [======================================          ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=======================================         ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [========================================        ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=========================================       ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==========================================      ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===========================================     ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [============================================    ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=============================================   ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==============================================  ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=============================================== ] 5/6  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64                                                    5/6 
+  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [                                                       ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [==                                                     ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [====                                                   ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [===========                                            ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [==================                                     ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [====================                                   ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [=====================                                  ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [======================                                 ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [=======================                                ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [=============================                          ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [===============================                        ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [=====================================                  ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [======================================                 ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [=======================================                ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [========================================               ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [==========================================             ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [===========================================            ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [============================================           ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [===================================================    ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [=====================================================  ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch [====================================================== ] 6/6  Installing       : python3.11-txaio-23.1.1-1.el9.noarch                                                           6/6 
+  Running scriptlet: python3.11-txaio-23.1.1-1.el9.noarch                                                           6/6 
+  Verifying        : python3.11-cffi-1.16.0-1.el9.x86_64                                                            1/6 
+  Verifying        : python3.11-cryptography-41.0.7-1.el9.x86_64                                                    2/6 
+  Verifying        : python3.11-hyperlink-21.0.0-1.el9.noarch                                                       3/6 
+  Verifying        : python3.11-idna-3.6-1.el9.noarch                                                               4/6 
+  Verifying        : python3.11-pycparser-2.21-1.el9.noarch                                                         5/6 
+  Verifying        : python3.11-txaio-23.1.1-1.el9.noarch                                                           6/6 
+Installed products updated.
+
+Installed:
+  python3.11-cffi-1.16.0-1.el9.x86_64                       python3.11-cryptography-41.0.7-1.el9.x86_64                 
+  python3.11-hyperlink-21.0.0-1.el9.noarch                  python3.11-idna-3.6-1.el9.noarch                            
+  python3.11-pycparser-2.21-1.el9.noarch                    python3.11-txaio-23.1.1-1.el9.noarch                        
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717113600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.xwhQY8
++ umask 022
++ cd /builddir/build/BUILD
++ cd autobahn-23.6.2
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/autobahn-23.6.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running egg_info
+writing autobahn.egg-info/PKG-INFO
+writing dependency_links to autobahn.egg-info/dependency_links.txt
+writing entry points to autobahn.egg-info/entry_points.txt
+writing requirements to autobahn.egg-info/requires.txt
+writing top-level names to autobahn.egg-info/top_level.txt
+reading manifest file 'autobahn.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'autobahn.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing autobahn.egg-info/PKG-INFO
+writing dependency_links to autobahn.egg-info/dependency_links.txt
+writing entry points to autobahn.egg-info/entry_points.txt
+writing requirements to autobahn.egg-info/requires.txt
+writing top-level names to autobahn.egg-info/top_level.txt
+reading manifest file 'autobahn.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'autobahn.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/autobahn-23.6.2/autobahn-23.6.2.dist-info'
+Handling txaio (>=21.2.1) from hook generated metadata: Requires-Dist (autobahn)
+Requirement satisfied: txaio (>=21.2.1)
+   (installed: txaio 23.1.1)
+Handling cryptography (>=3.4.6) from hook generated metadata: Requires-Dist (autobahn)
+Requirement satisfied: cryptography (>=3.4.6)
+   (installed: cryptography 41.0.7)
+Handling hyperlink (>=21.0.0) from hook generated metadata: Requires-Dist (autobahn)
+Requirement satisfied: hyperlink (>=21.0.0)
+   (installed: hyperlink 21.0.0)
+Handling setuptools from hook generated metadata: Requires-Dist (autobahn)
+Requirement satisfied: setuptools
+   (installed: setuptools 69.0.2)
+Handling zope.interface (>=5.2.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: zope.interface (>=5.2.0) ; extra == 'all'
+Handling twisted (>=20.3.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: twisted (>=20.3.0) ; extra == 'all'
+Handling attrs (>=20.3.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: attrs (>=20.3.0) ; extra == 'all'
+Handling python-snappy (>=0.6.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: python-snappy (>=0.6.0) ; extra == 'all'
+Handling msgpack (>=1.0.2) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: msgpack (>=1.0.2) ; extra == 'all'
+Handling ujson (>=4.0.2) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: ujson (>=4.0.2) ; extra == 'all'
+Handling cbor2 (>=5.2.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cbor2 (>=5.2.0) ; extra == 'all'
+Handling py-ubjson (>=0.16.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-ubjson (>=0.16.1) ; extra == 'all'
+Handling flatbuffers (>=22.12.6) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: flatbuffers (>=22.12.6) ; extra == 'all'
+Handling pyopenssl (>=20.0.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyopenssl (>=20.0.1) ; extra == 'all'
+Handling service-identity (>=18.1.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: service-identity (>=18.1.0) ; extra == 'all'
+Handling pynacl (>=1.4.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pynacl (>=1.4.0) ; extra == 'all'
+Handling pytrie (>=0.4.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytrie (>=0.4.0) ; extra == 'all'
+Handling qrcode (>=7.3.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: qrcode (>=7.3.1) ; extra == 'all'
+Handling cffi (>=1.14.5) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cffi (>=1.14.5) ; extra == 'all'
+Handling argon2-cffi (>=20.1.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: argon2-cffi (>=20.1.0) ; extra == 'all'
+Handling passlib (>=1.7.4) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: passlib (>=1.7.4) ; extra == 'all'
+Handling bitarray (>=2.7.5) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: bitarray (>=2.7.5) ; extra == 'all'
+Handling xbr (>=21.2.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: xbr (>=21.2.1) ; extra == 'all'
+Handling click (>=8.1.2) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: click (>=8.1.2) ; extra == 'all'
+Handling zlmdb (>=21.2.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: zlmdb (>=21.2.1) ; extra == 'all'
+Handling web3[ipfs] (>=6.0.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: web3[ipfs] (>=6.0.0) ; extra == 'all'
+Handling rlp (>=2.0.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: rlp (>=2.0.1) ; extra == 'all'
+Handling py-eth-sig-utils (>=0.4.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-eth-sig-utils (>=0.4.0) ; extra == 'all'
+Handling py-ecc (>=5.1.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-ecc (>=5.1.0) ; extra == 'all'
+Handling eth-abi (>=4.0.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: eth-abi (>=4.0.0) ; extra == 'all'
+Handling mnemonic (>=0.19) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: mnemonic (>=0.19) ; extra == 'all'
+Handling base58 (>=2.1.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: base58 (>=2.1.0) ; extra == 'all'
+Handling ecdsa (>=0.16.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: ecdsa (>=0.16.1) ; extra == 'all'
+Handling py-multihash (>=2.0.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-multihash (>=2.0.1) ; extra == 'all'
+Handling jinja2 (>=2.11.3) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: jinja2 (>=2.11.3) ; extra == 'all'
+Handling yapf (==0.29.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: yapf (==0.29.0) ; extra == 'all'
+Handling spake2 (>=0.8) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: spake2 (>=0.8) ; extra == 'all'
+Handling hkdf (>=0.0.3) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: hkdf (>=0.0.3) ; extra == 'all'
+Handling PyGObject (>=3.40.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: PyGObject (>=3.40.0) ; extra == 'all'
+Handling python-snappy (>=0.6.0) ; extra == 'compress' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: python-snappy (>=0.6.0) ; extra == 'compress'
+Handling backports.tempfile (>=1.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: backports.tempfile (>=1.0) ; extra == 'dev'
+Handling bumpversion (>=0.5.3) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: bumpversion (>=0.5.3) ; extra == 'dev'
+Handling codecov (>=2.0.15) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: codecov (>=2.0.15) ; extra == 'dev'
+Handling flake8 (<5) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: flake8 (<5) ; extra == 'dev'
+Handling humanize (>=0.5.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: humanize (>=0.5.1) ; extra == 'dev'
+Handling passlib ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: passlib ; extra == 'dev'
+Handling pep8-naming (>=0.3.3) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pep8-naming (>=0.3.3) ; extra == 'dev'
+Handling pip (>=9.0.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pip (>=9.0.1) ; extra == 'dev'
+Handling pyenchant (>=1.6.6) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyenchant (>=1.6.6) ; extra == 'dev'
+Handling pyflakes (>=1.0.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyflakes (>=1.0.0) ; extra == 'dev'
+Handling pyinstaller (>=4.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyinstaller (>=4.2) ; extra == 'dev'
+Handling pylint (>=1.9.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pylint (>=1.9.2) ; extra == 'dev'
+Handling pytest-aiohttp ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytest-aiohttp ; extra == 'dev'
+Handling pytest-asyncio (>=0.14.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytest-asyncio (>=0.14.0) ; extra == 'dev'
+Handling pytest-runner (>=2.11.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytest-runner (>=2.11.1) ; extra == 'dev'
+Handling pytest (>=3.4.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytest (>=3.4.2) ; extra == 'dev'
+Handling pyyaml (>=4.2b4) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyyaml (>=4.2b4) ; extra == 'dev'
+Handling qualname ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: qualname ; extra == 'dev'
+Handling sphinx-autoapi (>=1.7.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: sphinx-autoapi (>=1.7.0) ; extra == 'dev'
+Handling sphinx (>=1.7.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: sphinx (>=1.7.1) ; extra == 'dev'
+Handling sphinx-rtd-theme (>=0.1.9) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: sphinx-rtd-theme (>=0.1.9) ; extra == 'dev'
+Handling sphinxcontrib-images (>=0.9.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: sphinxcontrib-images (>=0.9.1) ; extra == 'dev'
+Handling tox-gh-actions (>=2.2.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: tox-gh-actions (>=2.2.0) ; extra == 'dev'
+Handling tox (>=4.2.8) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: tox (>=4.2.8) ; extra == 'dev'
+Handling twine (>=3.3.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: twine (>=3.3.0) ; extra == 'dev'
+Handling twisted (>=22.10.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: twisted (>=22.10.0) ; extra == 'dev'
+Handling txaio (>=20.4.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: txaio (>=20.4.1) ; extra == 'dev'
+Handling watchdog (>=0.8.3) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: watchdog (>=0.8.3) ; extra == 'dev'
+Handling wheel (>=0.36.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: wheel (>=0.36.2) ; extra == 'dev'
+Handling yapf (==0.29.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: yapf (==0.29.0) ; extra == 'dev'
+Handling mypy (>=0.610) ; (python_version >= "3.4" and platform_python_implementation != "PyPy") and extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: mypy (>=0.610) ; (python_version >= "3.4" and platform_python_implementation != "PyPy") and extra == 'dev'
+Handling pyopenssl (>=20.0.1) ; extra == 'encryption' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyopenssl (>=20.0.1) ; extra == 'encryption'
+Handling service-identity (>=18.1.0) ; extra == 'encryption' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: service-identity (>=18.1.0) ; extra == 'encryption'
+Handling pynacl (>=1.4.0) ; extra == 'encryption' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pynacl (>=1.4.0) ; extra == 'encryption'
+Handling pytrie (>=0.4.0) ; extra == 'encryption' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytrie (>=0.4.0) ; extra == 'encryption'
+Handling qrcode (>=7.3.1) ; extra == 'encryption' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: qrcode (>=7.3.1) ; extra == 'encryption'
+Handling cffi (>=1.14.5) ; extra == 'nvx' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cffi (>=1.14.5) ; extra == 'nvx'
+Handling cffi (>=1.14.5) ; extra == 'scram' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cffi (>=1.14.5) ; extra == 'scram'
+Handling argon2-cffi (>=20.1.0) ; extra == 'scram' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: argon2-cffi (>=20.1.0) ; extra == 'scram'
+Handling passlib (>=1.7.4) ; extra == 'scram' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: passlib (>=1.7.4) ; extra == 'scram'
+Handling msgpack (>=1.0.2) ; extra == 'serialization' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: msgpack (>=1.0.2) ; extra == 'serialization'
+Handling ujson (>=4.0.2) ; extra == 'serialization' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: ujson (>=4.0.2) ; extra == 'serialization'
+Handling cbor2 (>=5.2.0) ; extra == 'serialization' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cbor2 (>=5.2.0) ; extra == 'serialization'
+Handling py-ubjson (>=0.16.1) ; extra == 'serialization' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-ubjson (>=0.16.1) ; extra == 'serialization'
+Handling flatbuffers (>=22.12.6) ; extra == 'serialization' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: flatbuffers (>=22.12.6) ; extra == 'serialization'
+Handling zope.interface (>=5.2.0) ; extra == 'twisted' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: zope.interface (>=5.2.0) ; extra == 'twisted'
+Handling twisted (>=20.3.0) ; extra == 'twisted' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: twisted (>=20.3.0) ; extra == 'twisted'
+Handling attrs (>=20.3.0) ; extra == 'twisted' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: attrs (>=20.3.0) ; extra == 'twisted'
+Handling PyGObject (>=3.40.0) ; extra == 'ui' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: PyGObject (>=3.40.0) ; extra == 'ui'
+Handling bitarray (>=2.7.5) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: bitarray (>=2.7.5) ; extra == 'xbr'
+Handling xbr (>=21.2.1) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: xbr (>=21.2.1) ; extra == 'xbr'
+Handling click (>=8.1.2) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: click (>=8.1.2) ; extra == 'xbr'
+Handling cbor2 (>=5.2.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cbor2 (>=5.2.0) ; extra == 'xbr'
+Handling zlmdb (>=21.2.1) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: zlmdb (>=21.2.1) ; extra == 'xbr'
+Handling twisted (>=20.3.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: twisted (>=20.3.0) ; extra == 'xbr'
+Handling web3[ipfs] (>=6.0.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: web3[ipfs] (>=6.0.0) ; extra == 'xbr'
+Handling rlp (>=2.0.1) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: rlp (>=2.0.1) ; extra == 'xbr'
+Handling py-eth-sig-utils (>=0.4.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-eth-sig-utils (>=0.4.0) ; extra == 'xbr'
+Handling py-ecc (>=5.1.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-ecc (>=5.1.0) ; extra == 'xbr'
+Handling eth-abi (>=4.0.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: eth-abi (>=4.0.0) ; extra == 'xbr'
+Handling mnemonic (>=0.19) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: mnemonic (>=0.19) ; extra == 'xbr'
+Handling base58 (>=2.1.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: base58 (>=2.1.0) ; extra == 'xbr'
+Handling ecdsa (>=0.16.1) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: ecdsa (>=0.16.1) ; extra == 'xbr'
+Handling py-multihash (>=2.0.1) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-multihash (>=2.0.1) ; extra == 'xbr'
+Handling jinja2 (>=2.11.3) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: jinja2 (>=2.11.3) ; extra == 'xbr'
+Handling yapf (==0.29.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: yapf (==0.29.0) ; extra == 'xbr'
+Handling spake2 (>=0.8) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: spake2 (>=0.8) ; extra == 'xbr'
+Handling hkdf (>=0.0.3) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: hkdf (>=0.0.3) ; extra == 'xbr'
++ cat /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv autobahn-23.6.2.dist-info/
+removed 'autobahn-23.6.2.dist-info/entry_points.txt'
+removed 'autobahn-23.6.2.dist-info/top_level.txt'
+removed 'autobahn-23.6.2.dist-info/METADATA'
+removed 'autobahn-23.6.2.dist-info/LICENSE'
+removed directory 'autobahn-23.6.2.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-autobahn-23.6.2-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                           37 kB/s |  19 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream    100% [========================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                     11 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          202 kB/s |  19 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-cryptography-41.0.7-1.el9.x86_64 is already installed.
+Package python3.11-hyperlink-21.0.0-1.el9.noarch is already installed.
 Package python3.11-packaging-21.3-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(txaio) >= 21.2.1'
+Package python3.11-txaio-23.1.1-1.el9.noarch is already installed.
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717113600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Zi7xwr
++ umask 022
++ cd /builddir/build/BUILD
++ cd autobahn-23.6.2
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/autobahn-23.6.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running egg_info
+writing autobahn.egg-info/PKG-INFO
+writing dependency_links to autobahn.egg-info/dependency_links.txt
+writing entry points to autobahn.egg-info/entry_points.txt
+writing requirements to autobahn.egg-info/requires.txt
+writing top-level names to autobahn.egg-info/top_level.txt
+reading manifest file 'autobahn.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'autobahn.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing autobahn.egg-info/PKG-INFO
+writing dependency_links to autobahn.egg-info/dependency_links.txt
+writing entry points to autobahn.egg-info/entry_points.txt
+writing requirements to autobahn.egg-info/requires.txt
+writing top-level names to autobahn.egg-info/top_level.txt
+reading manifest file 'autobahn.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'autobahn.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/autobahn-23.6.2/autobahn-23.6.2.dist-info'
+Handling txaio (>=21.2.1) from hook generated metadata: Requires-Dist (autobahn)
+Requirement satisfied: txaio (>=21.2.1)
+   (installed: txaio 23.1.1)
+Handling cryptography (>=3.4.6) from hook generated metadata: Requires-Dist (autobahn)
+Requirement satisfied: cryptography (>=3.4.6)
+   (installed: cryptography 41.0.7)
+Handling hyperlink (>=21.0.0) from hook generated metadata: Requires-Dist (autobahn)
+Requirement satisfied: hyperlink (>=21.0.0)
+   (installed: hyperlink 21.0.0)
+Handling setuptools from hook generated metadata: Requires-Dist (autobahn)
+Requirement satisfied: setuptools
+   (installed: setuptools 69.0.2)
+Handling zope.interface (>=5.2.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: zope.interface (>=5.2.0) ; extra == 'all'
+Handling twisted (>=20.3.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: twisted (>=20.3.0) ; extra == 'all'
+Handling attrs (>=20.3.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: attrs (>=20.3.0) ; extra == 'all'
+Handling python-snappy (>=0.6.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: python-snappy (>=0.6.0) ; extra == 'all'
+Handling msgpack (>=1.0.2) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: msgpack (>=1.0.2) ; extra == 'all'
+Handling ujson (>=4.0.2) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: ujson (>=4.0.2) ; extra == 'all'
+Handling cbor2 (>=5.2.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cbor2 (>=5.2.0) ; extra == 'all'
+Handling py-ubjson (>=0.16.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-ubjson (>=0.16.1) ; extra == 'all'
+Handling flatbuffers (>=22.12.6) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: flatbuffers (>=22.12.6) ; extra == 'all'
+Handling pyopenssl (>=20.0.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyopenssl (>=20.0.1) ; extra == 'all'
+Handling service-identity (>=18.1.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: service-identity (>=18.1.0) ; extra == 'all'
+Handling pynacl (>=1.4.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pynacl (>=1.4.0) ; extra == 'all'
+Handling pytrie (>=0.4.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytrie (>=0.4.0) ; extra == 'all'
+Handling qrcode (>=7.3.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: qrcode (>=7.3.1) ; extra == 'all'
+Handling cffi (>=1.14.5) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cffi (>=1.14.5) ; extra == 'all'
+Handling argon2-cffi (>=20.1.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: argon2-cffi (>=20.1.0) ; extra == 'all'
+Handling passlib (>=1.7.4) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: passlib (>=1.7.4) ; extra == 'all'
+Handling bitarray (>=2.7.5) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: bitarray (>=2.7.5) ; extra == 'all'
+Handling xbr (>=21.2.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: xbr (>=21.2.1) ; extra == 'all'
+Handling click (>=8.1.2) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: click (>=8.1.2) ; extra == 'all'
+Handling zlmdb (>=21.2.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: zlmdb (>=21.2.1) ; extra == 'all'
+Handling web3[ipfs] (>=6.0.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: web3[ipfs] (>=6.0.0) ; extra == 'all'
+Handling rlp (>=2.0.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: rlp (>=2.0.1) ; extra == 'all'
+Handling py-eth-sig-utils (>=0.4.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-eth-sig-utils (>=0.4.0) ; extra == 'all'
+Handling py-ecc (>=5.1.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-ecc (>=5.1.0) ; extra == 'all'
+Handling eth-abi (>=4.0.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: eth-abi (>=4.0.0) ; extra == 'all'
+Handling mnemonic (>=0.19) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: mnemonic (>=0.19) ; extra == 'all'
+Handling base58 (>=2.1.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: base58 (>=2.1.0) ; extra == 'all'
+Handling ecdsa (>=0.16.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: ecdsa (>=0.16.1) ; extra == 'all'
+Handling py-multihash (>=2.0.1) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-multihash (>=2.0.1) ; extra == 'all'
+Handling jinja2 (>=2.11.3) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: jinja2 (>=2.11.3) ; extra == 'all'
+Handling yapf (==0.29.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: yapf (==0.29.0) ; extra == 'all'
+Handling spake2 (>=0.8) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: spake2 (>=0.8) ; extra == 'all'
+Handling hkdf (>=0.0.3) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: hkdf (>=0.0.3) ; extra == 'all'
+Handling PyGObject (>=3.40.0) ; extra == 'all' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: PyGObject (>=3.40.0) ; extra == 'all'
+Handling python-snappy (>=0.6.0) ; extra == 'compress' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: python-snappy (>=0.6.0) ; extra == 'compress'
+Handling backports.tempfile (>=1.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: backports.tempfile (>=1.0) ; extra == 'dev'
+Handling bumpversion (>=0.5.3) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: bumpversion (>=0.5.3) ; extra == 'dev'
+Handling codecov (>=2.0.15) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: codecov (>=2.0.15) ; extra == 'dev'
+Handling flake8 (<5) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: flake8 (<5) ; extra == 'dev'
+Handling humanize (>=0.5.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: humanize (>=0.5.1) ; extra == 'dev'
+Handling passlib ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: passlib ; extra == 'dev'
+Handling pep8-naming (>=0.3.3) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pep8-naming (>=0.3.3) ; extra == 'dev'
+Handling pip (>=9.0.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pip (>=9.0.1) ; extra == 'dev'
+Handling pyenchant (>=1.6.6) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyenchant (>=1.6.6) ; extra == 'dev'
+Handling pyflakes (>=1.0.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyflakes (>=1.0.0) ; extra == 'dev'
+Handling pyinstaller (>=4.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyinstaller (>=4.2) ; extra == 'dev'
+Handling pylint (>=1.9.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pylint (>=1.9.2) ; extra == 'dev'
+Handling pytest-aiohttp ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytest-aiohttp ; extra == 'dev'
+Handling pytest-asyncio (>=0.14.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytest-asyncio (>=0.14.0) ; extra == 'dev'
+Handling pytest-runner (>=2.11.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytest-runner (>=2.11.1) ; extra == 'dev'
+Handling pytest (>=3.4.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytest (>=3.4.2) ; extra == 'dev'
+Handling pyyaml (>=4.2b4) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyyaml (>=4.2b4) ; extra == 'dev'
+Handling qualname ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: qualname ; extra == 'dev'
+Handling sphinx-autoapi (>=1.7.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: sphinx-autoapi (>=1.7.0) ; extra == 'dev'
+Handling sphinx (>=1.7.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: sphinx (>=1.7.1) ; extra == 'dev'
+Handling sphinx-rtd-theme (>=0.1.9) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: sphinx-rtd-theme (>=0.1.9) ; extra == 'dev'
+Handling sphinxcontrib-images (>=0.9.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: sphinxcontrib-images (>=0.9.1) ; extra == 'dev'
+Handling tox-gh-actions (>=2.2.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: tox-gh-actions (>=2.2.0) ; extra == 'dev'
+Handling tox (>=4.2.8) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: tox (>=4.2.8) ; extra == 'dev'
+Handling twine (>=3.3.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: twine (>=3.3.0) ; extra == 'dev'
+Handling twisted (>=22.10.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: twisted (>=22.10.0) ; extra == 'dev'
+Handling txaio (>=20.4.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: txaio (>=20.4.1) ; extra == 'dev'
+Handling watchdog (>=0.8.3) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: watchdog (>=0.8.3) ; extra == 'dev'
+Handling wheel (>=0.36.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: wheel (>=0.36.2) ; extra == 'dev'
+Handling yapf (==0.29.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: yapf (==0.29.0) ; extra == 'dev'
+Handling mypy (>=0.610) ; (python_version >= "3.4" and platform_python_implementation != "PyPy") and extra == 'dev' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: mypy (>=0.610) ; (python_version >= "3.4" and platform_python_implementation != "PyPy") and extra == 'dev'
+Handling pyopenssl (>=20.0.1) ; extra == 'encryption' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pyopenssl (>=20.0.1) ; extra == 'encryption'
+Handling service-identity (>=18.1.0) ; extra == 'encryption' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: service-identity (>=18.1.0) ; extra == 'encryption'
+Handling pynacl (>=1.4.0) ; extra == 'encryption' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pynacl (>=1.4.0) ; extra == 'encryption'
+Handling pytrie (>=0.4.0) ; extra == 'encryption' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: pytrie (>=0.4.0) ; extra == 'encryption'
+Handling qrcode (>=7.3.1) ; extra == 'encryption' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: qrcode (>=7.3.1) ; extra == 'encryption'
+Handling cffi (>=1.14.5) ; extra == 'nvx' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cffi (>=1.14.5) ; extra == 'nvx'
+Handling cffi (>=1.14.5) ; extra == 'scram' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cffi (>=1.14.5) ; extra == 'scram'
+Handling argon2-cffi (>=20.1.0) ; extra == 'scram' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: argon2-cffi (>=20.1.0) ; extra == 'scram'
+Handling passlib (>=1.7.4) ; extra == 'scram' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: passlib (>=1.7.4) ; extra == 'scram'
+Handling msgpack (>=1.0.2) ; extra == 'serialization' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: msgpack (>=1.0.2) ; extra == 'serialization'
+Handling ujson (>=4.0.2) ; extra == 'serialization' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: ujson (>=4.0.2) ; extra == 'serialization'
+Handling cbor2 (>=5.2.0) ; extra == 'serialization' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cbor2 (>=5.2.0) ; extra == 'serialization'
+Handling py-ubjson (>=0.16.1) ; extra == 'serialization' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-ubjson (>=0.16.1) ; extra == 'serialization'
+Handling flatbuffers (>=22.12.6) ; extra == 'serialization' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: flatbuffers (>=22.12.6) ; extra == 'serialization'
+Handling zope.interface (>=5.2.0) ; extra == 'twisted' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: zope.interface (>=5.2.0) ; extra == 'twisted'
+Handling twisted (>=20.3.0) ; extra == 'twisted' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: twisted (>=20.3.0) ; extra == 'twisted'
+Handling attrs (>=20.3.0) ; extra == 'twisted' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: attrs (>=20.3.0) ; extra == 'twisted'
+Handling PyGObject (>=3.40.0) ; extra == 'ui' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: PyGObject (>=3.40.0) ; extra == 'ui'
+Handling bitarray (>=2.7.5) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: bitarray (>=2.7.5) ; extra == 'xbr'
+Handling xbr (>=21.2.1) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: xbr (>=21.2.1) ; extra == 'xbr'
+Handling click (>=8.1.2) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: click (>=8.1.2) ; extra == 'xbr'
+Handling cbor2 (>=5.2.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: cbor2 (>=5.2.0) ; extra == 'xbr'
+Handling zlmdb (>=21.2.1) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: zlmdb (>=21.2.1) ; extra == 'xbr'
+Handling twisted (>=20.3.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: twisted (>=20.3.0) ; extra == 'xbr'
+Handling web3[ipfs] (>=6.0.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: web3[ipfs] (>=6.0.0) ; extra == 'xbr'
+Handling rlp (>=2.0.1) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: rlp (>=2.0.1) ; extra == 'xbr'
+Handling py-eth-sig-utils (>=0.4.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-eth-sig-utils (>=0.4.0) ; extra == 'xbr'
+Handling py-ecc (>=5.1.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-ecc (>=5.1.0) ; extra == 'xbr'
+Handling eth-abi (>=4.0.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: eth-abi (>=4.0.0) ; extra == 'xbr'
+Handling mnemonic (>=0.19) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: mnemonic (>=0.19) ; extra == 'xbr'
+Handling base58 (>=2.1.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: base58 (>=2.1.0) ; extra == 'xbr'
+Handling ecdsa (>=0.16.1) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: ecdsa (>=0.16.1) ; extra == 'xbr'
+Handling py-multihash (>=2.0.1) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: py-multihash (>=2.0.1) ; extra == 'xbr'
+Handling jinja2 (>=2.11.3) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: jinja2 (>=2.11.3) ; extra == 'xbr'
+Handling yapf (==0.29.0) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: yapf (==0.29.0) ; extra == 'xbr'
+Handling spake2 (>=0.8) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: spake2 (>=0.8) ; extra == 'xbr'
+Handling hkdf (>=0.0.3) ; extra == 'xbr' from hook generated metadata: Requires-Dist (autobahn)
+Ignoring alien requirement: hkdf (>=0.0.3) ; extra == 'xbr'
++ cat /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv autobahn-23.6.2.dist-info/
+removed 'autobahn-23.6.2.dist-info/entry_points.txt'
+removed 'autobahn-23.6.2.dist-info/top_level.txt'
+removed 'autobahn-23.6.2.dist-info/METADATA'
+removed 'autobahn-23.6.2.dist-info/LICENSE'
+removed directory 'autobahn-23.6.2.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.93FSXd
++ umask 022
++ cd /builddir/build/BUILD
++ cd autobahn-23.6.2
++ mkdir -p /builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/autobahn-23.6.2/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/autobahn-23.6.2
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-modern-metadata-k0ug_9nv/autobahn.egg-info
+  writing /builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-modern-metadata-k0ug_9nv/autobahn.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-modern-metadata-k0ug_9nv/autobahn.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-modern-metadata-k0ug_9nv/autobahn.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-modern-metadata-k0ug_9nv/autobahn.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-modern-metadata-k0ug_9nv/autobahn.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-modern-metadata-k0ug_9nv/autobahn.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-modern-metadata-k0ug_9nv/autobahn.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-modern-metadata-k0ug_9nv/autobahn.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-modern-metadata-k0ug_9nv/autobahn-23.6.2.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: autobahn
+  Building wheel for autobahn (pyproject.toml): started
+  Running command Building wheel for autobahn (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-cpython-311
+  creating build/lib.linux-x86_64-cpython-311/autobahn
+  copying autobahn/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn
+  copying autobahn/__main__.py -> build/lib.linux-x86_64-cpython-311/autobahn
+  copying autobahn/_version.py -> build/lib.linux-x86_64-cpython-311/autobahn
+  copying autobahn/exception.py -> build/lib.linux-x86_64-cpython-311/autobahn
+  copying autobahn/testutil.py -> build/lib.linux-x86_64-cpython-311/autobahn
+  copying autobahn/util.py -> build/lib.linux-x86_64-cpython-311/autobahn
+  creating build/lib.linux-x86_64-cpython-311/autobahn/test
+  copying autobahn/test/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/test
+  copying autobahn/test/test_rng.py -> build/lib.linux-x86_64-cpython-311/autobahn/test
+  copying autobahn/test/test_util.py -> build/lib.linux-x86_64-cpython-311/autobahn/test
+  creating build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/auth.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/component.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/cryptobox.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/cryptosign.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/exception.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/interfaces.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/message.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/message_fbs.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/protocol.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/request.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/role.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/serializer.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/types.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/uri.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  copying autobahn/wamp/websocket.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp
+  creating build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen
+  copying autobahn/wamp/gen/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen
+  creating build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp
+  copying autobahn/wamp/gen/wamp/Map.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp
+  copying autobahn/wamp/gen/wamp/Void.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp
+  copying autobahn/wamp/gen/wamp/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp
+  creating build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Abort.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AnyMessage.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthCraChallenge.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthCraRequest.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthCraWelcome.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthCryptosignChallenge.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthCryptosignRequest.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthCryptosignWelcome.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthFactor.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthMethod.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthMode.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthScramChallenge.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthScramRequest.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthScramWelcome.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthTicketChallenge.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthTicketRequest.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/AuthTicketWelcome.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Authenticate.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/BrokerFeatures.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Call.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/CalleeFeatures.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/CallerFeatures.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Cancel.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/CancelMode.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Challenge.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/ChannelBinding.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/ClientRoles.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/DealerFeatures.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Error.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Event.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/EventReceived.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Goodbye.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Hello.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/HelloNew.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Interrupt.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Invocation.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/InvocationPolicy.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Kdf.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Match.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Message.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/MessageType.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Payload.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Principal.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Publish.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Published.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/PublisherFeatures.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Register.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Registered.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Result.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/RouterRoles.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Serializer.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Subscribe.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Subscribed.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/SubscriberFeatures.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/SubscriberReceived.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Unregister.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Unregistered.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Unsubscribe.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Unsubscribed.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Welcome.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/Yield.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  copying autobahn/wamp/gen/wamp/proto/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto
+  creating build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_auth.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_component.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_component_aio.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_cryptobox.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_cryptosign.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_exception.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_identifiers.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_message.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_protocol.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_protocol_peer.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_scram.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_serializer.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_session_details.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_transport_details.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_uri_pattern.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_user_handler_errors.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  copying autobahn/wamp/test/test_wamp_websocket.py -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/test
+  creating build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/compress.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/compress_base.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/compress_bzip2.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/compress_deflate.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/compress_snappy.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/interfaces.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/protocol.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/types.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/utf8validator.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/util.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  copying autobahn/websocket/xormasker.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket
+  creating build/lib.linux-x86_64-cpython-311/autobahn/websocket/test
+  copying autobahn/websocket/test/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket/test
+  copying autobahn/websocket/test/test_websocket_frame.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket/test
+  copying autobahn/websocket/test/test_websocket_protocol.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket/test
+  copying autobahn/websocket/test/test_websocket_url.py -> build/lib.linux-x86_64-cpython-311/autobahn/websocket/test
+  creating build/lib.linux-x86_64-cpython-311/autobahn/rawsocket
+  copying autobahn/rawsocket/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/rawsocket
+  copying autobahn/rawsocket/util.py -> build/lib.linux-x86_64-cpython-311/autobahn/rawsocket
+  creating build/lib.linux-x86_64-cpython-311/autobahn/rawsocket/test
+  copying autobahn/rawsocket/test/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/rawsocket/test
+  copying autobahn/rawsocket/test/test_rawsocket_url.py -> build/lib.linux-x86_64-cpython-311/autobahn/rawsocket/test
+  creating build/lib.linux-x86_64-cpython-311/autobahn/asyncio
+  copying autobahn/asyncio/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio
+  copying autobahn/asyncio/component.py -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio
+  copying autobahn/asyncio/rawsocket.py -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio
+  copying autobahn/asyncio/util.py -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio
+  copying autobahn/asyncio/wamp.py -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio
+  copying autobahn/asyncio/websocket.py -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio
+  creating build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  copying autobahn/twisted/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  copying autobahn/twisted/choosereactor.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  copying autobahn/twisted/component.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  copying autobahn/twisted/cryptosign.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  copying autobahn/twisted/forwarder.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  copying autobahn/twisted/rawsocket.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  copying autobahn/twisted/resource.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  copying autobahn/twisted/util.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  copying autobahn/twisted/wamp.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  copying autobahn/twisted/websocket.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted
+  creating build/lib.linux-x86_64-cpython-311/autobahn/twisted/test
+  copying autobahn/twisted/test/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/test
+  copying autobahn/twisted/test/test_tx_application_runner.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/test
+  copying autobahn/twisted/test/test_tx_choosereactor.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/test
+  copying autobahn/twisted/test/test_tx_component.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/test
+  copying autobahn/twisted/test/test_tx_endpoint_plugins.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/test
+  copying autobahn/twisted/test/test_tx_protocol.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/test
+  copying autobahn/twisted/test/test_tx_rawsocket.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/test
+  copying autobahn/twisted/test/test_tx_websocket_agent.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/test
+  copying autobahn/twisted/test/test_wamp_runner.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/test
+  creating build/lib.linux-x86_64-cpython-311/autobahn/twisted/testing
+  copying autobahn/twisted/testing/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/testing
+  creating build/lib.linux-x86_64-cpython-311/autobahn/nvx
+  copying autobahn/nvx/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/nvx
+  copying autobahn/nvx/_utf8validator.py -> build/lib.linux-x86_64-cpython-311/autobahn/nvx
+  creating build/lib.linux-x86_64-cpython-311/autobahn/nvx/test
+  copying autobahn/nvx/test/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/nvx/test
+  copying autobahn/nvx/test/test_nvx_utf8validator.py -> build/lib.linux-x86_64-cpython-311/autobahn/nvx/test
+  creating build/lib.linux-x86_64-cpython-311/twisted
+  creating build/lib.linux-x86_64-cpython-311/twisted/plugins
+  copying twisted/plugins/autobahn_endpoints.py -> build/lib.linux-x86_64-cpython-311/twisted/plugins
+  copying twisted/plugins/autobahn_twistd.py -> build/lib.linux-x86_64-cpython-311/twisted/plugins
+  creating build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_abi.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_blockchain.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_buyer.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_cli.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_config.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_dialog.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_api_publish.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_authority_certificate.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_base.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_catalog_create.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_certificate.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_certificate_chain.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_channel_close.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_channel_open.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_consent.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_delegate_certificate.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_domain_create.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_market_create.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_market_join.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_market_leave.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_market_member_login.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_member_login.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_member_register.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_member_unregister.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_eip712_node_pair.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_frealm.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_gui.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_interfaces.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_mnemonic.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_schema.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_secmod.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_seller.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_userkey.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_util.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  copying autobahn/xbr/_wallet.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr
+  creating build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/test_xbr_argon2.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/test_xbr_config.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/test_xbr_eip712.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/test_xbr_frealm.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/test_xbr_mnemonic.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/test_xbr_schema_demo.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/test_xbr_schema_wamp.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/test_xbr_schema_wamp_control.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/test_xbr_secmod.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  copying autobahn/xbr/test/test_xbr_web3.py -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test
+  creating build/lib.linux-x86_64-cpython-311/autobahn/asyncio/xbr
+  copying autobahn/asyncio/xbr/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio/xbr
+  creating build/lib.linux-x86_64-cpython-311/autobahn/twisted/xbr
+  copying autobahn/twisted/xbr/__init__.py -> build/lib.linux-x86_64-cpython-311/autobahn/twisted/xbr
+  running egg_info
+  writing autobahn.egg-info/PKG-INFO
+  writing dependency_links to autobahn.egg-info/dependency_links.txt
+  writing entry points to autobahn.egg-info/entry_points.txt
+  writing requirements to autobahn.egg-info/requires.txt
+  writing top-level names to autobahn.egg-info/top_level.txt
+  reading manifest file 'autobahn.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'autobahn.egg-info/SOURCES.txt'
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'autobahn.asset' is absent from the `packages` configuration.
+  !!
 
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'autobahn.asset' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'autobahn.asset' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'autobahn.asset' to be distributed and are
+          already explicitly excluding 'autobahn.asset' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'autobahn.asyncio.test' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'autobahn.asyncio.test' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'autobahn.asyncio.test' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'autobahn.asyncio.test' to be distributed and are
+          already explicitly excluding 'autobahn.asyncio.test' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'autobahn.wamp.gen.schema' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'autobahn.wamp.gen.schema' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'autobahn.wamp.gen.schema' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'autobahn.wamp.gen.schema' to be distributed and are
+          already explicitly excluding 'autobahn.wamp.gen.schema' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'autobahn.xbr.templates' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'autobahn.xbr.templates' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'autobahn.xbr.templates' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'autobahn.xbr.templates' to be distributed and are
+          already explicitly excluding 'autobahn.xbr.templates' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'autobahn.xbr.test.catalog.schema' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'autobahn.xbr.test.catalog.schema' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'autobahn.xbr.test.catalog.schema' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'autobahn.xbr.test.catalog.schema' to be distributed and are
+          already explicitly excluding 'autobahn.xbr.test.catalog.schema' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'autobahn.xbr.test.profile' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'autobahn.xbr.test.profile' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'autobahn.xbr.test.profile' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'autobahn.xbr.test.profile' to be distributed and are
+          already explicitly excluding 'autobahn.xbr.test.profile' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  creating build/lib.linux-x86_64-cpython-311/autobahn/asset
+  copying autobahn/asset/xbr_gray.svg -> build/lib.linux-x86_64-cpython-311/autobahn/asset
+  copying autobahn/asset/xbr_white.svg -> build/lib.linux-x86_64-cpython-311/autobahn/asset
+  creating build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema
+  copying autobahn/wamp/gen/schema/auth.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema
+  copying autobahn/wamp/gen/schema/pubsub.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema
+  copying autobahn/wamp/gen/schema/roles.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema
+  copying autobahn/wamp/gen/schema/rpc.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema
+  copying autobahn/wamp/gen/schema/session.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema
+  copying autobahn/wamp/gen/schema/types.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema
+  copying autobahn/wamp/gen/schema/wamp.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema
+  creating build/lib.linux-x86_64-cpython-311/autobahn/asyncio/test
+  copying autobahn/asyncio/test/README_NO_INIT_PY -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio/test
+  copying autobahn/asyncio/test/test_aio_rawsocket.py -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio/test
+  copying autobahn/asyncio/test/test_aio_websocket.py -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio/test
+  copying autobahn/asyncio/test/test_wamp_runner.py -> build/lib.linux-x86_64-cpython-311/autobahn/asyncio/test
+  copying autobahn/nvx/_utf8validator.c -> build/lib.linux-x86_64-cpython-311/autobahn/nvx
+  creating build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates
+  creating build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn
+  copying autobahn/xbr/templates/py-autobahn/enum.py.jinja2 -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn
+  copying autobahn/xbr/templates/py-autobahn/module.py.jinja2 -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn
+  copying autobahn/xbr/templates/py-autobahn/obj.py.jinja2 -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn
+  copying autobahn/xbr/templates/py-autobahn/service.py.jinja2 -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn
+  copying autobahn/xbr/templates/py-autobahn/test_enum.py.jinja2 -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn
+  copying autobahn/xbr/templates/py-autobahn/test_module.py.jinja2 -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn
+  copying autobahn/xbr/templates/py-autobahn/test_obj.py.jinja2 -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn
+  copying autobahn/xbr/templates/py-autobahn/test_service.py.jinja2 -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn
+  creating build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/sol-eip712
+  copying autobahn/xbr/templates/sol-eip712/obj-eip712.sol.jinja2 -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/sol-eip712
+  creating build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog
+  creating build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema
+  copying autobahn/xbr/test/catalog/schema/demo.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema
+  copying autobahn/xbr/test/catalog/schema/testsvc1.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema
+  copying autobahn/xbr/test/catalog/schema/wamp-auth.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema
+  copying autobahn/xbr/test/catalog/schema/wamp-control.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema
+  copying autobahn/xbr/test/catalog/schema/wamp-meta.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema
+  copying autobahn/xbr/test/catalog/schema/wamp.bfbs -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema
+  creating build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/profile
+  copying autobahn/xbr/test/profile/config.ini -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/profile
+  copying autobahn/xbr/test/profile/default.priv -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/profile
+  copying autobahn/xbr/test/profile/default.pub -> build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/profile
+  running build_ext
+  generating cffi module 'build/temp.linux-x86_64-cpython-311/_nvx_utf8validator.c'
+  creating build/temp.linux-x86_64-cpython-311
+  building '_nvx_utf8validator' extension
+  creating build/temp.linux-x86_64-cpython-311/build
+  creating build/temp.linux-x86_64-cpython-311/build/temp.linux-x86_64-cpython-311
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -I/usr/include/python3.11 -c build/temp.linux-x86_64-cpython-311/_nvx_utf8validator.c -o build/temp.linux-x86_64-cpython-311/build/temp.linux-x86_64-cpython-311/_nvx_utf8validator.o -std=c99 -Wall -Wno-strict-prototypes -O3 -march=native
+  warning: build_ext_make_mod: building extension "_nvx_utf8validator" failed: command 'gcc' failed: No such file or directory
+
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/__main__.py -> build/bdist.linux-x86_64/wheel/autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/_version.py -> build/bdist.linux-x86_64/wheel/autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/exception.py -> build/bdist.linux-x86_64/wheel/autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/testutil.py -> build/bdist.linux-x86_64/wheel/autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/util.py -> build/bdist.linux-x86_64/wheel/autobahn
+  creating build/bdist.linux-x86_64/wheel/autobahn/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/test/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/test/test_rng.py -> build/bdist.linux-x86_64/wheel/autobahn/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/test/test_util.py -> build/bdist.linux-x86_64/wheel/autobahn/test
+  creating build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/auth.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/component.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/cryptobox.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/cryptosign.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/exception.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/interfaces.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/message.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/message_fbs.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/protocol.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/request.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/role.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/serializer.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/types.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/uri.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/websocket.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp
+  creating build/bdist.linux-x86_64/wheel/autobahn/wamp/gen
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen
+  creating build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/Map.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/Void.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp
+  creating build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Abort.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AnyMessage.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthCraChallenge.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthCraRequest.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthCraWelcome.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthCryptosignChallenge.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthCryptosignRequest.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthCryptosignWelcome.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthFactor.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthMethod.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthMode.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthScramChallenge.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthScramRequest.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthScramWelcome.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthTicketChallenge.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthTicketRequest.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/AuthTicketWelcome.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Authenticate.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/BrokerFeatures.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Call.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/CalleeFeatures.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/CallerFeatures.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Cancel.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/CancelMode.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Challenge.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/ChannelBinding.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/ClientRoles.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/DealerFeatures.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Error.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Event.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/EventReceived.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Goodbye.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Hello.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/HelloNew.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Interrupt.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Invocation.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/InvocationPolicy.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Kdf.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Match.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Message.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/MessageType.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Payload.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Principal.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Publish.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Published.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/PublisherFeatures.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Register.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Registered.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Result.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/RouterRoles.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Serializer.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Subscribe.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Subscribed.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/SubscriberFeatures.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/SubscriberReceived.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Unregister.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Unregistered.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Unsubscribe.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Unsubscribed.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Welcome.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/Yield.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/wamp/proto/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/wamp/proto
+  creating build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema/auth.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema/pubsub.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema/roles.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema/rpc.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema/session.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema/types.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/gen/schema/wamp.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/wamp/gen/schema
+  creating build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_auth.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_component.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_component_aio.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_cryptobox.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_cryptosign.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_exception.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_identifiers.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_message.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_protocol.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_protocol_peer.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_scram.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_serializer.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_session_details.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_transport_details.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_uri_pattern.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_user_handler_errors.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/wamp/test/test_wamp_websocket.py -> build/bdist.linux-x86_64/wheel/autobahn/wamp/test
+  creating build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/compress.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/compress_base.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/compress_bzip2.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/compress_deflate.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/compress_snappy.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/interfaces.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/protocol.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/types.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/utf8validator.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/util.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/xormasker.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket
+  creating build/bdist.linux-x86_64/wheel/autobahn/websocket/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/test/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/test/test_websocket_frame.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/test/test_websocket_protocol.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/websocket/test/test_websocket_url.py -> build/bdist.linux-x86_64/wheel/autobahn/websocket/test
+  creating build/bdist.linux-x86_64/wheel/autobahn/rawsocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/rawsocket/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/rawsocket
+  copying build/lib.linux-x86_64-cpython-311/autobahn/rawsocket/util.py -> build/bdist.linux-x86_64/wheel/autobahn/rawsocket
+  creating build/bdist.linux-x86_64/wheel/autobahn/rawsocket/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/rawsocket/test/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/rawsocket/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/rawsocket/test/test_rawsocket_url.py -> build/bdist.linux-x86_64/wheel/autobahn/rawsocket/test
+  creating build/bdist.linux-x86_64/wheel/autobahn/asyncio
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/asyncio
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/component.py -> build/bdist.linux-x86_64/wheel/autobahn/asyncio
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/rawsocket.py -> build/bdist.linux-x86_64/wheel/autobahn/asyncio
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/util.py -> build/bdist.linux-x86_64/wheel/autobahn/asyncio
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/wamp.py -> build/bdist.linux-x86_64/wheel/autobahn/asyncio
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/websocket.py -> build/bdist.linux-x86_64/wheel/autobahn/asyncio
+  creating build/bdist.linux-x86_64/wheel/autobahn/asyncio/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/xbr/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/asyncio/xbr
+  creating build/bdist.linux-x86_64/wheel/autobahn/asyncio/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/test/README_NO_INIT_PY -> build/bdist.linux-x86_64/wheel/autobahn/asyncio/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/test/test_aio_rawsocket.py -> build/bdist.linux-x86_64/wheel/autobahn/asyncio/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/test/test_aio_websocket.py -> build/bdist.linux-x86_64/wheel/autobahn/asyncio/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asyncio/test/test_wamp_runner.py -> build/bdist.linux-x86_64/wheel/autobahn/asyncio/test
+  creating build/bdist.linux-x86_64/wheel/autobahn/twisted
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/choosereactor.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/component.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/cryptosign.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/forwarder.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/rawsocket.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/resource.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/util.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/wamp.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/websocket.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted
+  creating build/bdist.linux-x86_64/wheel/autobahn/twisted/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/test/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/test/test_tx_application_runner.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/test/test_tx_choosereactor.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/test/test_tx_component.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/test/test_tx_endpoint_plugins.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/test/test_tx_protocol.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/test/test_tx_rawsocket.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/test/test_tx_websocket_agent.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/test/test_wamp_runner.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/test
+  creating build/bdist.linux-x86_64/wheel/autobahn/twisted/testing
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/testing/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/testing
+  creating build/bdist.linux-x86_64/wheel/autobahn/twisted/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/twisted/xbr/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/twisted/xbr
+  creating build/bdist.linux-x86_64/wheel/autobahn/nvx
+  copying build/lib.linux-x86_64-cpython-311/autobahn/nvx/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/nvx
+  copying build/lib.linux-x86_64-cpython-311/autobahn/nvx/_utf8validator.py -> build/bdist.linux-x86_64/wheel/autobahn/nvx
+  creating build/bdist.linux-x86_64/wheel/autobahn/nvx/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/nvx/test/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/nvx/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/nvx/test/test_nvx_utf8validator.py -> build/bdist.linux-x86_64/wheel/autobahn/nvx/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/nvx/_utf8validator.c -> build/bdist.linux-x86_64/wheel/autobahn/nvx
+  creating build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_abi.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_blockchain.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_buyer.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_cli.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_config.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_dialog.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_api_publish.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_authority_certificate.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_base.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_catalog_create.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_certificate.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_certificate_chain.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_channel_close.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_channel_open.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_consent.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_delegate_certificate.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_domain_create.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_market_create.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_market_join.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_market_leave.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_market_member_login.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_member_login.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_member_register.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_member_unregister.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_eip712_node_pair.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_frealm.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_gui.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_interfaces.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_mnemonic.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_schema.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_secmod.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_seller.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_userkey.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_util.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/_wallet.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr
+  creating build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/__init__.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/test_xbr_argon2.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/test_xbr_config.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/test_xbr_eip712.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/test_xbr_frealm.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/test_xbr_mnemonic.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/test_xbr_schema_demo.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/test_xbr_schema_wamp.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/test_xbr_schema_wamp_control.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/test_xbr_secmod.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/test_xbr_web3.py -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test
+  creating build/bdist.linux-x86_64/wheel/autobahn/xbr/test/catalog
+  creating build/bdist.linux-x86_64/wheel/autobahn/xbr/test/catalog/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema/demo.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test/catalog/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema/testsvc1.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test/catalog/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema/wamp-auth.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test/catalog/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema/wamp-control.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test/catalog/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema/wamp-meta.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test/catalog/schema
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/catalog/schema/wamp.bfbs -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test/catalog/schema
+  creating build/bdist.linux-x86_64/wheel/autobahn/xbr/test/profile
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/profile/config.ini -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test/profile
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/profile/default.priv -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test/profile
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/test/profile/default.pub -> build/bdist.linux-x86_64/wheel/autobahn/xbr/test/profile
+  creating build/bdist.linux-x86_64/wheel/autobahn/xbr/templates
+  creating build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/py-autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn/enum.py.jinja2 -> build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/py-autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn/module.py.jinja2 -> build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/py-autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn/obj.py.jinja2 -> build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/py-autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn/service.py.jinja2 -> build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/py-autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn/test_enum.py.jinja2 -> build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/py-autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn/test_module.py.jinja2 -> build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/py-autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn/test_obj.py.jinja2 -> build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/py-autobahn
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/py-autobahn/test_service.py.jinja2 -> build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/py-autobahn
+  creating build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/sol-eip712
+  copying build/lib.linux-x86_64-cpython-311/autobahn/xbr/templates/sol-eip712/obj-eip712.sol.jinja2 -> build/bdist.linux-x86_64/wheel/autobahn/xbr/templates/sol-eip712
+  creating build/bdist.linux-x86_64/wheel/autobahn/asset
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asset/xbr_gray.svg -> build/bdist.linux-x86_64/wheel/autobahn/asset
+  copying build/lib.linux-x86_64-cpython-311/autobahn/asset/xbr_white.svg -> build/bdist.linux-x86_64/wheel/autobahn/asset
+  creating build/bdist.linux-x86_64/wheel/twisted
+  creating build/bdist.linux-x86_64/wheel/twisted/plugins
+  copying build/lib.linux-x86_64-cpython-311/twisted/plugins/autobahn_endpoints.py -> build/bdist.linux-x86_64/wheel/twisted/plugins
+  copying build/lib.linux-x86_64-cpython-311/twisted/plugins/autobahn_twistd.py -> build/bdist.linux-x86_64/wheel/twisted/plugins
+  running install_egg_info
+  Copying autobahn.egg-info to build/bdist.linux-x86_64/wheel/autobahn-23.6.2-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/autobahn-23.6.2.dist-info/WHEEL
+  creating '/builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11/pip-wheel-t95ppqik/.tmp-tbewzafj/autobahn-23.6.2-cp311-cp311-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'autobahn/__init__.py'
+  adding 'autobahn/__main__.py'
+  adding 'autobahn/_version.py'
+  adding 'autobahn/exception.py'
+  adding 'autobahn/testutil.py'
+  adding 'autobahn/util.py'
+  adding 'autobahn/asset/xbr_gray.svg'
+  adding 'autobahn/asset/xbr_white.svg'
+  adding 'autobahn/asyncio/__init__.py'
+  adding 'autobahn/asyncio/component.py'
+  adding 'autobahn/asyncio/rawsocket.py'
+  adding 'autobahn/asyncio/util.py'
+  adding 'autobahn/asyncio/wamp.py'
+  adding 'autobahn/asyncio/websocket.py'
+  adding 'autobahn/asyncio/test/README_NO_INIT_PY'
+  adding 'autobahn/asyncio/test/test_aio_rawsocket.py'
+  adding 'autobahn/asyncio/test/test_aio_websocket.py'
+  adding 'autobahn/asyncio/test/test_wamp_runner.py'
+  adding 'autobahn/asyncio/xbr/__init__.py'
+  adding 'autobahn/nvx/__init__.py'
+  adding 'autobahn/nvx/_utf8validator.c'
+  adding 'autobahn/nvx/_utf8validator.py'
+  adding 'autobahn/nvx/test/__init__.py'
+  adding 'autobahn/nvx/test/test_nvx_utf8validator.py'
+  adding 'autobahn/rawsocket/__init__.py'
+  adding 'autobahn/rawsocket/util.py'
+  adding 'autobahn/rawsocket/test/__init__.py'
+  adding 'autobahn/rawsocket/test/test_rawsocket_url.py'
+  adding 'autobahn/test/__init__.py'
+  adding 'autobahn/test/test_rng.py'
+  adding 'autobahn/test/test_util.py'
+  adding 'autobahn/twisted/__init__.py'
+  adding 'autobahn/twisted/choosereactor.py'
+  adding 'autobahn/twisted/component.py'
+  adding 'autobahn/twisted/cryptosign.py'
+  adding 'autobahn/twisted/forwarder.py'
+  adding 'autobahn/twisted/rawsocket.py'
+  adding 'autobahn/twisted/resource.py'
+  adding 'autobahn/twisted/util.py'
+  adding 'autobahn/twisted/wamp.py'
+  adding 'autobahn/twisted/websocket.py'
+  adding 'autobahn/twisted/test/__init__.py'
+  adding 'autobahn/twisted/test/test_tx_application_runner.py'
+  adding 'autobahn/twisted/test/test_tx_choosereactor.py'
+  adding 'autobahn/twisted/test/test_tx_component.py'
+  adding 'autobahn/twisted/test/test_tx_endpoint_plugins.py'
+  adding 'autobahn/twisted/test/test_tx_protocol.py'
+  adding 'autobahn/twisted/test/test_tx_rawsocket.py'
+  adding 'autobahn/twisted/test/test_tx_websocket_agent.py'
+  adding 'autobahn/twisted/test/test_wamp_runner.py'
+  adding 'autobahn/twisted/testing/__init__.py'
+  adding 'autobahn/twisted/xbr/__init__.py'
+  adding 'autobahn/wamp/__init__.py'
+  adding 'autobahn/wamp/auth.py'
+  adding 'autobahn/wamp/component.py'
+  adding 'autobahn/wamp/cryptobox.py'
+  adding 'autobahn/wamp/cryptosign.py'
+  adding 'autobahn/wamp/exception.py'
+  adding 'autobahn/wamp/interfaces.py'
+  adding 'autobahn/wamp/message.py'
+  adding 'autobahn/wamp/message_fbs.py'
+  adding 'autobahn/wamp/protocol.py'
+  adding 'autobahn/wamp/request.py'
+  adding 'autobahn/wamp/role.py'
+  adding 'autobahn/wamp/serializer.py'
+  adding 'autobahn/wamp/types.py'
+  adding 'autobahn/wamp/uri.py'
+  adding 'autobahn/wamp/websocket.py'
+  adding 'autobahn/wamp/gen/__init__.py'
+  adding 'autobahn/wamp/gen/schema/auth.bfbs'
+  adding 'autobahn/wamp/gen/schema/pubsub.bfbs'
+  adding 'autobahn/wamp/gen/schema/roles.bfbs'
+  adding 'autobahn/wamp/gen/schema/rpc.bfbs'
+  adding 'autobahn/wamp/gen/schema/session.bfbs'
+  adding 'autobahn/wamp/gen/schema/types.bfbs'
+  adding 'autobahn/wamp/gen/schema/wamp.bfbs'
+  adding 'autobahn/wamp/gen/wamp/Map.py'
+  adding 'autobahn/wamp/gen/wamp/Void.py'
+  adding 'autobahn/wamp/gen/wamp/__init__.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Abort.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AnyMessage.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthCraChallenge.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthCraRequest.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthCraWelcome.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthCryptosignChallenge.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthCryptosignRequest.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthCryptosignWelcome.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthFactor.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthMethod.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthMode.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthScramChallenge.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthScramRequest.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthScramWelcome.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthTicketChallenge.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthTicketRequest.py'
+  adding 'autobahn/wamp/gen/wamp/proto/AuthTicketWelcome.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Authenticate.py'
+  adding 'autobahn/wamp/gen/wamp/proto/BrokerFeatures.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Call.py'
+  adding 'autobahn/wamp/gen/wamp/proto/CalleeFeatures.py'
+  adding 'autobahn/wamp/gen/wamp/proto/CallerFeatures.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Cancel.py'
+  adding 'autobahn/wamp/gen/wamp/proto/CancelMode.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Challenge.py'
+  adding 'autobahn/wamp/gen/wamp/proto/ChannelBinding.py'
+  adding 'autobahn/wamp/gen/wamp/proto/ClientRoles.py'
+  adding 'autobahn/wamp/gen/wamp/proto/DealerFeatures.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Error.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Event.py'
+  adding 'autobahn/wamp/gen/wamp/proto/EventReceived.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Goodbye.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Hello.py'
+  adding 'autobahn/wamp/gen/wamp/proto/HelloNew.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Interrupt.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Invocation.py'
+  adding 'autobahn/wamp/gen/wamp/proto/InvocationPolicy.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Kdf.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Match.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Message.py'
+  adding 'autobahn/wamp/gen/wamp/proto/MessageType.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Payload.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Principal.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Publish.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Published.py'
+  adding 'autobahn/wamp/gen/wamp/proto/PublisherFeatures.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Register.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Registered.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Result.py'
+  adding 'autobahn/wamp/gen/wamp/proto/RouterRoles.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Serializer.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Subscribe.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Subscribed.py'
+  adding 'autobahn/wamp/gen/wamp/proto/SubscriberFeatures.py'
+  adding 'autobahn/wamp/gen/wamp/proto/SubscriberReceived.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Unregister.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Unregistered.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Unsubscribe.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Unsubscribed.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Welcome.py'
+  adding 'autobahn/wamp/gen/wamp/proto/Yield.py'
+  adding 'autobahn/wamp/gen/wamp/proto/__init__.py'
+  adding 'autobahn/wamp/test/__init__.py'
+  adding 'autobahn/wamp/test/test_wamp_auth.py'
+  adding 'autobahn/wamp/test/test_wamp_component.py'
+  adding 'autobahn/wamp/test/test_wamp_component_aio.py'
+  adding 'autobahn/wamp/test/test_wamp_cryptobox.py'
+  adding 'autobahn/wamp/test/test_wamp_cryptosign.py'
+  adding 'autobahn/wamp/test/test_wamp_exception.py'
+  adding 'autobahn/wamp/test/test_wamp_identifiers.py'
+  adding 'autobahn/wamp/test/test_wamp_message.py'
+  adding 'autobahn/wamp/test/test_wamp_protocol.py'
+  adding 'autobahn/wamp/test/test_wamp_protocol_peer.py'
+  adding 'autobahn/wamp/test/test_wamp_scram.py'
+  adding 'autobahn/wamp/test/test_wamp_serializer.py'
+  adding 'autobahn/wamp/test/test_wamp_session_details.py'
+  adding 'autobahn/wamp/test/test_wamp_transport_details.py'
+  adding 'autobahn/wamp/test/test_wamp_uri_pattern.py'
+  adding 'autobahn/wamp/test/test_wamp_user_handler_errors.py'
+  adding 'autobahn/wamp/test/test_wamp_websocket.py'
+  adding 'autobahn/websocket/__init__.py'
+  adding 'autobahn/websocket/compress.py'
+  adding 'autobahn/websocket/compress_base.py'
+  adding 'autobahn/websocket/compress_bzip2.py'
+  adding 'autobahn/websocket/compress_deflate.py'
+  adding 'autobahn/websocket/compress_snappy.py'
+  adding 'autobahn/websocket/interfaces.py'
+  adding 'autobahn/websocket/protocol.py'
+  adding 'autobahn/websocket/types.py'
+  adding 'autobahn/websocket/utf8validator.py'
+  adding 'autobahn/websocket/util.py'
+  adding 'autobahn/websocket/xormasker.py'
+  adding 'autobahn/websocket/test/__init__.py'
+  adding 'autobahn/websocket/test/test_websocket_frame.py'
+  adding 'autobahn/websocket/test/test_websocket_protocol.py'
+  adding 'autobahn/websocket/test/test_websocket_url.py'
+  adding 'autobahn/xbr/__init__.py'
+  adding 'autobahn/xbr/_abi.py'
+  adding 'autobahn/xbr/_blockchain.py'
+  adding 'autobahn/xbr/_buyer.py'
+  adding 'autobahn/xbr/_cli.py'
+  adding 'autobahn/xbr/_config.py'
+  adding 'autobahn/xbr/_dialog.py'
+  adding 'autobahn/xbr/_eip712_api_publish.py'
+  adding 'autobahn/xbr/_eip712_authority_certificate.py'
+  adding 'autobahn/xbr/_eip712_base.py'
+  adding 'autobahn/xbr/_eip712_catalog_create.py'
+  adding 'autobahn/xbr/_eip712_certificate.py'
+  adding 'autobahn/xbr/_eip712_certificate_chain.py'
+  adding 'autobahn/xbr/_eip712_channel_close.py'
+  adding 'autobahn/xbr/_eip712_channel_open.py'
+  adding 'autobahn/xbr/_eip712_consent.py'
+  adding 'autobahn/xbr/_eip712_delegate_certificate.py'
+  adding 'autobahn/xbr/_eip712_domain_create.py'
+  adding 'autobahn/xbr/_eip712_market_create.py'
+  adding 'autobahn/xbr/_eip712_market_join.py'
+  adding 'autobahn/xbr/_eip712_market_leave.py'
+  adding 'autobahn/xbr/_eip712_market_member_login.py'
+  adding 'autobahn/xbr/_eip712_member_login.py'
+  adding 'autobahn/xbr/_eip712_member_register.py'
+  adding 'autobahn/xbr/_eip712_member_unregister.py'
+  adding 'autobahn/xbr/_eip712_node_pair.py'
+  adding 'autobahn/xbr/_frealm.py'
+  adding 'autobahn/xbr/_gui.py'
+  adding 'autobahn/xbr/_interfaces.py'
+  adding 'autobahn/xbr/_mnemonic.py'
+  adding 'autobahn/xbr/_schema.py'
+  adding 'autobahn/xbr/_secmod.py'
+  adding 'autobahn/xbr/_seller.py'
+  adding 'autobahn/xbr/_userkey.py'
+  adding 'autobahn/xbr/_util.py'
+  adding 'autobahn/xbr/_wallet.py'
+  adding 'autobahn/xbr/templates/py-autobahn/enum.py.jinja2'
+  adding 'autobahn/xbr/templates/py-autobahn/module.py.jinja2'
+  adding 'autobahn/xbr/templates/py-autobahn/obj.py.jinja2'
+  adding 'autobahn/xbr/templates/py-autobahn/service.py.jinja2'
+  adding 'autobahn/xbr/templates/py-autobahn/test_enum.py.jinja2'
+  adding 'autobahn/xbr/templates/py-autobahn/test_module.py.jinja2'
+  adding 'autobahn/xbr/templates/py-autobahn/test_obj.py.jinja2'
+  adding 'autobahn/xbr/templates/py-autobahn/test_service.py.jinja2'
+  adding 'autobahn/xbr/templates/sol-eip712/obj-eip712.sol.jinja2'
+  adding 'autobahn/xbr/test/__init__.py'
+  adding 'autobahn/xbr/test/test_xbr_argon2.py'
+  adding 'autobahn/xbr/test/test_xbr_config.py'
+  adding 'autobahn/xbr/test/test_xbr_eip712.py'
+  adding 'autobahn/xbr/test/test_xbr_frealm.py'
+  adding 'autobahn/xbr/test/test_xbr_mnemonic.py'
+  adding 'autobahn/xbr/test/test_xbr_schema_demo.py'
+  adding 'autobahn/xbr/test/test_xbr_schema_wamp.py'
+  adding 'autobahn/xbr/test/test_xbr_schema_wamp_control.py'
+  adding 'autobahn/xbr/test/test_xbr_secmod.py'
+  adding 'autobahn/xbr/test/test_xbr_web3.py'
+  adding 'autobahn/xbr/test/catalog/schema/demo.bfbs'
+  adding 'autobahn/xbr/test/catalog/schema/testsvc1.bfbs'
+  adding 'autobahn/xbr/test/catalog/schema/wamp-auth.bfbs'
+  adding 'autobahn/xbr/test/catalog/schema/wamp-control.bfbs'
+  adding 'autobahn/xbr/test/catalog/schema/wamp-meta.bfbs'
+  adding 'autobahn/xbr/test/catalog/schema/wamp.bfbs'
+  adding 'autobahn/xbr/test/profile/config.ini'
+  adding 'autobahn/xbr/test/profile/default.priv'
+  adding 'autobahn/xbr/test/profile/default.pub'
+  adding 'twisted/plugins/autobahn_endpoints.py'
+  adding 'twisted/plugins/autobahn_twistd.py'
+  adding 'autobahn-23.6.2.dist-info/LICENSE'
+  adding 'autobahn-23.6.2.dist-info/METADATA'
+  adding 'autobahn-23.6.2.dist-info/WHEEL'
+  adding 'autobahn-23.6.2.dist-info/entry_points.txt'
+  adding 'autobahn-23.6.2.dist-info/top_level.txt'
+  adding 'autobahn-23.6.2.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for autobahn (pyproject.toml): finished with status 'done'
+  Created wheel for autobahn: filename=autobahn-23.6.2-cp311-cp311-linux_x86_64.whl size=666878 sha256=6fa4b8aa918d0fc1ca62cbd232ef4221c436bcc83bd0217d53eb0300dc8a3771
+  Stored in directory: /builddir/.cache/pip/wheels/6a/af/c9/bc739e08595156802417757774194959ca09322b2d955dd3f1
+Successfully built autobahn
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.w74fxR
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64
++ cd autobahn-23.6.2
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ xargs basename --multiple
+++ ls /builddir/build/BUILD/autobahn-23.6.2/pyproject-wheeldir-3.11/autobahn-23.6.2-cp311-cp311-linux_x86_64.whl
++ specifier=autobahn==23.6.2
++ '[' -z autobahn==23.6.2 ']'
++ TMPDIR=/builddir/build/BUILD/autobahn-23.6.2/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/autobahn-23.6.2/pyproject-wheeldir-3.11 autobahn==23.6.2
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/autobahn-23.6.2/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/autobahn-23.6.2-cp311-cp311-linux_x86_64.whl
+Installing collected packages: autobahn
+  Creating /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin
+  changing mode of /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/wamp to 755
+  changing mode of /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/xbrnetwork to 755
+  changing mode of /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/xbrnetwork-ui to 755
+Successfully installed autobahn-23.6.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin ']'
++ '[' -z sP ']'
++ shebang_flags=-kasP
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/wamp /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/xbrnetwork /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/xbrnetwork-ui
+/builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/wamp: updating
+/builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/xbrnetwork: updating
+/builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/xbrnetwork-ui: updating
++ rm -rfv /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/__pycache__
++ rm -f /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib64/python3.11/site-packages")
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib64/python3.11/site-packages/autobahn-23.6.2.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/autobahn-23.6.2.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/autobahn-23.6.2.dist-info/RECORD --output /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/autobahn-23.6.2.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/autobahn-23.6.2.dist-info/RECORD'
+removed '/builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/autobahn-23.6.2.dist-info/REQUESTED'
++ rm -fv /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/autobahn-23.6.2.dist-info/REQUESTED
+++ wc -l /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ mv /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/wamp /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/wamp3.11
++ mv /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/xbrnetwork /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/xbrnetwork3.11
++ mv /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/xbrnetwork-ui /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/bin/xbrnetwork-ui3.11
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ sed -i 's|/usr/bin/wamp|/usr/bin/wamp3.11|g' /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-files
++ sed -i 's|/usr/bin/xbrnetwork$|/usr/bin/xbrnetwork3.11|g' /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-files
++ sed -i 's|/usr/bin/xbrnetwork-ui$|/usr/bin/xbrnetwork-ui3.11|g' /builddir/build/BUILD/python-autobahn-23.6.2-1.el9.x86_64-3.11-pyproject-files
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 23.6.2-1.el9 --unique-debug-suffix -23.6.2-1.el9.x86_64 --unique-debug-src-base python-autobahn-23.6.2-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/autobahn-23.6.2
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64/usr/lib64/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-autobahn-23.6.2-1.el9.noarch
+Provides: python3.11-autobahn = 23.6.2-1.el9 python3.11dist(autobahn) = 23.6.2
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/python3.11 python(abi) = 3.11 python3.11dist(cryptography) >= 3.4.6 python3.11dist(hyperlink) >= 21 python3.11dist(setuptools) python3.11dist(txaio) >= 21.2.1
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-autobahn-23.6.2-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-autobahn-23.6.2-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-autobahn-23.6.2-1.el9.noarch.rpm
+Finish: rpmbuild python-autobahn-23.6.2-1.el9.src.rpm
+Finish: build phase for python-autobahn-23.6.2-1.el9.src.rpm
+INFO: Done(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-autobahn-23.6.2-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 37 seconds
+INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 45 packages
+Directory walk done - 49 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
