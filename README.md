@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rsa-4.9-1.el9.src.rpm
+The lastest package built was python-service-identity-24.1.0-1.el9.src.rpm
 
-The build completed at Thu May 30 02:31:37 AM CEST 2024
+The build completed at Thu May 30 02:32:03 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
+[Build Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -68,7 +68,7 @@ python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.
 python3.11-rq-1.13.0-1.el9 | python-rq-1.13.0-1.el9.src.rpm | Built | [Log](logs/python-rq-1.13.0-1.el9.src.rpm.log)
 python3.11-rq-scheduler-0.10.0-1.el9 | python-rq-scheduler-0.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-rq-scheduler-0.10.0-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | **Missing** | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
-python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | **Missing** |
+python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
 python3.11-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | **Missing** |
 python3.11-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | **Missing** |
 python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | **Missing** |
