@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-kubernetes-29.0.0-1.el9.src.rpm
+The lastest package built was python-ldap-3.4.4-1.el9.src.rpm
 
-The build completed at Thu May 30 02:18:29 AM CEST 2024
+The build completed at Thu May 30 02:19:04 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -48,7 +48,7 @@ python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | Built | [L
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-jinja2-3.1.3-1.el9.src.rpm.log)
 python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
 python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
-python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | **Missing** |
+python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | **Missing** | [Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
 python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | **Missing** |
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | **Missing** |
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** |
