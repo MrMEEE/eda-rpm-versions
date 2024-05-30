@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-tomli-2.0.1-1.el9.src.rpm
+The lastest package built was python-twisted-23.10.0-1.el9.src.rpm
 
-The build completed at Thu May 30 02:35:34 AM CEST 2024
+The build completed at Thu May 30 02:35:49 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
+[Build Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -76,7 +76,7 @@ python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.sr
 python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | **Missing** | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
-python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | **Missing** |
+python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 python3.11-twisted-iocpsupport-1.0.3-1.el9 | python-twisted-iocpsupport-1.0.3-1.el9.src.rpm | **Missing** |
 python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | **Missing** |
 python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.src.rpm | **Missing** |
