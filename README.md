@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twisted-iocpsupport-1.0.3-1.el9.src.rpm
+The lastest package built was python-txaio-23.1.1-1.el9.src.rpm
 
-The build completed at Thu May 30 02:36:33 AM CEST 2024
+The build completed at Thu May 30 02:37:00 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-twisted-iocpsupport-1.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -78,7 +78,7 @@ python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | **Missin
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
 python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 python3.11-twisted-iocpsupport-1.0.3-1.el9 | python-twisted-iocpsupport-1.0.3-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-iocpsupport-1.0.3-1.el9.src.rpm.log)
-python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | **Missing** |
+python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | **Missing** | [Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
 python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.src.rpm | **Missing** |
 python3.11-tzdata-2023.3-1.el9 | python-tzdata-2023.3-1.el9.src.rpm | **Missing** |
 python3.11-uritemplate-4.1.1-1.el9 | python-uritemplate-4.1.1-1.el9.src.rpm | **Missing** |
