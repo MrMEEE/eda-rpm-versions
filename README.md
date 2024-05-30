@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pydantic-2.5.0-1.el9.src.rpm
+The lastest package built was python-pyjwt-2.8.0-1.el9.src.rpm
 
-The build completed at Thu May 30 02:24:59 AM CEST 2024
+The build completed at Thu May 30 02:25:35 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pyjwt-2.8.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -56,7 +56,7 @@ python3.11-podman-4.5.0-1.el9 | python-podman-4.5.0-1.el9.src.rpm | **Missing** 
 python3.11-pyasn1-modules-0.5.1-1.el9 | python-pyasn1-modules-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.5.1-1.el9.src.rpm.log)
 python3.11-pycparser-2.21-1.el9 | python-pycparser-2.21-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.21-1.el9.src.rpm.log)
 python3.11-pydantic-2.5.0-1.el9 | python-pydantic-2.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
-python3.11-pyjwt-2.8.0-1.el9 | python-pyjwt-2.8.0-1.el9.src.rpm | **Missing** |
+python3.11-pyjwt-2.8.0-1.el9 | python-pyjwt-2.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pyjwt-2.8.0-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.0.0-1.el9 | python-pyopenssl-24.0.0-1.el9.src.rpm | **Missing** |
 python3.11-pyrsistent-0.19.3-1.el9 | python-pyrsistent-0.19.3-1.el9.src.rpm | **Missing** |
 python3.11-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | **Missing** |
