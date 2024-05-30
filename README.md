@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-4.2.6-1.el9.src.rpm
+The lastest package built was python-django-auth-ldap-4.8.0-1.el9.src.rpm
 
-The build completed at Thu May 30 03:07:52 AM CEST 2024
+The build completed at Thu May 30 03:08:18 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
+[Build Log](logs/python-django-auth-ldap-4.8.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
