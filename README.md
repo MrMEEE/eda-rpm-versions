@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-requests-oauthlib-1.3.1-1.el9.src.rpm
+The lastest package built was python-rq-1.13.0-1.el9.src.rpm
 
-The build completed at Thu May 30 02:30:08 AM CEST 2024
+The build completed at Thu May 30 02:30:45 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
+[Build Log](logs/python-rq-1.13.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -65,7 +65,7 @@ python3.11-pyyaml-6.0.1-1.el9 | python-pyyaml-6.0.1-1.el9.src.rpm | Built | [Log
 python3.11-redis-5.0.1-1.el9 | python-redis-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-redis-5.0.1-1.el9.src.rpm.log)
 python3.11-requests-2.31.0-1.el9 | python-requests-2.31.0-1.el9.src.rpm | **Missing** | [Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
 python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
-python3.11-rq-1.13.0-1.el9 | python-rq-1.13.0-1.el9.src.rpm | **Missing** |
+python3.11-rq-1.13.0-1.el9 | python-rq-1.13.0-1.el9.src.rpm | Built | [Log](logs/python-rq-1.13.0-1.el9.src.rpm.log)
 python3.11-rq-scheduler-0.10.0-1.el9 | python-rq-scheduler-0.10.0-1.el9.src.rpm | **Missing** |
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | **Missing** |
 python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | **Missing** |
@@ -87,4 +87,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-77 total packages, 22 packages built successfully, 55 packages left to fix
+77 total packages, 23 packages built successfully, 54 packages left to fix
