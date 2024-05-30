@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-autobahn-23.6.2-1.el9.src.rpm
+The lastest package built was python-automat-22.10.0-1.el9.src.rpm
 
-The build completed at Thu May 30 02:42:26 AM CEST 2024
+The build completed at Thu May 30 02:42:52 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
+[Build Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
