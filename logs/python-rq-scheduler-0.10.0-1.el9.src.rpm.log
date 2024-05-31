@@ -48,10 +48,10 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                       12 MB/s |  58 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          146 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           28 kB/s |  17 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                                Architecture      Version                    Repository                    Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-rq-scheduler-0.10.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717113600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.NyJPIS
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.hdGJV2
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.NyJPIS
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.N6Yune
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.bIx4yP
 + umask 022
 + cd /builddir/build/BUILD
 + cd rq-scheduler-0.10.0
@@ -222,10 +222,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          176 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          178 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -273,7 +273,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717113600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.l5toHy
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.l2wSjq
 + umask 022
 + cd /builddir/build/BUILD
 + cd rq-scheduler-0.10.0
@@ -349,50 +349,445 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          188 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          139 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(croniter) >= 0.3.9'
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-rq-scheduler-0.10.0-1.el9.src.rpm
-Finish: build phase for python-rq-scheduler-0.10.0-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-rq-scheduler-0.10.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 18 seconds
-INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 590d2bf51bcd4674b8bead59119ebeac -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.vuiuetly:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-rq-scheduler-0.10.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+========================================================================================================================
+ Package                           Architecture  Version                   Repository                              Size
+========================================================================================================================
+Installing:
+ [1mpython3.11-croniter              [m noarch        1.3.14-1.el9              _opt_edarpm_rpmbuilds_010_RPMS_         43 k
+ [1mpython3.11-rq                    [m noarch        1.13.0-1.el9              _opt_edarpm_rpmbuilds_010_RPMS_        185 k
+Installing dependencies:
+ [1mpython3.11-async-timeout         [m noarch        4.0.3-1.el9               _opt_edarpm_rpmbuilds_010_RPMS_         16 k
+ [1mpython3.11-click                 [m noarch        8.1.7-1.el9               _opt_edarpm_rpmbuilds_010_RPMS_        216 k
+ [1mpython3.11-python-dateutil       [m noarch        2.9.0^post0-1.el9         _opt_edarpm_rpmbuilds_010_RPMS_        316 k
+ [1mpython3.11-redis                 [m noarch        5.0.1-1.el9               _opt_edarpm_rpmbuilds_010_RPMS_        486 k
+ [1mpython3.11-six                   [m noarch        1.16.0-1.el9              _opt_edarpm_rpmbuilds_010_RPMS_         33 k
+
+Transaction Summary
+========================================================================================================================
+Install  7 Packages
+
+Total size: 1.3 M
+Installed size: 5.3 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [============                                                                               ] 1/1  Preparing        :  [=========================                                                                  ] 1/1  Preparing        :  [======================================                                                     ] 1/1  Preparing        :  [===================================================                                        ] 1/1  Preparing        :  [================================================================                           ] 1/1  Preparing        :  [=============================================================================              ] 1/1  Preparing        :                                                                                                1/1 
+  Installing       : python3.11-six-1.16.0-1.el9.noarch [                                                         ] 1/7  Installing       : python3.11-six-1.16.0-1.el9.noarch [==                                                       ] 1/7  Installing       : python3.11-six-1.16.0-1.el9.noarch [========================                                 ] 1/7  Installing       : python3.11-six-1.16.0-1.el9.noarch [=========================                                ] 1/7  Installing       : python3.11-six-1.16.0-1.el9.noarch [===============================================          ] 1/7  Installing       : python3.11-six-1.16.0-1.el9.noarch [======================================================== ] 1/7  Installing       : python3.11-six-1.16.0-1.el9.noarch                                                             1/7 
+  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [                                              ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [=                                             ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [==                                            ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [===                                           ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [====                                          ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [======                                        ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [========                                      ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [==========                                    ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [===========                                   ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [=============                                 ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [==============                                ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [===============                               ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [=================                             ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [==================                            ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [===================                           ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [=====================                         ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [=======================                       ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [========================                      ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [==========================                    ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [============================                  ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [=============================                 ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [===============================               ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [================================              ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [=================================             ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [==================================            ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [===================================           ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [=====================================         ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [======================================        ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [=======================================       ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [========================================      ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [=========================================     ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [===========================================   ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [============================================  ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9. [============================================= ] 2/7  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9.noarch                                            2/7 
+  Installing       : python3.11-click-8.1.7-1.el9.noarch [                                                        ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=                                                       ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===                                                     ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=====                                                   ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [======                                                  ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [========                                                ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==========                                              ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===========                                             ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=============                                           ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===============                                         ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [================                                        ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==================                                      ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===================                                     ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [====================                                    ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=====================                                   ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [======================                                  ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [========================                                ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=========================                               ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===========================                             ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [============================                            ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=============================                           ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==============================                          ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===============================                         ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=================================                       ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==================================                      ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===================================                     ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [====================================                    ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [======================================                  ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=======================================                 ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [========================================                ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==========================================              ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===========================================             ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [============================================            ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=============================================           ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===============================================         ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=================================================       ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==================================================      ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [====================================================    ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=====================================================   ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [======================================================  ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [======================================================= ] 3/7  Installing       : python3.11-click-8.1.7-1.el9.noarch                                                            3/7 
+  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [                                                ] 4/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [=                                               ] 4/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [=======                                         ] 4/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [========                                        ] 4/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [==================                              ] 4/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [=================================               ] 4/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [=============================================== ] 4/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch                                                    4/7 
+  Installing       : python3.11-redis-5.0.1-1.el9.noarch [                                                        ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=                                                       ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==                                                      ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===                                                     ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [====                                                    ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=====                                                   ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [======                                                  ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=======                                                 ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [========                                                ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=========                                               ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==========                                              ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===========                                             ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [============                                            ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=============                                           ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==============                                          ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===============                                         ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [================                                        ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=================                                       ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==================                                      ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===================                                     ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [====================                                    ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=====================                                   ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [======================                                  ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=======================                                 ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [========================                                ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=========================                               ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==========================                              ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [============================                            ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=============================                           ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==============================                          ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===============================                         ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [================================                        ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=================================                       ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==================================                      ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===================================                     ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [====================================                    ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=====================================                   ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [======================================                  ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=======================================                 ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [========================================                ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==========================================              ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===========================================             ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [============================================            ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=============================================           ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==============================================          ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===============================================         ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [================================================        ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=================================================       ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==================================================      ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===================================================     ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [====================================================    ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=====================================================   ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [======================================================  ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [======================================================= ] 5/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch                                                            5/7 
+  Installing       : python3.11-rq-1.13.0-1.el9.noarch [                                                          ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==                                                        ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=====                                                     ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [======                                                    ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [========                                                  ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==========                                                ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===========                                               ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=============                                             ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===============                                           ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=================                                         ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===================                                       ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [====================                                      ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=====================                                     ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [======================                                    ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [========================                                  ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==========================                                ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===========================                               ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==============================                            ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===============================                           ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [================================                          ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=================================                         ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==================================                        ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=====================================                     ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [======================================                    ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=======================================                   ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [========================================                  ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==========================================                ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [============================================              ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=============================================             ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==============================================            ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [================================================          ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==================================================        ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [====================================================      ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=====================================================     ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [======================================================    ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [========================================================  ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [========================================================= ] 6/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch                                                              6/7 
+  Installing       : python3.11-croniter-1.3.14-1.el9.noarch [                                                    ] 7/7  Installing       : python3.11-croniter-1.3.14-1.el9.noarch [========                                            ] 7/7  Installing       : python3.11-croniter-1.3.14-1.el9.noarch [===================                                 ] 7/7  Installing       : python3.11-croniter-1.3.14-1.el9.noarch [=======================                             ] 7/7  Installing       : python3.11-croniter-1.3.14-1.el9.noarch [==================================                  ] 7/7  Installing       : python3.11-croniter-1.3.14-1.el9.noarch [=======================================             ] 7/7  Installing       : python3.11-croniter-1.3.14-1.el9.noarch [==================================================  ] 7/7  Installing       : python3.11-croniter-1.3.14-1.el9.noarch [=================================================== ] 7/7  Installing       : python3.11-croniter-1.3.14-1.el9.noarch                                                        7/7 
+  Running scriptlet: python3.11-croniter-1.3.14-1.el9.noarch                                                        7/7 
+  Verifying        : python3.11-async-timeout-4.0.3-1.el9.noarch                                                    1/7 
+  Verifying        : python3.11-click-8.1.7-1.el9.noarch                                                            2/7 
+  Verifying        : python3.11-croniter-1.3.14-1.el9.noarch                                                        3/7 
+  Verifying        : python3.11-python-dateutil-2.9.0^post0-1.el9.noarch                                            4/7 
+  Verifying        : python3.11-redis-5.0.1-1.el9.noarch                                                            5/7 
+  Verifying        : python3.11-rq-1.13.0-1.el9.noarch                                                              6/7 
+  Verifying        : python3.11-six-1.16.0-1.el9.noarch                                                             7/7 
+Installed products updated.
+
+Installed:
+  python3.11-async-timeout-4.0.3-1.el9.noarch            python3.11-click-8.1.7-1.el9.noarch                           
+  python3.11-croniter-1.3.14-1.el9.noarch                python3.11-python-dateutil-2.9.0^post0-1.el9.noarch           
+  python3.11-redis-5.0.1-1.el9.noarch                    python3.11-rq-1.13.0-1.el9.noarch                             
+  python3.11-six-1.16.0-1.el9.noarch                    
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717113600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.lHEaWO
++ umask 022
++ cd /builddir/build/BUILD
++ cd rq-scheduler-0.10.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/rq-scheduler-0.10.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-rq-scheduler-0.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running egg_info
+writing rq_scheduler.egg-info/PKG-INFO
+writing dependency_links to rq_scheduler.egg-info/dependency_links.txt
+writing entry points to rq_scheduler.egg-info/entry_points.txt
+writing requirements to rq_scheduler.egg-info/requires.txt
+writing top-level names to rq_scheduler.egg-info/top_level.txt
+reading manifest file 'rq_scheduler.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'rq_scheduler.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing rq_scheduler.egg-info/PKG-INFO
+writing dependency_links to rq_scheduler.egg-info/dependency_links.txt
+writing entry points to rq_scheduler.egg-info/entry_points.txt
+writing requirements to rq_scheduler.egg-info/requires.txt
+writing top-level names to rq_scheduler.egg-info/top_level.txt
+reading manifest file 'rq_scheduler.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'rq_scheduler.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/rq-scheduler-0.10.0/rq_scheduler-0.10.0.dist-info'
+The [wheel] section is deprecated. Use [bdist_wheel] instead.
+Handling croniter (>=0.3.9) from hook generated metadata: Requires-Dist (rq-scheduler)
+Requirement satisfied: croniter (>=0.3.9)
+   (installed: croniter 1.3.14)
+Handling rq (>=0.13) from hook generated metadata: Requires-Dist (rq-scheduler)
+Requirement satisfied: rq (>=0.13)
+   (installed: rq 1.13.0)
++ cat /builddir/build/BUILD/python-rq-scheduler-0.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv rq_scheduler-0.10.0.dist-info/
+removed 'rq_scheduler-0.10.0.dist-info/entry_points.txt'
+removed 'rq_scheduler-0.10.0.dist-info/top_level.txt'
+removed 'rq_scheduler-0.10.0.dist-info/METADATA'
+removed 'rq_scheduler-0.10.0.dist-info/LICENSE.txt'
+removed directory 'rq_scheduler-0.10.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-rq-scheduler-0.10.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                          188 kB/s |  17 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           34 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(croniter) >= 0.3.9'
+Package python3.11-croniter-1.3.14-1.el9.noarch is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-rq-1.13.0-1.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717113600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.RX4MMn
++ umask 022
++ cd /builddir/build/BUILD
++ cd rq-scheduler-0.10.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/rq-scheduler-0.10.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-rq-scheduler-0.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running egg_info
+writing rq_scheduler.egg-info/PKG-INFO
+writing dependency_links to rq_scheduler.egg-info/dependency_links.txt
+writing entry points to rq_scheduler.egg-info/entry_points.txt
+writing requirements to rq_scheduler.egg-info/requires.txt
+writing top-level names to rq_scheduler.egg-info/top_level.txt
+reading manifest file 'rq_scheduler.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'rq_scheduler.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing rq_scheduler.egg-info/PKG-INFO
+writing dependency_links to rq_scheduler.egg-info/dependency_links.txt
+writing entry points to rq_scheduler.egg-info/entry_points.txt
+writing requirements to rq_scheduler.egg-info/requires.txt
+writing top-level names to rq_scheduler.egg-info/top_level.txt
+reading manifest file 'rq_scheduler.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'rq_scheduler.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/rq-scheduler-0.10.0/rq_scheduler-0.10.0.dist-info'
+The [wheel] section is deprecated. Use [bdist_wheel] instead.
+Handling croniter (>=0.3.9) from hook generated metadata: Requires-Dist (rq-scheduler)
+Requirement satisfied: croniter (>=0.3.9)
+   (installed: croniter 1.3.14)
+Handling rq (>=0.13) from hook generated metadata: Requires-Dist (rq-scheduler)
+Requirement satisfied: rq (>=0.13)
+   (installed: rq 1.13.0)
++ cat /builddir/build/BUILD/python-rq-scheduler-0.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv rq_scheduler-0.10.0.dist-info/
+removed 'rq_scheduler-0.10.0.dist-info/entry_points.txt'
+removed 'rq_scheduler-0.10.0.dist-info/top_level.txt'
+removed 'rq_scheduler-0.10.0.dist-info/METADATA'
+removed 'rq_scheduler-0.10.0.dist-info/LICENSE.txt'
+removed directory 'rq_scheduler-0.10.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.aF9mZ8
++ umask 022
++ cd /builddir/build/BUILD
++ cd rq-scheduler-0.10.0
++ mkdir -p /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/rq-scheduler-0.10.0/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/rq-scheduler-0.10.0
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-lfb8jqoz/rq_scheduler.egg-info
+  writing /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-lfb8jqoz/rq_scheduler.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-lfb8jqoz/rq_scheduler.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-lfb8jqoz/rq_scheduler.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-lfb8jqoz/rq_scheduler.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-lfb8jqoz/rq_scheduler.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-lfb8jqoz/rq_scheduler.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-lfb8jqoz/rq_scheduler.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.txt'
+  writing manifest file '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-lfb8jqoz/rq_scheduler.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-lfb8jqoz/rq_scheduler-0.10.0.dist-info'
+  The [wheel] section is deprecated. Use [bdist_wheel] instead.
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: rq-scheduler
+  Building wheel for rq-scheduler (pyproject.toml): started
+  Running command Building wheel for rq-scheduler (pyproject.toml)
+  running bdist_wheel
+  The [wheel] section is deprecated. Use [bdist_wheel] instead.
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/rq_scheduler
+  copying rq_scheduler/__init__.py -> build/lib/rq_scheduler
+  copying rq_scheduler/utils.py -> build/lib/rq_scheduler
+  copying rq_scheduler/scheduler.py -> build/lib/rq_scheduler
+  running egg_info
+  writing rq_scheduler.egg-info/PKG-INFO
+  writing dependency_links to rq_scheduler.egg-info/dependency_links.txt
+  writing entry points to rq_scheduler.egg-info/entry_points.txt
+  writing requirements to rq_scheduler.egg-info/requires.txt
+  writing top-level names to rq_scheduler.egg-info/top_level.txt
+  reading manifest file 'rq_scheduler.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.txt'
+  writing manifest file 'rq_scheduler.egg-info/SOURCES.txt'
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'rq_scheduler.scripts' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'rq_scheduler.scripts' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'rq_scheduler.scripts' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'rq_scheduler.scripts' to be distributed and are
+          already explicitly excluding 'rq_scheduler.scripts' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  creating build/lib/rq_scheduler/scripts
+  copying rq_scheduler/scripts/__init__.py -> build/lib/rq_scheduler/scripts
+  copying rq_scheduler/scripts/rqscheduler.py -> build/lib/rq_scheduler/scripts
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/rq_scheduler
+  copying build/lib/rq_scheduler/__init__.py -> build/bdist.linux-x86_64/wheel/rq_scheduler
+  copying build/lib/rq_scheduler/utils.py -> build/bdist.linux-x86_64/wheel/rq_scheduler
+  copying build/lib/rq_scheduler/scheduler.py -> build/bdist.linux-x86_64/wheel/rq_scheduler
+  creating build/bdist.linux-x86_64/wheel/rq_scheduler/scripts
+  copying build/lib/rq_scheduler/scripts/__init__.py -> build/bdist.linux-x86_64/wheel/rq_scheduler/scripts
+  copying build/lib/rq_scheduler/scripts/rqscheduler.py -> build/bdist.linux-x86_64/wheel/rq_scheduler/scripts
+  running install_egg_info
+  Copying rq_scheduler.egg-info to build/bdist.linux-x86_64/wheel/rq_scheduler-0.10.0-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/rq_scheduler-0.10.0.dist-info/WHEEL
+  creating '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-wheel-0feoa8jv/.tmp-gmsjvgb0/rq_scheduler-0.10.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'rq_scheduler/__init__.py'
+  adding 'rq_scheduler/scheduler.py'
+  adding 'rq_scheduler/utils.py'
+  adding 'rq_scheduler/scripts/__init__.py'
+  adding 'rq_scheduler/scripts/rqscheduler.py'
+  adding 'rq_scheduler-0.10.0.dist-info/LICENSE.txt'
+  adding 'rq_scheduler-0.10.0.dist-info/METADATA'
+  adding 'rq_scheduler-0.10.0.dist-info/WHEEL'
+  adding 'rq_scheduler-0.10.0.dist-info/entry_points.txt'
+  adding 'rq_scheduler-0.10.0.dist-info/top_level.txt'
+  adding 'rq_scheduler-0.10.0.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for rq-scheduler (pyproject.toml): finished with status 'done'
+  Created wheel for rq-scheduler: filename=rq_scheduler-0.10.0-py2.py3-none-any.whl size=13212 sha256=04a1b02d16f0887284ecf564487ae3612d3138fc780d7f19357469594e6b7beb
+  Stored in directory: /builddir/.cache/pip/wheels/8e/c9/ae/8a844d44eded09822c1dc8801d9fd79b0ac66a6e669c05f132
+Successfully built rq-scheduler
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.stZNeb
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64
++ cd rq-scheduler-0.10.0
+++ ls /builddir/build/BUILD/rq-scheduler-0.10.0/pyproject-wheeldir-3.11/rq_scheduler-0.10.0-py2.py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=rq_scheduler==0.10.0
++ '[' -z rq_scheduler==0.10.0 ']'
++ TMPDIR=/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/rq-scheduler-0.10.0/pyproject-wheeldir-3.11 rq_scheduler==0.10.0
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/rq-scheduler-0.10.0/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/rq_scheduler-0.10.0-py2.py3-none-any.whl
+Installing collected packages: rq_scheduler
+  Creating /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/bin
+  changing mode of /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/bin/rqscheduler to 755
+Successfully installed rq_scheduler-0.10.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/bin ']'
++ '[' -z sP ']'
++ shebang_flags=-kasP
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/bin/rqscheduler
+/builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/bin/rqscheduler: updating
++ rm -rfv /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/bin/__pycache__
++ rm -f /builddir/build/BUILD/python-rq-scheduler-0.10.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/rq_scheduler-0.10.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/rq_scheduler-0.10.0.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/rq_scheduler-0.10.0.dist-info/RECORD --output /builddir/build/BUILD/python-rq-scheduler-0.10.0-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/rq_scheduler-0.10.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/rq_scheduler-0.10.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/rq_scheduler-0.10.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/rq_scheduler-0.10.0.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-rq-scheduler-0.10.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-rq-scheduler-0.10.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-rq-scheduler-0.10.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-rq-scheduler-0.10.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.10.0-1.el9 --unique-debug-suffix -0.10.0-1.el9.x86_64 --unique-debug-src-base python-rq-scheduler-0.10.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/rq-scheduler-0.10.0
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+*** ERROR: ambiguous python shebang in /usr/lib/python3.11/site-packages/rq_scheduler/scripts/rqscheduler.py: #!/usr/bin/env python. Change it to python3 (or python2) explicitly.
+error: Bad exit status from /var/tmp/rpm-tmp.stZNeb (%install)
+    Bad exit status from /var/tmp/rpm-tmp.stZNeb (%install)
+
+
+RPM build errors:
+Finish: rpmbuild python-rq-scheduler-0.10.0-1.el9.src.rpm
+Finish: build phase for python-rq-scheduler-0.10.0-1.el9.src.rpm
+ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-rq-scheduler-0.10.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 25 seconds
+INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
+ERROR: Command failed: 
+ # /usr/bin/systemd-nspawn -q -M 3cf293482f444ddd91aa583479734d64 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.ns3prxuf:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-rq-scheduler.spec --nocheck'
 
 Directory walk started
-Directory walk done - 67 packages
+Directory walk done - 68 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
