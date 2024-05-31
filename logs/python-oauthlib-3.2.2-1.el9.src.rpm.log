@@ -38,7 +38,7 @@ Start: build phase for python-oauthlib-3.2.2-1.el9.src.rpm
 Start: build setup for python-oauthlib-3.2.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
+setting SOURCE_DATE_EPOCH=1717200000
 Wrote: /builddir/build/SRPMS/python-oauthlib-3.2.2-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      5.3 MB/s |  58 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          180 kB/s |  17 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      6.8 MB/s |  58 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           23 kB/s |  17 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                                Architecture      Version                    Repository                    Size
@@ -170,8 +170,8 @@ Finish: Outputting list of installed packages
 Start: rpmbuild python-oauthlib-3.2.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.N6Bl4N
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.K4PE0v
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -182,10 +182,10 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.N6Bl4N
 + '[' 0 -ne 0 ']'
 + cd oauthlib-3.2.2
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.RIURO7
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ocfCOI
 + umask 022
 + cd /builddir/build/BUILD
 + cd oauthlib-3.2.2
@@ -206,7 +206,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ocfCOI
 + TMPDIR=/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/oauthlib-3.2.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-buildrequires -x rsa,signals,signedtoken
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/oauthlib-3.2.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-buildrequires -x signedtoken
 Import error: No module named 'packaging'
 + cat /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
@@ -222,10 +222,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          133 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           40 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -272,8 +272,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.a16rF9
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Xl3MfR
 + umask 022
 + cd /builddir/build/BUILD
 + cd oauthlib-3.2.2
@@ -294,7 +294,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.a16rF9
 + TMPDIR=/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/oauthlib-3.2.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-buildrequires -x rsa,signals,signedtoken
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/oauthlib-3.2.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-buildrequires -x signedtoken
 Handling setuptools >= 40.8 from default build backend
 Requirement satisfied: setuptools >= 40.8
    (installed: setuptools 69.0.2)
@@ -324,9 +324,9 @@ adding license file 'LICENSE'
 writing manifest file 'oauthlib.egg-info/SOURCES.txt'
 creating '/builddir/build/BUILD/oauthlib-3.2.2/oauthlib-3.2.2.dist-info'
 Handling cryptography (>=3.0.0) ; extra == 'rsa' from hook generated metadata: Requires-Dist (oauthlib)
-Requirement not satisfied: cryptography (>=3.0.0) ; extra == 'rsa'
+Ignoring alien requirement: cryptography (>=3.0.0) ; extra == 'rsa'
 Handling blinker (>=1.4.0) ; extra == 'signals' from hook generated metadata: Requires-Dist (oauthlib)
-Requirement not satisfied: blinker (>=1.4.0) ; extra == 'signals'
+Ignoring alien requirement: blinker (>=1.4.0) ; extra == 'signals'
 Handling cryptography (>=3.0.0) ; extra == 'signedtoken' from hook generated metadata: Requires-Dist (oauthlib)
 Requirement not satisfied: cryptography (>=3.0.0) ; extra == 'signedtoken'
 Handling pyjwt (<3,>=2.0.0) ; extra == 'signedtoken' from hook generated metadata: Requires-Dist (oauthlib)
@@ -349,50 +349,602 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream    100% [========================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                     12 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          196 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           32 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(blinker) >= 1.4'
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-oauthlib-3.2.2-1.el9.src.rpm
-Finish: build phase for python-oauthlib-3.2.2-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-oauthlib-3.2.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 18 seconds
-INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 5aaf2991a286460e9355f2234ee93c26 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.ldocbjfz:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-oauthlib-3.2.2-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+========================================================================================================================
+ Package                          Architecture    Version                Repository                                Size
+========================================================================================================================
+Installing:
+ [1mpython3.11-cryptography         [m x86_64          41.0.7-1.el9           _opt_edarpm_rpmbuilds_010_RPMS_          1.1 M
+ [1mpython3.11-pyjwt                [m noarch          2.8.0-1.el9            _opt_edarpm_rpmbuilds_010_RPMS_           59 k
+Installing dependencies:
+ [1mpython3.11-cffi                 [m x86_64          1.16.0-1.el9           _opt_edarpm_rpmbuilds_010_RPMS_          301 k
+ [1mpython3.11-pycparser            [m noarch          2.21-1.el9             _opt_edarpm_rpmbuilds_010_RPMS_          243 k
+
+Transaction Summary
+========================================================================================================================
+Install  4 Packages
+
+Total size: 1.7 M
+Installed size: 7.2 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [======================                                                                     ] 1/1  Preparing        :  [=============================================                                              ] 1/1  Preparing        :  [====================================================================                       ] 1/1  Preparing        :                                                                                                1/1 
+  Installing       : python3.11-pycparser-2.21-1.el9.noarch [                                                     ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=                                                    ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==                                                   ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===                                                  ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [====                                                 ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=====                                                ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=======                                              ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [========                                             ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=========                                            ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==========                                           ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===========                                          ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [============                                         ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=============                                        ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==============                                       ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===============                                      ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [================                                     ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==================                                   ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===================                                  ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [====================                                 ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=====================                                ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [======================                               ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=======================                              ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [========================                             ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=========================                            ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==========================                           ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===========================                          ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [============================                         ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=============================                        ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===============================                      ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [================================                     ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=================================                    ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==================================                   ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [====================================                 ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=====================================                ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [======================================               ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=======================================              ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [========================================             ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=========================================            ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==========================================           ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===========================================          ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=============================================        ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==============================================       ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===============================================      ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [================================================     ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [=================================================    ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==================================================   ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [===================================================  ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch [==================================================== ] 1/4  Installing       : python3.11-pycparser-2.21-1.el9.noarch                                                         1/4 
+  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [                                                        ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=                                                       ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==                                                      ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===                                                     ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [====                                                    ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [======                                                  ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=======                                                 ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [========                                                ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=========                                               ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==========                                              ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===========                                             ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [============                                            ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==============                                          ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===============                                         ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [================                                        ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=================                                       ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===================                                     ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [====================                                    ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=====================                                   ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [======================                                  ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [========================                                ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=========================                               ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==========================                              ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===========================                             ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [============================                            ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==============================                          ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===============================                         ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=================================                       ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==================================                      ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===================================                     ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [====================================                    ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=====================================                   ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [======================================                  ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=======================================                 ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [========================================                ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=========================================               ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==========================================              ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===========================================             ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [============================================            ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=============================================           ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===============================================         ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [================================================        ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=================================================       ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [==================================================      ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [===================================================     ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [====================================================    ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [=====================================================   ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [======================================================  ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64 [======================================================= ] 2/4  Installing       : python3.11-cffi-1.16.0-1.el9.x86_64                                                            2/4 
+  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [                                                ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=                                               ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==                                              ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===                                             ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [====                                            ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=====                                           ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [======                                          ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=======                                         ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [========                                        ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=========                                       ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==========                                      ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===========                                     ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [============                                    ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=============                                   ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==============                                  ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===============                                 ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [================                                ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=================                               ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==================                              ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===================                             ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [====================                            ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=====================                           ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [======================                          ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=======================                         ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [========================                        ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=========================                       ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==========================                      ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===========================                     ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [============================                    ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=============================                   ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==============================                  ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===============================                 ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [================================                ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=================================               ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==================================              ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===================================             ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [====================================            ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=====================================           ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [======================================          ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=======================================         ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [========================================        ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=========================================       ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==========================================      ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [===========================================     ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [============================================    ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=============================================   ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [==============================================  ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64 [=============================================== ] 3/4  Installing       : python3.11-cryptography-41.0.7-1.el9.x86_64                                                    3/4 
+  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [                                                        ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [=                                                       ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [==                                                      ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [===========                                             ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [============                                            ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [================                                        ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [====================                                    ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [=====================                                   ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [======================                                  ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [========================                                ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [==================================                      ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [====================================                    ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [=======================================                 ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [===========================================             ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [================================================        ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [=================================================       ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [==================================================      ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [=====================================================   ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch [======================================================= ] 4/4  Installing       : python3.11-pyjwt-2.8.0-1.el9.noarch                                                            4/4 
+  Running scriptlet: python3.11-pyjwt-2.8.0-1.el9.noarch                                                            4/4 
+  Verifying        : python3.11-cffi-1.16.0-1.el9.x86_64                                                            1/4 
+  Verifying        : python3.11-cryptography-41.0.7-1.el9.x86_64                                                    2/4 
+  Verifying        : python3.11-pycparser-2.21-1.el9.noarch                                                         3/4 
+  Verifying        : python3.11-pyjwt-2.8.0-1.el9.noarch                                                            4/4 
+Installed products updated.
+
+Installed:
+  python3.11-cffi-1.16.0-1.el9.x86_64                      python3.11-cryptography-41.0.7-1.el9.x86_64                  
+  python3.11-pycparser-2.21-1.el9.noarch                   python3.11-pyjwt-2.8.0-1.el9.noarch                          
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.dqhphZ
++ umask 022
++ cd /builddir/build/BUILD
++ cd oauthlib-3.2.2
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/oauthlib-3.2.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-buildrequires -x signedtoken
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running egg_info
+writing oauthlib.egg-info/PKG-INFO
+writing dependency_links to oauthlib.egg-info/dependency_links.txt
+writing requirements to oauthlib.egg-info/requires.txt
+writing top-level names to oauthlib.egg-info/top_level.txt
+reading manifest file 'oauthlib.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'oauthlib.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing oauthlib.egg-info/PKG-INFO
+writing dependency_links to oauthlib.egg-info/dependency_links.txt
+writing requirements to oauthlib.egg-info/requires.txt
+writing top-level names to oauthlib.egg-info/top_level.txt
+reading manifest file 'oauthlib.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'oauthlib.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/oauthlib-3.2.2/oauthlib-3.2.2.dist-info'
+Handling cryptography (>=3.0.0) ; extra == 'rsa' from hook generated metadata: Requires-Dist (oauthlib)
+Ignoring alien requirement: cryptography (>=3.0.0) ; extra == 'rsa'
+Handling blinker (>=1.4.0) ; extra == 'signals' from hook generated metadata: Requires-Dist (oauthlib)
+Ignoring alien requirement: blinker (>=1.4.0) ; extra == 'signals'
+Handling cryptography (>=3.0.0) ; extra == 'signedtoken' from hook generated metadata: Requires-Dist (oauthlib)
+Requirement satisfied: cryptography (>=3.0.0) ; extra == 'signedtoken'
+   (installed: cryptography 41.0.7)
+Handling pyjwt (<3,>=2.0.0) ; extra == 'signedtoken' from hook generated metadata: Requires-Dist (oauthlib)
+Requirement satisfied: pyjwt (<3,>=2.0.0) ; extra == 'signedtoken'
+   (installed: pyjwt 2.8.0)
++ cat /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv oauthlib-3.2.2.dist-info/
+removed 'oauthlib-3.2.2.dist-info/top_level.txt'
+removed 'oauthlib-3.2.2.dist-info/METADATA'
+removed 'oauthlib-3.2.2.dist-info/LICENSE'
+removed directory 'oauthlib-3.2.2.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-oauthlib-3.2.2-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     12 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                          196 kB/s |  17 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          142 kB/s |  17 kB     00:00    
+Package python3.11-pyjwt-2.8.0-1.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(blinker) >= 1.4'
+Package python3.11-cryptography-41.0.7-1.el9.x86_64 is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zZvbfK
++ umask 022
++ cd /builddir/build/BUILD
++ cd oauthlib-3.2.2
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/oauthlib-3.2.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-buildrequires -x signedtoken
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running egg_info
+writing oauthlib.egg-info/PKG-INFO
+writing dependency_links to oauthlib.egg-info/dependency_links.txt
+writing requirements to oauthlib.egg-info/requires.txt
+writing top-level names to oauthlib.egg-info/top_level.txt
+reading manifest file 'oauthlib.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'oauthlib.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing oauthlib.egg-info/PKG-INFO
+writing dependency_links to oauthlib.egg-info/dependency_links.txt
+writing requirements to oauthlib.egg-info/requires.txt
+writing top-level names to oauthlib.egg-info/top_level.txt
+reading manifest file 'oauthlib.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'oauthlib.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/oauthlib-3.2.2/oauthlib-3.2.2.dist-info'
+Handling cryptography (>=3.0.0) ; extra == 'rsa' from hook generated metadata: Requires-Dist (oauthlib)
+Ignoring alien requirement: cryptography (>=3.0.0) ; extra == 'rsa'
+Handling blinker (>=1.4.0) ; extra == 'signals' from hook generated metadata: Requires-Dist (oauthlib)
+Ignoring alien requirement: blinker (>=1.4.0) ; extra == 'signals'
+Handling cryptography (>=3.0.0) ; extra == 'signedtoken' from hook generated metadata: Requires-Dist (oauthlib)
+Requirement satisfied: cryptography (>=3.0.0) ; extra == 'signedtoken'
+   (installed: cryptography 41.0.7)
+Handling pyjwt (<3,>=2.0.0) ; extra == 'signedtoken' from hook generated metadata: Requires-Dist (oauthlib)
+Requirement satisfied: pyjwt (<3,>=2.0.0) ; extra == 'signedtoken'
+   (installed: pyjwt 2.8.0)
++ cat /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv oauthlib-3.2.2.dist-info/
+removed 'oauthlib-3.2.2.dist-info/top_level.txt'
+removed 'oauthlib-3.2.2.dist-info/METADATA'
+removed 'oauthlib-3.2.2.dist-info/LICENSE'
+removed directory 'oauthlib-3.2.2.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.3Pjes8
++ umask 022
++ cd /builddir/build/BUILD
++ cd oauthlib-3.2.2
++ mkdir -p /builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/oauthlib-3.2.2/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/oauthlib-3.2.2
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11/pip-modern-metadata-_hq7p48_/oauthlib.egg-info
+  writing /builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11/pip-modern-metadata-_hq7p48_/oauthlib.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11/pip-modern-metadata-_hq7p48_/oauthlib.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11/pip-modern-metadata-_hq7p48_/oauthlib.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11/pip-modern-metadata-_hq7p48_/oauthlib.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11/pip-modern-metadata-_hq7p48_/oauthlib.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11/pip-modern-metadata-_hq7p48_/oauthlib.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11/pip-modern-metadata-_hq7p48_/oauthlib.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11/pip-modern-metadata-_hq7p48_/oauthlib-3.2.2.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: oauthlib
+  Building wheel for oauthlib (pyproject.toml): started
+  Running command Building wheel for oauthlib (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/oauthlib
+  copying oauthlib/__init__.py -> build/lib/oauthlib
+  copying oauthlib/common.py -> build/lib/oauthlib
+  copying oauthlib/signals.py -> build/lib/oauthlib
+  copying oauthlib/uri_validate.py -> build/lib/oauthlib
+  creating build/lib/oauthlib/oauth1
+  copying oauthlib/oauth1/__init__.py -> build/lib/oauthlib/oauth1
+  creating build/lib/oauthlib/oauth2
+  copying oauthlib/oauth2/__init__.py -> build/lib/oauthlib/oauth2
+  creating build/lib/oauthlib/openid
+  copying oauthlib/openid/__init__.py -> build/lib/oauthlib/openid
+  creating build/lib/oauthlib/oauth1/rfc5849
+  copying oauthlib/oauth1/rfc5849/__init__.py -> build/lib/oauthlib/oauth1/rfc5849
+  copying oauthlib/oauth1/rfc5849/errors.py -> build/lib/oauthlib/oauth1/rfc5849
+  copying oauthlib/oauth1/rfc5849/parameters.py -> build/lib/oauthlib/oauth1/rfc5849
+  copying oauthlib/oauth1/rfc5849/request_validator.py -> build/lib/oauthlib/oauth1/rfc5849
+  copying oauthlib/oauth1/rfc5849/signature.py -> build/lib/oauthlib/oauth1/rfc5849
+  copying oauthlib/oauth1/rfc5849/utils.py -> build/lib/oauthlib/oauth1/rfc5849
+  creating build/lib/oauthlib/oauth1/rfc5849/endpoints
+  copying oauthlib/oauth1/rfc5849/endpoints/__init__.py -> build/lib/oauthlib/oauth1/rfc5849/endpoints
+  copying oauthlib/oauth1/rfc5849/endpoints/access_token.py -> build/lib/oauthlib/oauth1/rfc5849/endpoints
+  copying oauthlib/oauth1/rfc5849/endpoints/authorization.py -> build/lib/oauthlib/oauth1/rfc5849/endpoints
+  copying oauthlib/oauth1/rfc5849/endpoints/base.py -> build/lib/oauthlib/oauth1/rfc5849/endpoints
+  copying oauthlib/oauth1/rfc5849/endpoints/pre_configured.py -> build/lib/oauthlib/oauth1/rfc5849/endpoints
+  copying oauthlib/oauth1/rfc5849/endpoints/request_token.py -> build/lib/oauthlib/oauth1/rfc5849/endpoints
+  copying oauthlib/oauth1/rfc5849/endpoints/resource.py -> build/lib/oauthlib/oauth1/rfc5849/endpoints
+  copying oauthlib/oauth1/rfc5849/endpoints/signature_only.py -> build/lib/oauthlib/oauth1/rfc5849/endpoints
+  creating build/lib/oauthlib/oauth2/rfc6749
+  copying oauthlib/oauth2/rfc6749/__init__.py -> build/lib/oauthlib/oauth2/rfc6749
+  copying oauthlib/oauth2/rfc6749/errors.py -> build/lib/oauthlib/oauth2/rfc6749
+  copying oauthlib/oauth2/rfc6749/parameters.py -> build/lib/oauthlib/oauth2/rfc6749
+  copying oauthlib/oauth2/rfc6749/request_validator.py -> build/lib/oauthlib/oauth2/rfc6749
+  copying oauthlib/oauth2/rfc6749/tokens.py -> build/lib/oauthlib/oauth2/rfc6749
+  copying oauthlib/oauth2/rfc6749/utils.py -> build/lib/oauthlib/oauth2/rfc6749
+  creating build/lib/oauthlib/oauth2/rfc8628
+  copying oauthlib/oauth2/rfc8628/__init__.py -> build/lib/oauthlib/oauth2/rfc8628
+  creating build/lib/oauthlib/oauth2/rfc6749/clients
+  copying oauthlib/oauth2/rfc6749/clients/__init__.py -> build/lib/oauthlib/oauth2/rfc6749/clients
+  copying oauthlib/oauth2/rfc6749/clients/backend_application.py -> build/lib/oauthlib/oauth2/rfc6749/clients
+  copying oauthlib/oauth2/rfc6749/clients/base.py -> build/lib/oauthlib/oauth2/rfc6749/clients
+  copying oauthlib/oauth2/rfc6749/clients/legacy_application.py -> build/lib/oauthlib/oauth2/rfc6749/clients
+  copying oauthlib/oauth2/rfc6749/clients/mobile_application.py -> build/lib/oauthlib/oauth2/rfc6749/clients
+  copying oauthlib/oauth2/rfc6749/clients/service_application.py -> build/lib/oauthlib/oauth2/rfc6749/clients
+  copying oauthlib/oauth2/rfc6749/clients/web_application.py -> build/lib/oauthlib/oauth2/rfc6749/clients
+  creating build/lib/oauthlib/oauth2/rfc6749/endpoints
+  copying oauthlib/oauth2/rfc6749/endpoints/__init__.py -> build/lib/oauthlib/oauth2/rfc6749/endpoints
+  copying oauthlib/oauth2/rfc6749/endpoints/authorization.py -> build/lib/oauthlib/oauth2/rfc6749/endpoints
+  copying oauthlib/oauth2/rfc6749/endpoints/base.py -> build/lib/oauthlib/oauth2/rfc6749/endpoints
+  copying oauthlib/oauth2/rfc6749/endpoints/introspect.py -> build/lib/oauthlib/oauth2/rfc6749/endpoints
+  copying oauthlib/oauth2/rfc6749/endpoints/metadata.py -> build/lib/oauthlib/oauth2/rfc6749/endpoints
+  copying oauthlib/oauth2/rfc6749/endpoints/pre_configured.py -> build/lib/oauthlib/oauth2/rfc6749/endpoints
+  copying oauthlib/oauth2/rfc6749/endpoints/resource.py -> build/lib/oauthlib/oauth2/rfc6749/endpoints
+  copying oauthlib/oauth2/rfc6749/endpoints/revocation.py -> build/lib/oauthlib/oauth2/rfc6749/endpoints
+  copying oauthlib/oauth2/rfc6749/endpoints/token.py -> build/lib/oauthlib/oauth2/rfc6749/endpoints
+  creating build/lib/oauthlib/oauth2/rfc6749/grant_types
+  copying oauthlib/oauth2/rfc6749/grant_types/__init__.py -> build/lib/oauthlib/oauth2/rfc6749/grant_types
+  copying oauthlib/oauth2/rfc6749/grant_types/authorization_code.py -> build/lib/oauthlib/oauth2/rfc6749/grant_types
+  copying oauthlib/oauth2/rfc6749/grant_types/base.py -> build/lib/oauthlib/oauth2/rfc6749/grant_types
+  copying oauthlib/oauth2/rfc6749/grant_types/client_credentials.py -> build/lib/oauthlib/oauth2/rfc6749/grant_types
+  copying oauthlib/oauth2/rfc6749/grant_types/implicit.py -> build/lib/oauthlib/oauth2/rfc6749/grant_types
+  copying oauthlib/oauth2/rfc6749/grant_types/refresh_token.py -> build/lib/oauthlib/oauth2/rfc6749/grant_types
+  copying oauthlib/oauth2/rfc6749/grant_types/resource_owner_password_credentials.py -> build/lib/oauthlib/oauth2/rfc6749/grant_types
+  creating build/lib/oauthlib/oauth2/rfc8628/clients
+  copying oauthlib/oauth2/rfc8628/clients/__init__.py -> build/lib/oauthlib/oauth2/rfc8628/clients
+  copying oauthlib/oauth2/rfc8628/clients/device.py -> build/lib/oauthlib/oauth2/rfc8628/clients
+  creating build/lib/oauthlib/openid/connect
+  copying oauthlib/openid/connect/__init__.py -> build/lib/oauthlib/openid/connect
+  creating build/lib/oauthlib/openid/connect/core
+  copying oauthlib/openid/connect/core/__init__.py -> build/lib/oauthlib/openid/connect/core
+  copying oauthlib/openid/connect/core/exceptions.py -> build/lib/oauthlib/openid/connect/core
+  copying oauthlib/openid/connect/core/request_validator.py -> build/lib/oauthlib/openid/connect/core
+  copying oauthlib/openid/connect/core/tokens.py -> build/lib/oauthlib/openid/connect/core
+  creating build/lib/oauthlib/openid/connect/core/endpoints
+  copying oauthlib/openid/connect/core/endpoints/__init__.py -> build/lib/oauthlib/openid/connect/core/endpoints
+  copying oauthlib/openid/connect/core/endpoints/pre_configured.py -> build/lib/oauthlib/openid/connect/core/endpoints
+  copying oauthlib/openid/connect/core/endpoints/userinfo.py -> build/lib/oauthlib/openid/connect/core/endpoints
+  creating build/lib/oauthlib/openid/connect/core/grant_types
+  copying oauthlib/openid/connect/core/grant_types/__init__.py -> build/lib/oauthlib/openid/connect/core/grant_types
+  copying oauthlib/openid/connect/core/grant_types/authorization_code.py -> build/lib/oauthlib/openid/connect/core/grant_types
+  copying oauthlib/openid/connect/core/grant_types/base.py -> build/lib/oauthlib/openid/connect/core/grant_types
+  copying oauthlib/openid/connect/core/grant_types/dispatchers.py -> build/lib/oauthlib/openid/connect/core/grant_types
+  copying oauthlib/openid/connect/core/grant_types/hybrid.py -> build/lib/oauthlib/openid/connect/core/grant_types
+  copying oauthlib/openid/connect/core/grant_types/implicit.py -> build/lib/oauthlib/openid/connect/core/grant_types
+  copying oauthlib/openid/connect/core/grant_types/refresh_token.py -> build/lib/oauthlib/openid/connect/core/grant_types
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/oauthlib
+  copying build/lib/oauthlib/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib
+  copying build/lib/oauthlib/common.py -> build/bdist.linux-x86_64/wheel/oauthlib
+  copying build/lib/oauthlib/signals.py -> build/bdist.linux-x86_64/wheel/oauthlib
+  copying build/lib/oauthlib/uri_validate.py -> build/bdist.linux-x86_64/wheel/oauthlib
+  creating build/bdist.linux-x86_64/wheel/oauthlib/oauth1
+  copying build/lib/oauthlib/oauth1/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1
+  creating build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849
+  copying build/lib/oauthlib/oauth1/rfc5849/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849
+  copying build/lib/oauthlib/oauth1/rfc5849/errors.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849
+  copying build/lib/oauthlib/oauth1/rfc5849/parameters.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849
+  copying build/lib/oauthlib/oauth1/rfc5849/request_validator.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849
+  copying build/lib/oauthlib/oauth1/rfc5849/signature.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849
+  copying build/lib/oauthlib/oauth1/rfc5849/utils.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849
+  creating build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849/endpoints
+  copying build/lib/oauthlib/oauth1/rfc5849/endpoints/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849/endpoints
+  copying build/lib/oauthlib/oauth1/rfc5849/endpoints/access_token.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849/endpoints
+  copying build/lib/oauthlib/oauth1/rfc5849/endpoints/authorization.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849/endpoints
+  copying build/lib/oauthlib/oauth1/rfc5849/endpoints/base.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849/endpoints
+  copying build/lib/oauthlib/oauth1/rfc5849/endpoints/pre_configured.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849/endpoints
+  copying build/lib/oauthlib/oauth1/rfc5849/endpoints/request_token.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849/endpoints
+  copying build/lib/oauthlib/oauth1/rfc5849/endpoints/resource.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849/endpoints
+  copying build/lib/oauthlib/oauth1/rfc5849/endpoints/signature_only.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth1/rfc5849/endpoints
+  creating build/bdist.linux-x86_64/wheel/oauthlib/oauth2
+  copying build/lib/oauthlib/oauth2/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2
+  creating build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749
+  copying build/lib/oauthlib/oauth2/rfc6749/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749
+  copying build/lib/oauthlib/oauth2/rfc6749/errors.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749
+  copying build/lib/oauthlib/oauth2/rfc6749/parameters.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749
+  copying build/lib/oauthlib/oauth2/rfc6749/request_validator.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749
+  copying build/lib/oauthlib/oauth2/rfc6749/tokens.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749
+  copying build/lib/oauthlib/oauth2/rfc6749/utils.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749
+  creating build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/clients
+  copying build/lib/oauthlib/oauth2/rfc6749/clients/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/clients
+  copying build/lib/oauthlib/oauth2/rfc6749/clients/backend_application.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/clients
+  copying build/lib/oauthlib/oauth2/rfc6749/clients/base.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/clients
+  copying build/lib/oauthlib/oauth2/rfc6749/clients/legacy_application.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/clients
+  copying build/lib/oauthlib/oauth2/rfc6749/clients/mobile_application.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/clients
+  copying build/lib/oauthlib/oauth2/rfc6749/clients/service_application.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/clients
+  copying build/lib/oauthlib/oauth2/rfc6749/clients/web_application.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/clients
+  creating build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/endpoints
+  copying build/lib/oauthlib/oauth2/rfc6749/endpoints/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/endpoints
+  copying build/lib/oauthlib/oauth2/rfc6749/endpoints/authorization.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/endpoints
+  copying build/lib/oauthlib/oauth2/rfc6749/endpoints/base.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/endpoints
+  copying build/lib/oauthlib/oauth2/rfc6749/endpoints/introspect.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/endpoints
+  copying build/lib/oauthlib/oauth2/rfc6749/endpoints/metadata.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/endpoints
+  copying build/lib/oauthlib/oauth2/rfc6749/endpoints/pre_configured.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/endpoints
+  copying build/lib/oauthlib/oauth2/rfc6749/endpoints/resource.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/endpoints
+  copying build/lib/oauthlib/oauth2/rfc6749/endpoints/revocation.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/endpoints
+  copying build/lib/oauthlib/oauth2/rfc6749/endpoints/token.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/endpoints
+  creating build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/grant_types
+  copying build/lib/oauthlib/oauth2/rfc6749/grant_types/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/grant_types
+  copying build/lib/oauthlib/oauth2/rfc6749/grant_types/authorization_code.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/grant_types
+  copying build/lib/oauthlib/oauth2/rfc6749/grant_types/base.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/grant_types
+  copying build/lib/oauthlib/oauth2/rfc6749/grant_types/client_credentials.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/grant_types
+  copying build/lib/oauthlib/oauth2/rfc6749/grant_types/implicit.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/grant_types
+  copying build/lib/oauthlib/oauth2/rfc6749/grant_types/refresh_token.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/grant_types
+  copying build/lib/oauthlib/oauth2/rfc6749/grant_types/resource_owner_password_credentials.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc6749/grant_types
+  creating build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc8628
+  copying build/lib/oauthlib/oauth2/rfc8628/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc8628
+  creating build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc8628/clients
+  copying build/lib/oauthlib/oauth2/rfc8628/clients/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc8628/clients
+  copying build/lib/oauthlib/oauth2/rfc8628/clients/device.py -> build/bdist.linux-x86_64/wheel/oauthlib/oauth2/rfc8628/clients
+  creating build/bdist.linux-x86_64/wheel/oauthlib/openid
+  copying build/lib/oauthlib/openid/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid
+  creating build/bdist.linux-x86_64/wheel/oauthlib/openid/connect
+  copying build/lib/oauthlib/openid/connect/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect
+  creating build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core
+  copying build/lib/oauthlib/openid/connect/core/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core
+  copying build/lib/oauthlib/openid/connect/core/exceptions.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core
+  copying build/lib/oauthlib/openid/connect/core/request_validator.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core
+  copying build/lib/oauthlib/openid/connect/core/tokens.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core
+  creating build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/endpoints
+  copying build/lib/oauthlib/openid/connect/core/endpoints/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/endpoints
+  copying build/lib/oauthlib/openid/connect/core/endpoints/pre_configured.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/endpoints
+  copying build/lib/oauthlib/openid/connect/core/endpoints/userinfo.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/endpoints
+  creating build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/grant_types
+  copying build/lib/oauthlib/openid/connect/core/grant_types/__init__.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/grant_types
+  copying build/lib/oauthlib/openid/connect/core/grant_types/authorization_code.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/grant_types
+  copying build/lib/oauthlib/openid/connect/core/grant_types/base.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/grant_types
+  copying build/lib/oauthlib/openid/connect/core/grant_types/dispatchers.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/grant_types
+  copying build/lib/oauthlib/openid/connect/core/grant_types/hybrid.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/grant_types
+  copying build/lib/oauthlib/openid/connect/core/grant_types/implicit.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/grant_types
+  copying build/lib/oauthlib/openid/connect/core/grant_types/refresh_token.py -> build/bdist.linux-x86_64/wheel/oauthlib/openid/connect/core/grant_types
+  running install_egg_info
+  running egg_info
+  writing oauthlib.egg-info/PKG-INFO
+  writing dependency_links to oauthlib.egg-info/dependency_links.txt
+  writing requirements to oauthlib.egg-info/requires.txt
+  writing top-level names to oauthlib.egg-info/top_level.txt
+  reading manifest file 'oauthlib.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'oauthlib.egg-info/SOURCES.txt'
+  Copying oauthlib.egg-info to build/bdist.linux-x86_64/wheel/oauthlib-3.2.2-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/oauthlib-3.2.2.dist-info/WHEEL
+  creating '/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11/pip-wheel-u0ta1fmr/.tmp-hhmd5_d4/oauthlib-3.2.2-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'oauthlib/__init__.py'
+  adding 'oauthlib/common.py'
+  adding 'oauthlib/signals.py'
+  adding 'oauthlib/uri_validate.py'
+  adding 'oauthlib/oauth1/__init__.py'
+  adding 'oauthlib/oauth1/rfc5849/__init__.py'
+  adding 'oauthlib/oauth1/rfc5849/errors.py'
+  adding 'oauthlib/oauth1/rfc5849/parameters.py'
+  adding 'oauthlib/oauth1/rfc5849/request_validator.py'
+  adding 'oauthlib/oauth1/rfc5849/signature.py'
+  adding 'oauthlib/oauth1/rfc5849/utils.py'
+  adding 'oauthlib/oauth1/rfc5849/endpoints/__init__.py'
+  adding 'oauthlib/oauth1/rfc5849/endpoints/access_token.py'
+  adding 'oauthlib/oauth1/rfc5849/endpoints/authorization.py'
+  adding 'oauthlib/oauth1/rfc5849/endpoints/base.py'
+  adding 'oauthlib/oauth1/rfc5849/endpoints/pre_configured.py'
+  adding 'oauthlib/oauth1/rfc5849/endpoints/request_token.py'
+  adding 'oauthlib/oauth1/rfc5849/endpoints/resource.py'
+  adding 'oauthlib/oauth1/rfc5849/endpoints/signature_only.py'
+  adding 'oauthlib/oauth2/__init__.py'
+  adding 'oauthlib/oauth2/rfc6749/__init__.py'
+  adding 'oauthlib/oauth2/rfc6749/errors.py'
+  adding 'oauthlib/oauth2/rfc6749/parameters.py'
+  adding 'oauthlib/oauth2/rfc6749/request_validator.py'
+  adding 'oauthlib/oauth2/rfc6749/tokens.py'
+  adding 'oauthlib/oauth2/rfc6749/utils.py'
+  adding 'oauthlib/oauth2/rfc6749/clients/__init__.py'
+  adding 'oauthlib/oauth2/rfc6749/clients/backend_application.py'
+  adding 'oauthlib/oauth2/rfc6749/clients/base.py'
+  adding 'oauthlib/oauth2/rfc6749/clients/legacy_application.py'
+  adding 'oauthlib/oauth2/rfc6749/clients/mobile_application.py'
+  adding 'oauthlib/oauth2/rfc6749/clients/service_application.py'
+  adding 'oauthlib/oauth2/rfc6749/clients/web_application.py'
+  adding 'oauthlib/oauth2/rfc6749/endpoints/__init__.py'
+  adding 'oauthlib/oauth2/rfc6749/endpoints/authorization.py'
+  adding 'oauthlib/oauth2/rfc6749/endpoints/base.py'
+  adding 'oauthlib/oauth2/rfc6749/endpoints/introspect.py'
+  adding 'oauthlib/oauth2/rfc6749/endpoints/metadata.py'
+  adding 'oauthlib/oauth2/rfc6749/endpoints/pre_configured.py'
+  adding 'oauthlib/oauth2/rfc6749/endpoints/resource.py'
+  adding 'oauthlib/oauth2/rfc6749/endpoints/revocation.py'
+  adding 'oauthlib/oauth2/rfc6749/endpoints/token.py'
+  adding 'oauthlib/oauth2/rfc6749/grant_types/__init__.py'
+  adding 'oauthlib/oauth2/rfc6749/grant_types/authorization_code.py'
+  adding 'oauthlib/oauth2/rfc6749/grant_types/base.py'
+  adding 'oauthlib/oauth2/rfc6749/grant_types/client_credentials.py'
+  adding 'oauthlib/oauth2/rfc6749/grant_types/implicit.py'
+  adding 'oauthlib/oauth2/rfc6749/grant_types/refresh_token.py'
+  adding 'oauthlib/oauth2/rfc6749/grant_types/resource_owner_password_credentials.py'
+  adding 'oauthlib/oauth2/rfc8628/__init__.py'
+  adding 'oauthlib/oauth2/rfc8628/clients/__init__.py'
+  adding 'oauthlib/oauth2/rfc8628/clients/device.py'
+  adding 'oauthlib/openid/__init__.py'
+  adding 'oauthlib/openid/connect/__init__.py'
+  adding 'oauthlib/openid/connect/core/__init__.py'
+  adding 'oauthlib/openid/connect/core/exceptions.py'
+  adding 'oauthlib/openid/connect/core/request_validator.py'
+  adding 'oauthlib/openid/connect/core/tokens.py'
+  adding 'oauthlib/openid/connect/core/endpoints/__init__.py'
+  adding 'oauthlib/openid/connect/core/endpoints/pre_configured.py'
+  adding 'oauthlib/openid/connect/core/endpoints/userinfo.py'
+  adding 'oauthlib/openid/connect/core/grant_types/__init__.py'
+  adding 'oauthlib/openid/connect/core/grant_types/authorization_code.py'
+  adding 'oauthlib/openid/connect/core/grant_types/base.py'
+  adding 'oauthlib/openid/connect/core/grant_types/dispatchers.py'
+  adding 'oauthlib/openid/connect/core/grant_types/hybrid.py'
+  adding 'oauthlib/openid/connect/core/grant_types/implicit.py'
+  adding 'oauthlib/openid/connect/core/grant_types/refresh_token.py'
+  adding 'oauthlib-3.2.2.dist-info/LICENSE'
+  adding 'oauthlib-3.2.2.dist-info/METADATA'
+  adding 'oauthlib-3.2.2.dist-info/WHEEL'
+  adding 'oauthlib-3.2.2.dist-info/top_level.txt'
+  adding 'oauthlib-3.2.2.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for oauthlib (pyproject.toml): finished with status 'done'
+  Created wheel for oauthlib: filename=oauthlib-3.2.2-py3-none-any.whl size=151688 sha256=8608ad95851072b4d196020bd4c86098272b150d21aaef70e81ce60dba5feea9
+  Stored in directory: /builddir/.cache/pip/wheels/73/d5/51/c86539178aac6ce25692dd282c9eda36bbaffdaea039719838
+Successfully built oauthlib
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.5qpUPi
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64
++ cd oauthlib-3.2.2
+++ xargs basename --multiple
+++ ls /builddir/build/BUILD/oauthlib-3.2.2/pyproject-wheeldir-3.11/oauthlib-3.2.2-py3-none-any.whl
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=oauthlib==3.2.2
++ '[' -z oauthlib==3.2.2 ']'
++ TMPDIR=/builddir/build/BUILD/oauthlib-3.2.2/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/oauthlib-3.2.2/pyproject-wheeldir-3.11 oauthlib==3.2.2
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/oauthlib-3.2.2/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/oauthlib-3.2.2-py3-none-any.whl
+Installing collected packages: oauthlib
+Successfully installed oauthlib-3.2.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/oauthlib-3.2.2.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib/python3.11/site-packages/oauthlib-3.2.2.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib/python3.11/site-packages/oauthlib-3.2.2.dist-info/RECORD --output /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib/python3.11/site-packages/oauthlib-3.2.2.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib/python3.11/site-packages/oauthlib-3.2.2.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib/python3.11/site-packages/oauthlib-3.2.2.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib/python3.11/site-packages/oauthlib-3.2.2.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-oauthlib-3.2.2-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 3.2.2-1.el9 --unique-debug-suffix -3.2.2-1.el9.x86_64 --unique-debug-src-base python-oauthlib-3.2.2-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/oauthlib-3.2.2
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-oauthlib-3.2.2-1.el9.noarch
+Provides: python3.11-oauthlib = 3.2.2-1.el9 python3.11dist(oauthlib) = 3.2.2
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11
+Processing files: python3.11-oauthlib+signedtoken-3.2.2-1.el9.noarch
+Provides: python3.11-oauthlib+signedtoken = 3.2.2-1.el9 python3.11dist(oauthlib[signedtoken]) = 3.2.2
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: (python3.11dist(pyjwt) < 3 with python3.11dist(pyjwt) >= 2) python(abi) = 3.11 python3.11dist(cryptography) >= 3
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-oauthlib-3.2.2-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-oauthlib-3.2.2-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-oauthlib+signedtoken-3.2.2-1.el9.noarch.rpm
+Wrote: /builddir/build/RPMS/python3.11-oauthlib-3.2.2-1.el9.noarch.rpm
+Finish: rpmbuild python-oauthlib-3.2.2-1.el9.src.rpm
+Finish: build phase for python-oauthlib-3.2.2-1.el9.src.rpm
+INFO: Done(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-oauthlib-3.2.2-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 29 seconds
+INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 68 packages
+Directory walk done - 71 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
