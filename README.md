@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatchling-1.24.2-1.el9.src.rpm
+The lastest package built was python-hatch-vcs-0.4.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 12:18:05 AM CEST 2024
+The build completed at Sat Jun  1 12:18:31 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-hatchling-1.24.2-1.el9.src.rpm.log)
+[Build Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
