@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-djangorestframework-3.15.1-1.el9.src.rpm
+The lastest package built was python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm
 
-The build completed at Sat Jun  1 01:13:23 AM CEST 2024
+The build completed at Sat Jun  1 01:13:52 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-djangorestframework-3.15.1-1.el9.src.rpm.log)
+[Build Log](logs/python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -102,8 +102,9 @@ python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.
 python3.11-tzdata-2023.3-1.el9 | python-tzdata-2023.3-1.el9.src.rpm | Built | [Log](logs/python-tzdata-2023.3-1.el9.src.rpm.log)
 python3.11-uritemplate-4.1.1-1.el9 | python-uritemplate-4.1.1-1.el9.src.rpm | Built | [Log](logs/python-uritemplate-4.1.1-1.el9.src.rpm.log)
 python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | Built | [Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
+python3.11-versioneer-0.29-1.el9 | python-versioneer-0.29-1.el9.src.rpm | **Missing** |
 python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-websocket-client-1.7.0-1.el9.src.rpm.log)
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-96 total packages, 62 packages built successfully, 34 packages left to fix
+97 total packages, 62 packages built successfully, 35 packages left to fix
