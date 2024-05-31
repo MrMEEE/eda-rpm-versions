@@ -18,3 +18,4 @@ babel
 social-auth-core
 pathspec
 trove-classifiers
+mypy
