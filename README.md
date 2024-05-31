@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-colorama-0.4.6-1.el9.src.rpm
+The lastest package built was python-constantly-23.10.4-1.el9.src.rpm
 
-The build completed at Sat Jun  1 12:28:43 AM CEST 2024
+The build completed at Sat Jun  1 12:29:11 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-colorama-0.4.6-1.el9.src.rpm.log)
+[Build Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
