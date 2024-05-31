@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      5.4 MB/s |  73 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           80 kB/s |  17 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      9.5 MB/s |  75 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          161 kB/s |  17 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                                Architecture      Version                    Repository                    Size
@@ -171,13 +171,13 @@ Start: rpmbuild python-jsonschema-4.21.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.pgb2Di
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.uIl7wn
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf jsonschema-4.21.1
-+ /usr/bin/tar -xof -
 + /usr/bin/gzip -dc /builddir/build/SOURCES/jsonschema-4.21.1.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd jsonschema-4.21.1
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.pgb2Di
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.hk8sc6
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.nL6Bqr
 + umask 022
 + cd /builddir/build/BUILD
 + cd jsonschema-4.21.1
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           41 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - 100% [========================================]  56 kB/s |  17 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                           27 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -263,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.2BG55v
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5OYSRp
 + umask 022
 + cd /builddir/build/BUILD
 + cd jsonschema-4.21.1
@@ -304,26 +304,24 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS       100% [========================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                        11 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Lin100% [========================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       14 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          197 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           40 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 No matching package to install: 'python3.11dist(hatch-fancy-pypi-readme)'
-No matching package to install: 'python3.11dist(hatch-vcs)'
-No matching package to install: 'python3.11dist(hatchling)'
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Not all dependencies satisfied
 Error: Some packages could not be found.
 Finish: rpmbuild python-jsonschema-4.21.1-1.el9.src.rpm
 Finish: build phase for python-jsonschema-4.21.1-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-jsonschema-4.21.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 18 seconds
+ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-jsonschema-4.21.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 21 seconds
 INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 4d2ab7c54bd94ae7adae75797b2558ec -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.95l9mehj:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-jsonschema-4.21.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 70b3fc72567d46808a64e21ef1da0bfd -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.x4ppd_x9:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-jsonschema-4.21.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -331,23 +329,21 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        11 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       14 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                          197 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                       16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                           40 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 No matching package to install: 'python3.11dist(hatch-fancy-pypi-readme)'
-No matching package to install: 'python3.11dist(hatch-vcs)'
-No matching package to install: 'python3.11dist(hatchling)'
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Not all dependencies satisfied
 Error: Some packages could not be found.
 
 Directory walk started
-Directory walk done - 80 packages
+Directory walk done - 83 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
