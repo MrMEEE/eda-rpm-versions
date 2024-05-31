@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-attrs-23.2.0-1.el9.src.rpm
+The lastest package built was python-bcrypt-4.1.3-1.el9.src.rpm
 
-The build completed at Fri May 31 11:51:24 PM CEST 2024
+The build completed at Fri May 31 11:52:06 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-bcrypt-4.1.3-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -16,7 +16,7 @@ python3.11-async-timeout-4.0.3-1.el9 | python-async-timeout-4.0.3-1.el9.src.rpm 
 python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
 python3.11-autobahn-23.6.2-1.el9 | python-autobahn-23.6.2-1.el9.src.rpm | Built | [Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
 python3.11-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
-python3.11-bcrypt-4.1.3-1.el9 | python-bcrypt-4.1.3-1.el9.src.rpm | **Missing** |
+python3.11-bcrypt-4.1.3-1.el9 | python-bcrypt-4.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-bcrypt-4.1.3-1.el9.src.rpm.log)
 python3.11-blinker-1.8.2-1.el9 | python-blinker-1.8.2-1.el9.src.rpm | **Missing** |
 python3.11-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.3.2-1.el9.src.rpm.log)
 python3.11-certifi-2023.7.22-1.el9 | python-certifi-2023.7.22-1.el9.src.rpm | Built | [Log](logs/python-certifi-2023.7.22-1.el9.src.rpm.log)
