@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-social-auth-app-django-5.4.0-1.el9.src.rpm
+The lastest package built was python-social-auth-core-4.4.2-1.el9.src.rpm
 
-The build completed at Sat Jun  1 12:05:42 AM CEST 2024
+The build completed at Sat Jun  1 12:06:19 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
+[Build Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -86,7 +86,7 @@ python3.11-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | Bu
 python3.11-setuptools_scm-8.0.4-1.el9 | python-setuptools_scm-8.0.4-1.el9.src.rpm | Built | [Log](logs/python-setuptools_scm-8.0.4-1.el9.src.rpm.log)
 python3.11-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | Built | [Log](logs/python-six-1.16.0-1.el9.src.rpm.log)
 python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
-python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
+python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | Built | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
 python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
@@ -102,4 +102,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-92 total packages, 55 packages built successfully, 37 packages left to fix
+92 total packages, 56 packages built successfully, 36 packages left to fix
