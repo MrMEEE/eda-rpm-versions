@@ -19,3 +19,4 @@ social-auth-core
 pathspec
 trove-classifiers
 mypy
+calver
