@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-bcrypt-4.1.3-1.el9.src.rpm
+The lastest package built was python-calver-2022.6.26-1.el9.src.rpm
 
-The build completed at Sat Jun  1 12:52:36 AM CEST 2024
+The build completed at Sat Jun  1 12:53:11 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-bcrypt-4.1.3-1.el9.src.rpm.log)
+[Build Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -20,7 +20,7 @@ python3.11-babel-2.15.0-1.el9 | python-babel-2.15.0-1.el9.src.rpm | Built | [Log
 python3.11-bcrypt-4.1.3-1.el9 | python-bcrypt-4.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-bcrypt-4.1.3-1.el9.src.rpm.log)
 python3.11-blinker-1.8.2-1.el9 | python-blinker-1.8.2-1.el9.src.rpm | Built | [Log](logs/python-blinker-1.8.2-1.el9.src.rpm.log)
 python3.11-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.3.2-1.el9.src.rpm.log)
-python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | **Missing** |
+python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python3.11-certifi-2023.7.22-1.el9 | python-certifi-2023.7.22-1.el9.src.rpm | Built | [Log](logs/python-certifi-2023.7.22-1.el9.src.rpm.log)
 python3.11-cffi-1.16.0-1.el9 | python-cffi-1.16.0-1.el9.src.rpm | Built | [Log](logs/python-cffi-1.16.0-1.el9.src.rpm.log)
 python3.11-channels-3.0.5-1.el9 | python-channels-3.0.5-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-3.0.5-1.el9.src.rpm.log)
@@ -103,4 +103,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-93 total packages, 60 packages built successfully, 33 packages left to fix
+93 total packages, 61 packages built successfully, 32 packages left to fix
