@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rsa-4.9-1.el9.src.rpm
+The lastest package built was python-service-identity-24.1.0-1.el9.src.rpm
 
-The build completed at Fri May 31 12:12:10 PM CEST 2024
+The build completed at Fri May 31 12:12:35 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
+[Build Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
