@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      7.6 MB/s |  51 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      8.4 MB/s |  57 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        19 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           33 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          150 kB/s |  17 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                                Architecture      Version                    Repository                    Size
@@ -171,13 +171,13 @@ Start: rpmbuild python-automat-22.10.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717113600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.okXbO7
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.N4caFC
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf Automat-22.10.0
-+ /usr/bin/tar -xof -
 + /usr/bin/gzip -dc /builddir/build/SOURCES/Automat-22.10.0.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd Automat-22.10.0
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.okXbO7
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.csICNi
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QZ2PYR
 + umask 022
 + cd /builddir/build/BUILD
 + cd Automat-22.10.0
@@ -222,10 +222,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          136 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       10 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          186 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -273,7 +273,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717113600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.gXco5F
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.lpi8bY
 + umask 022
 + cd /builddir/build/BUILD
 + cd Automat-22.10.0
@@ -324,50 +324,541 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream    100% [========================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                     15 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - 100% [========================================]  54 kB/s |  17 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                           27 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream    100% [========================================] 7.8 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                    7.8 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          150 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(setuptools-scm)'
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-automat-22.10.0-1.el9.src.rpm
-Finish: build phase for python-automat-22.10.0-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-automat-22.10.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 21 seconds
-INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 810c4910d97743e1a32978ca12f31984 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.ex1lnrbi:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-automat-22.10.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+========================================================================================================================
+ Package                              Architecture   Version              Repository                               Size
+========================================================================================================================
+Installing:
+ [1mpython3.11-setuptools_scm           [m noarch         8.0.4-1.el9          _opt_edarpm_rpmbuilds_010_RPMS_          98 k
+Installing dependencies:
+ [1mpython3.11-typing-extensions        [m noarch         4.9.0-1.el9          _opt_edarpm_rpmbuilds_010_RPMS_          72 k
+
+Transaction Summary
+========================================================================================================================
+Install  2 Packages
+
+Total size: 170 k
+Installed size: 708 k
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [=============================================                                              ] 1/1  Preparing        :                                                                                                1/1 
+  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [                                              ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [===                                           ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [=======                                       ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [===========                                   ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [===============                               ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [==================                            ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [=======================                       ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [==========================                    ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [==============================                ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [================================              ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [====================================          ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [========================================      ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [============================================  ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [============================================= ] 1/2  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch                                                1/2 
+  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [                                               ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=                                              ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==                                             ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===                                            ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [====                                           ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=======                                        ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [========                                       ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========                                      ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===========                                    ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [============                                   ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=============                                  ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===============                                ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==================                             ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===================                            ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [====================                           ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=====================                          ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [======================                         ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=======================                        ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [========================                       ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========================                      ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==========================                     ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===========================                    ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [============================                   ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=============================                  ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==============================                 ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===============================                ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [================================               ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=================================              ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==================================             ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===================================            ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [====================================           ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [======================================         ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=======================================        ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [========================================       ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========================================      ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===========================================    ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [============================================   ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=============================================  ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [============================================== ] 2/2  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch                                                   2/2 
+  Running scriptlet: python3.11-setuptools_scm-8.0.4-1.el9.noarch                                                   2/2 
+  Verifying        : python3.11-setuptools_scm-8.0.4-1.el9.noarch                                                   1/2 
+  Verifying        : python3.11-typing-extensions-4.9.0-1.el9.noarch                                                2/2 
+Installed products updated.
+
+Installed:
+  python3.11-setuptools_scm-8.0.4-1.el9.noarch              python3.11-typing-extensions-4.9.0-1.el9.noarch             
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717113600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.1ewgHE
++ umask 022
++ cd /builddir/build/BUILD
++ cd Automat-22.10.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/Automat-22.10.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling setuptools-scm from get_requires_for_build_wheel
+Requirement satisfied: setuptools-scm
+   (installed: setuptools-scm 8.0.4)
+/usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'readme'
+  warnings.warn(msg)
+WARNING setuptools_scm.pyproject_reading toml section missing 'pyproject.toml does not contain a tool.setuptools_scm section'
+running dist_info
+writing Automat.egg-info/PKG-INFO
+writing dependency_links to Automat.egg-info/dependency_links.txt
+writing entry points to Automat.egg-info/entry_points.txt
+writing requirements to Automat.egg-info/requires.txt
+writing top-level names to Automat.egg-info/top_level.txt
+reading manifest file 'Automat.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'Automat.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/Automat-22.10.0/Automat-22.10.0.dist-info'
+Handling attrs (>=19.2.0) from hook generated metadata: Requires-Dist (Automat)
+Requirement not satisfied: attrs (>=19.2.0)
+Handling six from hook generated metadata: Requires-Dist (Automat)
+Requirement not satisfied: six
+Handling graphviz (>0.5.1) ; extra == 'visualize' from hook generated metadata: Requires-Dist (Automat)
+Ignoring alien requirement: graphviz (>0.5.1) ; extra == 'visualize'
+Handling Twisted (>=16.1.1) ; extra == 'visualize' from hook generated metadata: Requires-Dist (Automat)
+Ignoring alien requirement: Twisted (>=16.1.1) ; extra == 'visualize'
++ cat /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv Automat-22.10.0.dist-info/
+removed 'Automat-22.10.0.dist-info/entry_points.txt'
+removed 'Automat-22.10.0.dist-info/top_level.txt'
+removed 'Automat-22.10.0.dist-info/METADATA'
+removed 'Automat-22.10.0.dist-info/LICENSE'
+removed directory 'Automat-22.10.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-automat-22.10.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     15 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                           27 kB/s |  17 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           76 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(setuptools-scm)'
+Package python3.11-setuptools_scm-8.0.4-1.el9.noarch is already installed.
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Dependencies resolved.
+========================================================================================================================
+ Package                     Architecture      Version                 Repository                                  Size
+========================================================================================================================
+Installing:
+ [1mpython3.11-attrs           [m noarch            22.1.0-1.el9            codeready-builder                          128 k
+ [1mpython3.11-six             [m noarch            1.16.0-1.el9            _opt_edarpm_rpmbuilds_010_RPMS_             33 k
 
+Transaction Summary
+========================================================================================================================
+Install  2 Packages
+
+Total size: 161 k
+Total download size: 128 k
+Installed size: 458 k
+Downloading Packages:
+python3.11-attrs-22.1.0-1.el9.noarch.rpm  0% [                                        ] ---  B/s |   0  B     --:-- ETApython3.11-attrs-22.1.0-1.el9.noarch.rpm                                                419 kB/s | 128 kB     00:00    
+------------------------------------------------------------------------------------------------------------------------
+Total                                                                                   418 kB/s | 128 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [=============================================                                              ] 1/1  Preparing        :                                                                                                1/1 
+  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [                                                       ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [==                                                     ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [===                                                    ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [=====                                                  ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [==========                                             ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [==============                                         ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [===================                                    ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [====================                                   ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [=====================                                  ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [======================                                 ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [========================                               ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [=========================                              ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [==========================                             ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [===========================                            ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [============================                           ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [=============================                          ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [==============================                         ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [================================                       ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [====================================                   ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [=========================================              ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [==============================================         ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [===============================================        ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [================================================       ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [=================================================      ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [==================================================     ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [=====================================================  ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch [====================================================== ] 1/2  Installing       : python3.11-attrs-22.1.0-1.el9.noarch                                                           1/2 
+  Installing       : python3.11-six-1.16.0-1.el9.noarch [                                                         ] 2/2  Installing       : python3.11-six-1.16.0-1.el9.noarch [==                                                       ] 2/2  Installing       : python3.11-six-1.16.0-1.el9.noarch [========================                                 ] 2/2  Installing       : python3.11-six-1.16.0-1.el9.noarch [=========================                                ] 2/2  Installing       : python3.11-six-1.16.0-1.el9.noarch [===============================================          ] 2/2  Installing       : python3.11-six-1.16.0-1.el9.noarch [======================================================== ] 2/2  Installing       : python3.11-six-1.16.0-1.el9.noarch                                                             2/2 
+  Running scriptlet: python3.11-six-1.16.0-1.el9.noarch                                                             2/2 
+  Verifying        : python3.11-six-1.16.0-1.el9.noarch                                                             1/2 
+  Verifying        : python3.11-attrs-22.1.0-1.el9.noarch                                                           2/2 
+Installed products updated.
+
+Installed:
+  python3.11-attrs-22.1.0-1.el9.noarch                        python3.11-six-1.16.0-1.el9.noarch                       
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717113600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.L0q66V
++ umask 022
++ cd /builddir/build/BUILD
++ cd Automat-22.10.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/Automat-22.10.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling setuptools-scm from get_requires_for_build_wheel
+Requirement satisfied: setuptools-scm
+   (installed: setuptools-scm 8.0.4)
+/usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'readme'
+  warnings.warn(msg)
+WARNING setuptools_scm.pyproject_reading toml section missing 'pyproject.toml does not contain a tool.setuptools_scm section'
+running dist_info
+writing Automat.egg-info/PKG-INFO
+writing dependency_links to Automat.egg-info/dependency_links.txt
+writing entry points to Automat.egg-info/entry_points.txt
+writing requirements to Automat.egg-info/requires.txt
+writing top-level names to Automat.egg-info/top_level.txt
+reading manifest file 'Automat.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'Automat.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/Automat-22.10.0/Automat-22.10.0.dist-info'
+Handling attrs (>=19.2.0) from hook generated metadata: Requires-Dist (Automat)
+Requirement satisfied: attrs (>=19.2.0)
+   (installed: attrs 22.1.0)
+Handling six from hook generated metadata: Requires-Dist (Automat)
+Requirement satisfied: six
+   (installed: six 1.16.0)
+Handling graphviz (>0.5.1) ; extra == 'visualize' from hook generated metadata: Requires-Dist (Automat)
+Ignoring alien requirement: graphviz (>0.5.1) ; extra == 'visualize'
+Handling Twisted (>=16.1.1) ; extra == 'visualize' from hook generated metadata: Requires-Dist (Automat)
+Ignoring alien requirement: Twisted (>=16.1.1) ; extra == 'visualize'
++ cat /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv Automat-22.10.0.dist-info/
+removed 'Automat-22.10.0.dist-info/entry_points.txt'
+removed 'Automat-22.10.0.dist-info/top_level.txt'
+removed 'Automat-22.10.0.dist-info/METADATA'
+removed 'Automat-22.10.0.dist-info/LICENSE'
+removed directory 'Automat-22.10.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-automat-22.10.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          120 kB/s |  17 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-attrs-22.1.0-1.el9.noarch is already installed.
+Package python3.11-packaging-23.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3.11-setuptools_scm-8.0.4-1.el9.noarch is already installed.
+Package python3.11-six-1.16.0-1.el9.noarch is already installed.
+Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717113600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.yHSULw
++ umask 022
++ cd /builddir/build/BUILD
++ cd Automat-22.10.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/Automat-22.10.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling setuptools-scm from get_requires_for_build_wheel
+Requirement satisfied: setuptools-scm
+   (installed: setuptools-scm 8.0.4)
+/usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'readme'
+  warnings.warn(msg)
+WARNING setuptools_scm.pyproject_reading toml section missing 'pyproject.toml does not contain a tool.setuptools_scm section'
+running dist_info
+writing Automat.egg-info/PKG-INFO
+writing dependency_links to Automat.egg-info/dependency_links.txt
+writing entry points to Automat.egg-info/entry_points.txt
+writing requirements to Automat.egg-info/requires.txt
+writing top-level names to Automat.egg-info/top_level.txt
+reading manifest file 'Automat.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'Automat.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/Automat-22.10.0/Automat-22.10.0.dist-info'
+Handling attrs (>=19.2.0) from hook generated metadata: Requires-Dist (Automat)
+Requirement satisfied: attrs (>=19.2.0)
+   (installed: attrs 22.1.0)
+Handling six from hook generated metadata: Requires-Dist (Automat)
+Requirement satisfied: six
+   (installed: six 1.16.0)
+Handling graphviz (>0.5.1) ; extra == 'visualize' from hook generated metadata: Requires-Dist (Automat)
+Ignoring alien requirement: graphviz (>0.5.1) ; extra == 'visualize'
+Handling Twisted (>=16.1.1) ; extra == 'visualize' from hook generated metadata: Requires-Dist (Automat)
+Ignoring alien requirement: Twisted (>=16.1.1) ; extra == 'visualize'
++ cat /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv Automat-22.10.0.dist-info/
+removed 'Automat-22.10.0.dist-info/entry_points.txt'
+removed 'Automat-22.10.0.dist-info/top_level.txt'
+removed 'Automat-22.10.0.dist-info/METADATA'
+removed 'Automat-22.10.0.dist-info/LICENSE'
+removed directory 'Automat-22.10.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.BtFwhN
++ umask 022
++ cd /builddir/build/BUILD
++ cd Automat-22.10.0
++ mkdir -p /builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/Automat-22.10.0/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/Automat-22.10.0
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'readme'
+    warnings.warn(msg)
+  WARNING setuptools_scm.pyproject_reading toml section missing 'pyproject.toml does not contain a tool.setuptools_scm section'
+  running dist_info
+  creating /builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-modern-metadata-qeuw6_hy/Automat.egg-info
+  writing /builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-modern-metadata-qeuw6_hy/Automat.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-modern-metadata-qeuw6_hy/Automat.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-modern-metadata-qeuw6_hy/Automat.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-modern-metadata-qeuw6_hy/Automat.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-modern-metadata-qeuw6_hy/Automat.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-modern-metadata-qeuw6_hy/Automat.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-modern-metadata-qeuw6_hy/Automat.egg-info/SOURCES.txt'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-modern-metadata-qeuw6_hy/Automat.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-modern-metadata-qeuw6_hy/Automat-22.10.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: Automat
+  Building wheel for Automat (pyproject.toml): started
+  Running command Building wheel for Automat (pyproject.toml)
+  /usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'readme'
+    warnings.warn(msg)
+  WARNING setuptools_scm.pyproject_reading toml section missing 'pyproject.toml does not contain a tool.setuptools_scm section'
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/automat
+  copying automat/__init__.py -> build/lib/automat
+  copying automat/_core.py -> build/lib/automat
+  copying automat/_discover.py -> build/lib/automat
+  copying automat/_introspection.py -> build/lib/automat
+  copying automat/_methodical.py -> build/lib/automat
+  copying automat/_visualize.py -> build/lib/automat
+  creating build/lib/automat/_test
+  copying automat/_test/__init__.py -> build/lib/automat/_test
+  copying automat/_test/test_core.py -> build/lib/automat/_test
+  copying automat/_test/test_discover.py -> build/lib/automat/_test
+  copying automat/_test/test_methodical.py -> build/lib/automat/_test
+  copying automat/_test/test_trace.py -> build/lib/automat/_test
+  copying automat/_test/test_visualize.py -> build/lib/automat/_test
+  running egg_info
+  writing Automat.egg-info/PKG-INFO
+  writing dependency_links to Automat.egg-info/dependency_links.txt
+  writing entry points to Automat.egg-info/entry_points.txt
+  writing requirements to Automat.egg-info/requires.txt
+  writing top-level names to Automat.egg-info/top_level.txt
+  reading manifest file 'Automat.egg-info/SOURCES.txt'
+  adding license file 'LICENSE'
+  writing manifest file 'Automat.egg-info/SOURCES.txt'
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/automat
+  copying build/lib/automat/__init__.py -> build/bdist.linux-x86_64/wheel/automat
+  copying build/lib/automat/_core.py -> build/bdist.linux-x86_64/wheel/automat
+  copying build/lib/automat/_discover.py -> build/bdist.linux-x86_64/wheel/automat
+  copying build/lib/automat/_introspection.py -> build/bdist.linux-x86_64/wheel/automat
+  copying build/lib/automat/_methodical.py -> build/bdist.linux-x86_64/wheel/automat
+  copying build/lib/automat/_visualize.py -> build/bdist.linux-x86_64/wheel/automat
+  creating build/bdist.linux-x86_64/wheel/automat/_test
+  copying build/lib/automat/_test/__init__.py -> build/bdist.linux-x86_64/wheel/automat/_test
+  copying build/lib/automat/_test/test_core.py -> build/bdist.linux-x86_64/wheel/automat/_test
+  copying build/lib/automat/_test/test_discover.py -> build/bdist.linux-x86_64/wheel/automat/_test
+  copying build/lib/automat/_test/test_methodical.py -> build/bdist.linux-x86_64/wheel/automat/_test
+  copying build/lib/automat/_test/test_trace.py -> build/bdist.linux-x86_64/wheel/automat/_test
+  copying build/lib/automat/_test/test_visualize.py -> build/bdist.linux-x86_64/wheel/automat/_test
+  running install_egg_info
+  Copying Automat.egg-info to build/bdist.linux-x86_64/wheel/Automat-22.10.0-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/Automat-22.10.0.dist-info/WHEEL
+  creating '/builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11/pip-wheel-wnkt42p_/.tmp-o6ib_ony/Automat-22.10.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'automat/__init__.py'
+  adding 'automat/_core.py'
+  adding 'automat/_discover.py'
+  adding 'automat/_introspection.py'
+  adding 'automat/_methodical.py'
+  adding 'automat/_visualize.py'
+  adding 'automat/_test/__init__.py'
+  adding 'automat/_test/test_core.py'
+  adding 'automat/_test/test_discover.py'
+  adding 'automat/_test/test_methodical.py'
+  adding 'automat/_test/test_trace.py'
+  adding 'automat/_test/test_visualize.py'
+  adding 'Automat-22.10.0.dist-info/LICENSE'
+  adding 'Automat-22.10.0.dist-info/METADATA'
+  adding 'Automat-22.10.0.dist-info/WHEEL'
+  adding 'Automat-22.10.0.dist-info/entry_points.txt'
+  adding 'Automat-22.10.0.dist-info/top_level.txt'
+  adding 'Automat-22.10.0.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for Automat (pyproject.toml): finished with status 'done'
+  Created wheel for Automat: filename=Automat-22.10.0-py2.py3-none-any.whl size=26402 sha256=365b582b477b3cab09151678b379572648e77c87f6ef806720da92803d2d6018
+  Stored in directory: /builddir/.cache/pip/wheels/83/50/4d/6bdabc5b8b89c4c0ed16023ec68eb55ceafb497b585287652f
+Successfully built Automat
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.bSpfky
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64
++ cd Automat-22.10.0
+++ ls /builddir/build/BUILD/Automat-22.10.0/pyproject-wheeldir-3.11/Automat-22.10.0-py2.py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=Automat==22.10.0
++ '[' -z Automat==22.10.0 ']'
++ TMPDIR=/builddir/build/BUILD/Automat-22.10.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/Automat-22.10.0/pyproject-wheeldir-3.11 Automat==22.10.0
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/Automat-22.10.0/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/Automat-22.10.0-py2.py3-none-any.whl
+Installing collected packages: Automat
+  Creating /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/bin
+  changing mode of /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/bin/automat-visualize to 755
+Successfully installed Automat-22.10.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/bin ']'
++ '[' -z sP ']'
++ shebang_flags=-kasP
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/bin/automat-visualize
+/builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/bin/automat-visualize: updating
++ rm -rfv /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/bin/__pycache__
++ rm -f /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/Automat-22.10.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/Automat-22.10.0.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/Automat-22.10.0.dist-info/RECORD --output /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/Automat-22.10.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/Automat-22.10.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/Automat-22.10.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/Automat-22.10.0.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ mv /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/bin/automat-visualize /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/bin/automat-visualize3.11
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ sed -i 's|/usr/bin/automat-visualize|/usr/bin/automat-visualize3.11|g' /builddir/build/BUILD/python-automat-22.10.0-1.el9.x86_64-3.11-pyproject-files
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 22.10.0-1.el9 --unique-debug-suffix -22.10.0-1.el9.x86_64 --unique-debug-src-base python-automat-22.10.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/Automat-22.10.0
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-automat-22.10.0-1.el9.noarch
+Provides: python3.11-automat = 22.10.0-1.el9 python3.11dist(automat) = 22.10
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/python3.11 python(abi) = 3.11 python3.11dist(attrs) >= 19.2 python3.11dist(six)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-automat-22.10.0-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-automat-22.10.0-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-automat-22.10.0-1.el9.noarch.rpm
+Finish: rpmbuild python-automat-22.10.0-1.el9.src.rpm
+Finish: build phase for python-automat-22.10.0-1.el9.src.rpm
+INFO: Done(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-automat-22.10.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 31 seconds
+INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 54 packages
+Directory walk done - 66 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
