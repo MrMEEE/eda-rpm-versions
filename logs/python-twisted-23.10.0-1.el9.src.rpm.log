@@ -46,41 +46,41 @@ Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                       11 MB/s |  45 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          188 kB/s |  19 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    7.5 MB/s |  49 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         49 kB/s |  19 kB     00:00    
 No matching package to install: 'python3.11-bcrypt'
 No matching package to install: 'python3.11-pyhamcrest'
 Not all dependencies satisfied
 Error: Some packages could not be found.
 Finish: build setup for python-twisted-23.10.0-1.el9.src.rpm
 Finish: build phase for python-twisted-23.10.0-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-twisted-23.10.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 5 seconds
+ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-twisted-23.10.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 6 seconds
 INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 0a6e66526d0d4f4ca058db71c3e5d847 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.zec6gahw:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root//builddir/build/SRPMS/python-twisted-23.10.0-1.el9.src.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 1e8350122653417abec671e512a350e3 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.ox64kz91:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root//builddir/build/SRPMS/python-twisted-23.10.0-1.el9.src.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                       11 MB/s |  45 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                          188 kB/s |  19 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    7.5 MB/s |  49 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         49 kB/s |  19 kB     00:00    
 No matching package to install: 'python3.11-bcrypt'
 No matching package to install: 'python3.11-pyhamcrest'
 Not all dependencies satisfied
 Error: Some packages could not be found.
 
 Directory walk started
-Directory walk done - 49 packages
+Directory walk done - 52 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
