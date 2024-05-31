@@ -46,12 +46,12 @@ Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      9.5 MB/s |  75 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.7 MB/s | 3.0 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      5.9 MB/s |  78 kB     00:00    
 Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          161 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          169 kB/s |  17 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                                Architecture      Version                    Repository                    Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-jsonschema-4.21.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.uIl7wn
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.HAKRbX
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.uIl7wn
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.nL6Bqr
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.oAzRLe
 + umask 022
 + cd /builddir/build/BUILD
 + cd jsonschema-4.21.1
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - 100% [========================================]  56 kB/s |  17 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                           27 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          178 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -263,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5OYSRp
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ybQHAu
 + umask 022
 + cd /builddir/build/BUILD
 + cd jsonschema-4.21.1
@@ -304,24 +304,190 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           40 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          156 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(hatch-fancy-pypi-readme)'
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Dependencies resolved.
+========================================================================================================================
+ Package                                 Arch        Version                 Repository                            Size
+========================================================================================================================
+Installing:
+ [1mpython3.11-hatch-fancy-pypi-readme     [m noarch      24.1.0-1.el9            _opt_edarpm_rpmbuilds_010_RPMS_       26 k
+ [1mpython3.11-hatch-vcs                   [m noarch      0.4.0-1.el9             _opt_edarpm_rpmbuilds_010_RPMS_       20 k
+ [1mpython3.11-hatchling                   [m noarch      1.24.2-1.el9            _opt_edarpm_rpmbuilds_010_RPMS_      201 k
+Installing dependencies:
+ [1mpython3.11-pathspec                    [m noarch      0.12.1-1.el9            _opt_edarpm_rpmbuilds_010_RPMS_       54 k
+ [1mpython3.11-pluggy                      [m noarch      1.0.0-2.el9             codeready-builder                     47 k
+ [1mpython3.11-setuptools                  [m noarch      69.0.2-1.el9            _opt_edarpm_rpmbuilds_010_RPMS_      1.3 M
+ [1mpython3.11-setuptools_scm              [m noarch      8.0.4-1.el9             _opt_edarpm_rpmbuilds_010_RPMS_       98 k
+ [1mpython3.11-trove-classifiers           [m noarch      2024.5.22-1.el9         _opt_edarpm_rpmbuilds_010_RPMS_       24 k
+ [1mpython3.11-typing-extensions           [m noarch      4.9.0-1.el9             _opt_edarpm_rpmbuilds_010_RPMS_       72 k
+
+Transaction Summary
+========================================================================================================================
+Install  9 Packages
+
+Total size: 1.8 M
+Installed size: 8.6 M
+Downloading Packages:
+[SKIPPED] python3.11-pluggy-1.0.0-2.el9.noarch.rpm: Already downloaded                                                 
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [==========                                                                                 ] 1/1  Preparing        :  [====================                                                                       ] 1/1  Preparing        :  [==============================                                                             ] 1/1  Preparing        :  [========================================                                                   ] 1/1  Preparing        :  [==================================================                                         ] 1/1  Preparing        :  [============================================================                               ] 1/1  Preparing        :  [======================================================================                     ] 1/1  Preparing        :  [================================================================================           ] 1/1  Preparing        :                                                                                                1/1 
+  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [                                                       ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=                                                      ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [==                                                     ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=========                                              ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [===============                                        ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [========================                               ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=================================                      ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [==================================                     ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [====================================                   ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=====================================                  ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=========================================              ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [===============================================        ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [================================================       ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=================================================      ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [==================================================     ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [===================================================    ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=====================================================  ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [====================================================== ] 1/9  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch                                                           1/9 
+  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [                                              ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [===                                           ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [=======                                       ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [===========                                   ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [===============                               ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [==================                            ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [=======================                       ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [==========================                    ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [==============================                ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [================================              ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [====================================          ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [========================================      ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [============================================  ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noar [============================================= ] 2/9  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch                                                2/9 
+  Installing       : python3.11-trove-classifiers-2024.5.22-1.el9. [                                              ] 3/9  Installing       : python3.11-trove-classifiers-2024.5.22-1.el9. [=====                                         ] 3/9  Installing       : python3.11-trove-classifiers-2024.5.22-1.el9. [======                                        ] 3/9  Installing       : python3.11-trove-classifiers-2024.5.22-1.el9. [=======================                       ] 3/9  Installing       : python3.11-trove-classifiers-2024.5.22-1.el9. [===========================                   ] 3/9  Installing       : python3.11-trove-classifiers-2024.5.22-1.el9. [===========================================   ] 3/9  Installing       : python3.11-trove-classifiers-2024.5.22-1.el9. [============================================= ] 3/9  Installing       : python3.11-trove-classifiers-2024.5.22-1.el9.noarch                                            3/9 
+  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [                                                  ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=                                                 ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==                                                ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===                                               ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====                                              ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====                                             ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======                                            ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======                                           ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========                                          ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========                                         ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========                                        ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========                                       ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============                                      ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============                                     ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============                                    ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============                                   ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================                                  ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================                                 ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================                                ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================                               ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================                              ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================                             ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================                            ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================                           ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================                          ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================                         ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================                        ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================                       ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================                      ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================                     ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================                    ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================                   ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================                  ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================================                 ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================================                ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================================               ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================================              ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================             ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================================            ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================================           ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================================          ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================================         ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================================        ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================================       ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================================      ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================================     ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================================    ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================================   ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================================  ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================================= ] 4/9  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch                                                      4/9 
+  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [                                               ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=                                              ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==                                             ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===                                            ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [====                                           ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=======                                        ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [========                                       ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========                                      ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===========                                    ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [============                                   ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=============                                  ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===============                                ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==================                             ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===================                            ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [====================                           ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=====================                          ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [======================                         ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=======================                        ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [========================                       ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========================                      ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==========================                     ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===========================                    ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [============================                   ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=============================                  ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==============================                 ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===============================                ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [================================               ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=================================              ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==================================             ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===================================            ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [====================================           ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [======================================         ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=======================================        ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [========================================       ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========================================      ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===========================================    ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [============================================   ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=============================================  ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [============================================== ] 5/9  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch                                                   5/9 
+  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [                                                    ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [====                                                ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [==========                                          ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=============                                       ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===============                                     ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=================                                   ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [====================                                ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [======================                              ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [==========================                          ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [================================                    ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=================================                   ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===================================                 ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [========================================            ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [================================================    ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=================================================== ] 6/9  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch                                                        6/9 
+  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [                                                   ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=                                                  ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [===                                                ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [====                                               ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=====                                              ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [======                                             ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=======                                            ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=========                                          ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [==========                                         ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [===========                                        ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=============                                      ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [================                                   ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [==================                                 ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [===================                                ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [====================                               ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=====================                              ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [======================                             ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=======================                            ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [========================                           ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [==========================                         ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [===========================                        ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [============================                       ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=============================                      ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [===============================                    ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [================================                   ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=================================                  ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [===================================                ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [====================================               ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=====================================              ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=======================================            ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [========================================           ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [==========================================         ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [============================================       ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [==============================================     ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [===============================================    ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [================================================   ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [=================================================  ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch [================================================== ] 7/9  Installing       : python3.11-hatchling-1.24.2-1.el9.noarch                                                       7/9 
+  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [                                              ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [==                                            ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [===                                           ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [====                                          ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [=====                                         ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [=======                                       ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [========                                      ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [==========                                    ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [=============                                 ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [================                              ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [==================                            ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [===================                           ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [====================                          ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [=======================                       ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [========================                      ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [=========================                     ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [=============================                 ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [=================================             ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [==================================            ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [=======================================       ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [==========================================    ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [===========================================   ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.e [============================================= ] 8/9  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch                                         8/9 
+  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [                                                    ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [==============                                      ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [===============                                     ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [=================                                   ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [==================                                  ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [=====================                               ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [======================                              ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [========================                            ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [=========================                           ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [=============================                       ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [==============================                      ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [===============================                     ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [===================================                 ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [====================================                ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [=====================================               ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [======================================              ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [===========================================         ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [============================================        ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [=============================================       ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch [=================================================== ] 9/9  Installing       : python3.11-hatch-vcs-0.4.0-1.el9.noarch                                                        9/9 
+  Running scriptlet: python3.11-hatch-vcs-0.4.0-1.el9.noarch                                                        9/9 
+  Verifying        : python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch                                         1/9 
+  Verifying        : python3.11-hatch-vcs-0.4.0-1.el9.noarch                                                        2/9 
+  Verifying        : python3.11-hatchling-1.24.2-1.el9.noarch                                                       3/9 
+  Verifying        : python3.11-pathspec-0.12.1-1.el9.noarch                                                        4/9 
+  Verifying        : python3.11-setuptools-69.0.2-1.el9.noarch                                                      5/9 
+  Verifying        : python3.11-setuptools_scm-8.0.4-1.el9.noarch                                                   6/9 
+  Verifying        : python3.11-trove-classifiers-2024.5.22-1.el9.noarch                                            7/9 
+  Verifying        : python3.11-typing-extensions-4.9.0-1.el9.noarch                                                8/9 
+  Verifying        : python3.11-pluggy-1.0.0-2.el9.noarch                                                           9/9 
+Installed products updated.
+
+Installed:
+  python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch       python3.11-hatch-vcs-0.4.0-1.el9.noarch                  
+  python3.11-hatchling-1.24.2-1.el9.noarch                     python3.11-pathspec-0.12.1-1.el9.noarch                  
+  python3.11-pluggy-1.0.0-2.el9.noarch                         python3.11-setuptools-69.0.2-1.el9.noarch                
+  python3.11-setuptools_scm-8.0.4-1.el9.noarch                 python3.11-trove-classifiers-2024.5.22-1.el9.noarch      
+  python3.11-typing-extensions-4.9.0-1.el9.noarch             
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.cjIpAJ
++ umask 022
++ cd /builddir/build/BUILD
++ cd jsonschema-4.21.1
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/jsonschema-4.21.1/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/jsonschema-4.21.1/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jsonschema-4.21.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jsonschema-4.21.1-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling hatchling from build-system.requires
+Requirement satisfied: hatchling
+   (installed: hatchling 1.24.2)
+Handling hatch-vcs from build-system.requires
+Requirement satisfied: hatch-vcs
+   (installed: hatch-vcs 0.4.0)
+Handling hatch-fancy-pypi-readme from build-system.requires
+Requirement satisfied: hatch-fancy-pypi-readme
+   (installed: hatch-fancy-pypi-readme 24.1.0)
+Handling attrs>=22.2.0 from hook generated metadata: Requires-Dist (jsonschema)
+Requirement not satisfied: attrs>=22.2.0
+Handling importlib-resources>=1.4.0; python_version < '3.9' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: importlib-resources>=1.4.0; python_version < '3.9'
+Handling jsonschema-specifications>=2023.03.6 from hook generated metadata: Requires-Dist (jsonschema)
+Requirement not satisfied: jsonschema-specifications>=2023.03.6
+Handling pkgutil-resolve-name>=1.3.10; python_version < '3.9' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: pkgutil-resolve-name>=1.3.10; python_version < '3.9'
+Handling referencing>=0.28.4 from hook generated metadata: Requires-Dist (jsonschema)
+Requirement not satisfied: referencing>=0.28.4
+Handling rpds-py>=0.7.1 from hook generated metadata: Requires-Dist (jsonschema)
+Requirement not satisfied: rpds-py>=0.7.1
+Handling fqdn; extra == 'format' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: fqdn; extra == 'format'
+Handling idna; extra == 'format' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: idna; extra == 'format'
+Handling isoduration; extra == 'format' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: isoduration; extra == 'format'
+Handling jsonpointer>1.13; extra == 'format' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: jsonpointer>1.13; extra == 'format'
+Handling rfc3339-validator; extra == 'format' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: rfc3339-validator; extra == 'format'
+Handling rfc3987; extra == 'format' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: rfc3987; extra == 'format'
+Handling uri-template; extra == 'format' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: uri-template; extra == 'format'
+Handling webcolors>=1.11; extra == 'format' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: webcolors>=1.11; extra == 'format'
+Handling fqdn; extra == 'format-nongpl' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: fqdn; extra == 'format-nongpl'
+Handling idna; extra == 'format-nongpl' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: idna; extra == 'format-nongpl'
+Handling isoduration; extra == 'format-nongpl' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: isoduration; extra == 'format-nongpl'
+Handling jsonpointer>1.13; extra == 'format-nongpl' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: jsonpointer>1.13; extra == 'format-nongpl'
+Handling rfc3339-validator; extra == 'format-nongpl' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: rfc3339-validator; extra == 'format-nongpl'
+Handling rfc3986-validator>0.1.0; extra == 'format-nongpl' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: rfc3986-validator>0.1.0; extra == 'format-nongpl'
+Handling uri-template; extra == 'format-nongpl' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: uri-template; extra == 'format-nongpl'
+Handling webcolors>=1.11; extra == 'format-nongpl' from hook generated metadata: Requires-Dist (jsonschema)
+Ignoring alien requirement: webcolors>=1.11; extra == 'format-nongpl'
++ cat /builddir/build/BUILD/python-jsonschema-4.21.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv jsonschema-4.21.1.dist-info/
+removed 'jsonschema-4.21.1.dist-info/METADATA'
+removed directory 'jsonschema-4.21.1.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-jsonschema-4.21.1-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           71 kB/s |  17 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+No matching package to install: 'python3.11dist(attrs) >= 22.2'
+Package python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch is already installed.
+Package python3.11-hatch-vcs-0.4.0-1.el9.noarch is already installed.
+Package python3.11-hatchling-1.24.2-1.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(jsonschema-specifications) >= 2023.3.6'
+Package python3.11-packaging-23.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(referencing) >= 0.28.4'
+No matching package to install: 'python3.11dist(rpds-py) >= 0.7.1'
 Not all dependencies satisfied
 Error: Some packages could not be found.
 Finish: rpmbuild python-jsonschema-4.21.1-1.el9.src.rpm
 Finish: build phase for python-jsonschema-4.21.1-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-jsonschema-4.21.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 21 seconds
+ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-jsonschema-4.21.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 25 seconds
 INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 70b3fc72567d46808a64e21ef1da0bfd -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.x4ppd_x9:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-jsonschema-4.21.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 59aa4343b7ca4fa18e693e9de6ee7320 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.9gkm_sq6:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-jsonschema-4.21.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -329,21 +495,27 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                           40 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                        21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                     23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                       21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                           71 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(hatch-fancy-pypi-readme)'
+No matching package to install: 'python3.11dist(attrs) >= 22.2'
+Package python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch is already installed.
+Package python3.11-hatch-vcs-0.4.0-1.el9.noarch is already installed.
+Package python3.11-hatchling-1.24.2-1.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(jsonschema-specifications) >= 2023.3.6'
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(referencing) >= 0.28.4'
+No matching package to install: 'python3.11dist(rpds-py) >= 0.7.1'
 Not all dependencies satisfied
 Error: Some packages could not be found.
 
 Directory walk started
-Directory walk done - 83 packages
+Directory walk done - 86 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
