@@ -8,3 +8,4 @@ twisted
 ntlm
 django
 bcrypt
+pyhamcrest
