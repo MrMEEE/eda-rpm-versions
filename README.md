@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pydantic-2.5.0-1.el9.src.rpm
+The lastest package built was python-requests-oauthlib-1.3.1-1.el9.src.rpm
 
-The build completed at Fri May 31 09:12:22 PM CEST 2024
+The build completed at Fri May 31 09:12:50 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
