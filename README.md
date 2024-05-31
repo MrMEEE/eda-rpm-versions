@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ldap-3.4.4-1.el9.src.rpm
+The lastest package built was python-oauthlib-3.2.2-1.el9.src.rpm
 
-The build completed at Fri May 31 12:27:45 PM CEST 2024
+The build completed at Fri May 31 12:28:13 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
+[Build Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
