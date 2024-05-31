@@ -20,3 +20,4 @@ pathspec
 trove-classifiers
 mypy
 calver
+hatchling
