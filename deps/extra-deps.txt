@@ -7,3 +7,4 @@ setuptools-scm
 twisted
 ntlm
 django
+bcrypt
