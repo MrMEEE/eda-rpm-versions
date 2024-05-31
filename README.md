@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-oauthlib-3.2.2-1.el9.src.rpm
+The lastest package built was python-poetry-1.8.3-1.el9.src.rpm
 
-The build completed at Fri May 31 09:41:33 PM CEST 2024
+The build completed at Fri May 31 09:42:03 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -44,6 +44,7 @@ python3.11-dynaconf-3.2.4-1.el9 | python-dynaconf-3.2.4-1.el9.src.rpm | Built | 
 python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | **Missing** |
 python3.11-hatchling-1.24.2-1.el9 | python-hatchling-1.24.2-1.el9.src.rpm | **Missing** |
+python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | **Missing** |
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-idna-3.6-1.el9 | python-idna-3.6-1.el9.src.rpm | Built | [Log](logs/python-idna-3.6-1.el9.src.rpm.log)
 python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
@@ -98,4 +99,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-88 total packages, 52 packages built successfully, 36 packages left to fix
+89 total packages, 52 packages built successfully, 37 packages left to fix

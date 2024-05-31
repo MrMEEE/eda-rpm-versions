@@ -13,3 +13,4 @@ trove-classifiers
 blinker
 hatch-fancy-pypi-readme
 hatchling
+hatch-vcs
