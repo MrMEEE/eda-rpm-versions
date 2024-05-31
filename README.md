@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
+The lastest package built was python-django-filter-23.1-1.el9.src.rpm
 
-The build completed at Sat Jun  1 01:57:54 AM CEST 2024
+The build completed at Sat Jun  1 01:58:36 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
+[Build Log](logs/python-django-filter-23.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -36,7 +36,7 @@ python3.11-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | Buil
 python3.11-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | Built | [Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
 python3.11-django-auth-ldap-4.8.0-1.el9 | python-django-auth-ldap-4.8.0-1.el9.src.rpm | Built | [Log](logs/python-django-auth-ldap-4.8.0-1.el9.src.rpm.log)
 python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
-python3.11-django-filter-23.1-1.el9 | python-django-filter-23.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-filter-23.1-1.el9.src.rpm.log)
+python3.11-django-filter-23.1-1.el9 | python-django-filter-23.1-1.el9.src.rpm | Built | [Log](logs/python-django-filter-23.1-1.el9.src.rpm.log)
 python3.11-djangorestframework-3.15.1-1.el9 | python-djangorestframework-3.15.1-1.el9.src.rpm | **Missing** | [Log](logs/python-djangorestframework-3.15.1-1.el9.src.rpm.log)
 python3.11-djangorestframework-simplejwt-5.3.1-1.el9 | python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm.log)
 python3.11-django-rq-2.7.0-1.el9 | python-django-rq-2.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-rq-2.7.0-1.el9.src.rpm.log)
@@ -107,4 +107,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-97 total packages, 78 packages built successfully, 19 packages left to fix
+97 total packages, 79 packages built successfully, 18 packages left to fix
