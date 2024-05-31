@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-xmlsec-1.3.13-1.el9.src.rpm
+The lastest package built was python-poetry-1.8.3-1.el9.src.rpm
 
-The build completed at Fri May 31 01:15:23 AM CEST 2024
+The build completed at Fri May 31 11:49:42 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -53,6 +53,7 @@ python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-2.1.5-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-podman-4.5.0-1.el9 | python-podman-4.5.0-1.el9.src.rpm | Built | [Log](logs/python-podman-4.5.0-1.el9.src.rpm.log)
+python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 python3.11-pyasn1-modules-0.5.1-1.el9 | python-pyasn1-modules-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.5.1-1.el9.src.rpm.log)
 python3.11-pycparser-2.21-1.el9 | python-pycparser-2.21-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.21-1.el9.src.rpm.log)
 python3.11-pydantic-2.5.0-1.el9 | python-pydantic-2.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
@@ -87,4 +88,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-77 total packages, 37 packages built successfully, 40 packages left to fix
+78 total packages, 37 packages built successfully, 41 packages left to fix
