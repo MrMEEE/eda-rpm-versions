@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rq-scheduler-0.10.0-1.el9.src.rpm
+The lastest package built was python-service-identity-24.1.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 01:35:12 AM CEST 2024
+The build completed at Sat Jun  1 01:35:51 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-rq-scheduler-0.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -83,7 +83,7 @@ python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.
 python3.11-rq-1.13.0-1.el9 | python-rq-1.13.0-1.el9.src.rpm | Built | [Log](logs/python-rq-1.13.0-1.el9.src.rpm.log)
 python3.11-rq-scheduler-0.10.0-1.el9 | python-rq-scheduler-0.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-rq-scheduler-0.10.0-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
-python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
+python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
 python3.11-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | Built | [Log](logs/python-setuptools-69.0.2-1.el9.src.rpm.log)
 python3.11-setuptools_scm-8.0.4-1.el9 | python-setuptools_scm-8.0.4-1.el9.src.rpm | Built | [Log](logs/python-setuptools_scm-8.0.4-1.el9.src.rpm.log)
 python3.11-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | Built | [Log](logs/python-six-1.16.0-1.el9.src.rpm.log)
@@ -107,4 +107,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-97 total packages, 68 packages built successfully, 29 packages left to fix
+97 total packages, 69 packages built successfully, 28 packages left to fix
