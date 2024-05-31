@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-attrs-23.2.0-1.el9.src.rpm
+The lastest package built was python-babel-2.15.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 12:09:34 AM CEST 2024
+The build completed at Sat Jun  1 12:10:26 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-babel-2.15.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -16,7 +16,7 @@ python3.11-async-timeout-4.0.3-1.el9 | python-async-timeout-4.0.3-1.el9.src.rpm 
 python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
 python3.11-autobahn-23.6.2-1.el9 | python-autobahn-23.6.2-1.el9.src.rpm | Built | [Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
 python3.11-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
-python3.11-babel-2.15.0-1.el9 | python-babel-2.15.0-1.el9.src.rpm | **Missing** |
+python3.11-babel-2.15.0-1.el9 | python-babel-2.15.0-1.el9.src.rpm | Built | [Log](logs/python-babel-2.15.0-1.el9.src.rpm.log)
 python3.11-bcrypt-4.1.3-1.el9 | python-bcrypt-4.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-bcrypt-4.1.3-1.el9.src.rpm.log)
 python3.11-blinker-1.8.2-1.el9 | python-blinker-1.8.2-1.el9.src.rpm | Built | [Log](logs/python-blinker-1.8.2-1.el9.src.rpm.log)
 python3.11-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.3.2-1.el9.src.rpm.log)
@@ -102,4 +102,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-92 total packages, 57 packages built successfully, 35 packages left to fix
+92 total packages, 58 packages built successfully, 34 packages left to fix
