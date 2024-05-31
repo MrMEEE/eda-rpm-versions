@@ -38,7 +38,7 @@ Start: build phase for python-rq-scheduler-0.10.0-1.el9.src.rpm
 Start: build setup for python-rq-scheduler-0.10.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
+setting SOURCE_DATE_EPOCH=1717200000
 Wrote: /builddir/build/SRPMS/python-rq-scheduler-0.10.0-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      1.3 MB/s |  58 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     15 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           80 kB/s |  17 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      1.9 MB/s |  61 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          178 kB/s |  17 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                                Architecture      Version                    Repository                    Size
@@ -170,14 +170,14 @@ Finish: Outputting list of installed packages
 Start: rpmbuild python-rq-scheduler-0.10.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.C6t7Rq
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.QfvEVZ
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf rq-scheduler-0.10.0
-+ /usr/bin/tar -xof -
 + /usr/bin/gzip -dc /builddir/build/SOURCES/rq-scheduler-0.10.0.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd rq-scheduler-0.10.0
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.C6t7Rq
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.wOXVn2
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.E5QZxW
 + umask 022
 + cd /builddir/build/BUILD
 + cd rq-scheduler-0.10.0
@@ -222,10 +222,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - 100% [========================================]  44 kB/s |  17 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                           44 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          143 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -272,8 +272,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Dh4jiG
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.1XVg1j
 + umask 022
 + cd /builddir/build/BUILD
 + cd rq-scheduler-0.10.0
@@ -349,10 +349,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          165 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          117 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -413,8 +413,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zcRDLi
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.dDq9G7
 + umask 022
 + cd /builddir/build/BUILD
 + cd rq-scheduler-0.10.0
@@ -492,10 +492,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream    100% [========================================]  10 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                     10 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          168 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          180 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -510,8 +510,8 @@ Nothing to do.
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.WV8S4b
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.8Ip8pP
 + umask 022
 + cd /builddir/build/BUILD
 + cd rq-scheduler-0.10.0
@@ -580,7 +580,7 @@ removed directory 'rq_scheduler-0.10.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.48cII1
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.owPvJl
 + umask 022
 + cd /builddir/build/BUILD
 + cd rq-scheduler-0.10.0
@@ -593,18 +593,18 @@ Processing /builddir/build/BUILD/rq-scheduler-0.10.0
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-ls4527ip/rq_scheduler.egg-info
-  writing /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-ls4527ip/rq_scheduler.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-ls4527ip/rq_scheduler.egg-info/dependency_links.txt
-  writing entry points to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-ls4527ip/rq_scheduler.egg-info/entry_points.txt
-  writing requirements to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-ls4527ip/rq_scheduler.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-ls4527ip/rq_scheduler.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-ls4527ip/rq_scheduler.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-ls4527ip/rq_scheduler.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-7wah6o8b/rq_scheduler.egg-info
+  writing /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-7wah6o8b/rq_scheduler.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-7wah6o8b/rq_scheduler.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-7wah6o8b/rq_scheduler.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-7wah6o8b/rq_scheduler.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-7wah6o8b/rq_scheduler.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-7wah6o8b/rq_scheduler.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-7wah6o8b/rq_scheduler.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
   adding license file 'LICENSE.txt'
-  writing manifest file '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-ls4527ip/rq_scheduler.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-ls4527ip/rq_scheduler-0.10.0.dist-info'
+  writing manifest file '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-7wah6o8b/rq_scheduler.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-modern-metadata-7wah6o8b/rq_scheduler-0.10.0.dist-info'
   The [wheel] section is deprecated. Use [bdist_wheel] instead.
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: rq-scheduler
@@ -690,7 +690,7 @@ Building wheels for collected packages: rq-scheduler
   Copying rq_scheduler.egg-info to build/bdist.linux-x86_64/wheel/rq_scheduler-0.10.0-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/rq_scheduler-0.10.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-wheel-opgz7xa0/.tmp-o0rrfqqp/rq_scheduler-0.10.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/rq-scheduler-0.10.0/.pyproject-builddir-3.11/pip-wheel-i6f2a8wx/.tmp-olonxdij/rq_scheduler-0.10.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'rq_scheduler/__init__.py'
   adding 'rq_scheduler/scheduler.py'
   adding 'rq_scheduler/utils.py'
@@ -704,13 +704,13 @@ Building wheels for collected packages: rq-scheduler
   adding 'rq_scheduler-0.10.0.dist-info/RECORD'
   removing build/bdist.linux-x86_64/wheel
   Building wheel for rq-scheduler (pyproject.toml): finished with status 'done'
-  Created wheel for rq-scheduler: filename=rq_scheduler-0.10.0-py2.py3-none-any.whl size=13212 sha256=04a1b02d16f0887284ecf564487ae3612d3138fc780d7f19357469594e6b7beb
+  Created wheel for rq-scheduler: filename=rq_scheduler-0.10.0-py2.py3-none-any.whl size=13212 sha256=b9ecee6c97ef478cd49077e6c166117c83a7060bda459f222eb0593250f09641
   Stored in directory: /builddir/.cache/pip/wheels/8e/c9/ae/8a844d44eded09822c1dc8801d9fd79b0ac66a6e669c05f132
 Successfully built rq-scheduler
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.DbucV0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.cHd2Pl
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-rq-scheduler-0.10.0-1.el9.x86_64 '!=' / ']'
@@ -774,20 +774,20 @@ Bytecompiling .py files below /builddir/build/BUILDROOT/python-rq-scheduler-0.10
 + /usr/lib/rpm/brp-python-hardlink
 + /usr/lib/rpm/redhat/brp-mangle-shebangs
 *** ERROR: ambiguous python shebang in /usr/lib/python3.11/site-packages/rq_scheduler/scripts/rqscheduler.py: #!/usr/bin/env python. Change it to python3 (or python2) explicitly.
+error: Bad exit status from /var/tmp/rpm-tmp.cHd2Pl (%install)
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.DbucV0 (%install)
-    Bad exit status from /var/tmp/rpm-tmp.DbucV0 (%install)
+    Bad exit status from /var/tmp/rpm-tmp.cHd2Pl (%install)
 Finish: rpmbuild python-rq-scheduler-0.10.0-1.el9.src.rpm
 Finish: build phase for python-rq-scheduler-0.10.0-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-rq-scheduler-0.10.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 28 seconds
+ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-rq-scheduler-0.10.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 25 seconds
 INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 8802b956ad5c48849df76b25b4dafe7d -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.zljafq0b:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-rq-scheduler.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M 9a701ccd15084d26b35e61f244a56ba2 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.6nwnxq_u:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-rq-scheduler.spec --nocheck'
 
 Directory walk started
-Directory walk done - 68 packages
+Directory walk done - 73 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
