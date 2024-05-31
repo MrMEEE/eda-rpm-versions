@@ -38,7 +38,7 @@ Start: build phase for python-tabulate-0.9.0-1.el9.src.rpm
 Start: build setup for python-tabulate-0.9.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
+setting SOURCE_DATE_EPOCH=1717200000
 Wrote: /builddir/build/SRPMS/python-tabulate-0.9.0-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      8.1 MB/s |  58 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          127 kB/s |  17 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                       13 MB/s |  66 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          198 kB/s |  17 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                                Architecture      Version                    Repository                    Size
@@ -170,14 +170,14 @@ Finish: Outputting list of installed packages
 Start: rpmbuild python-tabulate-0.9.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Q0a66k
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.QjoVJT
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf tabulate-0.9.0
-+ /usr/bin/tar -xof -
 + /usr/bin/gzip -dc /builddir/build/SOURCES/tabulate-0.9.0.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd tabulate-0.9.0
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Q0a66k
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.rLapYO
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GPnY1Z
 + umask 022
 + cd /builddir/build/BUILD
 + cd tabulate-0.9.0
@@ -204,7 +204,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.rLapYO
 + TMPDIR=/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-buildrequires -x widechars
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
 + cat /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
@@ -221,9 +221,9 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          144 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          166 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -262,8 +262,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jTcKqC
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.UQR6S6
 + umask 022
 + cd /builddir/build/BUILD
 + cd tabulate-0.9.0
@@ -282,7 +282,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jTcKqC
 + TMPDIR=/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-buildrequires -x widechars
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools>=61.2.0 from build-system.requires
 Requirement not satisfied: setuptools>=61.2.0
 Handling wheel from build-system.requires
@@ -304,10 +304,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                    9.4 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - 100% [========================================]  57 kB/s |  17 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                           27 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          149 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -360,8 +360,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1717113600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.rxSfom
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.OAmLpX
 + umask 022
 + cd /builddir/build/BUILD
 + cd tabulate-0.9.0
@@ -380,7 +380,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.rxSfom
 + TMPDIR=/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-buildrequires -x widechars
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools>=61.2.0 from build-system.requires
 Requirement satisfied: setuptools>=61.2.0
    (installed: setuptools 69.0.2)
@@ -416,7 +416,7 @@ adding license file 'LICENSE'
 writing manifest file 'tabulate.egg-info/SOURCES.txt'
 creating '/builddir/build/BUILD/tabulate-0.9.0/tabulate-0.9.0.dist-info'
 Handling wcwidth ; extra == 'widechars' from hook generated metadata: Requires-Dist (tabulate)
-Requirement not satisfied: wcwidth ; extra == 'widechars'
+Ignoring alien requirement: wcwidth ; extra == 'widechars'
 + cat /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv tabulate-0.9.0.dist-info/
 removed 'tabulate-0.9.0.dist-info/entry_points.txt'
@@ -436,10 +436,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/           [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          144 kB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          172 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -449,41 +449,231 @@ Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-setuptools_scm-8.0.4-1.el9.noarch is already installed.
 Package python3.11-setuptools_scm+toml-8.0.4-1.el9.noarch is already installed.
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(wcwidth)'
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.hDZBJ9
++ umask 022
++ cd /builddir/build/BUILD
++ cd tabulate-0.9.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=61.2.0 from build-system.requires
+Requirement satisfied: setuptools>=61.2.0
+   (installed: setuptools 69.0.2)
+Handling wheel from build-system.requires
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling setuptools_scm[toml]>=3.4.3 from build-system.requires
+Requirement satisfied: setuptools_scm[toml]>=3.4.3
+   (installed: setuptools_scm 8.0.4)
+   (extras are currently not checked)
+running egg_info
+writing tabulate.egg-info/PKG-INFO
+writing dependency_links to tabulate.egg-info/dependency_links.txt
+writing entry points to tabulate.egg-info/entry_points.txt
+writing requirements to tabulate.egg-info/requires.txt
+writing top-level names to tabulate.egg-info/top_level.txt
+reading manifest file 'tabulate.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'tabulate.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing tabulate.egg-info/PKG-INFO
+writing dependency_links to tabulate.egg-info/dependency_links.txt
+writing entry points to tabulate.egg-info/entry_points.txt
+writing requirements to tabulate.egg-info/requires.txt
+writing top-level names to tabulate.egg-info/top_level.txt
+reading manifest file 'tabulate.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'tabulate.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/tabulate-0.9.0/tabulate-0.9.0.dist-info'
+Handling wcwidth ; extra == 'widechars' from hook generated metadata: Requires-Dist (tabulate)
+Ignoring alien requirement: wcwidth ; extra == 'widechars'
++ cat /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv tabulate-0.9.0.dist-info/
+removed 'tabulate-0.9.0.dist-info/entry_points.txt'
+removed 'tabulate-0.9.0.dist-info/top_level.txt'
+removed 'tabulate-0.9.0.dist-info/METADATA'
+removed 'tabulate-0.9.0.dist-info/LICENSE'
+removed directory 'tabulate-0.9.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.dNJmnQ
++ umask 022
++ cd /builddir/build/BUILD
++ cd tabulate-0.9.0
++ mkdir -p /builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/tabulate-0.9.0
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-modern-metadata-v8nq1dnz/tabulate.egg-info
+  writing /builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-modern-metadata-v8nq1dnz/tabulate.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-modern-metadata-v8nq1dnz/tabulate.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-modern-metadata-v8nq1dnz/tabulate.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-modern-metadata-v8nq1dnz/tabulate.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-modern-metadata-v8nq1dnz/tabulate.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-modern-metadata-v8nq1dnz/tabulate.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-modern-metadata-v8nq1dnz/tabulate.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-modern-metadata-v8nq1dnz/tabulate.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-modern-metadata-v8nq1dnz/tabulate-0.9.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: tabulate
+  Building wheel for tabulate (pyproject.toml): started
+  Running command Building wheel for tabulate (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tabulate
+  copying tabulate/__init__.py -> build/lib/tabulate
+  copying tabulate/version.py -> build/lib/tabulate
+  running egg_info
+  writing tabulate.egg-info/PKG-INFO
+  writing dependency_links to tabulate.egg-info/dependency_links.txt
+  writing entry points to tabulate.egg-info/entry_points.txt
+  writing requirements to tabulate.egg-info/requires.txt
+  writing top-level names to tabulate.egg-info/top_level.txt
+  reading manifest file 'tabulate.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'tabulate.egg-info/SOURCES.txt'
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/tabulate
+  copying build/lib/tabulate/__init__.py -> build/bdist.linux-x86_64/wheel/tabulate
+  copying build/lib/tabulate/version.py -> build/bdist.linux-x86_64/wheel/tabulate
+  running install_egg_info
+  Copying tabulate.egg-info to build/bdist.linux-x86_64/wheel/tabulate-0.9.0-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/tabulate-0.9.0.dist-info/WHEEL
+  creating '/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11/pip-wheel-8zx7sdnt/.tmp-j8aqbk_c/tabulate-0.9.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'tabulate/__init__.py'
+  adding 'tabulate/version.py'
+  adding 'tabulate-0.9.0.dist-info/LICENSE'
+  adding 'tabulate-0.9.0.dist-info/METADATA'
+  adding 'tabulate-0.9.0.dist-info/WHEEL'
+  adding 'tabulate-0.9.0.dist-info/entry_points.txt'
+  adding 'tabulate-0.9.0.dist-info/top_level.txt'
+  adding 'tabulate-0.9.0.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for tabulate (pyproject.toml): finished with status 'done'
+  Created wheel for tabulate: filename=tabulate-0.9.0-py3-none-any.whl size=35356 sha256=c31d44ba4d7f818ccf4c9dda9cbab116e565ac3a4fdb22ff00bca09ba71e798b
+  Stored in directory: /builddir/.cache/pip/wheels/f7/12/c5/b3030ff51b3d7fb8aa050df5aab948f94f5f7b75dbb995f83b
+Successfully built tabulate
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.n9gbLV
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64
++ cd tabulate-0.9.0
+++ ls /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11/tabulate-0.9.0-py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=tabulate==0.9.0
++ '[' -z tabulate==0.9.0 ']'
++ TMPDIR=/builddir/build/BUILD/tabulate-0.9.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11 tabulate==0.9.0
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/tabulate-0.9.0/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/tabulate-0.9.0-py3-none-any.whl
+Installing collected packages: tabulate
+  Creating /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/bin
+  changing mode of /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/bin/tabulate to 755
+Successfully installed tabulate-0.9.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/bin ']'
++ '[' -z sP ']'
++ shebang_flags=-kasP
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/bin/tabulate
+/builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/bin/tabulate: updating
++ rm -rfv /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/bin/__pycache__
++ rm -f /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/tabulate-0.9.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tabulate-0.9.0.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tabulate-0.9.0.dist-info/RECORD --output /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tabulate-0.9.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tabulate-0.9.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tabulate-0.9.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tabulate-0.9.0.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-tabulate-0.9.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.9.0-1.el9 --unique-debug-suffix -0.9.0-1.el9.x86_64 --unique-debug-src-base python-tabulate-0.9.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/tabulate-0.9.0
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-tabulate-0.9.0-1.el9.noarch
+Provides: python3.11-tabulate = 0.9.0-1.el9 python3.11dist(tabulate) = 0.9
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/python3.11 python(abi) = 3.11
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-tabulate-0.9.0-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-tabulate-0.9.0-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-tabulate-0.9.0-1.el9.noarch.rpm
 Finish: rpmbuild python-tabulate-0.9.0-1.el9.src.rpm
 Finish: build phase for python-tabulate-0.9.0-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-tabulate-0.9.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 24 seconds
+INFO: Done(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-tabulate-0.9.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 24 seconds
 INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 418ba7d35c9f483b9572817aabcf0517 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.0vx__9o6:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-tabulate-0.9.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
-
-This system is not registered with an entitlement server. You can use subscription-manager to register.
-
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                      2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                          144 kB/s |  17 kB     00:00    
-Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
-Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
-Package python3.11-packaging-23.2-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
-Package python3.11-setuptools_scm-8.0.4-1.el9.noarch is already installed.
-Package python3.11-setuptools_scm+toml-8.0.4-1.el9.noarch is already installed.
-Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(wcwidth)'
-Not all dependencies satisfied
-Error: Some packages could not be found.
-
+Finish: run
 Directory walk started
-Directory walk done - 68 packages
+Directory walk done - 75 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
