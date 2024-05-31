@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twisted-iocpsupport-1.0.3-1.el9.src.rpm
+The lastest package built was python-urllib3-1.26.18-1.el9.src.rpm
 
-The build completed at Fri May 31 08:59:14 PM CEST 2024
+The build completed at Fri May 31 08:59:48 PM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-twisted-iocpsupport-1.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -87,9 +87,9 @@ python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | Built | [Log
 python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.src.rpm | Built | [Log](logs/python-typing-extensions-4.9.0-1.el9.src.rpm.log)
 python3.11-tzdata-2023.3-1.el9 | python-tzdata-2023.3-1.el9.src.rpm | Built | [Log](logs/python-tzdata-2023.3-1.el9.src.rpm.log)
 python3.11-uritemplate-4.1.1-1.el9 | python-uritemplate-4.1.1-1.el9.src.rpm | Built | [Log](logs/python-uritemplate-4.1.1-1.el9.src.rpm.log)
-python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | **Missing** | [Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
+python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | Built | [Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
 python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-websocket-client-1.7.0-1.el9.src.rpm.log)
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-82 total packages, 48 packages built successfully, 34 packages left to fix
+82 total packages, 49 packages built successfully, 33 packages left to fix
