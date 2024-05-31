@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyhamcrest-2.1.0-1.el9.src.rpm
+The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
 
-The build completed at Fri May 31 11:46:39 PM CEST 2024
+The build completed at Fri May 31 11:50:59 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pyhamcrest-2.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
