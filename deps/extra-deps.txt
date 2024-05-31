@@ -23,3 +23,5 @@ calver
 hatchling
 calver
 mypy-extensions
+types-psutil
+types-setuptools

@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
+The lastest package built was python-django-filter-23.1-1.el9.src.rpm
 
-The build completed at Sat Jun  1 01:12:23 AM CEST 2024
+The build completed at Sat Jun  1 01:12:56 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
+[Build Log](logs/python-django-filter-23.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -59,6 +59,7 @@ python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | Built | [Log](logs/python-lxml-4.9.4-1.el9.src.rpm.log)
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-2.1.5-1.el9.src.rpm.log)
 python3.11-mypy-1.10.0-1.el9 | python-mypy-1.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-mypy-1.10.0-1.el9.src.rpm.log)
+python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | **Missing** |
 python3.11-ntlm-1.1.0-1.el9 | python-ntlm-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | Built | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-packaging-23.2-1.el9 | python-packaging-23.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-23.2-1.el9.src.rpm.log)
@@ -95,6 +96,8 @@ python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.2
 python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 python3.11-twisted-iocpsupport-1.0.3-1.el9 | python-twisted-iocpsupport-1.0.3-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-iocpsupport-1.0.3-1.el9.src.rpm.log)
 python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | Built | [Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
+python3.11-types-psutil-5.9.5.20240516-1.el9 | python-types-psutil-5.9.5.20240516-1.el9.src.rpm | **Missing** |
+python3.11-types-setuptools-69.5.0.20240522-1.el9 | python-types-setuptools-69.5.0.20240522-1.el9.src.rpm | **Missing** |
 python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.src.rpm | Built | [Log](logs/python-typing-extensions-4.9.0-1.el9.src.rpm.log)
 python3.11-tzdata-2023.3-1.el9 | python-tzdata-2023.3-1.el9.src.rpm | Built | [Log](logs/python-tzdata-2023.3-1.el9.src.rpm.log)
 python3.11-uritemplate-4.1.1-1.el9 | python-uritemplate-4.1.1-1.el9.src.rpm | Built | [Log](logs/python-uritemplate-4.1.1-1.el9.src.rpm.log)
@@ -103,4 +106,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-93 total packages, 62 packages built successfully, 31 packages left to fix
+96 total packages, 62 packages built successfully, 34 packages left to fix
