@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-django
-Version:        4.2.7
+Version:        4.2.6
 Release:        %autorelease
 Summary:        A high-level Python web framework that encourages rapid development and clean, pragmatic design.
 

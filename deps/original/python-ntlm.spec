@@ -1,16 +1,16 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-requests
-Version:        2.31.0
+Name:           python-ntlm
+Version:        1.1.0
 Release:        %autorelease
-Summary:        Python HTTP for Humans.
+Summary:        Python library that provides NTLM support, including an authentication handler for urllib2. Works with pass-the-hash in additon to password authentication.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://requests.readthedocs.io
-Source:         %{pypi_source requests}
+URL:            http://code.google.com/p/python-ntlm
+Source:         %{pypi_source python-ntlm}
 
 BuildArch:      noarch
 
@@ -19,27 +19,22 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'requests' generated automatically by pyp2spec.}
+This is package 'python-ntlm' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-requests
+%package -n     python%{python3_pkgversion}-python-ntlm
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-requests %_description
-
-# For official Fedora packages, review which extras should be actually packaged
-# See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-requests socks
+%description -n python%{python3_pkgversion}-python-ntlm %_description
 
 
 %prep
-%autosetup -p1 -n requests-%{version}
+%autosetup -p1 -n python-ntlm-%{version}
 
 
 %generate_buildrequires
-# Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x socks
+%pyproject_buildrequires
 
 
 %build
@@ -57,7 +52,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-requests -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-python-ntlm -f %{pyproject_files}
 
 
 %changelog

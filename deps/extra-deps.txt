@@ -3,3 +3,7 @@ poetry
 poetry
 poetry-core
 packaging
+setuptools-scm
+twisted
+ntlm
+django
