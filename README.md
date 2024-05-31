@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-mypy-1.10.0-1.el9.src.rpm
+The lastest package built was python-mypy-extensions-1.0.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 01:32:55 AM CEST 2024
+The build completed at Sat Jun  1 01:33:26 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-mypy-1.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-mypy-extensions-1.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -59,7 +59,7 @@ python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | Built | [Log](logs/python-lxml-4.9.4-1.el9.src.rpm.log)
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-2.1.5-1.el9.src.rpm.log)
 python3.11-mypy-1.10.0-1.el9 | python-mypy-1.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-mypy-1.10.0-1.el9.src.rpm.log)
-python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | **Missing** |
+python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-extensions-1.0.0-1.el9.src.rpm.log)
 python3.11-ntlm-1.1.0-1.el9 | python-ntlm-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | Built | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-packaging-23.2-1.el9 | python-packaging-23.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-23.2-1.el9.src.rpm.log)
@@ -107,4 +107,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-97 total packages, 67 packages built successfully, 30 packages left to fix
+97 total packages, 68 packages built successfully, 29 packages left to fix
