@@ -16,3 +16,5 @@ hatchling
 hatch-vcs
 babel
 social-auth-core
+pathspec
+trove-classifiers
