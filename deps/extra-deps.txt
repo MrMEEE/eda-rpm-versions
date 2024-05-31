@@ -21,3 +21,4 @@ trove-classifiers
 mypy
 calver
 hatchling
+calver
