@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    7.4 MB/s |  45 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================] 6.3 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                     6.3 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================] 8.5 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                    8.5 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         46 kB/s |  19 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    4.7 MB/s |  48 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      11 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         45 kB/s |  19 kB     00:00    
 Dependencies resolved.
 ======================================================================================================================================================================================
  Package                                                Architecture                      Version                                  Repository                                    Size
@@ -166,7 +166,7 @@ Start: rpmbuild python-poetry-1.8.3-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717113600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.dVGR3T
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.xbkLs3
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -182,7 +182,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.dVGR3T
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.2BmJRd
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Hm9b9H
 + umask 022
 + cd /builddir/build/BUILD
 + cd poetry-1.8.3
@@ -217,10 +217,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================] 7.5 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                     7.5 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================] 9.4 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                    9.4 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        200 kB/s |  19 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        196 kB/s |  19 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -266,7 +266,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717113600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.JjxR14
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Y8BQLR
 + umask 022
 + cd /builddir/build/BUILD
 + cd poetry-1.8.3
@@ -303,24 +303,156 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================] 9.4 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                     9.4 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        164 kB/s |  19 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         43 kB/s |  19 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-packaging-21.3-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(poetry-core) >= 1.5'
+Dependencies resolved.
+======================================================================================================================================================================================
+ Package                                         Architecture                    Version                               Repository                                                Size
+======================================================================================================================================================================================
+Installing:
+ [1mpython3.11-poetry-core                         [m noarch                          1.9.0-1.el9                           _opt_edarpm_rpmbuilds_010_RPMS_                          675 k
+
+Transaction Summary
+======================================================================================================================================================================================
+Install  1 Package
+
+Total size: 675 k
+Installed size: 3.0 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                              1/1 
+  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [                                                                                                                ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=                                                                                                               ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==                                                                                                              ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===                                                                                                             ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [====                                                                                                            ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=====                                                                                                           ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [======                                                                                                          ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=======                                                                                                         ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [========                                                                                                        ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==========                                                                                                      ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===========                                                                                                     ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [============                                                                                                    ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=============                                                                                                   ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==============                                                                                                  ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===============                                                                                                 ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [================                                                                                                ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=================                                                                                               ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===================                                                                                             ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [====================                                                                                            ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=====================                                                                                           ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [======================                                                                                          ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=======================                                                                                         ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [========================                                                                                        ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=========================                                                                                       ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==========================                                                                                      ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [============================                                                                                    ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=============================                                                                                   ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==============================                                                                                  ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===============================                                                                                 ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [================================                                                                                ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=================================                                                                               ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==================================                                                                              ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===================================                                                                             ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [====================================                                                                            ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [======================================                                                                          ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=======================================                                                                         ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [========================================                                                                        ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=========================================                                                                       ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==========================================                                                                      ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===========================================                                                                     ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [============================================                                                                    ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=============================================                                                                   ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===============================================                                                                 ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [================================================                                                                ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=================================================                                                               ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==================================================                                                              ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===================================================                                                             ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [====================================================                                                            ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=====================================================                                                           ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [======================================================                                                          ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [========================================================                                                        ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=========================================================                                                       ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==========================================================                                                      ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===========================================================                                                     ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [============================================================                                                    ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=============================================================                                                   ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==============================================================                                                  ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===============================================================                                                 ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [================================================================                                                ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==================================================================                                              ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===================================================================                                             ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [====================================================================                                            ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=====================================================================                                           ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [======================================================================                                          ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=======================================================================                                         ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [========================================================================                                        ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=========================================================================                                       ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===========================================================================                                     ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [============================================================================                                    ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=============================================================================                                   ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==============================================================================                                  ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===============================================================================                                 ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [================================================================================                                ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=================================================================================                               ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==================================================================================                              ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [====================================================================================                            ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=====================================================================================                           ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [======================================================================================                          ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=======================================================================================                         ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [========================================================================================                        ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=========================================================================================                       ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==========================================================================================                      ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===========================================================================================                     ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [============================================================================================                    ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==============================================================================================                  ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===============================================================================================                 ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [================================================================================================                ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=================================================================================================               ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==================================================================================================              ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===================================================================================================             ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [====================================================================================================            ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=====================================================================================================           ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=======================================================================================================         ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [========================================================================================================        ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=========================================================================================================       ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==========================================================================================================      ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [===========================================================================================================     ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [============================================================================================================    ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [=============================================================================================================   ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch [==============================================================================================================  ] 1/1  Installing       : python3.11-poetry-core-1.9.0-1.el9.noarch                                                                                                                    1/1 
+  Running scriptlet: python3.11-poetry-core-1.9.0-1.el9.noarch                                                                                                                    1/1 
+  Verifying        : python3.11-poetry-core-1.9.0-1.el9.noarch                                                                                                                    1/1 
+Installed products updated.
+
+Installed:
+  python3.11-poetry-core-1.9.0-1.el9.noarch                                                                                                                                           
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717113600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.wYtURb
++ umask 022
++ cd /builddir/build/BUILD
++ cd poetry-1.8.3
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/poetry-1.8.3/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/poetry-1.8.3/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/poetry-1.8.3/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-poetry-1.8.3-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling poetry-core>=1.5.0 from build-system.requires
+Requirement satisfied: poetry-core>=1.5.0
+   (installed: poetry-core 1.9.0)
+Handling build (>=1.0.3,<2.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: build (>=1.0.3,<2.0.0)
+Handling cachecontrol[filecache] (>=0.14.0,<0.15.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: cachecontrol[filecache] (>=0.14.0,<0.15.0)
+Handling cleo (>=2.1.0,<3.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: cleo (>=2.1.0,<3.0.0)
+Handling crashtest (>=0.4.1,<0.5.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: crashtest (>=0.4.1,<0.5.0)
+Handling dulwich (>=0.21.2,<0.22.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: dulwich (>=0.21.2,<0.22.0)
+Handling fastjsonschema (>=2.18.0,<3.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: fastjsonschema (>=2.18.0,<3.0.0)
+Handling importlib-metadata (>=4.4) ; python_version < "3.10" from hook generated metadata: Requires-Dist (poetry)
+Ignoring alien requirement: importlib-metadata (>=4.4) ; python_version < "3.10"
+Handling installer (>=0.7.0,<0.8.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: installer (>=0.7.0,<0.8.0)
+Handling keyring (>=24.0.0,<25.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: keyring (>=24.0.0,<25.0.0)
+Handling packaging (>=23.1) from hook generated metadata: Requires-Dist (poetry)
+Handling pexpect (>=4.7.0,<5.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: pexpect (>=4.7.0,<5.0.0)
+Handling pkginfo (>=1.10,<2.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: pkginfo (>=1.10,<2.0)
+Handling platformdirs (>=3.0.0,<5) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: platformdirs (>=3.0.0,<5)
+Handling poetry-core (==1.9.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement satisfied: poetry-core (==1.9.0)
+   (installed: poetry-core 1.9.0)
+Handling pyproject-hooks (>=1.0.0,<2.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: pyproject-hooks (>=1.0.0,<2.0.0)
+Handling requests (>=2.26,<3.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: requests (>=2.26,<3.0)
+Handling requests-toolbelt (>=1.0.0,<2.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: requests-toolbelt (>=1.0.0,<2.0.0)
+Handling shellingham (>=1.5,<2.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: shellingham (>=1.5,<2.0)
+Handling tomli (>=2.0.1,<3.0.0) ; python_version < "3.11" from hook generated metadata: Requires-Dist (poetry)
+Ignoring alien requirement: tomli (>=2.0.1,<3.0.0) ; python_version < "3.11"
+Handling tomlkit (>=0.11.4,<1.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: tomlkit (>=0.11.4,<1.0.0)
+Handling trove-classifiers (>=2022.5.19) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: trove-classifiers (>=2022.5.19)
+Handling virtualenv (>=20.23.0,<21.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: virtualenv (>=20.23.0,<21.0.0)
+Handling xattr (>=1.0.0,<2.0.0) ; sys_platform == "darwin" from hook generated metadata: Requires-Dist (poetry)
+Ignoring alien requirement: xattr (>=1.0.0,<2.0.0) ; sys_platform == "darwin"
++ cat /builddir/build/BUILD/python-poetry-1.8.3-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv poetry-1.8.3.dist-info/
+removed 'poetry-1.8.3.dist-info/entry_points.txt'
+removed 'poetry-1.8.3.dist-info/WHEEL'
+removed 'poetry-1.8.3.dist-info/METADATA'
+removed 'poetry-1.8.3.dist-info/LICENSE'
+removed directory 'poetry-1.8.3.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-poetry-1.8.3-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         50 kB/s |  19 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-packaging-21.3-1.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(packaging) >= 23.1'
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-poetry-core-1.9.0-1.el9.noarch is already installed.
+Package python3.11-poetry-core-1.9.0-1.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(trove-classifiers) >= 2022.5.19'
 Not all dependencies satisfied
 Error: Some packages could not be found.
 Finish: rpmbuild python-poetry-1.8.3-1.el9.src.rpm
 Finish: build phase for python-poetry-1.8.3-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-poetry-1.8.3-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 20 seconds
+ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-poetry-1.8.3-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 24 seconds
 INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M a9954042b0b54322ac6a7e1189805f29 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.zyjyg0v8:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-poetry-1.8.3-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M aa68e09fb9744493850dfcf58dca24f9 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.1g809rfi:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-poetry-1.8.3-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -328,21 +460,24 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                     9.4 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                        164 kB/s |  19 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         50 kB/s |  19 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-packaging-21.3-1.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(packaging) >= 23.1'
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(poetry-core) >= 1.5'
+Package python3.11-poetry-core-1.9.0-1.el9.noarch is already installed.
+Package python3.11-poetry-core-1.9.0-1.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(trove-classifiers) >= 2022.5.19'
 Not all dependencies satisfied
 Error: Some packages could not be found.
 
 Directory walk started
-Directory walk done - 49 packages
+Directory walk done - 50 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
