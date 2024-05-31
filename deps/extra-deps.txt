@@ -9,3 +9,5 @@ ntlm
 django
 bcrypt
 pyhamcrest
+trove-classifiers
+blinker
