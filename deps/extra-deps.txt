@@ -58,3 +58,4 @@ rapidfuzz
 referencing
 secretstorage
 jeepney
+twine
