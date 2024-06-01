@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ptyprocess-0.7.0-1.el9.src.rpm
+The lastest package built was python-pydantic-2.5.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 10:17:13 PM CEST 2024
+The build completed at Sat Jun  1 10:17:42 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
