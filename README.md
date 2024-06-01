@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pydantic-core-2.14.1-1.el9.src.rpm
+The lastest package built was python-rapidfuzz-3.9.1-1.el9.src.rpm
 
-The build completed at Sat Jun  1 10:02:17 PM CEST 2024
+The build completed at Sat Jun  1 10:02:56 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
+[Build Log](logs/python-rapidfuzz-3.9.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -62,10 +62,12 @@ python3.11-hpack-4.0.0-1.el9 | python-hpack-4.0.0-1.el9.src.rpm | Built | [Log](
 python3.11-hyperframe-6.0.1-1.el9 | python-hyperframe-6.0.1-1.el9.src.rpm | Built | [Log](logs/python-hyperframe-6.0.1-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-idna-3.6-1.el9 | python-idna-3.6-1.el9.src.rpm | Built | [Log](logs/python-idna-3.6-1.el9.src.rpm.log)
+python3.11-importlib-metadata-6.2.1-1.el9 | python-importlib-metadata-6.2.1-1.el9.src.rpm | **Missing** |
 python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | Built | [Log](logs/python-isodate-0.6.1-1.el9.src.rpm.log)
+python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rpm | **Missing** |
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | Built | [Log](logs/python-jinja2-3.1.3-1.el9.src.rpm.log)
 python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
@@ -89,6 +91,7 @@ python3.11-podman-4.5.0-1.el9 | python-podman-4.5.0-1.el9.src.rpm | Built | [Log
 python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
 python3.11-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | Built | [Log](logs/python-priority-1.3.0-1.el9.src.rpm.log)
+python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | **Missing** |
 python3.11-pyasn1-modules-0.5.1-1.el9 | python-pyasn1-modules-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.5.1-1.el9.src.rpm.log)
 python3.11-pycparser-2.21-1.el9 | python-pycparser-2.21-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.21-1.el9.src.rpm.log)
 python3.11-pydantic-2.5.0-1.el9 | python-pydantic-2.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
@@ -143,4 +146,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-133 total packages, 111 packages built successfully, 22 packages left to fix
+136 total packages, 111 packages built successfully, 25 packages left to fix

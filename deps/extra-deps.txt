@@ -63,3 +63,6 @@ rpds-py
 scikit-build
 maturin
 maturin
+ptyprocess
+jaraco-classes
+importlib-metadata
