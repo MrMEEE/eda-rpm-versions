@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-drf-spectacular-0.26.2-1.el9.src.rpm
+The lastest package built was python-importlib-metadata-6.2.1-1.el9.src.rpm
 
-The build completed at Sat Jun  1 10:29:47 PM CEST 2024
+The build completed at Sat Jun  1 10:30:24 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-drf-spectacular-0.26.2-1.el9.src.rpm.log)
+[Build Log](logs/python-importlib-metadata-6.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
