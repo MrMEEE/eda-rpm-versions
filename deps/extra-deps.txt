@@ -76,3 +76,7 @@ readme-renderer
 rfc3986
 rich
 jsonschema-specifications
+docutils
+nh3
+pygments
+markdown-it-py

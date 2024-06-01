@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twisted-iocpsupport-1.0.3-1.el9.src.rpm
+The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
 
-The build completed at Sun Jun  2 12:29:15 AM CEST 2024
+The build completed at Sun Jun  2 12:37:33 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-twisted-iocpsupport-1.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -49,6 +49,7 @@ python3.11-djangorestframework-3.15.1-1.el9 | python-djangorestframework-3.15.1-
 python3.11-djangorestframework-simplejwt-5.3.1-1.el9 | python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm.log)
 python3.11-django-rq-2.7.0-1.el9 | python-django-rq-2.7.0-1.el9.src.rpm | Built | [Log](logs/python-django-rq-2.7.0-1.el9.src.rpm.log)
 python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
+python3.11-docutils-0.20.1-1.el9 | python-docutils-0.20.1-1.el9.src.rpm | **Missing** |
 python3.11-drf-spectacular-0.26.2-1.el9 | python-drf-spectacular-0.26.2-1.el9.src.rpm | Built | [Log](logs/python-drf-spectacular-0.26.2-1.el9.src.rpm.log)
 python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.21.7-1.el9.src.rpm.log)
 python3.11-dynaconf-3.2.4-1.el9 | python-dynaconf-3.2.4-1.el9.src.rpm | Built | [Log](logs/python-dynaconf-3.2.4-1.el9.src.rpm.log)
@@ -77,12 +78,14 @@ python3.11-keyring-24.3.1-1.el9 | python-keyring-24.3.1-1.el9.src.rpm | Built | 
 python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | Built | [Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
 python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | Built | [Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
 python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | Built | [Log](logs/python-lxml-4.9.4-1.el9.src.rpm.log)
+python3.11-markdown-it-py-3.0.0-1.el9 | python-markdown-it-py-3.0.0-1.el9.src.rpm | **Missing** |
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-2.1.5-1.el9.src.rpm.log)
 python3.11-maturin-1.5.1-1.el9 | python-maturin-1.5.1-1.el9.src.rpm | Built | [Log](logs/python-maturin-1.5.1-1.el9.src.rpm.log)
 python3.11-more-itertools-10.2.0-1.el9 | python-more-itertools-10.2.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-10.2.0-1.el9.src.rpm.log)
 python3.11-msgpack-1.0.5-1.el9 | python-msgpack-1.0.5-1.el9.src.rpm | Built | [Log](logs/python-msgpack-1.0.5-1.el9.src.rpm.log)
 python3.11-mypy-1.10.0-1.el9 | python-mypy-1.10.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-1.10.0-1.el9.src.rpm.log)
 python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-extensions-1.0.0-1.el9.src.rpm.log)
+python3.11-nh3-0.2.17-1.el9 | python-nh3-0.2.17-1.el9.src.rpm | **Missing** |
 python3.11-ntlm-1.1.0-1.el9 | python-ntlm-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | Built | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-packaging-23.2-1.el9 | python-packaging-23.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-23.2-1.el9.src.rpm.log)
@@ -100,6 +103,7 @@ python3.11-pyasn1-modules-0.5.1-1.el9 | python-pyasn1-modules-0.5.1-1.el9.src.rp
 python3.11-pycparser-2.21-1.el9 | python-pycparser-2.21-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.21-1.el9.src.rpm.log)
 python3.11-pydantic-2.5.0-1.el9 | python-pydantic-2.5.0-1.el9.src.rpm | Built | [Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
 python3.11-pydantic-core-2.14.1-1.el9 | python-pydantic-core-2.14.1-1.el9.src.rpm | Built | [Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
+python3.11-pygments-2.18.0-1.el9 | python-pygments-2.18.0-1.el9.src.rpm | **Missing** |
 python3.11-pyhamcrest-2.1.0-1.el9 | python-pyhamcrest-2.1.0-1.el9.src.rpm | Built | [Log](logs/python-pyhamcrest-2.1.0-1.el9.src.rpm.log)
 python3.11-pyjwt-2.8.0-1.el9 | python-pyjwt-2.8.0-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.8.0-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.0.0-1.el9 | python-pyopenssl-24.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.0.0-1.el9.src.rpm.log)
@@ -154,4 +158,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-144 total packages, 137 packages built successfully, 7 packages left to fix
+148 total packages, 137 packages built successfully, 11 packages left to fix
