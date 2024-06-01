@@ -49,3 +49,12 @@ annotated-types
 adal
 pytest-runner
 setuptools-twine
+pkgconfig
+distlib
+filelock
+hpack
+hyperframe
+rapidfuzz
+referencing
+secretstorage
+jeepney
