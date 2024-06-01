@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-tomlkit-0.12.5-1.el9.src.rpm
+The lastest package built was python-twisted-23.10.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 07:46:19 PM CEST 2024
+The build completed at Sat Jun  1 07:46:51 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-tomlkit-0.12.5-1.el9.src.rpm.log)
+[Build Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
