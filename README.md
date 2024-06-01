@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rapidfuzz-3.9.1-1.el9.src.rpm
+The lastest package built was python-rq-scheduler-0.10.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 10:55:26 PM CEST 2024
+The build completed at Sat Jun  1 10:56:02 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-rapidfuzz-3.9.1-1.el9.src.rpm.log)
+[Build Log](logs/python-rq-scheduler-0.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
