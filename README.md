@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hpack-4.0.0-1.el9.src.rpm
+The lastest package built was python-hyperframe-6.0.1-1.el9.src.rpm
 
-The build completed at Sat Jun  1 09:32:00 PM CEST 2024
+The build completed at Sat Jun  1 09:32:32 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-hpack-4.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-hyperframe-6.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -59,7 +59,7 @@ python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme
 python3.11-hatchling-1.24.2-1.el9 | python-hatchling-1.24.2-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.24.2-1.el9.src.rpm.log)
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 python3.11-hpack-4.0.0-1.el9 | python-hpack-4.0.0-1.el9.src.rpm | Built | [Log](logs/python-hpack-4.0.0-1.el9.src.rpm.log)
-python3.11-hyperframe-6.0.1-1.el9 | python-hyperframe-6.0.1-1.el9.src.rpm | **Missing** |
+python3.11-hyperframe-6.0.1-1.el9 | python-hyperframe-6.0.1-1.el9.src.rpm | Built | [Log](logs/python-hyperframe-6.0.1-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-idna-3.6-1.el9 | python-idna-3.6-1.el9.src.rpm | Built | [Log](logs/python-idna-3.6-1.el9.src.rpm.log)
 python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
@@ -139,4 +139,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-129 total packages, 102 packages built successfully, 27 packages left to fix
+129 total packages, 103 packages built successfully, 26 packages left to fix
