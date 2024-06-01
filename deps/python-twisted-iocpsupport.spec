@@ -12,10 +12,10 @@ License:        gpl
 URL:            https://github.com/twisted/twisted-iocpsupport
 Source:         %{pypi_source twisted-iocpsupport}
 
-
+BuildArch: x86_64
+BuildRequires: gcc gcc-c++
 BuildRequires: glibc-headers
 BuildRequires:  python%{python3_pkgversion}-devel
-BuildRequires:  gcc
 
 
 # Fill in the actual package description to submit package to Fedora
