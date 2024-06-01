@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-setuptools-twine-0.1.3-1.el9.src.rpm
+The lastest package built was python-twine-5.1.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 10:25:27 PM CEST 2024
+The build completed at Sat Jun  1 10:25:58 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
+[Build Log](logs/python-twine-5.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -131,7 +131,7 @@ python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | Built | 
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
 python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.12.5-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
-python3.11-twine-5.1.0-1.el9 | python-twine-5.1.0-1.el9.src.rpm | **Missing** |
+python3.11-twine-5.1.0-1.el9 | python-twine-5.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twine-5.1.0-1.el9.src.rpm.log)
 python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | Built | [Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 python3.11-twisted-iocpsupport-1.0.3-1.el9 | python-twisted-iocpsupport-1.0.3-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-iocpsupport-1.0.3-1.el9.src.rpm.log)
 python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | Built | [Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
