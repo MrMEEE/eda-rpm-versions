@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
+The lastest package built was python-drf-spectacular-0.26.2-1.el9.src.rpm
 
-The build completed at Sun Jun  2 12:16:25 AM CEST 2024
+The build completed at Sun Jun  2 12:16:52 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
+[Build Log](logs/python-drf-spectacular-0.26.2-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
