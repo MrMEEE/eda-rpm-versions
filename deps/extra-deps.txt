@@ -47,3 +47,5 @@ priority
 pydantic-core
 annotated-types
 adal
+pytest-runner
+setuptools-twine
