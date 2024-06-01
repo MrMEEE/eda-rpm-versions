@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
+The lastest package built was python-drf-spectacular-0.26.2-1.el9.src.rpm
 
-The build completed at Sun Jun  2 12:21:24 AM CEST 2024
+The build completed at Sun Jun  2 12:22:02 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
+[Build Log](logs/python-drf-spectacular-0.26.2-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -49,7 +49,7 @@ python3.11-djangorestframework-3.15.1-1.el9 | python-djangorestframework-3.15.1-
 python3.11-djangorestframework-simplejwt-5.3.1-1.el9 | python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm.log)
 python3.11-django-rq-2.7.0-1.el9 | python-django-rq-2.7.0-1.el9.src.rpm | Built | [Log](logs/python-django-rq-2.7.0-1.el9.src.rpm.log)
 python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
-python3.11-drf-spectacular-0.26.2-1.el9 | python-drf-spectacular-0.26.2-1.el9.src.rpm | **Missing** | [Log](logs/python-drf-spectacular-0.26.2-1.el9.src.rpm.log)
+python3.11-drf-spectacular-0.26.2-1.el9 | python-drf-spectacular-0.26.2-1.el9.src.rpm | Built | [Log](logs/python-drf-spectacular-0.26.2-1.el9.src.rpm.log)
 python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.21.7-1.el9.src.rpm.log)
 python3.11-dynaconf-3.2.4-1.el9 | python-dynaconf-3.2.4-1.el9.src.rpm | Built | [Log](logs/python-dynaconf-3.2.4-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.19.1-1.el9 | python-fastjsonschema-2.19.1-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.19.1-1.el9.src.rpm.log)
@@ -154,4 +154,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-144 total packages, 136 packages built successfully, 8 packages left to fix
+144 total packages, 137 packages built successfully, 7 packages left to fix
