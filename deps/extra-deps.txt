@@ -67,3 +67,4 @@ ptyprocess
 jaraco-classes
 importlib-metadata
 msgpack
+distro
