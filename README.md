@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pydantic-core-2.14.1-1.el9.src.rpm
+The lastest package built was python-rq-scheduler-0.10.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 08:07:38 PM CEST 2024
+The build completed at Sat Jun  1 08:08:12 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
+[Build Log](logs/python-rq-scheduler-0.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
