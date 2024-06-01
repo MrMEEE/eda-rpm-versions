@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-setuptools-twine-0.1.3-1.el9.src.rpm
+The lastest package built was python-twine-5.1.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 11:07:53 PM CEST 2024
+The build completed at Sat Jun  1 11:08:24 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
+[Build Log](logs/python-twine-5.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
