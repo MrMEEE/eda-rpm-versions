@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jsonschema-4.21.1-1.el9.src.rpm
+The lastest package built was python-keyring-24.3.1-1.el9.src.rpm
 
-The build completed at Sat Jun  1 10:31:31 PM CEST 2024
+The build completed at Sat Jun  1 10:32:06 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
+[Build Log](logs/python-keyring-24.3.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -146,6 +146,7 @@ python3.11-versioneer-0.29-1.el9 | python-versioneer-0.29-1.el9.src.rpm | Built 
 python3.11-virtualenv-20.26.2-1.el9 | python-virtualenv-20.26.2-1.el9.src.rpm | Built | [Log](logs/python-virtualenv-20.26.2-1.el9.src.rpm.log)
 python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-websocket-client-1.7.0-1.el9.src.rpm.log)
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
+python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-138 total packages, 118 packages built successfully, 20 packages left to fix
+139 total packages, 118 packages built successfully, 21 packages left to fix
