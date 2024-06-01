@@ -45,3 +45,5 @@ keyring
 h2
 priority
 pydantic-core
+annotated-types
+adal
