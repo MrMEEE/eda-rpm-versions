@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-poetry-1.8.3-1.el9.src.rpm
+The lastest package built was python-pydantic-2.5.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 10:00:57 PM CEST 2024
+The build completed at Sat Jun  1 10:01:31 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
+[Build Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -107,9 +107,11 @@ python3.11-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | 
 python3.11-requests-2.31.0-1.el9 | python-requests-2.31.0-1.el9.src.rpm | Built | [Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
 python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
+python3.11-rpds-py-0.18.0-1.el9 | python-rpds-py-0.18.0-1.el9.src.rpm | **Missing** |
 python3.11-rq-1.13.0-1.el9 | python-rq-1.13.0-1.el9.src.rpm | Built | [Log](logs/python-rq-1.13.0-1.el9.src.rpm.log)
 python3.11-rq-scheduler-0.10.0-1.el9 | python-rq-scheduler-0.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-rq-scheduler-0.10.0-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
+python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | **Missing** |
 python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | Built | [Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
 python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
 python3.11-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | Built | [Log](logs/python-setuptools-69.0.2-1.el9.src.rpm.log)
@@ -140,4 +142,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-130 total packages, 111 packages built successfully, 19 packages left to fix
+132 total packages, 111 packages built successfully, 21 packages left to fix
