@@ -13,6 +13,7 @@ URL:            https://github.com/twisted/twisted-iocpsupport
 Source:         %{pypi_source twisted-iocpsupport}
 
 
+BuildRequires: glibc-headers
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 
