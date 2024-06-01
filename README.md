@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hyperframe-6.0.1-1.el9.src.rpm
+The lastest package built was python-jeepney-0.8.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 09:32:32 PM CEST 2024
+The build completed at Sat Jun  1 09:33:05 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-hyperframe-6.0.1-1.el9.src.rpm.log)
+[Build Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -66,7 +66,7 @@ python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm 
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | Built | [Log](logs/python-isodate-0.6.1-1.el9.src.rpm.log)
-python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | **Missing** |
+python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | Built | [Log](logs/python-jinja2-3.1.3-1.el9.src.rpm.log)
 python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
 python3.11-keyring-24.3.1-1.el9 | python-keyring-24.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-24.3.1-1.el9.src.rpm.log)
@@ -139,4 +139,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-129 total packages, 103 packages built successfully, 26 packages left to fix
+129 total packages, 104 packages built successfully, 25 packages left to fix
