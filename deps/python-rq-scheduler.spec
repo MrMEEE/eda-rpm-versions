@@ -38,6 +38,7 @@ Summary:        %{summary}
 
 
 %build
+pathfix.py -pni "%{__python3} %{py3_shbang_opts}" rq_scheduler/scripts/rqscheduler.py
 %pyproject_wheel
 
 
@@ -46,7 +47,6 @@ Summary:        %{summary}
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
 %pyproject_save_files '*' +auto
-pathfix.py -pni "%{__python3} %{py3_shbang_opts}" %{buildroot}%{python3_sitearch}
 
 %check
 %pyproject_check_import

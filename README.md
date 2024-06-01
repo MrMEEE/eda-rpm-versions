@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-rq-scheduler-0.10.0-1.el9.src.rpm
 
-The build completed at Sun Jun  2 01:37:39 AM CEST 2024
+The build completed at Sun Jun  2 01:40:17 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-rq-scheduler-0.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
@@ -125,7 +125,7 @@ python3.11-rfc3986-2.0.0-1.el9 | python-rfc3986-2.0.0-1.el9.src.rpm | Built | [L
 python3.11-rich-13.7.1-1.el9 | python-rich-13.7.1-1.el9.src.rpm | Built | [Log](logs/python-rich-13.7.1-1.el9.src.rpm.log)
 python3.11-rpds-py-0.18.0-1.el9 | python-rpds-py-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-rpds-py-0.18.0-1.el9.src.rpm.log)
 python3.11-rq-1.13.0-1.el9 | python-rq-1.13.0-1.el9.src.rpm | Built | [Log](logs/python-rq-1.13.0-1.el9.src.rpm.log)
-python3.11-rq-scheduler-0.10.0-1.el9 | python-rq-scheduler-0.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-rq-scheduler-0.10.0-1.el9.src.rpm.log)
+python3.11-rq-scheduler-0.10.0-1.el9 | python-rq-scheduler-0.10.0-1.el9.src.rpm | Built | [Log](logs/python-rq-scheduler-0.10.0-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | Built | [Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
@@ -158,4 +158,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-148 total packages, 147 packages built successfully, 1 packages left to fix
+148 total packages, 148 packages built successfully, 0 packages left to fix
