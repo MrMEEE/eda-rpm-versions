@@ -68,3 +68,5 @@ jaraco-classes
 importlib-metadata
 msgpack
 distro
+rpds-py
+pydantic-core
