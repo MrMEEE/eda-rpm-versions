@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pkgconfig-1.5.5-1.el9.src.rpm
+The lastest package built was python-poetry-1.8.3-1.el9.src.rpm
 
-The build completed at Sat Jun  1 09:35:13 PM CEST 2024
+The build completed at Sat Jun  1 09:35:44 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
