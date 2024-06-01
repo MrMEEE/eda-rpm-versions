@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    4.0 MB/s | 155 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    4.6 MB/s | 158 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      13 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   19 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         18 kB/s | 6.2 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         61 kB/s | 6.2 kB     00:00    
 Dependencies resolved.
 ======================================================================================================================================================================================
  Package                                           Architecture                 Version                                   Repository                                             Size
@@ -287,7 +287,7 @@ Start: rpmbuild python-twisted-23.10.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.C9f6Jv
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.l3P7Kh
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -301,7 +301,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.C9f6Jv
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.whOhuy
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.KcB5sT
 + umask 022
 + cd /builddir/build/BUILD
 + cd twisted-23.10.0
@@ -336,10 +336,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   20 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         15 kB/s | 6.2 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         19 kB/s | 6.2 kB     00:00    
 Package glibc-langpack-en-2.34-100.el9_4.2.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-bcrypt-4.1.3-1.el9.x86_64 is already installed.
@@ -386,7 +386,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3oudIW
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.VbjdIX
 + umask 022
 + cd /builddir/build/BUILD
 + cd twisted-23.10.0
@@ -428,9 +428,9 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         53 kB/s | 6.2 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         75 kB/s | 6.2 kB     00:00    
 Package glibc-langpack-en-2.34-100.el9_4.2.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-bcrypt-4.1.3-1.el9.x86_64 is already installed.
@@ -493,7 +493,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.mzTpht
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.6k65mt
 + umask 022
 + cd /builddir/build/BUILD
 + cd twisted-23.10.0
@@ -802,10 +802,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  14 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         15 kB/s | 6.2 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                   100% [=======================================================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                   13 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         18 kB/s | 6.2 kB     00:00    
 Package glibc-langpack-en-2.34-100.el9_4.2.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-bcrypt-4.1.3-1.el9.x86_64 is already installed.
@@ -822,26 +822,409 @@ Package python3.11-incremental-22.10.0-1.el9.noarch is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-pyopenssl-24.0.0-1.el9.noarch is already installed.
-(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
-Error: 
- Problem: nothing provides requested (python3.11dist(h2) < 5~~ with python3.11dist(h2) >= 3)
-Finish: rpmbuild python-twisted-23.10.0-1.el9.src.rpm
-Finish: build phase for python-twisted-23.10.0-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-twisted-23.10.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 28 seconds
-INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 470da5a6f1a943e1a253072d4e3b0d8d -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.xf4013hc:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-twisted-23.10.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+======================================================================================================================================================================================
+ Package                                             Architecture                  Version                               Repository                                              Size
+======================================================================================================================================================================================
+Installing:
+ [1mpython3.11-attrs                                   [m noarch                        23.2.0-1.el9                          _opt_edarpm_rpmbuilds_010_RPMS_                        111 k
+ [1mpython3.11-automat                                 [m noarch                        22.10.0-1.el9                         _opt_edarpm_rpmbuilds_010_RPMS_                         72 k
+ [1mpython3.11-constantly                              [m noarch                        23.10.4-1.el9                         _opt_edarpm_rpmbuilds_010_RPMS_                         34 k
+ [1mpython3.11-h2                                      [m noarch                        4.1.0-1.el9                           _opt_edarpm_rpmbuilds_010_RPMS_                        105 k
+ [1mpython3.11-hyperlink                               [m noarch                        21.0.0-1.el9                          _opt_edarpm_rpmbuilds_010_RPMS_                        137 k
+ [1mpython3.11-idna                                    [m noarch                        3.6-1.el9                             _opt_edarpm_rpmbuilds_010_RPMS_                         99 k
+ [1mpython3.11-priority                                [m noarch                        1.3.0-1.el9                           _opt_edarpm_rpmbuilds_010_RPMS_                         22 k
+ [1mpython3.11-service-identity                        [m noarch                        24.1.0-1.el9                          _opt_edarpm_rpmbuilds_010_RPMS_                         29 k
+ [1mpython3.11-typing-extensions                       [m noarch                        4.9.0-1.el9                           _opt_edarpm_rpmbuilds_010_RPMS_                         72 k
+ [1mpython3.11-zope-interface                          [m x86_64                        6.2-1.el9                             _opt_edarpm_rpmbuilds_010_RPMS_                        402 k
+Installing dependencies:
+ [1mpython3.11-hpack                                   [m noarch                        4.0.0-1.el9                           _opt_edarpm_rpmbuilds_010_RPMS_                         67 k
+ [1mpython3.11-hyperframe                              [m noarch                        6.0.1-1.el9                           _opt_edarpm_rpmbuilds_010_RPMS_                         33 k
+ [1mpython3.11-pyasn1-modules                          [m noarch                        0.5.1-1.el9                           _opt_edarpm_rpmbuilds_010_RPMS_                        319 k
+ [1mpython3.11-setuptools                              [m noarch                        69.0.2-1.el9                          _opt_edarpm_rpmbuilds_010_RPMS_                        1.3 M
+ [1mpython3.11-six                                     [m noarch                        1.16.0-1.el9                          _opt_edarpm_rpmbuilds_010_RPMS_                         33 k
+
+Transaction Summary
+======================================================================================================================================================================================
+Install  15 Packages
+
+Total size: 2.8 M
+Installed size: 15 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [=========                                                                                                                                                ] 1/1  Preparing        :  [===================                                                                                                                                      ] 1/1  Preparing        :  [==============================                                                                                                                           ] 1/1  Preparing        :  [=======================================                                                                                                                  ] 1/1  Preparing        :  [==================================================                                                                                                       ] 1/1  Preparing        :  [=============================================================                                                                                            ] 1/1  Preparing        :  [======================================================================                                                                                   ] 1/1  Preparing        :  [=================================================================================                                                                        ] 1/1  Preparing        :  [===========================================================================================                                                              ] 1/1  Preparing        :  [====================================================================================================                                                     ] 1/1  Preparing        :  [===============================================================================================================                                          ] 1/1  Preparing        :  [==========================================================================================================================                               ] 1/1  Preparing        :  [===================================================================================================================================                      ] 1/1  Preparing        :  [==============================================================================================================================================           ] 1/1  Preparing        :                                                                                                                                                              1/1 
+  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [                                                                                                                   ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [=====                                                                                                              ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [======                                                                                                             ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [========                                                                                                           ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [============                                                                                                       ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [=====================                                                                                              ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [===============================                                                                                    ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [========================================                                                                           ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [==========================================                                                                         ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [===========================================                                                                        ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [============================================                                                                       ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [==============================================                                                                     ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [===============================================                                                                    ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [===================================================                                                                ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [====================================================                                                               ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [========================================================                                                           ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [=========================================================                                                          ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [==========================================================                                                         ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [===========================================================                                                        ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [============================================================                                                       ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [==============================================================                                                     ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [==================================================================                                                 ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [===========================================================================                                        ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [=====================================================================================                              ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [==============================================================================================                     ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [=================================================================================================                  ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [====================================================================================================               ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [=====================================================================================================              ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [======================================================================================================             ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [=======================================================================================================            ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [========================================================================================================           ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [=========================================================================================================          ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [================================================================================================================   ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch [=================================================================================================================  ]  1/15  Installing       : python3.11-attrs-23.2.0-1.el9.noarch                                                                                                                        1/15 
+  Installing       : python3.11-six-1.16.0-1.el9.noarch [                                                                                                                     ]  2/15  Installing       : python3.11-six-1.16.0-1.el9.noarch [=                                                                                                                    ]  2/15  Installing       : python3.11-six-1.16.0-1.el9.noarch [====                                                                                                                 ]  2/15  Installing       : python3.11-six-1.16.0-1.el9.noarch [==================================================                                                                   ]  2/15  Installing       : python3.11-six-1.16.0-1.el9.noarch [====================================================                                                                 ]  2/15  Installing       : python3.11-six-1.16.0-1.el9.noarch [=================================================================================================                    ]  2/15  Installing       : python3.11-six-1.16.0-1.el9.noarch [===================================================================================================================  ]  2/15  Installing       : python3.11-six-1.16.0-1.el9.noarch                                                                                                                          2/15 
+  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [                                                                                                              ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=                                                                                                             ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==                                                                                                            ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===                                                                                                           ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====                                                                                                          ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====                                                                                                         ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======                                                                                                        ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======                                                                                                       ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========                                                                                                      ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========                                                                                                     ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========                                                                                                   ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============                                                                                                  ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============                                                                                                 ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============                                                                                                ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============                                                                                               ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================                                                                                              ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================                                                                                             ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================                                                                                            ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================                                                                                           ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================                                                                                          ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================                                                                                        ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================                                                                                       ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================                                                                                      ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================                                                                                     ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================                                                                                    ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================                                                                                   ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================                                                                                  ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================                                                                                 ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================                                                                                ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================                                                                               ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================================                                                                             ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================================                                                                            ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================================                                                                           ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================================                                                                          ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================                                                                         ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================================                                                                        ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================================                                                                       ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================================                                                                      ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================================                                                                     ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================================                                                                    ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================================                                                                  ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================================                                                                 ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================================                                                                ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================================                                                               ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================================                                                              ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================================================                                                             ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================================================                                                            ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================================================                                                           ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================================================                                                          ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================================                                                         ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================================================                                                       ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================================================                                                      ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================================================                                                     ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================================================                                                    ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================================================                                                   ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================================================                                                  ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================================================                                                 ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================================================                                                ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================================================                                               ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================================================                                              ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================================================================                                            ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================================================================                                           ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================================================================                                          ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================================================                                         ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================================================================                                        ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================================================================                                       ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================================================================                                      ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================================================================                                     ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================================================================                                    ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================================================================                                   ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================================================================                                 ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================================================================                                ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================================================================                               ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================================================================                              ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================================================================================                             ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================================================================================                            ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================================================================================                           ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================================================================================                          ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================================================================                         ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================================================================================                        ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================================================================================                      ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================================================================================                     ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================================================================================                    ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================================================================================                   ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================================================================================                  ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================================================================================                 ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================================================================================                ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================================================================================               ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================================================================================              ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================================================================================================             ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================================================================================================           ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================================================================================================          ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================================================================================         ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================================================================================================        ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================================================================================================       ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================================================================================================      ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================================================================================================     ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================================================================================================    ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================================================================================================   ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================================================================================================  ]  3/15  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch                                                                                                                   3/15 
+  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [                                                                                                           ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=                                                                                                          ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==                                                                                                         ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===                                                                                                        ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=====                                                                                                      ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [======                                                                                                     ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=======                                                                                                    ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [========                                                                                                   ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=========                                                                                                  ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==========                                                                                                 ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===========                                                                                                ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [============                                                                                               ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=============                                                                                              ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==============                                                                                             ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=================                                                                                          ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==================                                                                                         ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===================                                                                                        ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [====================                                                                                       ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=====================                                                                                      ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [======================                                                                                     ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=======================                                                                                    ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=========================                                                                                  ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==========================                                                                                 ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===========================                                                                                ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [============================                                                                               ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=============================                                                                              ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [================================                                                                           ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=================================                                                                          ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==================================                                                                         ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===================================                                                                        ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [====================================                                                                       ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=====================================                                                                      ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [======================================                                                                     ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=======================================                                                                    ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [========================================                                                                   ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=========================================                                                                  ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==========================================                                                                 ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [============================================                                                               ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==============================================                                                             ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===============================================                                                            ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [================================================                                                           ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==================================================                                                         ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===================================================                                                        ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [====================================================                                                       ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=====================================================                                                      ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [======================================================                                                     ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=======================================================                                                    ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [========================================================                                                   ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=========================================================                                                  ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==========================================================                                                 ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [============================================================                                               ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===============================================================                                            ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [================================================================                                           ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=================================================================                                          ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==================================================================                                         ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===================================================================                                        ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=====================================================================                                      ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [======================================================================                                     ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=======================================================================                                    ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=========================================================================                                  ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==========================================================================                                 ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===========================================================================                                ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=============================================================================                              ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==============================================================================                             ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===============================================================================                            ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [================================================================================                           ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==================================================================================                         ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [====================================================================================                       ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=====================================================================================                      ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=======================================================================================                    ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [========================================================================================                   ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=========================================================================================                  ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==========================================================================================                 ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=============================================================================================              ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==============================================================================================             ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===============================================================================================            ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [================================================================================================           ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=================================================================================================          ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [==================================================================================================         ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [===================================================================================================        ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [====================================================================================================       ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=====================================================================================================      ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [======================================================================================================     ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=======================================================================================================    ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [========================================================================================================   ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch [=========================================================================================================  ]  4/15  Installing       : python3.11-pyasn1-modules-0.5.1-1.el9.noarch                                                                                                                4/15 
+  Installing       : python3.11-idna-3.6-1.el9.noarch [                                                                                                                       ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [==                                                                                                                     ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [===                                                                                                                    ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [=====                                                                                                                  ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [==============                                                                                                         ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [================                                                                                                       ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [========================                                                                                               ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [================================                                                                                       ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [=======================================                                                                                ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [===============================================                                                                        ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [======================================================                                                                 ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [=============================================================                                                          ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [================================================================                                                       ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [=================================================================                                                      ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [==================================================================                                                     ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [=======================================================================                                                ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [==============================================================================                                         ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [===============================================================================                                        ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [================================================================================                                       ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [========================================================================================                               ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [================================================================================================                       ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [=======================================================================================================                ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [==============================================================================================================         ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch [=====================================================================================================================  ]  5/15  Installing       : python3.11-idna-3.6-1.el9.noarch                                                                                                                            5/15 
+  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [                                                                                                               ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [=                                                                                                              ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [====                                                                                                           ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [=====                                                                                                          ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [=======                                                                                                        ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [=========                                                                                                      ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [===============================================                                                                ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [================================================                                                               ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [====================================================                                                           ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [========================================================                                                       ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [===============================================================================================                ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch [=============================================================================================================  ]  6/15  Installing       : python3.11-hyperframe-6.0.1-1.el9.noarch                                                                                                                    6/15 
+  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [                                                                                                                    ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [=                                                                                                                   ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [======                                                                                                              ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [============                                                                                                        ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [=============                                                                                                       ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [===================                                                                                                 ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [====================                                                                                                ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [==============================                                                                                      ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [======================================                                                                              ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [===============================================                                                                     ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [=======================================================                                                             ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [===============================================================                                                     ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [================================================================                                                    ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [==================================================================                                                  ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [====================================================================                                                ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [=====================================================================                                               ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [======================================================================                                              ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [================================================================================                                    ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [========================================================================================                            ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [================================================================================================                    ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [=========================================================================================================           ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [================================================================================================================    ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [=================================================================================================================   ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch [==================================================================================================================  ]  7/15  Installing       : python3.11-hpack-4.0.0-1.el9.noarch                                                                                                                         7/15 
+  Installing       : python3.11-h2-4.1.0-1.el9.noarch [                                                                                                                       ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=                                                                                                                      ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=======                                                                                                                ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=============                                                                                                          ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=================                                                                                                      ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=======================                                                                                                ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=============================                                                                                          ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [==================================                                                                                     ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [========================================                                                                               ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [============================================                                                                           ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [===================================================                                                                    ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [======================================================                                                                 ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=======================================================                                                                ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=========================================================                                                              ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [==========================================================                                                             ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [================================================================                                                       ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=======================================================================                                                ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [==========================================================================                                             ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [===============================================================================                                        ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [================================================================================                                       ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [==================================================================================                                     ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [====================================================================================                                   ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [==========================================================================================                             ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [===============================================================================================                        ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [===================================================================================================                    ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=====================================================================================================                  ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [======================================================================================================                 ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=======================================================================================================                ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [============================================================================================================           ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=============================================================================================================          ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [==============================================================================================================         ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [==================================================================================================================     ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch [=====================================================================================================================  ]  8/15  Installing       : python3.11-h2-4.1.0-1.el9.noarch                                                                                                                            8/15 
+  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [                                                                                                               ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==                                                                                                             ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=====                                                                                                          ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [============                                                                                                   ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==================                                                                                             ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [======================                                                                                         ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [========================                                                                                       ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=============================                                                                                  ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [===============================                                                                                ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=================================                                                                              ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==================================                                                                             ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [===================================                                                                            ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [====================================                                                                           ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=====================================                                                                          ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [======================================                                                                         ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [============================================                                                                   ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [===================================================                                                            ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [====================================================                                                           ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==========================================================                                                     ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=================================================================                                              ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [===================================================================                                            ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [====================================================================                                           ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=====================================================================                                          ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=======================================================================                                        ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [========================================================================                                       ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=========================================================================                                      ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [===============================================================================                                ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [====================================================================================                           ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=====================================================================================                          ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [============================================================================================                   ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==================================================================================================             ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=========================================================================================================      ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [==========================================================================================================     ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [===========================================================================================================    ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch [=============================================================================================================  ]  9/15  Installing       : python3.11-hyperlink-21.0.0-1.el9.noarch                                                                                                                    9/15 
+  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [                                                                                                        ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [=======                                                                                                 ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [=========                                                                                               ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [===========                                                                                             ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [==================                                                                                      ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [====================                                                                                    ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [=====================================                                                                   ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [======================================                                                                  ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [=============================================                                                           ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [================================================                                                        ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [===========================================================                                             ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [============================================================                                            ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [================================================================                                        ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [=================================================================                                       ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [============================================================================================            ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [=============================================================================================           ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch [======================================================================================================  ] 10/15  Installing       : python3.11-service-identity-24.1.0-1.el9.noarch                                                                                                            10/15 
+  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [                                                                                                             ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=                                                                                                            ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===                                                                                                          ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [====                                                                                                         ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=====                                                                                                        ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [======                                                                                                       ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=======                                                                                                      ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [========                                                                                                     ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=========                                                                                                    ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==========                                                                                                   ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===========                                                                                                  ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=============                                                                                                ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==============                                                                                               ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===============                                                                                              ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [================                                                                                             ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=================                                                                                            ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==================                                                                                           ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===================                                                                                          ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [====================                                                                                         ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=====================                                                                                        ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [======================                                                                                       ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=======================                                                                                      ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==========================                                                                                   ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===========================                                                                                  ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [============================                                                                                 ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=============================                                                                                ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==============================                                                                               ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===============================                                                                              ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [================================                                                                             ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=================================                                                                            ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==================================                                                                           ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=====================================                                                                        ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [======================================                                                                       ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=======================================                                                                      ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [========================================                                                                     ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=========================================                                                                    ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===========================================                                                                  ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [============================================                                                                 ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=============================================                                                                ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==============================================                                                               ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===============================================                                                              ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=================================================                                                            ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==================================================                                                           ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===================================================                                                          ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=====================================================                                                        ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [======================================================                                                       ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=======================================================                                                      ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [========================================================                                                     ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=========================================================                                                    ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==========================================================                                                   ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===========================================================                                                  ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=============================================================                                                ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==============================================================                                               ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===============================================================                                              ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [================================================================                                             ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=================================================================                                            ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==================================================================                                           ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===================================================================                                          ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [====================================================================                                         ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=====================================================================                                        ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [======================================================================                                       ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=======================================================================                                      ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=========================================================================                                    ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==========================================================================                                   ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===========================================================================                                  ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [============================================================================                                 ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=============================================================================                                ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==============================================================================                               ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===============================================================================                              ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [================================================================================                             ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=================================================================================                            ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==================================================================================                           ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===================================================================================                          ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=====================================================================================                        ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [======================================================================================                       ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=======================================================================================                      ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [========================================================================================                     ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=========================================================================================                    ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==========================================================================================                   ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===========================================================================================                  ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [============================================================================================                 ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=============================================================================================                ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==============================================================================================               ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===============================================================================================              ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=================================================================================================            ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==================================================================================================           ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===================================================================================================          ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [====================================================================================================         ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [======================================================================================================       ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=======================================================================================================      ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [========================================================================================================     ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [=========================================================================================================    ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [==========================================================================================================   ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64 [===========================================================================================================  ] 11/15  Installing       : python3.11-zope-interface-6.2-1.el9.x86_64                                                                                                                 11/15 
+  Installing       : python3.11-automat-22.10.0-1.el9.noarch [                                                                                                                ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [=                                                                                                               ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [===                                                                                                             ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [=====                                                                                                           ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [============                                                                                                    ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [=============                                                                                                   ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [=======================                                                                                         ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [===============================                                                                                 ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [================================                                                                                ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [=======================================                                                                         ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [=========================================                                                                       ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [============================================                                                                    ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [================================================                                                                ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [=================================================                                                               ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [==========================================================                                                      ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [==============================================================                                                  ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [================================================================                                                ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [==============================================================================                                  ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [============================================================================================                    ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [=================================================================================================               ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [====================================================================================================            ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch [==============================================================================================================  ] 12/15  Installing       : python3.11-automat-22.10.0-1.el9.noarch                                                                                                                    12/15 
+  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [                                                                                                        ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [========                                                                                                ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [================                                                                                        ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [==========================                                                                              ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [==================================                                                                      ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [==========================================                                                              ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [====================================================                                                    ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [============================================================                                            ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [====================================================================                                    ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [=====================================================================                                   ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [========================================================================                                ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [=========================================================================                               ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [===================================================================================                     ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [===========================================================================================             ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [===================================================================================================     ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [======================================================================================================  ] 13/15  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch                                                                                                            13/15 
+  Installing       : python3.11-priority-1.3.0-1.el9.noarch [                                                                                                                 ] 14/15  Installing       : python3.11-priority-1.3.0-1.el9.noarch [==                                                                                                               ] 14/15  Installing       : python3.11-priority-1.3.0-1.el9.noarch [===============                                                                                                  ] 14/15  Installing       : python3.11-priority-1.3.0-1.el9.noarch [================                                                                                                 ] 14/15  Installing       : python3.11-priority-1.3.0-1.el9.noarch [==================                                                                                               ] 14/15  Installing       : python3.11-priority-1.3.0-1.el9.noarch [==================================================                                                               ] 14/15  Installing       : python3.11-priority-1.3.0-1.el9.noarch [===================================================================================                              ] 14/15  Installing       : python3.11-priority-1.3.0-1.el9.noarch [==============================================================================================================   ] 14/15  Installing       : python3.11-priority-1.3.0-1.el9.noarch [===============================================================================================================  ] 14/15  Installing       : python3.11-priority-1.3.0-1.el9.noarch                                                                                                                     14/15 
+  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [                                                                                                             ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [=                                                                                                            ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [==                                                                                                           ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [===                                                                                                          ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [===============                                                                                              ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [================                                                                                             ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [========================================                                                                     ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [===========================================                                                                  ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [============================================                                                                 ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [=============================================================                                                ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [==============================================================                                               ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [======================================================================================                       ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch [===========================================================================================================  ] 15/15  Installing       : python3.11-constantly-23.10.4-1.el9.noarch                                                                                                                 15/15 
+  Running scriptlet: python3.11-constantly-23.10.4-1.el9.noarch                                                                                                                 15/15 
+  Verifying        : python3.11-attrs-23.2.0-1.el9.noarch                                                                                                                        1/15 
+  Verifying        : python3.11-automat-22.10.0-1.el9.noarch                                                                                                                     2/15 
+  Verifying        : python3.11-constantly-23.10.4-1.el9.noarch                                                                                                                  3/15 
+  Verifying        : python3.11-h2-4.1.0-1.el9.noarch                                                                                                                            4/15 
+  Verifying        : python3.11-hpack-4.0.0-1.el9.noarch                                                                                                                         5/15 
+  Verifying        : python3.11-hyperframe-6.0.1-1.el9.noarch                                                                                                                    6/15 
+  Verifying        : python3.11-hyperlink-21.0.0-1.el9.noarch                                                                                                                    7/15 
+  Verifying        : python3.11-idna-3.6-1.el9.noarch                                                                                                                            8/15 
+  Verifying        : python3.11-priority-1.3.0-1.el9.noarch                                                                                                                      9/15 
+  Verifying        : python3.11-pyasn1-modules-0.5.1-1.el9.noarch                                                                                                               10/15 
+  Verifying        : python3.11-service-identity-24.1.0-1.el9.noarch                                                                                                            11/15 
+  Verifying        : python3.11-setuptools-69.0.2-1.el9.noarch                                                                                                                  12/15 
+  Verifying        : python3.11-six-1.16.0-1.el9.noarch                                                                                                                         13/15 
+  Verifying        : python3.11-typing-extensions-4.9.0-1.el9.noarch                                                                                                            14/15 
+  Verifying        : python3.11-zope-interface-6.2-1.el9.x86_64                                                                                                                 15/15 
+Installed products updated.
+
+Installed:
+  python3.11-attrs-23.2.0-1.el9.noarch    python3.11-automat-22.10.0-1.el9.noarch          python3.11-constantly-23.10.4-1.el9.noarch       python3.11-h2-4.1.0-1.el9.noarch          
+  python3.11-hpack-4.0.0-1.el9.noarch     python3.11-hyperframe-6.0.1-1.el9.noarch         python3.11-hyperlink-21.0.0-1.el9.noarch         python3.11-idna-3.6-1.el9.noarch          
+  python3.11-priority-1.3.0-1.el9.noarch  python3.11-pyasn1-modules-0.5.1-1.el9.noarch     python3.11-service-identity-24.1.0-1.el9.noarch  python3.11-setuptools-69.0.2-1.el9.noarch 
+  python3.11-six-1.16.0-1.el9.noarch      python3.11-typing-extensions-4.9.0-1.el9.noarch  python3.11-zope-interface-6.2-1.el9.x86_64      
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ylIjRt
++ umask 022
++ cd /builddir/build/BUILD
++ cd twisted-23.10.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/twisted-23.10.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/twisted-23.10.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/twisted-23.10.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-buildrequires -x http2,tls
+Handling hatchling >= 1.10.0 from build-system.requires
+Requirement satisfied: hatchling >= 1.10.0
+   (installed: hatchling 1.24.2)
+Handling hatch-fancy-pypi-readme >= 22.5.0 from build-system.requires
+Requirement satisfied: hatch-fancy-pypi-readme >= 22.5.0
+   (installed: hatch-fancy-pypi-readme 24.1.0)
+Handling incremental >= 22.10.0 from build-system.requires
+Requirement satisfied: incremental >= 22.10.0
+   (installed: incremental 22.10.0)
+Handling attrs>=21.3.0 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: attrs>=21.3.0
+   (installed: attrs 23.2.0)
+Handling automat>=0.8.0 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: automat>=0.8.0
+   (installed: automat 22.10.0)
+Handling constantly>=15.1 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: constantly>=15.1
+   (installed: constantly 23.10.4)
+Handling hyperlink>=17.1.1 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: hyperlink>=17.1.1
+   (installed: hyperlink 21.0.0)
+Handling incremental>=22.10.0 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: incremental>=22.10.0
+   (installed: incremental 22.10.0)
+Handling twisted-iocpsupport<2,>=1.0.2; platform_system == 'Windows' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: twisted-iocpsupport<2,>=1.0.2; platform_system == 'Windows'
+Handling typing-extensions>=4.2.0 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: typing-extensions>=4.2.0
+   (installed: typing-extensions 4.9.0)
+Handling zope-interface>=5 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: zope-interface>=5
+   (installed: zope-interface 6.2)
+Handling appdirs>=1.4.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'all-non-platform'
+Handling bcrypt>=3.1.3; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'all-non-platform'
+Handling cryptography>=3.3; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'all-non-platform'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'all-non-platform'
+Handling h2<5.0,>=3.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'all-non-platform'
+Handling hypothesis>=6.56; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'all-non-platform'
+Handling idna>=2.4; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'all-non-platform'
+Handling priority<2.0,>=1.1.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'all-non-platform'
+Handling pyhamcrest>=2; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'all-non-platform'
+Handling pyopenssl>=21.0.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'all-non-platform'
+Handling pyserial>=3.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'all-non-platform'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'all-non-platform'
+Handling service-identity>=18.1.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'all-non-platform'
+Handling appdirs>=1.4.0; extra == 'conch' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'conch'
+Handling bcrypt>=3.1.3; extra == 'conch' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'conch'
+Handling cryptography>=3.3; extra == 'conch' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'conch'
+Handling coverage<7,>=6b1; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: coverage<7,>=6b1; extra == 'dev'
+Handling pydoctor~=23.9.0; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pydoctor~=23.9.0; extra == 'dev'
+Handling pyflakes~=2.2; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyflakes~=2.2; extra == 'dev'
+Handling python-subunit~=1.4; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: python-subunit~=1.4; extra == 'dev'
+Handling sphinx-rtd-theme~=1.3; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx-rtd-theme~=1.3; extra == 'dev'
+Handling sphinx<7,>=6; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx<7,>=6; extra == 'dev'
+Handling towncrier~=23.6; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: towncrier~=23.6; extra == 'dev'
+Handling twistedchecker~=0.7; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: twistedchecker~=0.7; extra == 'dev'
+Handling pydoctor~=23.9.0; extra == 'dev-release' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pydoctor~=23.9.0; extra == 'dev-release'
+Handling sphinx-rtd-theme~=1.3; extra == 'dev-release' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx-rtd-theme~=1.3; extra == 'dev-release'
+Handling sphinx<7,>=6; extra == 'dev-release' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx<7,>=6; extra == 'dev-release'
+Handling towncrier~=23.6; extra == 'dev-release' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: towncrier~=23.6; extra == 'dev-release'
+Handling appdirs>=1.4.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'gtk-platform'
+Handling bcrypt>=3.1.3; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'gtk-platform'
+Handling cryptography>=3.3; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'gtk-platform'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'gtk-platform'
+Handling h2<5.0,>=3.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'gtk-platform'
+Handling hypothesis>=6.56; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'gtk-platform'
+Handling idna>=2.4; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'gtk-platform'
+Handling priority<2.0,>=1.1.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'gtk-platform'
+Handling pygobject; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pygobject; extra == 'gtk-platform'
+Handling pyhamcrest>=2; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'gtk-platform'
+Handling pyopenssl>=21.0.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'gtk-platform'
+Handling pyserial>=3.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'gtk-platform'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'gtk-platform'
+Handling service-identity>=18.1.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'gtk-platform'
+Handling h2<5.0,>=3.0; extra == 'http2' from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: h2<5.0,>=3.0; extra == 'http2'
+   (installed: h2 4.1.0)
+Handling priority<2.0,>=1.1.0; extra == 'http2' from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: priority<2.0,>=1.1.0; extra == 'http2'
+   (installed: priority 1.3.0)
+Handling appdirs>=1.4.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'macos-platform'
+Handling bcrypt>=3.1.3; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'macos-platform'
+Handling cryptography>=3.3; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'macos-platform'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'macos-platform'
+Handling h2<5.0,>=3.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'macos-platform'
+Handling hypothesis>=6.56; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'macos-platform'
+Handling idna>=2.4; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'macos-platform'
+Handling priority<2.0,>=1.1.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'macos-platform'
+Handling pyhamcrest>=2; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'macos-platform'
+Handling pyobjc-core; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-core; extra == 'macos-platform'
+Handling pyobjc-framework-cfnetwork; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-framework-cfnetwork; extra == 'macos-platform'
+Handling pyobjc-framework-cocoa; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-framework-cocoa; extra == 'macos-platform'
+Handling pyopenssl>=21.0.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'macos-platform'
+Handling pyserial>=3.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'macos-platform'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'macos-platform'
+Handling service-identity>=18.1.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'macos-platform'
+Handling appdirs>=1.4.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'mypy'
+Handling bcrypt>=3.1.3; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'mypy'
+Handling coverage<7,>=6b1; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: coverage<7,>=6b1; extra == 'mypy'
+Handling cryptography>=3.3; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'mypy'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'mypy'
+Handling h2<5.0,>=3.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'mypy'
+Handling hypothesis>=6.56; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'mypy'
+Handling idna>=2.4; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'mypy'
+Handling mypy-zope~=1.0.1; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: mypy-zope~=1.0.1; extra == 'mypy'
+Handling mypy~=1.5.1; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: mypy~=1.5.1; extra == 'mypy'
+Handling priority<2.0,>=1.1.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'mypy'
+Handling pydoctor~=23.9.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pydoctor~=23.9.0; extra == 'mypy'
+Handling pyflakes~=2.2; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyflakes~=2.2; extra == 'mypy'
+Handling pyhamcrest>=2; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'mypy'
+Handling pyopenssl>=21.0.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'mypy'
+Handling pyserial>=3.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'mypy'
+Handling python-subunit~=1.4; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: python-subunit~=1.4; extra == 'mypy'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'mypy'
+Handling service-identity>=18.1.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'mypy'
+Handling sphinx-rtd-theme~=1.3; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx-rtd-theme~=1.3; extra == 'mypy'
+Handling sphinx<7,>=6; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx<7,>=6; extra == 'mypy'
+Handling towncrier~=23.6; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: towncrier~=23.6; extra == 'mypy'
+Handling twistedchecker~=0.7; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: twistedchecker~=0.7; extra == 'mypy'
+Handling types-pyopenssl; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: types-pyopenssl; extra == 'mypy'
+Handling types-setuptools; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: types-setuptools; extra == 'mypy'
+Handling appdirs>=1.4.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'osx-platform'
+Handling bcrypt>=3.1.3; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'osx-platform'
+Handling cryptography>=3.3; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'osx-platform'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'osx-platform'
+Handling h2<5.0,>=3.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'osx-platform'
+Handling hypothesis>=6.56; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'osx-platform'
+Handling idna>=2.4; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'osx-platform'
+Handling priority<2.0,>=1.1.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'osx-platform'
+Handling pyhamcrest>=2; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'osx-platform'
+Handling pyobjc-core; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-core; extra == 'osx-platform'
+Handling pyobjc-framework-cfnetwork; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-framework-cfnetwork; extra == 'osx-platform'
+Handling pyobjc-framework-cocoa; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-framework-cocoa; extra == 'osx-platform'
+Handling pyopenssl>=21.0.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'osx-platform'
+Handling pyserial>=3.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'osx-platform'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'osx-platform'
+Handling service-identity>=18.1.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'osx-platform'
+Handling pyserial>=3.0; extra == 'serial' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'serial'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'serial' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'serial'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'test' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'test'
+Handling hypothesis>=6.56; extra == 'test' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'test'
+Handling pyhamcrest>=2; extra == 'test' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'test'
+Handling idna>=2.4; extra == 'tls' from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: idna>=2.4; extra == 'tls'
+   (installed: idna 3.6)
+Handling pyopenssl>=21.0.0; extra == 'tls' from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: pyopenssl>=21.0.0; extra == 'tls'
+   (installed: pyopenssl 24.0.0)
+Handling service-identity>=18.1.0; extra == 'tls' from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: service-identity>=18.1.0; extra == 'tls'
+   (installed: service-identity 24.1.0)
+Handling appdirs>=1.4.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'windows-platform'
+Handling bcrypt>=3.1.3; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'windows-platform'
+Handling cryptography>=3.3; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'windows-platform'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'windows-platform'
+Handling h2<5.0,>=3.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'windows-platform'
+Handling hypothesis>=6.56; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'windows-platform'
+Handling idna>=2.4; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'windows-platform'
+Handling priority<2.0,>=1.1.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'windows-platform'
+Handling pyhamcrest>=2; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'windows-platform'
+Handling pyopenssl>=21.0.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'windows-platform'
+Handling pyserial>=3.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'windows-platform'
+Handling pywin32!=226; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; extra == 'windows-platform'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'windows-platform'
+Handling service-identity>=18.1.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'windows-platform'
++ cat /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv twisted-23.10.0.dist-info/
+removed 'twisted-23.10.0.dist-info/METADATA'
+removed directory 'twisted-23.10.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-twisted-23.10.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         15 kB/s | 6.2 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     13 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         59 kB/s | 6.2 kB     00:00    
+Package python3.11-h2-4.1.0-1.el9.noarch is already installed.
+Package python3.11-priority-1.3.0-1.el9.noarch is already installed.
 Package glibc-langpack-en-2.34-100.el9_4.2.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-bcrypt-4.1.3-1.el9.x86_64 is already installed.
@@ -852,18 +1235,480 @@ Package python3.11-pyasn1-0.5.1-1.el9.noarch is already installed.
 Package python3.11-pyhamcrest-2.1.0-1.el9.noarch is already installed.
 Package python3.11-pyopenssl-24.0.0-1.el9.noarch is already installed.
 Package python3.11-tkinter-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-attrs-23.2.0-1.el9.noarch is already installed.
+Package python3.11-automat-22.10.0-1.el9.noarch is already installed.
+Package python3.11-constantly-23.10.4-1.el9.noarch is already installed.
 Package python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch is already installed.
 Package python3.11-hatchling-1.24.2-1.el9.noarch is already installed.
+Package python3.11-hyperlink-21.0.0-1.el9.noarch is already installed.
+Package python3.11-idna-3.6-1.el9.noarch is already installed.
 Package python3.11-incremental-22.10.0-1.el9.noarch is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-pyopenssl-24.0.0-1.el9.noarch is already installed.
-(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
-Error: 
- Problem: nothing provides requested (python3.11dist(h2) < 5~~ with python3.11dist(h2) >= 3)
-
+Package python3.11-service-identity-24.1.0-1.el9.noarch is already installed.
+Package python3.11-typing-extensions-4.9.0-1.el9.noarch is already installed.
+Package python3.11-zope-interface-6.2-1.el9.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717200000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.0Ua5CF
++ umask 022
++ cd /builddir/build/BUILD
++ cd twisted-23.10.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/twisted-23.10.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/twisted-23.10.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/twisted-23.10.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-buildrequires -x http2,tls
+Handling hatchling >= 1.10.0 from build-system.requires
+Requirement satisfied: hatchling >= 1.10.0
+   (installed: hatchling 1.24.2)
+Handling hatch-fancy-pypi-readme >= 22.5.0 from build-system.requires
+Requirement satisfied: hatch-fancy-pypi-readme >= 22.5.0
+   (installed: hatch-fancy-pypi-readme 24.1.0)
+Handling incremental >= 22.10.0 from build-system.requires
+Requirement satisfied: incremental >= 22.10.0
+   (installed: incremental 22.10.0)
+Handling attrs>=21.3.0 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: attrs>=21.3.0
+   (installed: attrs 23.2.0)
+Handling automat>=0.8.0 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: automat>=0.8.0
+   (installed: automat 22.10.0)
+Handling constantly>=15.1 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: constantly>=15.1
+   (installed: constantly 23.10.4)
+Handling hyperlink>=17.1.1 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: hyperlink>=17.1.1
+   (installed: hyperlink 21.0.0)
+Handling incremental>=22.10.0 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: incremental>=22.10.0
+   (installed: incremental 22.10.0)
+Handling twisted-iocpsupport<2,>=1.0.2; platform_system == 'Windows' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: twisted-iocpsupport<2,>=1.0.2; platform_system == 'Windows'
+Handling typing-extensions>=4.2.0 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: typing-extensions>=4.2.0
+   (installed: typing-extensions 4.9.0)
+Handling zope-interface>=5 from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: zope-interface>=5
+   (installed: zope-interface 6.2)
+Handling appdirs>=1.4.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'all-non-platform'
+Handling bcrypt>=3.1.3; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'all-non-platform'
+Handling cryptography>=3.3; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'all-non-platform'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'all-non-platform'
+Handling h2<5.0,>=3.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'all-non-platform'
+Handling hypothesis>=6.56; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'all-non-platform'
+Handling idna>=2.4; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'all-non-platform'
+Handling priority<2.0,>=1.1.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'all-non-platform'
+Handling pyhamcrest>=2; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'all-non-platform'
+Handling pyopenssl>=21.0.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'all-non-platform'
+Handling pyserial>=3.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'all-non-platform'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'all-non-platform'
+Handling service-identity>=18.1.0; extra == 'all-non-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'all-non-platform'
+Handling appdirs>=1.4.0; extra == 'conch' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'conch'
+Handling bcrypt>=3.1.3; extra == 'conch' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'conch'
+Handling cryptography>=3.3; extra == 'conch' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'conch'
+Handling coverage<7,>=6b1; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: coverage<7,>=6b1; extra == 'dev'
+Handling pydoctor~=23.9.0; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pydoctor~=23.9.0; extra == 'dev'
+Handling pyflakes~=2.2; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyflakes~=2.2; extra == 'dev'
+Handling python-subunit~=1.4; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: python-subunit~=1.4; extra == 'dev'
+Handling sphinx-rtd-theme~=1.3; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx-rtd-theme~=1.3; extra == 'dev'
+Handling sphinx<7,>=6; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx<7,>=6; extra == 'dev'
+Handling towncrier~=23.6; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: towncrier~=23.6; extra == 'dev'
+Handling twistedchecker~=0.7; extra == 'dev' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: twistedchecker~=0.7; extra == 'dev'
+Handling pydoctor~=23.9.0; extra == 'dev-release' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pydoctor~=23.9.0; extra == 'dev-release'
+Handling sphinx-rtd-theme~=1.3; extra == 'dev-release' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx-rtd-theme~=1.3; extra == 'dev-release'
+Handling sphinx<7,>=6; extra == 'dev-release' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx<7,>=6; extra == 'dev-release'
+Handling towncrier~=23.6; extra == 'dev-release' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: towncrier~=23.6; extra == 'dev-release'
+Handling appdirs>=1.4.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'gtk-platform'
+Handling bcrypt>=3.1.3; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'gtk-platform'
+Handling cryptography>=3.3; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'gtk-platform'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'gtk-platform'
+Handling h2<5.0,>=3.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'gtk-platform'
+Handling hypothesis>=6.56; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'gtk-platform'
+Handling idna>=2.4; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'gtk-platform'
+Handling priority<2.0,>=1.1.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'gtk-platform'
+Handling pygobject; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pygobject; extra == 'gtk-platform'
+Handling pyhamcrest>=2; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'gtk-platform'
+Handling pyopenssl>=21.0.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'gtk-platform'
+Handling pyserial>=3.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'gtk-platform'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'gtk-platform'
+Handling service-identity>=18.1.0; extra == 'gtk-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'gtk-platform'
+Handling h2<5.0,>=3.0; extra == 'http2' from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: h2<5.0,>=3.0; extra == 'http2'
+   (installed: h2 4.1.0)
+Handling priority<2.0,>=1.1.0; extra == 'http2' from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: priority<2.0,>=1.1.0; extra == 'http2'
+   (installed: priority 1.3.0)
+Handling appdirs>=1.4.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'macos-platform'
+Handling bcrypt>=3.1.3; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'macos-platform'
+Handling cryptography>=3.3; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'macos-platform'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'macos-platform'
+Handling h2<5.0,>=3.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'macos-platform'
+Handling hypothesis>=6.56; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'macos-platform'
+Handling idna>=2.4; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'macos-platform'
+Handling priority<2.0,>=1.1.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'macos-platform'
+Handling pyhamcrest>=2; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'macos-platform'
+Handling pyobjc-core; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-core; extra == 'macos-platform'
+Handling pyobjc-framework-cfnetwork; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-framework-cfnetwork; extra == 'macos-platform'
+Handling pyobjc-framework-cocoa; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-framework-cocoa; extra == 'macos-platform'
+Handling pyopenssl>=21.0.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'macos-platform'
+Handling pyserial>=3.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'macos-platform'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'macos-platform'
+Handling service-identity>=18.1.0; extra == 'macos-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'macos-platform'
+Handling appdirs>=1.4.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'mypy'
+Handling bcrypt>=3.1.3; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'mypy'
+Handling coverage<7,>=6b1; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: coverage<7,>=6b1; extra == 'mypy'
+Handling cryptography>=3.3; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'mypy'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'mypy'
+Handling h2<5.0,>=3.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'mypy'
+Handling hypothesis>=6.56; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'mypy'
+Handling idna>=2.4; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'mypy'
+Handling mypy-zope~=1.0.1; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: mypy-zope~=1.0.1; extra == 'mypy'
+Handling mypy~=1.5.1; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: mypy~=1.5.1; extra == 'mypy'
+Handling priority<2.0,>=1.1.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'mypy'
+Handling pydoctor~=23.9.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pydoctor~=23.9.0; extra == 'mypy'
+Handling pyflakes~=2.2; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyflakes~=2.2; extra == 'mypy'
+Handling pyhamcrest>=2; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'mypy'
+Handling pyopenssl>=21.0.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'mypy'
+Handling pyserial>=3.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'mypy'
+Handling python-subunit~=1.4; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: python-subunit~=1.4; extra == 'mypy'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'mypy'
+Handling service-identity>=18.1.0; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'mypy'
+Handling sphinx-rtd-theme~=1.3; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx-rtd-theme~=1.3; extra == 'mypy'
+Handling sphinx<7,>=6; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: sphinx<7,>=6; extra == 'mypy'
+Handling towncrier~=23.6; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: towncrier~=23.6; extra == 'mypy'
+Handling twistedchecker~=0.7; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: twistedchecker~=0.7; extra == 'mypy'
+Handling types-pyopenssl; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: types-pyopenssl; extra == 'mypy'
+Handling types-setuptools; extra == 'mypy' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: types-setuptools; extra == 'mypy'
+Handling appdirs>=1.4.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'osx-platform'
+Handling bcrypt>=3.1.3; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'osx-platform'
+Handling cryptography>=3.3; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'osx-platform'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'osx-platform'
+Handling h2<5.0,>=3.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'osx-platform'
+Handling hypothesis>=6.56; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'osx-platform'
+Handling idna>=2.4; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'osx-platform'
+Handling priority<2.0,>=1.1.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'osx-platform'
+Handling pyhamcrest>=2; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'osx-platform'
+Handling pyobjc-core; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-core; extra == 'osx-platform'
+Handling pyobjc-framework-cfnetwork; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-framework-cfnetwork; extra == 'osx-platform'
+Handling pyobjc-framework-cocoa; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyobjc-framework-cocoa; extra == 'osx-platform'
+Handling pyopenssl>=21.0.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'osx-platform'
+Handling pyserial>=3.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'osx-platform'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'osx-platform'
+Handling service-identity>=18.1.0; extra == 'osx-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'osx-platform'
+Handling pyserial>=3.0; extra == 'serial' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'serial'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'serial' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'serial'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'test' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'test'
+Handling hypothesis>=6.56; extra == 'test' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'test'
+Handling pyhamcrest>=2; extra == 'test' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'test'
+Handling idna>=2.4; extra == 'tls' from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: idna>=2.4; extra == 'tls'
+   (installed: idna 3.6)
+Handling pyopenssl>=21.0.0; extra == 'tls' from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: pyopenssl>=21.0.0; extra == 'tls'
+   (installed: pyopenssl 24.0.0)
+Handling service-identity>=18.1.0; extra == 'tls' from hook generated metadata: Requires-Dist (Twisted)
+Requirement satisfied: service-identity>=18.1.0; extra == 'tls'
+   (installed: service-identity 24.1.0)
+Handling appdirs>=1.4.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: appdirs>=1.4.0; extra == 'windows-platform'
+Handling bcrypt>=3.1.3; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: bcrypt>=3.1.3; extra == 'windows-platform'
+Handling cryptography>=3.3; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cryptography>=3.3; extra == 'windows-platform'
+Handling cython-test-exception-raiser<2,>=1.0.2; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: cython-test-exception-raiser<2,>=1.0.2; extra == 'windows-platform'
+Handling h2<5.0,>=3.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: h2<5.0,>=3.0; extra == 'windows-platform'
+Handling hypothesis>=6.56; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: hypothesis>=6.56; extra == 'windows-platform'
+Handling idna>=2.4; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: idna>=2.4; extra == 'windows-platform'
+Handling priority<2.0,>=1.1.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: priority<2.0,>=1.1.0; extra == 'windows-platform'
+Handling pyhamcrest>=2; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyhamcrest>=2; extra == 'windows-platform'
+Handling pyopenssl>=21.0.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyopenssl>=21.0.0; extra == 'windows-platform'
+Handling pyserial>=3.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pyserial>=3.0; extra == 'windows-platform'
+Handling pywin32!=226; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; extra == 'windows-platform'
+Handling pywin32!=226; (platform_system == 'Windows') and extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: pywin32!=226; (platform_system == 'Windows') and extra == 'windows-platform'
+Handling service-identity>=18.1.0; extra == 'windows-platform' from hook generated metadata: Requires-Dist (Twisted)
+Ignoring alien requirement: service-identity>=18.1.0; extra == 'windows-platform'
++ cat /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv twisted-23.10.0.dist-info/
+removed 'twisted-23.10.0.dist-info/METADATA'
+removed directory 'twisted-23.10.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.YFHxPh
++ umask 022
++ cd /builddir/build/BUILD
++ cd twisted-23.10.0
++ mkdir -p /builddir/build/BUILD/twisted-23.10.0/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/twisted-23.10.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/twisted-23.10.0/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/twisted-23.10.0
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: Twisted
+  Building wheel for Twisted (pyproject.toml): started
+  Running command Building wheel for Twisted (pyproject.toml)
+  Building wheel for Twisted (pyproject.toml): finished with status 'done'
+  Created wheel for Twisted: filename=twisted-23.10.0-py3-none-any.whl size=3162757 sha256=9b8c91d7ad5b7ef8efff156512f253c72f325e2084fe20bf343fcd0249cc9f80
+  Stored in directory: /builddir/.cache/pip/wheels/8a/cc/8d/26f2de998a2cf63064be23235dd04a703252cd97a2b416d03d
+Successfully built Twisted
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.Ka9nNd
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64
++ cd twisted-23.10.0
+++ ls /builddir/build/BUILD/twisted-23.10.0/pyproject-wheeldir-3.11/twisted-23.10.0-py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=twisted==23.10.0
++ '[' -z twisted==23.10.0 ']'
++ TMPDIR=/builddir/build/BUILD/twisted-23.10.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/twisted-23.10.0/pyproject-wheeldir-3.11 twisted==23.10.0
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/twisted-23.10.0/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/twisted-23.10.0-py3-none-any.whl
+Installing collected packages: twisted
+  Creating /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin
+  changing mode of /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/cftp to 755
+  changing mode of /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/ckeygen to 755
+  changing mode of /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/conch to 755
+  changing mode of /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/mailmail to 755
+  changing mode of /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/pyhtmlizer to 755
+  changing mode of /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/tkconch to 755
+  changing mode of /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/trial to 755
+  changing mode of /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/twist to 755
+  changing mode of /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/twistd to 755
+Successfully installed twisted-23.10.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin ']'
++ '[' -z sP ']'
++ shebang_flags=-kasP
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/cftp /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/ckeygen /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/conch /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/mailmail /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/pyhtmlizer /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/tkconch /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/trial /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/twist /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/twistd
+/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/cftp: updating
+/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/ckeygen: updating
+/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/conch: updating
+/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/mailmail: updating
+/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/pyhtmlizer: updating
+/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/tkconch: updating
+/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/trial: updating
+/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/twist: updating
+/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/twistd: updating
++ rm -rfv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/__pycache__
++ rm -f /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/twisted-23.10.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/twisted-23.10.0.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/twisted-23.10.0.dist-info/RECORD --output /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/twisted-23.10.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/twisted-23.10.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/twisted-23.10.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib/python3.11/site-packages/twisted-23.10.0.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ mv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/cftp /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/cftp3.11
++ mv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/ckeygen /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/ckeygen3.11
++ mv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/conch /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/conch3.11
++ mv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/mailmail /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/mailmail3.11
++ mv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/pyhtmlizer /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/pyhtmlizer3.11
++ mv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/tkconch /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/tkconch3.11
++ mv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/trial /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/trial3.11
++ mv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/twist /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/twist3.11
++ mv /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/twistd /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/bin/twistd3.11
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ sed -i 's|/usr/bin/cftp$|/usr/bin/cftp3.11|g' /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-files
++ sed -i 's|/usr/bin/ckeygen$|/usr/bin/ckeygen3.11|g' /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-files
++ sed -i 's|/usr/bin/conch$|/usr/bin/conch3.11|g' /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-files
++ sed -i 's|/usr/bin/mailmail$|/usr/bin/mailmail3.11|g' /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-files
++ sed -i 's|/usr/bin/pyhtmlizer$|/usr/bin/pyhtmlizer3.11|g' /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-files
++ sed -i 's|/usr/bin/tkconch$|/usr/bin/tkconch3.11|g' /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-files
++ sed -i 's|/usr/bin/trial$|/usr/bin/trial3.11|g' /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-files
++ sed -i 's|/usr/bin/twist$|/usr/bin/twist3.11|g' /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-files
++ sed -i 's|/usr/bin/twistd$|/usr/bin/twistd3.11|g' /builddir/build/BUILD/python-twisted-23.10.0-1.el9.x86_64-3.11-pyproject-files
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 23.10.0-1.el9 --unique-debug-suffix -23.10.0-1.el9.x86_64 --unique-debug-src-base python-twisted-23.10.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/twisted-23.10.0
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-twisted-23.10.0-1.el9.noarch
+Provides: python3.11-twisted = 23.10.0-1.el9 python3.11dist(twisted) = 23.10
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/python3.11 python(abi) = 3.11 python3.11dist(attrs) >= 21.3 python3.11dist(automat) >= 0.8 python3.11dist(constantly) >= 15.1 python3.11dist(hyperlink) >= 17.1.1 python3.11dist(incremental) >= 22.10 python3.11dist(typing-extensions) >= 4.2 python3.11dist(zope-interface) >= 5
+Processing files: python3.11-twisted+http2-23.10.0-1.el9.noarch
+Provides: python3.11-twisted+http2 = 23.10.0-1.el9 python3.11dist(twisted[http2]) = 23.10
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: (python3.11dist(h2) < 5 with python3.11dist(h2) >= 3) (python3.11dist(priority) < 2 with python3.11dist(priority) >= 1.1) python(abi) = 3.11
+Processing files: python3.11-twisted+tls-23.10.0-1.el9.noarch
+Provides: python3.11-twisted+tls = 23.10.0-1.el9 python3.11dist(twisted[tls]) = 23.10
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11 python3.11dist(idna) >= 2.4 python3.11dist(pyopenssl) >= 21 python3.11dist(service-identity) >= 18.1
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-twisted-23.10.0-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-twisted-23.10.0-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-twisted+tls-23.10.0-1.el9.noarch.rpm
+Wrote: /builddir/build/RPMS/python3.11-twisted+http2-23.10.0-1.el9.noarch.rpm
+Wrote: /builddir/build/RPMS/python3.11-twisted-23.10.0-1.el9.noarch.rpm
+Finish: rpmbuild python-twisted-23.10.0-1.el9.src.rpm
+Finish: build phase for python-twisted-23.10.0-1.el9.src.rpm
+INFO: Done(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-twisted-23.10.0-1.el9.src.rpm) Config(epel-9-x86_64) 1 minutes 1 seconds
+INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 130 packages
+Directory walk done - 138 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
