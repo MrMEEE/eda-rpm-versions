@@ -72,3 +72,7 @@ rpds-py
 pydantic-core
 zipp
 more-itertools
+readme-renderer
+rfc3986
+rich
+jsonschema-specifications
