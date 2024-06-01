@@ -80,3 +80,4 @@ docutils
 nh3
 pygments
 markdown-it-py
+mdurl
