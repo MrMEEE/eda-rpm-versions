@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-docutils-0.20.1-1.el9.src.rpm
+The lastest package built was python-markdown-it-py-3.0.0-1.el9.src.rpm
 
-The build completed at Sun Jun  2 12:38:23 AM CEST 2024
+The build completed at Sun Jun  2 12:39:12 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-docutils-0.20.1-1.el9.src.rpm.log)
+[Build Log](logs/python-markdown-it-py-3.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -78,7 +78,7 @@ python3.11-keyring-24.3.1-1.el9 | python-keyring-24.3.1-1.el9.src.rpm | Built | 
 python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | Built | [Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
 python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | Built | [Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
 python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | Built | [Log](logs/python-lxml-4.9.4-1.el9.src.rpm.log)
-python3.11-markdown-it-py-3.0.0-1.el9 | python-markdown-it-py-3.0.0-1.el9.src.rpm | **Missing** |
+python3.11-markdown-it-py-3.0.0-1.el9 | python-markdown-it-py-3.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-markdown-it-py-3.0.0-1.el9.src.rpm.log)
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-2.1.5-1.el9.src.rpm.log)
 python3.11-maturin-1.5.1-1.el9 | python-maturin-1.5.1-1.el9.src.rpm | Built | [Log](logs/python-maturin-1.5.1-1.el9.src.rpm.log)
 python3.11-more-itertools-10.2.0-1.el9 | python-more-itertools-10.2.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-10.2.0-1.el9.src.rpm.log)
