@@ -71,3 +71,4 @@ distro
 rpds-py
 pydantic-core
 zipp
+more-itertools
