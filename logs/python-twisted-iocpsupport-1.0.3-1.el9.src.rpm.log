@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    3.1 MB/s | 151 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      13 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         46 kB/s | 6.2 kB     00:00    
+/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                     26 MB/s | 152 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         15 kB/s | 6.2 kB     00:00    
 Dependencies resolved.
 ======================================================================================================================================================================================
  Package                                             Architecture                   Version                                           Repository                                 Size
@@ -220,7 +220,7 @@ Start: rpmbuild python-twisted-iocpsupport-1.0.3-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.hlYTAp
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.MPAvat
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -234,7 +234,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.hlYTAp
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.F9mex9
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.OlG4hL
 + umask 022
 + cd /builddir/build/BUILD
 + cd twisted-iocpsupport-1.0.3
@@ -269,10 +269,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                   100% [=======================================================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                   12 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         58 kB/s | 6.2 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        9.5 kB/s | 6.2 kB     00:00    
 Package gcc-11.4.1-3.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -313,7 +313,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.hS8B9u
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.DDYOGa
 + umask 022
 + cd /builddir/build/BUILD
 + cd twisted-iocpsupport-1.0.3
@@ -354,10 +354,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         15 kB/s | 6.2 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         62 kB/s | 6.2 kB     00:00    
 Package gcc-11.4.1-3.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -404,7 +404,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.dbJjzi
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.EzLZFF
 + umask 022
 + cd /builddir/build/BUILD
 + cd twisted-iocpsupport-1.0.3
@@ -483,8 +483,8 @@ This system is not registered with an entitlement server. You can use subscripti
 /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                          [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/0.1.0/RPMS/                                                                                                                    2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                           [===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                        [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         75 kB/s | 6.2 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [         ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         18 kB/s | 6.2 kB     00:00    
 Package gcc-11.4.1-3.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -501,7 +501,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717200000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.gMRVK3
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.6oP0sV
 + umask 022
 + cd /builddir/build/BUILD
 + cd twisted-iocpsupport-1.0.3
@@ -565,7 +565,7 @@ removed directory 'twisted_iocpsupport-1.0.3.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.AZqhpY
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.X7ktRf
 + umask 022
 + cd /builddir/build/BUILD
 + cd twisted-iocpsupport-1.0.3
@@ -578,19 +578,19 @@ Processing /builddir/build/BUILD/twisted-iocpsupport-1.0.3
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-jxp_apcu/twisted_iocpsupport.egg-info
-  writing /builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-jxp_apcu/twisted_iocpsupport.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-jxp_apcu/twisted_iocpsupport.egg-info/dependency_links.txt
-  writing top-level names to /builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-jxp_apcu/twisted_iocpsupport.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-jxp_apcu/twisted_iocpsupport.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-jxp_apcu/twisted_iocpsupport.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-137z5t7h/twisted_iocpsupport.egg-info
+  writing /builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-137z5t7h/twisted_iocpsupport.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-137z5t7h/twisted_iocpsupport.egg-info/dependency_links.txt
+  writing top-level names to /builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-137z5t7h/twisted_iocpsupport.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-137z5t7h/twisted_iocpsupport.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-137z5t7h/twisted_iocpsupport.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
   warning: no previously-included files found matching 'CHANGELOG.rst'
   warning: no previously-included files found matching 'CONTRIBUTING.rst'
   warning: no previously-included files found matching '.pre-commit-config.yaml'
   adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-jxp_apcu/twisted_iocpsupport.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-jxp_apcu/twisted_iocpsupport-1.0.3.dist-info'
+  writing manifest file '/builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-137z5t7h/twisted_iocpsupport.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/pip-modern-metadata-137z5t7h/twisted_iocpsupport-1.0.3.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: twisted-iocpsupport
   Building wheel for twisted-iocpsupport (pyproject.toml): started
@@ -615,7 +615,7 @@ Building wheels for collected packages: twisted-iocpsupport
   ╰─> See above for output.
   
   note: This error originates from a subprocess, and is likely not a problem with pip.
-  full command: /usr/bin/python3.11 /usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/tmph86fvi7m
+  full command: /usr/bin/python3.11 /usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/twisted-iocpsupport-1.0.3/.pyproject-builddir-3.11/tmppsmdfl7g
   cwd: /builddir/build/BUILD/twisted-iocpsupport-1.0.3
   Building wheel for twisted-iocpsupport (pyproject.toml): finished with status 'error'
   ERROR: Failed building wheel for twisted-iocpsupport
@@ -624,17 +624,17 @@ ERROR: Failed to build one or more wheels
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.AZqhpY (%build)
-    Bad exit status from /var/tmp/rpm-tmp.AZqhpY (%build)
+error: Bad exit status from /var/tmp/rpm-tmp.X7ktRf (%build)
+    Bad exit status from /var/tmp/rpm-tmp.X7ktRf (%build)
 Finish: rpmbuild python-twisted-iocpsupport-1.0.3-1.el9.src.rpm
 Finish: build phase for python-twisted-iocpsupport-1.0.3-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-twisted-iocpsupport-1.0.3-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 30 seconds
+ERROR: Exception(/opt/eda-rpm/rpmbuilds/0.1.0/SRPMS/python-twisted-iocpsupport-1.0.3-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 32 seconds
 INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 3004ea9cc377458b89e9636619469a18 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.jymb8c3j:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-twisted-iocpsupport.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M ee075efb53b64d76ab1033a3e4d63b96 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.i24tf0yp:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-twisted-iocpsupport.spec --nocheck'
 
 Directory walk started
-Directory walk done - 122 packages
+Directory walk done - 123 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/0.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
