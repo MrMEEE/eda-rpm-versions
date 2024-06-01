@@ -15,7 +15,7 @@ Source:         %{pypi_source rq-scheduler}
 BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
-
+BuildRequires: /usr/bin/pathfix.py
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
@@ -46,7 +46,7 @@ Summary:        %{summary}
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
 %pyproject_save_files '*' +auto
-
+pathfix.py -pni "%{__python3} %{py3_shbang_opts}" %{buildroot}%{python3_sitearch} %{buildroot}%{_bindir}/*
 
 %check
 %pyproject_check_import
