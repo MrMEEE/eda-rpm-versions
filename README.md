@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rapidfuzz-3.9.1-1.el9.src.rpm
+The lastest package built was python-referencing-0.33.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 09:37:25 PM CEST 2024
+The build completed at Sat Jun  1 09:37:56 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-rapidfuzz-3.9.1-1.el9.src.rpm.log)
+[Build Log](logs/python-referencing-0.33.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -103,7 +103,7 @@ python3.11-pyxdg-0.28-1.el9 | python-pyxdg-0.28-1.el9.src.rpm | Built | [Log](lo
 python3.11-pyyaml-6.0.1-1.el9 | python-pyyaml-6.0.1-1.el9.src.rpm | Built | [Log](logs/python-pyyaml-6.0.1-1.el9.src.rpm.log)
 python3.11-rapidfuzz-3.9.1-1.el9 | python-rapidfuzz-3.9.1-1.el9.src.rpm | **Missing** | [Log](logs/python-rapidfuzz-3.9.1-1.el9.src.rpm.log)
 python3.11-redis-5.0.1-1.el9 | python-redis-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-redis-5.0.1-1.el9.src.rpm.log)
-python3.11-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | **Missing** |
+python3.11-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | **Missing** | [Log](logs/python-referencing-0.33.0-1.el9.src.rpm.log)
 python3.11-requests-2.31.0-1.el9 | python-requests-2.31.0-1.el9.src.rpm | Built | [Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
 python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
