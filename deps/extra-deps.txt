@@ -43,3 +43,5 @@ fastjsonschema
 installer
 keyring
 h2
+priority
+pydantic-core
