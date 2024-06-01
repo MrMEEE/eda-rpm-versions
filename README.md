@@ -1,16 +1,16 @@
 ## Latest build
-The lastest package built was python-twisted-iocpsupport-1.0.3-1.el9.src.rpm
+The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
 
-The build completed at Sat Jun  1 11:04:04 PM CEST 2024
+The build completed at Sat Jun  1 11:04:44 PM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-twisted-iocpsupport-1.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
-python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
+python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3.11-annotated-types-0.6.0-1.el9 | python-annotated-types-0.6.0-1.el9.src.rpm | Built | [Log](logs/python-annotated-types-0.6.0-1.el9.src.rpm.log)
 python3.11-asgiref-3.7.2-1.el9 | python-asgiref-3.7.2-1.el9.src.rpm | Built | [Log](logs/python-asgiref-3.7.2-1.el9.src.rpm.log)
@@ -150,4 +150,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-140 total packages, 131 packages built successfully, 9 packages left to fix
+140 total packages, 132 packages built successfully, 8 packages left to fix
