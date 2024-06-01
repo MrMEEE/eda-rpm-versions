@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pydantic-2.5.0-1.el9.src.rpm
+The lastest package built was python-pydantic-core-2.14.1-1.el9.src.rpm
 
-The build completed at Sat Jun  1 10:01:31 PM CEST 2024
+The build completed at Sat Jun  1 10:02:17 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -74,6 +74,7 @@ python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | Bu
 python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | Built | [Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
 python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | Built | [Log](logs/python-lxml-4.9.4-1.el9.src.rpm.log)
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-2.1.5-1.el9.src.rpm.log)
+python3.11-maturin-1.5.1-1.el9 | python-maturin-1.5.1-1.el9.src.rpm | **Missing** |
 python3.11-mypy-1.10.0-1.el9 | python-mypy-1.10.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-1.10.0-1.el9.src.rpm.log)
 python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-extensions-1.0.0-1.el9.src.rpm.log)
 python3.11-ntlm-1.1.0-1.el9 | python-ntlm-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
@@ -142,4 +143,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-132 total packages, 111 packages built successfully, 21 packages left to fix
+133 total packages, 111 packages built successfully, 22 packages left to fix

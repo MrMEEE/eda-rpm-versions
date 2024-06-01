@@ -1,0 +1,30 @@
+diff -uNr maturin-1.5.1/maturin/__init__.py maturin-1.5.1-patch/maturin/__init__.py
+--- maturin-1.5.1/maturin/__init__.py	2024-03-21 13:31:15.000000000 +0100
++++ maturin-1.5.1-patch/maturin/__init__.py	2024-04-10 23:38:18.141882740 +0200
+@@ -64,7 +64,7 @@
+     # PEP 517 specifies that only `sys.executable` points to the correct
+     # python interpreter
+     base_command = [
+-        "maturin",
++        "maturin¤PYTHON_VER¤",
+         "pep517",
+         "build-wheel",
+         "-i",
+@@ -110,7 +110,7 @@
+ 
+ # noinspection PyUnusedLocal
+ def build_sdist(sdist_directory: str, config_settings: Optional[Mapping[str, Any]] = None) -> str:
+-    command = ["maturin", "pep517", "write-sdist", "--sdist-directory", sdist_directory]
++    command = ["maturin¤PYTHON_VER¤", "pep517", "write-sdist", "--sdist-directory", sdist_directory]
+ 
+     print("Running `{}`".format(" ".join(command)))
+     sys.stdout.flush()
+@@ -172,7 +172,7 @@
+         sys.exit(1)
+ 
+     command = [
+-        "maturin",
++        "maturin¤PYTHON_VER¤",
+         "pep517",
+         "write-dist-info",
+         "--metadata-directory",
