@@ -66,3 +66,4 @@ maturin
 ptyprocess
 jaraco-classes
 importlib-metadata
+msgpack
