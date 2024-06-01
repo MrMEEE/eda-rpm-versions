@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-setuptools-twine-0.1.3-1.el9.src.rpm
+The lastest package built was python-shellingham-1.5.4-1.el9.src.rpm
 
-The build completed at Sat Jun  1 07:45:14 PM CEST 2024
+The build completed at Sat Jun  1 07:45:46 PM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
+[Build Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
 ## Package build status for version: 0.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -106,7 +106,7 @@ python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.
 python3.11-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | Built | [Log](logs/python-setuptools-69.0.2-1.el9.src.rpm.log)
 python3.11-setuptools_scm-8.0.4-1.el9 | python-setuptools_scm-8.0.4-1.el9.src.rpm | Built | [Log](logs/python-setuptools_scm-8.0.4-1.el9.src.rpm.log)
 python3.11-setuptools-twine-0.1.3-1.el9 | python-setuptools-twine-0.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
-python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | **Missing** |
+python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
 python3.11-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | Built | [Log](logs/python-six-1.16.0-1.el9.src.rpm.log)
 python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | Built | [Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
 python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | Built | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
@@ -130,4 +130,4 @@ python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.sr
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-120 total packages, 96 packages built successfully, 24 packages left to fix
+120 total packages, 97 packages built successfully, 23 packages left to fix
