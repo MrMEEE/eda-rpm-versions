@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-attrs-23.2.0-1.el9.src.rpm
+The lastest package built was python-autobahn-23.6.2-1.el9.src.rpm
 
-The build completed at Tue Jun  4 01:30:55 AM CEST 2024
+The build completed at Tue Jun  4 01:31:24 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -16,7 +16,7 @@ python3.11-annotated-types-0.6.0-1.el9 | python-annotated-types-0.6.0-1.el9.src.
 python3.11-asgiref-3.7.2-1.el9 | python-asgiref-3.7.2-1.el9.src.rpm | Built | [Log](logs/python-asgiref-3.7.2-1.el9.src.rpm.log)
 python3.11-async-timeout-4.0.3-1.el9 | python-async-timeout-4.0.3-1.el9.src.rpm | Built | [Log](logs/python-async-timeout-4.0.3-1.el9.src.rpm.log)
 python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
-python3.11-autobahn-23.6.2-1.el9 | python-autobahn-23.6.2-1.el9.src.rpm | **Missing** |
+python3.11-autobahn-23.6.2-1.el9 | python-autobahn-23.6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
 python3.11-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | **Missing** |
 python3.11-babel-2.15.0-1.el9 | python-babel-2.15.0-1.el9.src.rpm | **Missing** |
 python3.11-bcrypt-4.1.3-1.el9 | python-bcrypt-4.1.3-1.el9.src.rpm | **Missing** |
