@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-docutils-0.20.1-1.el9.src.rpm
+The lastest package built was python-drf-spectacular-0.26.5-1.el9.src.rpm
 
-The build completed at Tue Jun  4 01:50:08 AM CEST 2024
+The build completed at Tue Jun  4 01:50:39 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-docutils-0.20.1-1.el9.src.rpm.log)
+[Build Log](logs/python-drf-spectacular-0.26.5-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -50,7 +50,7 @@ python3.11-djangorestframework-simplejwt-5.3.1-1.el9 | python-djangorestframewor
 python3.11-django-rq-2.7.0-1.el9 | python-django-rq-2.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-rq-2.7.0-1.el9.src.rpm.log)
 python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 python3.11-docutils-0.20.1-1.el9 | python-docutils-0.20.1-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.20.1-1.el9.src.rpm.log)
-python3.11-drf-spectacular-0.26.5-1.el9 | python-drf-spectacular-0.26.5-1.el9.src.rpm | **Missing** |
+python3.11-drf-spectacular-0.26.5-1.el9 | python-drf-spectacular-0.26.5-1.el9.src.rpm | **Missing** | [Log](logs/python-drf-spectacular-0.26.5-1.el9.src.rpm.log)
 python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | **Missing** |
 python3.11-dynaconf-3.2.4-1.el9 | python-dynaconf-3.2.4-1.el9.src.rpm | **Missing** |
 python3.11-fastjsonschema-2.19.1-1.el9 | python-fastjsonschema-2.19.1-1.el9.src.rpm | **Missing** |
