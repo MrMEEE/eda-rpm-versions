@@ -1,0 +1,12 @@
+diff -uNr python-dateutil-2.9.0.post0/pyproject.toml python-dateutil-2.9.0.post0-new/pyproject.toml
+--- python-dateutil-2.9.0.post0/pyproject.toml	2024-03-01 19:35:19.000000000 +0100
++++ python-dateutil-2.9.0.post0-new/pyproject.toml	2024-03-30 10:04:20.201385963 +0100
+@@ -3,7 +3,7 @@
+     "setuptools; python_version != '3.3'",
+     "setuptools<40.0; python_version == '3.3'",
+     "wheel",
+-    "setuptools_scm<8.0"
++    "setuptools_scm"
+ ]
+ build-backend = "setuptools.build_meta"
+ 

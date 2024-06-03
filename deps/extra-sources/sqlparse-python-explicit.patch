@@ -1,0 +1,18 @@
+diff -uNr sqlparse-0.4.4/sqlparse/cli.py sqlparse-0.4.4-fix/sqlparse/cli.py
+--- sqlparse-0.4.4/sqlparse/cli.py	2022-12-30 12:03:50.599187900 +0100
++++ sqlparse-0.4.4-fix/sqlparse/cli.py	2024-01-02 00:00:10.716353072 +0100
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python3
+ #
+ # Copyright (C) 2009-2020 the sqlparse authors and contributors
+ # <see AUTHORS file>
+diff -uNr sqlparse-0.4.4/sqlparse/__main__.py sqlparse-0.4.4-fix/sqlparse/__main__.py
+--- sqlparse-0.4.4/sqlparse/__main__.py	2022-12-30 12:03:50.598850500 +0100
++++ sqlparse-0.4.4-fix/sqlparse/__main__.py	2024-01-02 00:00:36.792763274 +0100
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python3
+ #
+ # Copyright (C) 2009-2020 the sqlparse authors and contributors
+ # <see AUTHORS file>
