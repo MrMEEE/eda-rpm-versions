@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-filelock-3.13.1-1.el9.src.rpm
+The lastest package built was python-google-auth-2.28.1-1.el9.src.rpm
 
-The build completed at Tue Jun  4 01:53:13 AM CEST 2024
+The build completed at Tue Jun  4 01:53:40 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
+[Build Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -55,7 +55,7 @@ python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | Built | 
 python3.11-dynaconf-3.2.4-1.el9 | python-dynaconf-3.2.4-1.el9.src.rpm | Built | [Log](logs/python-dynaconf-3.2.4-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.19.1-1.el9 | python-fastjsonschema-2.19.1-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.19.1-1.el9.src.rpm.log)
 python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
-python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | **Missing** |
+python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
 python3.11-h2-4.1.0-1.el9 | python-h2-4.1.0-1.el9.src.rpm | **Missing** |
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | **Missing** |
 python3.11-hatchling-1.24.2-1.el9 | python-hatchling-1.24.2-1.el9.src.rpm | **Missing** |
