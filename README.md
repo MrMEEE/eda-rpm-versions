@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-build-1.2.1-1.el9.src.rpm
+The lastest package built was python-cachecontrol-0.14.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 01:34:34 AM CEST 2024
+The build completed at Tue Jun  4 01:35:04 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -22,7 +22,7 @@ python3.11-babel-2.15.0-1.el9 | python-babel-2.15.0-1.el9.src.rpm | Built | [Log
 python3.11-bcrypt-4.1.3-1.el9 | python-bcrypt-4.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-bcrypt-4.1.3-1.el9.src.rpm.log)
 python3.11-blinker-1.8.2-1.el9 | python-blinker-1.8.2-1.el9.src.rpm | Built | [Log](logs/python-blinker-1.8.2-1.el9.src.rpm.log)
 python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
-python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | **Missing** |
+python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 python3.11-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | **Missing** |
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | **Missing** |
 python3.11-certifi-2023.7.22-1.el9 | python-certifi-2023.7.22-1.el9.src.rpm | **Missing** |
