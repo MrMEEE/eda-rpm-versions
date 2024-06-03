@@ -1,18 +1,18 @@
 ## Latest build
-The lastest package built was python-adal-1.2.7-1.el9.src.rpm
+The lastest package built was python-annotated-types-0.6.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 01:28:56 AM CEST 2024
+The build completed at Tue Jun  4 01:29:22 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
+[Build Log](logs/python-annotated-types-0.6.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | **Missing** | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
-python3.11-annotated-types-0.6.0-1.el9 | python-annotated-types-0.6.0-1.el9.src.rpm | **Missing** |
+python3.11-annotated-types-0.6.0-1.el9 | python-annotated-types-0.6.0-1.el9.src.rpm | **Missing** | [Log](logs/python-annotated-types-0.6.0-1.el9.src.rpm.log)
 python3.11-asgiref-3.7.2-1.el9 | python-asgiref-3.7.2-1.el9.src.rpm | **Missing** |
 python3.11-async-timeout-4.0.3-1.el9 | python-async-timeout-4.0.3-1.el9.src.rpm | **Missing** |
 python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** |
