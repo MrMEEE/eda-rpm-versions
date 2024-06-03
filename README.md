@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
+The lastest package built was python-django-filter-23.5-1.el9.src.rpm
 
-The build completed at Tue Jun  4 01:47:15 AM CEST 2024
+The build completed at Tue Jun  4 01:47:45 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
+[Build Log](logs/python-django-filter-23.5-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -44,7 +44,7 @@ python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log
 python3.11-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | **Missing** | [Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
 python3.11-django-auth-ldap-4.8.0-1.el9 | python-django-auth-ldap-4.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-auth-ldap-4.8.0-1.el9.src.rpm.log)
 python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
-python3.11-django-filter-23.5-1.el9 | python-django-filter-23.5-1.el9.src.rpm | **Missing** |
+python3.11-django-filter-23.5-1.el9 | python-django-filter-23.5-1.el9.src.rpm | **Missing** | [Log](logs/python-django-filter-23.5-1.el9.src.rpm.log)
 python3.11-djangorestframework-3.15.1-1.el9 | python-djangorestframework-3.15.1-1.el9.src.rpm | **Missing** |
 python3.11-djangorestframework-simplejwt-5.3.1-1.el9 | python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm | **Missing** |
 python3.11-django-rq-2.7.0-1.el9 | python-django-rq-2.7.0-1.el9.src.rpm | **Missing** |
