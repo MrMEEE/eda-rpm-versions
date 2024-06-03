@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-channels-3.0.5-1.el9.src.rpm
+The lastest package built was python-charset-normalizer-3.3.2-1.el9.src.rpm
 
-The build completed at Tue Jun  4 01:37:46 AM CEST 2024
+The build completed at Tue Jun  4 01:38:24 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-channels-3.0.5-1.el9.src.rpm.log)
+[Build Log](logs/python-charset-normalizer-3.3.2-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -28,7 +28,7 @@ python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Buil
 python3.11-certifi-2023.7.22-1.el9 | python-certifi-2023.7.22-1.el9.src.rpm | Built | [Log](logs/python-certifi-2023.7.22-1.el9.src.rpm.log)
 python3.11-cffi-1.16.0-1.el9 | python-cffi-1.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cffi-1.16.0-1.el9.src.rpm.log)
 python3.11-channels-3.0.5-1.el9 | python-channels-3.0.5-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-3.0.5-1.el9.src.rpm.log)
-python3.11-charset-normalizer-3.3.2-1.el9 | python-charset-normalizer-3.3.2-1.el9.src.rpm | **Missing** |
+python3.11-charset-normalizer-3.3.2-1.el9 | python-charset-normalizer-3.3.2-1.el9.src.rpm | Built | [Log](logs/python-charset-normalizer-3.3.2-1.el9.src.rpm.log)
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** |
 python3.11-click-8.1.7-1.el9 | python-click-8.1.7-1.el9.src.rpm | **Missing** |
 python3.11-colorama-0.4.6-1.el9 | python-colorama-0.4.6-1.el9.src.rpm | **Missing** |
@@ -157,4 +157,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing*
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-147 total packages, 7 packages built successfully, 140 packages left to fix
+147 total packages, 8 packages built successfully, 139 packages left to fix
