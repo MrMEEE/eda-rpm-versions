@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-markupsafe
-Version:        2.1.3
+Version:        2.1.5
 Release:        %autorelease
 Summary:        Safely add untrusted strings to HTML/XML markup.
 

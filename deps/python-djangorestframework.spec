@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-djangorestframework
-Version:        3.14.0
+Version:        3.15.1
 Release:        %autorelease
 Summary:        Web APIs for Django, made easy.
 

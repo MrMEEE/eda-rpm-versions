@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-importlib-metadata
-Version:        7.1.0
+Version:        6.2.1
 Release:        %autorelease
 Summary:        Read metadata from Python packages
 
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-importlib-metadata docs,perf,testing
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x docs,perf,testing
+%pyproject_buildrequires
 
 
 %build

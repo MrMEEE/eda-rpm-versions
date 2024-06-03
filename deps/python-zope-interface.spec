@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-zope-interface
-Version:        6.0
+Version:        6.2
 Release:        %autorelease
 Summary:        Interfaces for Python
 
@@ -28,12 +28,16 @@ Summary:        %{summary}
 
 %description -n python%{python3_pkgversion}-zope-interface %_description
 
+# For official Fedora packages, review which extras should be actually packaged
+# See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+
 
 %prep
 %autosetup -p1 -n zope.interface-%{version}
 
 
 %generate_buildrequires
+# Keep only those extras which you actually want to package or use during tests
 %pyproject_buildrequires
 
 

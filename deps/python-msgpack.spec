@@ -1,8 +1,8 @@
-
+%global debug_package %{nil}
 %global python3_pkgversion 3.11
 
 Name:           python-msgpack
-Version:        1.0.8
+Version:        1.0.5
 Release:        %autorelease
 Summary:        MessagePack serializer
 

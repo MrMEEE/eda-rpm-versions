@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-dateutil
-Version:        2.8.2
+Version:        2.9.0^post0
 Release:        %autorelease
 Summary:        Extensions to the standard Python datetime module
 
@@ -10,11 +10,12 @@ Summary:        Extensions to the standard Python datetime module
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
 URL:            https://github.com/dateutil/dateutil
-Source:         %{pypi_source python-dateutil}
+Source:         %{pypi_source python-dateutil 2.9.0.post0}
 
+Patch: 		dateutil-deps.patch
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-setuptools_scm
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -30,7 +31,7 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n python-dateutil-%{version}
+%autosetup -p1 -n python-dateutil-2.9.0.post0
 
 
 %generate_buildrequires

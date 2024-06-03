@@ -2,14 +2,14 @@
 %global python3_pkgversion 3.11
 
 Name:           python-priority
-Version:        2.0.0
+Version:        1.3.0
 Release:        %autorelease
 Summary:        A pure-Python implementation of the HTTP/2 priority tree
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/python-hyper/priority/
+URL:            http://python-hyper.org/priority/
 Source:         %{pypi_source priority}
 
 BuildArch:      noarch

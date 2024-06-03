@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-lxml
-Version:        4.9.3
+Version:        4.9.4
 Release:        %autorelease
 Summary:        Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
 
@@ -14,7 +14,7 @@ Source:         %{pypi_source lxml}
 
 
 BuildRequires:  python%{python3_pkgversion}-devel
-BuildRequires:  gcc
+BuildRequires:  gcc libxml2-devel libxslt-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -28,12 +28,16 @@ Summary:        %{summary}
 
 %description -n python%{python3_pkgversion}-lxml %_description
 
+# For official Fedora packages, review which extras should be actually packaged
+# See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+
 
 %prep
 %autosetup -p1 -n lxml-%{version}
 
 
 %generate_buildrequires
+# Keep only those extras which you actually want to package or use during tests
 %pyproject_buildrequires
 
 

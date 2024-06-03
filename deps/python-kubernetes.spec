@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-kubernetes
-Version:        26.1.0
+Version:        29.0.0
 Release:        %autorelease
 Summary:        Kubernetes python client
 

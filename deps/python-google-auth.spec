@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-google-auth
-Version:        2.17.3
+Version:        2.28.1
 Release:        %autorelease
 Summary:        Google Authentication Library
 
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-google-auth aiohttp,enterprise-cert,pyopenssl,reauth,requests
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x aiohttp,enterprise-cert,pyopenssl,reauth,requests
+%pyproject_buildrequires
 
 
 %build

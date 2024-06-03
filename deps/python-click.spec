@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-click
-Version:        8.1.3
+Version:        8.1.7
 Release:        %autorelease
 Summary:        Composable command line interface toolkit
 

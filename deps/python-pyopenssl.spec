@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-pyopenssl
-Version:        23.1.1
+Version:        24.0.0
 Release:        %autorelease
 Summary:        Python wrapper module around the OpenSSL library
 
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-pyopenssl docs,test
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x docs,test
+%pyproject_buildrequires
 
 
 %build

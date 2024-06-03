@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-packaging
-Version:        24.0
+Version:        23.2
 Release:        %autorelease
 Summary:        Core utilities for Python packages
 

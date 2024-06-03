@@ -1,0 +1,19 @@
+--- python-platformdirs.spec	2024-06-04 01:11:07.857866310 +0200
++++ python-platformdirs.spec	2024-06-04 01:10:52.021804962 +0200
+@@ -30,7 +30,6 @@
+ 
+ # For official Fedora packages, review which extras should be actually packaged
+ # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+-%pyproject_extras_subpkg -n python%{python3_pkgversion}-platformdirs docs,test
+ 
+ 
+ %prep
+@@ -39,7 +38,7 @@
+ 
+ %generate_buildrequires
+ # Keep only those extras which you actually want to package or use during tests
+-%pyproject_buildrequires -x docs,test
++%pyproject_buildrequires
+ 
+ 
+ %build

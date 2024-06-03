@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-async-timeout
-Version:        4.0.2
+Version:        4.0.3
 Release:        %autorelease
 Summary:        Timeout context manager for asyncio programs
 

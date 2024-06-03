@@ -1,0 +1,19 @@
+--- python-social-auth-core.spec	2024-06-04 01:11:07.948872410 +0200
++++ python-social-auth-core.spec	2024-06-04 01:10:52.025805230 +0200
+@@ -30,7 +30,6 @@
+ 
+ # For official Fedora packages, review which extras should be actually packaged
+ # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+-%pyproject_extras_subpkg -n python%{python3_pkgversion}-social-auth-core all,allpy3,azuread,openidconnect,saml
+ 
+ 
+ %prep
+@@ -39,7 +38,7 @@
+ 
+ %generate_buildrequires
+ # Keep only those extras which you actually want to package or use during tests
+-%pyproject_buildrequires -x all,allpy3,azuread,openidconnect,saml
++%pyproject_buildrequires
+ 
+ 
+ %build

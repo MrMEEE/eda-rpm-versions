@@ -1,8 +1,9 @@
+%global debug_package %{nil}
 
 %global python3_pkgversion 3.11
 
 Name:           python-pyyaml
-Version:        6.0
+Version:        6.0.1
 Release:        %autorelease
 Summary:        YAML parser and emitter for Python
 

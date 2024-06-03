@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-types-setuptools
-Version:        70.0.0.20240524
+Version:        69.5.0.20240522
 Release:        %autorelease
 Summary:        Typing stubs for setuptools
 

@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-websocket-client
-Version:        1.5.1
+Version:        1.7.0
 Release:        %autorelease
 Summary:        WebSocket client for Python with low level API options
 
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-websocket-client docs,optional,test
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x docs,optional,test
+%pyproject_buildrequires
 
 
 %build
@@ -50,7 +49,19 @@ Summary:        %{summary}
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
+# START RENAMING OF BINARIES 1
+%if "%{python3_pkgversion}" != "3"
+mv $RPM_BUILD_ROOT/usr/bin/wsdump $RPM_BUILD_ROOT/usr/bin/wsdump%{python3_pkgversion}
+%endif
+# END RENAMING OF BINARIES 1
+
 %pyproject_save_files '*' +auto
+# START RENAMING OF BINARIES 2
+%if "%{python3_pkgversion}" != "3"
+sed -i "s|/usr/bin/wsdump|/usr/bin/wsdump%{python3_pkgversion}|g" %{pyproject_files}
+%endif
+# END RENAMING OF BINARIES 2
+
 
 
 %check

@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-setuptools
-Version:        67.7.1
+Version:        69.0.2
 Release:        %autorelease
 Summary:        Easily download, build, install, upgrade, and uninstall Python packages
 
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-setuptools docs,testing,testing-integration
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x docs,testing,testing-integration
+%pyproject_buildrequires
 
 
 %build

@@ -45,7 +45,29 @@ Summary:        %{summary}
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
+# START RENAMING OF BINARIES 1
+%if "%{python3_pkgversion}" != "3"
+mv $RPM_BUILD_ROOT/usr/bin/pyrsa-decrypt $RPM_BUILD_ROOT/usr/bin/pyrsa-decrypt%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/pyrsa-encrypt $RPM_BUILD_ROOT/usr/bin/pyrsa-encrypt%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/pyrsa-keygen $RPM_BUILD_ROOT/usr/bin/pyrsa-keygen%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/pyrsa-priv2pub $RPM_BUILD_ROOT/usr/bin/pyrsa-priv2pub%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/pyrsa-sign $RPM_BUILD_ROOT/usr/bin/pyrsa-sign%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/pyrsa-verify $RPM_BUILD_ROOT/usr/bin/pyrsa-verify%{python3_pkgversion}
+%endif
+# END RENAMING OF BINARIES 1
+
 %pyproject_save_files '*' +auto
+# START RENAMING OF BINARIES 2
+%if "%{python3_pkgversion}" != "3"
+sed -i "s|/usr/bin/pyrsa-decrypt|/usr/bin/pyrsa-decrypt%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/pyrsa-encrypt|/usr/bin/pyrsa-encrypt%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/pyrsa-keygen|/usr/bin/pyrsa-keygen%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/pyrsa-priv2pub|/usr/bin/pyrsa-priv2pub%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/pyrsa-sign|/usr/bin/pyrsa-sign%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/pyrsa-verify|/usr/bin/pyrsa-verify%{python3_pkgversion}|g" %{pyproject_files}
+%endif
+# END RENAMING OF BINARIES 2
+
 
 
 %check

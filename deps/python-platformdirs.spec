@@ -2,9 +2,9 @@
 %global python3_pkgversion 3.11
 
 Name:           python-platformdirs
-Version:        4.2.2
+Version:        3.11.0
 Release:        %autorelease
-Summary:        A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
+Summary:        A small Python package for determining appropriate platform-specific dirs, e.g. a "user data dir".
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-platformdirs docs,test,type
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x docs,test,type
+%pyproject_buildrequires
 
 
 %build

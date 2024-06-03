@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-referencing
-Version:        0.35.1
+Version:        0.33.0
 Release:        %autorelease
 Summary:        JSON Referencing + Python
 

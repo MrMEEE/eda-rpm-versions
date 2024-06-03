@@ -1,8 +1,8 @@
-
+%global debug_package %{nil}
 %global python3_pkgversion 3.11
 
 Name:           python-rpds-py
-Version:        0.18.1
+Version:        0.18.0
 Release:        %autorelease
 Summary:        Python bindings to Rust's persistent data structures (rpds)
 
@@ -15,7 +15,8 @@ Source:         %{pypi_source rpds_py}
 
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
-
+BuildRequires:	rust
+BuildRequires:	cargo
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:

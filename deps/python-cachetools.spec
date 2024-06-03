@@ -2,14 +2,14 @@
 %global python3_pkgversion 3.11
 
 Name:           python-cachetools
-Version:        3.1.1
+Version:        5.3.2
 Release:        %autorelease
 Summary:        Extensible memoizing collections and decorators
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/tkem/cachetools
+URL:            https://github.com/tkem/cachetools/
 Source:         %{pypi_source cachetools}
 
 BuildArch:      noarch

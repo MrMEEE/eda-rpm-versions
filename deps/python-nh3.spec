@@ -1,4 +1,4 @@
-
+%global debug_package %{nil}
 %global python3_pkgversion 3.11
 
 Name:           python-nh3
@@ -12,9 +12,11 @@ License:        gpl
 URL:            https://pypi.org/project/nh3/
 Source:         %{pypi_source nh3}
 
-
+BuildArch:      x86_64
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
+BuildRequires:  rust
+BuildRequires:  cargo
 
 
 # Fill in the actual package description to submit package to Fedora

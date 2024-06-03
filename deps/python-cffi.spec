@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-cffi
-Version:        1.15.1
+Version:        1.16.0
 Release:        %autorelease
 Summary:        Foreign Function Interface for Python calling C code.
 
@@ -12,10 +12,10 @@ License:        gpl
 URL:            http://cffi.readthedocs.org
 Source:         %{pypi_source cffi}
 
-
+BuildArch:      x86_64
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
-
+BuildRequires:  libffi-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:

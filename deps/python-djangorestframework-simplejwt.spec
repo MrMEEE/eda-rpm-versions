@@ -31,7 +31,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-djangorestframework-simplejwt crypto,dev,doc,lint,python-jose,test
 
 
 %prep
@@ -40,7 +39,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x crypto,dev,doc,lint,python-jose,test
+%pyproject_buildrequires
 
 
 %build

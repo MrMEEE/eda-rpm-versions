@@ -2,19 +2,19 @@
 %global python3_pkgversion 3.11
 
 Name:           python-service-identity
-Version:        21.1.0
+Version:        24.1.0
 Release:        %autorelease
 Summary:        Service identity verification for pyOpenSSL & cryptography.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://service-identity.readthedocs.io/
-Source:         %{pypi_source service-identity}
+URL:            https://pypi.org/project/service-identity/
+Source:         %{pypi_source service_identity}
 
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-pyasn1 python%{python3_pkgversion}-pyasn1-modules
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -30,16 +30,15 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-service-identity dev,docs,idna,tests
 
 
 %prep
-%autosetup -p1 -n service-identity-%{version}
+%autosetup -p1 -n service_identity-%{version}
 
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x dev,docs,idna,tests
+%pyproject_buildrequires
 
 
 %build

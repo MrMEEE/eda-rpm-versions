@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-pytz
-Version:        2023.3
+Version:        2024.1
 Release:        %autorelease
 Summary:        World timezone definitions, modern and historical
 

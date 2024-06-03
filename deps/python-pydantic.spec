@@ -1,10 +1,10 @@
-
+%global debug_package %{nil}
 %global python3_pkgversion 3.11
 
 Name:           python-pydantic
-Version:        1.10.7
+Version:        2.5.0
 Release:        %autorelease
-Summary:        Data validation and settings management using python type hints
+Summary:        Data validation using Python type hints
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
@@ -12,9 +12,9 @@ License:        gpl
 URL:            https://github.com/pydantic/pydantic
 Source:         %{pypi_source pydantic}
 
+BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
-BuildRequires:  gcc
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-pydantic dotenv,email
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x dotenv,email
+%pyproject_buildrequires
 
 
 %build

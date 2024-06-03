@@ -2,14 +2,14 @@
 %global python3_pkgversion 3.11
 
 Name:           python-annotated-types
-Version:        0.7.0
+Version:        0.6.0
 Release:        %autorelease
 Summary:        Reusable constraint types to use with typing.Annotated
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/annotated-types/annotated-types
+URL:            https://pypi.org/project/annotated-types/
 Source:         %{pypi_source annotated_types}
 
 BuildArch:      noarch

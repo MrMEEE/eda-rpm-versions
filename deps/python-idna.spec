@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-idna
-Version:        3.4
+Version:        3.6
 Release:        %autorelease
 Summary:        Internationalized Domain Names in Applications (IDNA)
 

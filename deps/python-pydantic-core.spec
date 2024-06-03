@@ -1,10 +1,11 @@
+%global debug_package %{nil}
 
 %global python3_pkgversion 3.11
 
 Name:           python-pydantic-core
-Version:        2.18.4
+Version:        2.14.1
 Release:        %autorelease
-Summary:        Core functionality for Pydantic validation and serialization
+Summary:        ...
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
@@ -15,7 +16,8 @@ Source:         %{pypi_source pydantic_core}
 
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
-
+BuildRequires:  rust
+BuildRequires:  cargo
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:

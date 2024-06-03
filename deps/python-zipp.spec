@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-zipp
-Version:        3.19.1
+Version:        3.17.0
 Release:        %autorelease
 Summary:        Backport of pathlib-compatible object wrapper for zip files
 
@@ -14,7 +14,7 @@ Source:         %{pypi_source zipp}
 
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-setuptools_scm
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-zipp doc,test
 
 
 %prep
@@ -39,8 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x doc,test
-
+%pyproject_buildrequires
 
 %build
 %pyproject_wheel

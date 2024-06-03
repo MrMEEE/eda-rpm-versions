@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-redis
-Version:        4.5.4
+Version:        5.0.1
 Release:        %autorelease
 Summary:        Python client for Redis database and key-value store
 
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-redis hiredis,ocsp
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x hiredis,ocsp
+%pyproject_buildrequires
 
 
 %build

@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-django-split-settings
-Version:        1.2.0
+Version:        1.0.0
 Release:        %autorelease
 Summary:        Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files.
 

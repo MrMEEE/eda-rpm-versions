@@ -1,8 +1,8 @@
-
+%global debug_package %{nil}
 %global python3_pkgversion 3.11
 
 Name:           python-rapidfuzz
-Version:        3.9.3
+Version:        3.9.1
 Release:        %autorelease
 Summary:        rapid fuzzy string matching
 
@@ -15,7 +15,8 @@ Source:         %{pypi_source rapidfuzz}
 
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
-
+BuildRequires:  cmake 
+BuildRequires:  ninja-build
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
@@ -30,7 +31,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-rapidfuzz full
 
 
 %prep
@@ -39,7 +39,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x full
+%pyproject_buildrequires
 
 
 %build

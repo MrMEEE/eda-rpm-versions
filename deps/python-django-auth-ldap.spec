@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-django-auth-ldap
-Version:        4.6.0
+Version:        4.8.0
 Release:        %autorelease
 Summary:        Django LDAP authentication backend
 

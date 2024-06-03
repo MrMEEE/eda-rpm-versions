@@ -1,4 +1,4 @@
-
+%global debug_package %{nil}
 %global python3_pkgversion 3.11
 
 Name:           python-mypy
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-mypy dmypy,install-types,mypyc,reports
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x dmypy,install-types,mypyc,reports
+%pyproject_buildrequires
 
 
 %build

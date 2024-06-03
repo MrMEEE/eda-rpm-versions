@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-constantly
-Version:        15.1.0
+Version:        23.10.4
 Release:        %autorelease
 Summary:        Symbolic constants in Python
 

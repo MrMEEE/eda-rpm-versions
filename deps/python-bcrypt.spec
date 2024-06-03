@@ -1,4 +1,4 @@
-
+%global debug_package %{nil}
 %global python3_pkgversion 3.11
 
 Name:           python-bcrypt
@@ -15,7 +15,8 @@ Source:         %{pypi_source bcrypt}
 
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
-
+BuildRequires:  rust
+BuildRequires:  cargo
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:

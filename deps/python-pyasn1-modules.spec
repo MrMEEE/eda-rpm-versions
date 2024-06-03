@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-pyasn1-modules
-Version:        0.3.0
+Version:        0.5.1
 Release:        %autorelease
 Summary:        A collection of ASN.1-based protocols modules
 
@@ -10,7 +10,7 @@ Summary:        A collection of ASN.1-based protocols modules
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
 URL:            https://github.com/pyasn1/pyasn1-modules
-Source:         %{pypi_source pyasn1_modules}
+Source:         pyasn1_modules-0.3.0.tar.gz
 
 BuildArch:      noarch
 
@@ -30,7 +30,7 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n pyasn1_modules-%{version}
+%autosetup -p1 -n pyasn1_modules-0.3.0
 
 
 %generate_buildrequires

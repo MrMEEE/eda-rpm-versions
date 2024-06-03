@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-urllib3
-Version:        1.26.15
+Version:        1.26.18
 Release:        %autorelease
 Summary:        HTTP library with thread-safe connection pooling, file post, and more.
 
@@ -14,7 +14,7 @@ Source:         %{pypi_source urllib3}
 
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-python-ntlm
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-urllib3 brotli,secure,socks
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x brotli,secure,socks
+%pyproject_buildrequires
 
 
 %build
