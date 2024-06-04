@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pkgconfig-1.5.5-1.el9.src.rpm
+The lastest package built was python-platformdirs-3.11.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 03:25:26 AM CEST 2024
+The build completed at Tue Jun  4 03:25:51 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
+[Build Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
