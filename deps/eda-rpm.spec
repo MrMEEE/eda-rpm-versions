@@ -14,7 +14,7 @@
 Summary: Ansible EDA-RPM (Event Driven Ansible Server)
 Name: eda-rpm
 Version: 2024.3.4
-Release: 6%{dist}
+Release: 7%{dist}
 Source0: eda-server-2024.3.4.tar.gz
 #Source1: settings.py-%{version}
 #Source2: awx-receiver.service-%{version}
@@ -402,77 +402,26 @@ git checkout -f %{version}
 %build
 
 %install
-poetry install -E all --only-root
+#poetry install -E all --only-root
 
 #cp %{_sourcedir}/awx-rpm-logo.svg-%{version} awx/ui_next/src/frontend/awx/main/awx-rpm-logo.svg
 #sed -i "s/awx-logo.svg/awx-rpm-logo.svg/g" awx/ui_next/src/frontend/awx/main/AwxMasthead.tsx
 
 mkdir -p /var/log/eda-rpm
 
-rm -rf awx-*
 pip%{python3_pkgversion} install --root=%{buildroot}/ .
 popd
-sed -i "s|/builddir.*.x86_64||g" $RPM_BUILD_ROOT/usr/bin/awx-manage
-pushd %{buildroot}/usr/lib/python%{python3_pkgversion}/site-packages/
-for i in `find -type f`; do
-	sed -i "s|/builddir.*.x86_64||g" $i
-done
-popd
-
-rsync -avr awx/ $RPM_BUILD_ROOT/opt/awx-rpm/awx/
-cp -a /var/lib/awx/public/static /opt/awx-rpm/
-
-mkdir -p $RPM_BUILD_ROOT/var/lib/awx/rsyslog
-mkdir -p $RPM_BUILD_ROOT/var/lib/awx/projects
-mkdir -p $RPM_BUILD_ROOT/var/lib/awx/job_status
-
-# Collect django static
-mkdir -p /var/log/tower/
-mkdir -p %{buildroot}%{service_homedir}
-mkdir -p %{buildroot}%{service_logdir}
-mkdir -p %{buildroot}%{_prefix}/bin
-mkdir -p %{buildroot}%{service_configdir}
-echo %{version} > %{buildroot}%{service_homedir}/.tower_version
-
-cp %{_sourcedir}/settings.py-%{version} %{buildroot}%{service_configdir}/settings.py
-mkdir -p %{buildroot}%{_prefix}/public
-rsync -avr /var/lib/awx/public/ %{buildroot}%{_prefix}/public/
-
-mkdir -p %{buildroot}/usr/lib/systemd/system
-# awx-channels-worker awx
-for service in awx-web awx-wsrelay awx-ws-heartbeat awx-daphne awx-dispatcher awx-receiver awx-receptor awx-receptor-hop awx-receptor-worker; do
-    cp %{_sourcedir}/${service}.service-%{version} %{buildroot}/usr/lib/systemd/system/${service}.service
-done
-
-cp %{_sourcedir}/awx.target-%{version} %{buildroot}/usr/lib/systemd/system/awx.target
-
-mkdir -p %{buildroot}/etc/receptor
-
-for receptor in receptor receptor-hop receptor-worker; do
-	cp %{_sourcedir}/$receptor.conf-%{version} %{buildroot}/etc/receptor/$receptor.conf
-done
-
-mkdir -p %{buildroot}/etc/nginx/conf.d
-
-cp %{_sourcedir}/awx-rpm-nginx.conf-%{version} %{buildroot}/etc/nginx/conf.d/awx-rpm.conf
-
-# Create Virtualenv folder
-mkdir -p %{buildroot}%{service_homedir}/venv
-
-mkdir -p $RPM_BUILD_ROOT/etc/nginx/conf.d/
-
-sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')//g" $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/main/utils/external_logging.py
 
 %pre
 /usr/bin/getent group %{service_group} >/dev/null || /usr/sbin/groupadd --system %{service_group}
 /usr/bin/getent passwd %{service_user} >/dev/null || /usr/sbin/useradd --no-create-home --system -g %{service_group} --home-dir %{service_homedir} -s /bin/bash %{service_user}
 /usr/sbin/usermod -s /bin/bash %{service_user}
-/usr/bin/gpasswd -a awx redis
+#/usr/bin/gpasswd -a  %{service_user} redis
 
 %post
-if [ ! -f /etc/nginx/nginx.crt ];then
-sscg -q --cert-file /etc/nginx/nginx.crt --cert-key-file /etc/nginx/nginx.key --ca-file /etc/nginx/ca.crt --lifetime 3650 --hostname $HOSTNAME --email root@$HOSTNAME
-fi
+#if [ ! -f /etc/nginx/nginx.crt ];then
+#sscg -q --cert-file /etc/nginx/nginx.crt --cert-key-file /etc/nginx/nginx.key --ca-file /etc/nginx/ca.crt --lifetime 3650 --hostname $HOSTNAME --email root@$HOSTNAME
+#fi
 
 %preun
 
@@ -482,31 +431,9 @@ fi
 
 %files
 %defattr(0644, awx, awx, 0755)
-%attr(0755, root, root) /usr/bin/awx-manage
-%attr(0755, root, root) /usr/lib/systemd/system/*.service
-%attr(0755, root, root) /usr/lib/python%{python3_pkgversion}/site-packages/awx*
-%attr(0755, awx, awx) %{_prefix}
-%dir %attr(0750, %{service_user}, %{service_group}) %{service_homedir}
-%dir %attr(0750, %{service_user}, %{service_group}) %{service_homedir}/venv
-%{service_homedir}/.tower_version
-%dir %attr(0770, %{service_user}, %{service_group}) %{service_logdir}
-%config(noreplace) %{service_configdir}/settings.py
-%config /etc/nginx/conf.d/awx-rpm.conf
-/usr/lib/systemd/system/awx.target
-/etc/receptor
-#/usr/bin/ansible-tower-service
-#/usr/bin/ansible-tower-setup
-#/usr/bin/awx-python
-#/usr/bin/failure-event-handler
-#/usr/share/awx
-#/usr/share/sosreport/sos/plugins/tower.py
-#/var/lib/awx/favicon.ico
-#/var/lib/awx/wsgi.py
-/var/lib/awx/rsyslog
-/var/lib/awx/projects
-/var/lib/awx/job_status
+#%attr(0755, root, root) /usr/bin/awx-manage
 
 %changelog
-* Tue Jun 04 2024 12:37:12 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 2024.3.4
+* Tue Jun 04 2024 12:40:51 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 2024.3.4
 - New version build: 2024.3.4
 

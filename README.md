@@ -1,16 +1,17 @@
 ## Latest build
-The lastest package built was eda-rpm-2024.3.4-6.el9.src.rpm
+The lastest package built was eda-rpm-2024.3.4-7.el9.src.rpm
 
-The build completed at Tue Jun  4 12:38:18 PM CEST 2024
+The build completed at Tue Jun  4 12:41:51 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/eda-rpm-2024.3.4-6.el9.src.rpm.log)
+[Build Log](logs/eda-rpm-2024.3.4-7.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 eda-rpm-2024.3.4-5.el9 | eda-rpm-2024.3.4-5.el9.src.rpm | **Missing** | [Log](logs/eda-rpm-2024.3.4-5.el9.src.rpm.log)
 eda-rpm-2024.3.4-6.el9 | eda-rpm-2024.3.4-6.el9.src.rpm | **Missing** | [Log](logs/eda-rpm-2024.3.4-6.el9.src.rpm.log)
+eda-rpm-2024.3.4-7.el9 | eda-rpm-2024.3.4-7.el9.src.rpm | **Missing** | [Log](logs/eda-rpm-2024.3.4-7.el9.src.rpm.log)
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -162,4 +163,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-152 total packages, 150 packages built successfully, 2 packages left to fix
+153 total packages, 150 packages built successfully, 3 packages left to fix
