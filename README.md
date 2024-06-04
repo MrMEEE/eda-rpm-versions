@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-social-auth-core-4.4.2-1.el9.src.rpm
+The lastest package built was python-jose-3.3.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 04:43:25 AM CEST 2024
+The build completed at Tue Jun  4 11:01:07 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
+[Build Log](logs/python-jose-3.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -72,6 +72,7 @@ python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | Built | [L
 python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | Built | [Log](logs/python-jinja2-3.1.3-1.el9.src.rpm.log)
+python3.11-jose-3.3.0-1.el9 | python-jose-3.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jose-3.3.0-1.el9.src.rpm.log)
 python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | Built | [Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
 python3.11-jsonschema-specifications-2023.12.1-1.el9 | python-jsonschema-specifications-2023.12.1-1.el9.src.rpm | Built | [Log](logs/python-jsonschema-specifications-2023.12.1-1.el9.src.rpm.log)
 python3.11-keyring-24.3.1-1.el9 | python-keyring-24.3.1-1.el9.src.rpm | Built | [Log](logs/python-keyring-24.3.1-1.el9.src.rpm.log)
@@ -157,4 +158,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-147 total packages, 144 packages built successfully, 3 packages left to fix
+148 total packages, 144 packages built successfully, 4 packages left to fix

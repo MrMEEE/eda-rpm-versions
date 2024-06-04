@@ -1,16 +1,16 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-podman
-Version:        4.9.0
+Name:           python-jose
+Version:        3.3.0
 Release:        %autorelease
-Summary:        Bindings for Podman RESTful API
+Summary:        JOSE implementation in Python
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/containers/podman-py
-Source:         %{pypi_source podman}
+URL:            http://github.com/mpdavis/python-jose
+Source:         %{pypi_source python-jose}
 
 BuildArch:      noarch
 
@@ -19,21 +19,21 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'podman' generated automatically by pyp2spec.}
+This is package 'python-jose' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-podman
+%package -n     python%{python3_pkgversion}-python-jose
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-podman %_description
+%description -n python%{python3_pkgversion}-python-jose %_description
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
 
 
 %prep
-%autosetup -p1 -n podman-%{version}
+%autosetup -p1 -n python-jose-%{version}
 
 
 %generate_buildrequires
@@ -56,7 +56,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-podman -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-python-jose -f %{pyproject_files}
 
 
 %changelog

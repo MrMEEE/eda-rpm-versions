@@ -73,3 +73,4 @@ types-setuptools
 versioneer
 virtualenv
 zipp
+python-jose
