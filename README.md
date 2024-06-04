@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-daphne-3.0.2-1.el9.src.rpm
+The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
 
-The build completed at Tue Jun  4 04:18:09 AM CEST 2024
+The build completed at Tue Jun  4 04:18:36 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
+[Build Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
