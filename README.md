@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-filter-23.5-1.el9.src.rpm
+The lastest package built was python-djangorestframework-3.15.1-1.el9.src.rpm
 
-The build completed at Tue Jun  4 03:08:21 AM CEST 2024
+The build completed at Tue Jun  4 03:08:48 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-filter-23.5-1.el9.src.rpm.log)
+[Build Log](logs/python-djangorestframework-3.15.1-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
