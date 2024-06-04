@@ -76,3 +76,4 @@ zipp
 python-jose
 ecdsa
 django-ansible-base
+django-ansible-base

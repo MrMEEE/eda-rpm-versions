@@ -1,0 +1,11 @@
+diff -uNr django-ansible-base-2024.04.11/pyproject.toml django-ansible-base-2024.04.11-patch/pyproject.toml
+--- django-ansible-base-2024.04.11/pyproject.toml	2024-04-11 10:45:08.000000000 +0200
++++ django-ansible-base-2024.04.11-patch/pyproject.toml	2024-04-11 13:14:15.102883520 +0200
+@@ -60,6 +60,7 @@
+ 
+ [tool.setuptools_scm]
+ version_scheme = "calver-by-date"
++fallback_version = "2024.04.11"
+ 
+ [tool.black]
+ line-length = 160
