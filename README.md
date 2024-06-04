@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-crashtest-0.4.1-1.el9.src.rpm
+The lastest package built was python-croniter-1.3.14-1.el9.src.rpm
 
-The build completed at Tue Jun  4 03:05:13 AM CEST 2024
+The build completed at Tue Jun  4 03:05:39 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
+[Build Log](logs/python-croniter-1.3.14-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
