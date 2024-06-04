@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-social-auth-core-4.4.2-1.el9.src.rpm
+The lastest package built was python-sqlparse-0.4.4-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:46:08 AM CEST 2024
+The build completed at Tue Jun  4 02:46:41 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
+[Build Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -137,7 +137,7 @@ python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Bu
 python3.11-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | Built | [Log](logs/python-six-1.16.0-1.el9.src.rpm.log)
 python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
 python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
-python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | **Missing** |
+python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | **Missing** |
 python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | **Missing** |
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | **Missing** |
@@ -157,4 +157,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing*
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-147 total packages, 62 packages built successfully, 85 packages left to fix
+147 total packages, 63 packages built successfully, 84 packages left to fix
