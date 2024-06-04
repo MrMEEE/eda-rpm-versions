@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                            17 MB/s |  74 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                     [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [         ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               25 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [               ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  7.2 kB/s | 2.9 kB     00:00    
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                            19 MB/s | 144 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [         ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [               ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  8.4 kB/s | 2.9 kB     00:00    
 Dependencies resolved.
 ================================================================================================================================================================================
  Package                                              Architecture                    Version                                  Repository                                  Size
@@ -166,7 +166,7 @@ Start: rpmbuild python-django-rq-2.7.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.M18P36
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.1XG9gC
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -180,7 +180,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.M18P36
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GTWybN
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.z8CwL1
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-rq-2.7.0
@@ -218,9 +218,9 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             22 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  8.8 kB/s | 2.9 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  8.4 kB/s | 2.9 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -267,7 +267,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.yN16pu
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.6XHk1m
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-rq-2.7.0
@@ -345,50 +345,762 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                22 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  7.4 kB/s | 2.9 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  8.4 kB/s | 2.9 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(django) >= 2'
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-django-rq-2.7.0-1.el9.src.rpm
-Finish: build phase for python-django-rq-2.7.0-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/2024.3.4/SRPMS/python-django-rq-2.7.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 18 seconds
-INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 4dbe358b69794775b281bb7863cab2bc -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.iky7_as7:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-django-rq-2.7.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+================================================================================================================================================================================
+ Package                                        Architecture                 Version                             Repository                                                Size
+================================================================================================================================================================================
+Installing:
+ [1mpython3.11-django                             [m noarch                       4.2.6-1.el9                         _opt_edarpm_rpmbuilds_202434_RPMS_                       5.6 M
+ [1mpython3.11-redis                              [m noarch                       5.0.1-1.el9                         _opt_edarpm_rpmbuilds_202434_RPMS_                       486 k
+ [1mpython3.11-rq                                 [m noarch                       1.13.0-1.el9                        _opt_edarpm_rpmbuilds_202434_RPMS_                       185 k
+Installing dependencies:
+ [1mpython3.11-asgiref                            [m noarch                       3.7.2-1.el9                         _opt_edarpm_rpmbuilds_202434_RPMS_                        55 k
+ [1mpython3.11-async-timeout                      [m noarch                       4.0.3-1.el9                         _opt_edarpm_rpmbuilds_202434_RPMS_                        16 k
+ [1mpython3.11-click                              [m noarch                       8.1.7-1.el9                         _opt_edarpm_rpmbuilds_202434_RPMS_                       216 k
+ [1mpython3.11-sqlparse                           [m noarch                       0.4.4-1.el9                         _opt_edarpm_rpmbuilds_202434_RPMS_                       100 k
+
+Transaction Summary
+================================================================================================================================================================================
+Install  7 Packages
+
+Total size: 6.7 M
+Installed size: 34 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [====================                                                                                                                               ] 1/1  Preparing        :  [=========================================                                                                                                          ] 1/1  Preparing        :  [=============================================================                                                                                      ] 1/1  Preparing        :  [===================================================================================                                                                ] 1/1  Preparing        :  [========================================================================================================                                           ] 1/1  Preparing        :  [============================================================================================================================                       ] 1/1  Preparing        :                                                                                                                                                        1/1 
+  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [                                                                                                             ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=                                                                                                            ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==                                                                                                           ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===========                                                                                                  ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=============                                                                                                ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [======================                                                                                       ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=========================                                                                                    ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=============================                                                                                ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==============================                                                                               ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===============================                                                                              ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================                                                                             ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==================================                                                                           ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===================================                                                                          ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [======================================                                                                       ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=======================================                                                                      ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=========================================                                                                    ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==================================================                                                           ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [====================================================                                                         ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==========================================================                                                   ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===========================================================                                                  ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=============================================================                                                ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==============================================================                                               ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================================================                                             ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===================================================================                                          ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=============================================================================                                ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===============================================================================                              ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================================================================                             ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================================================================                            ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===================================================================================                          ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=====================================================================================                        ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===========================================================================================                  ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [============================================================================================                 ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=============================================================================================                ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================================================================================            ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===================================================================================================          ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=====================================================================================================        ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==========================================================================================================   ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===========================================================================================================  ] 1/7  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch                                                                                                                 1/7 
+  Installing       : python3.11-click-8.1.7-1.el9.noarch [                                                                                                                ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==                                                                                                              ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===                                                                                                             ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [======                                                                                                          ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==========                                                                                                      ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=============                                                                                                   ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [================                                                                                                ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [====================                                                                                            ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=======================                                                                                         ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==========================                                                                                      ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==============================                                                                                  ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===============================                                                                                 ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=================================                                                                               ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [====================================                                                                            ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=======================================                                                                         ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=========================================                                                                       ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===========================================                                                                     ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=============================================                                                                   ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=================================================                                                               ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===================================================                                                             ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [======================================================                                                          ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=========================================================                                                       ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===========================================================                                                     ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=============================================================                                                   ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==============================================================                                                  ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==================================================================                                              ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [====================================================================                                            ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=======================================================================                                         ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=========================================================================                                       ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [============================================================================                                    ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=============================================================================                                   ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===============================================================================                                 ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=================================================================================                               ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [====================================================================================                            ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [======================================================================================                          ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=========================================================================================                       ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===========================================================================================                     ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [===============================================================================================                 ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==================================================================================================              ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [====================================================================================================            ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=====================================================================================================           ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [=========================================================================================================       ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==========================================================================================================      ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [============================================================================================================    ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch [==============================================================================================================  ] 2/7  Installing       : python3.11-click-8.1.7-1.el9.noarch                                                                                                                    2/7 
+  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [                                                                                                        ] 3/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [=                                                                                                       ] 3/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [===                                                                                                     ] 3/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [================                                                                                        ] 3/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [=================                                                                                       ] 3/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [==================                                                                                      ] 3/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [========================================                                                                ] 3/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [=======================================================================                                 ] 3/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch [======================================================================================================  ] 3/7  Installing       : python3.11-async-timeout-4.0.3-1.el9.noarch                                                                                                            3/7 
+  Installing       : python3.11-redis-5.0.1-1.el9.noarch [                                                                                                                ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=                                                                                                               ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==                                                                                                              ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===                                                                                                             ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=====                                                                                                           ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [======                                                                                                          ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=======                                                                                                         ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [========                                                                                                        ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==========                                                                                                      ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [============                                                                                                    ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=============                                                                                                   ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==============                                                                                                  ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===============                                                                                                 ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [================                                                                                                ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=================                                                                                               ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===================                                                                                             ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [====================                                                                                            ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [======================                                                                                          ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=======================                                                                                         ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [========================                                                                                        ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=========================                                                                                       ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==========================                                                                                      ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [============================                                                                                    ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=============================                                                                                   ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==============================                                                                                  ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [================================                                                                                ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=================================                                                                               ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==================================                                                                              ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [====================================                                                                            ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [======================================                                                                          ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=======================================                                                                         ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [========================================                                                                        ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=========================================                                                                       ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==========================================                                                                      ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===========================================                                                                     ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [============================================                                                                    ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=============================================                                                                   ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===============================================                                                                 ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [================================================                                                                ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=================================================                                                               ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==================================================                                                              ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===================================================                                                             ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [====================================================                                                            ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=====================================================                                                           ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [========================================================                                                        ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=========================================================                                                       ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===========================================================                                                     ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [============================================================                                                    ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=============================================================                                                   ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==============================================================                                                  ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===============================================================                                                 ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [================================================================                                                ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==================================================================                                              ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===================================================================                                             ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [====================================================================                                            ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=====================================================================                                           ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [======================================================================                                          ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=======================================================================                                         ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [========================================================================                                        ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===========================================================================                                     ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [============================================================================                                    ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==============================================================================                                  ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===============================================================================                                 ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [================================================================================                                ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=================================================================================                               ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [====================================================================================                            ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=====================================================================================                           ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [======================================================================================                          ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [========================================================================================                        ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=========================================================================================                       ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==========================================================================================                      ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [============================================================================================                    ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==============================================================================================                  ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===============================================================================================                 ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [================================================================================================                ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=================================================================================================               ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==================================================================================================              ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===================================================================================================             ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [====================================================================================================            ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=====================================================================================================           ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=======================================================================================================         ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [========================================================================================================        ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=========================================================================================================       ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==========================================================================================================      ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [===========================================================================================================     ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [============================================================================================================    ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [=============================================================================================================   ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch [==============================================================================================================  ] 4/7  Installing       : python3.11-redis-5.0.1-1.el9.noarch                                                                                                                    4/7 
+  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [                                                                                                              ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=                                                                                                             ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [======                                                                                                        ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=========                                                                                                     ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=============                                                                                                 ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [============================                                                                                  ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [============================================                                                                  ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=============================================                                                                 ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===============================================                                                               ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==================================================                                                            ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=====================================================                                                         ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===================================================================                                           ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=====================================================================                                         ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=======================================================================                                       ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==========================================================================                                    ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===============================================================================                               ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [================================================================================                              ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=================================================================================                             ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [====================================================================================                          ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==========================================================================================                    ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=============================================================================================                 ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [================================================================================================              ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [========================================================================================================      ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [============================================================================================================  ] 5/7  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch                                                                                                                  5/7 
+  Installing       : python3.11-django-4.2.6-1.el9.noarch [                                                                                                               ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=                                                                                                              ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==                                                                                                             ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===                                                                                                            ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [====                                                                                                           ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====                                                                                                          ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [======                                                                                                         ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======                                                                                                        ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [========                                                                                                       ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========                                                                                                      ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========                                                                                                    ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [============                                                                                                   ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============                                                                                                  ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============                                                                                                 ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============                                                                                                ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [================                                                                                               ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================                                                                                              ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================                                                                                             ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================                                                                                            ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================                                                                                          ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================                                                                                         ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================                                                                                        ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================                                                                                       ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================                                                                                      ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================                                                                                     ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================                                                                                    ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================                                                                                   ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================                                                                                  ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================                                                                                ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================                                                                               ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================                                                                              ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================                                                                             ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================                                                                            ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================                                                                           ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================                                                                          ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================                                                                         ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================                                                                        ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================                                                                      ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================                                                                     ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================                                                                    ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================                                                                   ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================                                                                  ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================                                                                 ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================                                                                ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================================                                                               ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================                                                              ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================                                                            ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================================                                                           ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================                                                          ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================                                                         ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================================                                                        ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================                                                       ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================================                                                      ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================                                                     ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================================                                                    ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================================                                                  ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================================                                                 ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================                                                ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================================================                                               ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================                                              ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================================                                             ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================                                            ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================================================                                           ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================================                                          ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================================================                                        ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================================                                       ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================================================                                      ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================================                                     ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================================================                                    ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================================                                   ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================================================                                  ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================================================                                 ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================================                                ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================================                              ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================================================                             ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================================                            ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================================================================                           ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================================================                          ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================================================                         ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================================================================                        ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================================================                       ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================================================================                      ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================================================================                    ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================================================                   ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================================================================                  ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================================================================                 ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================================================                ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================================================================================               ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================================================              ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================================================================             ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================================================            ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================================================================          ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================================================================         ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================================================================================        ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================================================================       ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================================================================================      ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================================================================     ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================================================================================    ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================================================================   ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================================================================================  ] 6/7  Installing       : python3.11-django-4.2.6-1.el9.noarch                                                                                                                   6/7 
+  Installing       : python3.11-rq-1.13.0-1.el9.noarch [                                                                                                                  ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=                                                                                                                 ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=====                                                                                                             ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==========                                                                                                        ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [============                                                                                                      ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===============                                                                                                   ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [====================                                                                                              ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [======================                                                                                            ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===========================                                                                                       ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==============================                                                                                    ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==================================                                                                                ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=====================================                                                                             ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=======================================                                                                           ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==========================================                                                                        ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===========================================                                                                       ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [============================================                                                                      ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=================================================                                                                 ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [====================================================                                                              ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=====================================================                                                             ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [======================================================                                                            ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===========================================================                                                       ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [============================================================                                                      ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==============================================================                                                    ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===============================================================                                                   ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [================================================================                                                  ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==================================================================                                                ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [====================================================================                                              ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [========================================================================                                          ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [============================================================================                                      ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=============================================================================                                     ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==============================================================================                                    ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===============================================================================                                   ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===================================================================================                               ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [======================================================================================                            ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=======================================================================================                           ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==========================================================================================                        ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===========================================================================================                       ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [============================================================================================                      ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==============================================================================================                    ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===================================================================================================               ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [=======================================================================================================           ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==========================================================================================================        ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [===========================================================================================================       ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [==============================================================================================================    ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch [================================================================================================================  ] 7/7  Installing       : python3.11-rq-1.13.0-1.el9.noarch                                                                                                                      7/7 
+  Running scriptlet: python3.11-rq-1.13.0-1.el9.noarch                                                                                                                      7/7 
+  Verifying        : python3.11-asgiref-3.7.2-1.el9.noarch                                                                                                                  1/7 
+  Verifying        : python3.11-async-timeout-4.0.3-1.el9.noarch                                                                                                            2/7 
+  Verifying        : python3.11-click-8.1.7-1.el9.noarch                                                                                                                    3/7 
+  Verifying        : python3.11-django-4.2.6-1.el9.noarch                                                                                                                   4/7 
+  Verifying        : python3.11-redis-5.0.1-1.el9.noarch                                                                                                                    5/7 
+  Verifying        : python3.11-rq-1.13.0-1.el9.noarch                                                                                                                      6/7 
+  Verifying        : python3.11-sqlparse-0.4.4-1.el9.noarch                                                                                                                 7/7 
+Installed products updated.
+
+Installed:
+  python3.11-asgiref-3.7.2-1.el9.noarch     python3.11-async-timeout-4.0.3-1.el9.noarch     python3.11-click-8.1.7-1.el9.noarch        python3.11-django-4.2.6-1.el9.noarch    
+  python3.11-redis-5.0.1-1.el9.noarch       python3.11-rq-1.13.0-1.el9.noarch               python3.11-sqlparse-0.4.4-1.el9.noarch    
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717459200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.XMSI1W
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-rq-2.7.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-rq-2.7.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-rq-2.7.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running egg_info
+writing django_rq.egg-info/PKG-INFO
+writing dependency_links to django_rq.egg-info/dependency_links.txt
+writing requirements to django_rq.egg-info/requires.txt
+writing top-level names to django_rq.egg-info/top_level.txt
+reading manifest file 'django_rq.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'django_rq.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing django_rq.egg-info/PKG-INFO
+writing dependency_links to django_rq.egg-info/dependency_links.txt
+writing requirements to django_rq.egg-info/requires.txt
+writing top-level names to django_rq.egg-info/top_level.txt
+reading manifest file 'django_rq.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'django_rq.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/django-rq-2.7.0/django_rq-2.7.0.dist-info'
+Handling django (>=2.0) from hook generated metadata: Requires-Dist (django-rq)
+Requirement satisfied: django (>=2.0)
+   (installed: django 4.2.6)
+Handling rq (>=1.2) from hook generated metadata: Requires-Dist (django-rq)
+Requirement satisfied: rq (>=1.2)
+   (installed: rq 1.13.0)
+Handling redis (>=3) from hook generated metadata: Requires-Dist (django-rq)
+Requirement satisfied: redis (>=3)
+   (installed: redis 5.0.1)
+Handling raven (>=6.1.0) ; extra == 'sentry' from hook generated metadata: Requires-Dist (django-rq)
+Ignoring alien requirement: raven (>=6.1.0) ; extra == 'sentry'
+Handling mock (>=2.0.0) ; extra == 'testing' from hook generated metadata: Requires-Dist (django-rq)
+Ignoring alien requirement: mock (>=2.0.0) ; extra == 'testing'
++ cat /builddir/build/BUILD/python-django-rq-2.7.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv django_rq-2.7.0.dist-info/
+removed 'django_rq-2.7.0.dist-info/top_level.txt'
+removed 'django_rq-2.7.0.dist-info/METADATA'
+removed 'django_rq-2.7.0.dist-info/LICENSE.txt'
+removed directory 'django_rq-2.7.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-django-rq-2.7.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                22 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                             24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                               20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                  7.4 kB/s | 2.9 kB     00:00    
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   13 kB/s | 2.9 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(django) >= 2'
+Package python3.11-django-4.2.6-1.el9.noarch is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-redis-5.0.1-1.el9.noarch is already installed.
+Package python3.11-rq-1.13.0-1.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717459200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Fx78Uc
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-rq-2.7.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-rq-2.7.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-rq-2.7.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running egg_info
+writing django_rq.egg-info/PKG-INFO
+writing dependency_links to django_rq.egg-info/dependency_links.txt
+writing requirements to django_rq.egg-info/requires.txt
+writing top-level names to django_rq.egg-info/top_level.txt
+reading manifest file 'django_rq.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'django_rq.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing django_rq.egg-info/PKG-INFO
+writing dependency_links to django_rq.egg-info/dependency_links.txt
+writing requirements to django_rq.egg-info/requires.txt
+writing top-level names to django_rq.egg-info/top_level.txt
+reading manifest file 'django_rq.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'django_rq.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/django-rq-2.7.0/django_rq-2.7.0.dist-info'
+Handling django (>=2.0) from hook generated metadata: Requires-Dist (django-rq)
+Requirement satisfied: django (>=2.0)
+   (installed: django 4.2.6)
+Handling rq (>=1.2) from hook generated metadata: Requires-Dist (django-rq)
+Requirement satisfied: rq (>=1.2)
+   (installed: rq 1.13.0)
+Handling redis (>=3) from hook generated metadata: Requires-Dist (django-rq)
+Requirement satisfied: redis (>=3)
+   (installed: redis 5.0.1)
+Handling raven (>=6.1.0) ; extra == 'sentry' from hook generated metadata: Requires-Dist (django-rq)
+Ignoring alien requirement: raven (>=6.1.0) ; extra == 'sentry'
+Handling mock (>=2.0.0) ; extra == 'testing' from hook generated metadata: Requires-Dist (django-rq)
+Ignoring alien requirement: mock (>=2.0.0) ; extra == 'testing'
++ cat /builddir/build/BUILD/python-django-rq-2.7.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv django_rq-2.7.0.dist-info/
+removed 'django_rq-2.7.0.dist-info/top_level.txt'
+removed 'django_rq-2.7.0.dist-info/METADATA'
+removed 'django_rq-2.7.0.dist-info/LICENSE.txt'
+removed directory 'django_rq-2.7.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.nZlT7Q
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-rq-2.7.0
++ mkdir -p /builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/django-rq-2.7.0/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/django-rq-2.7.0
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11/pip-modern-metadata-4oy3_3rl/django_rq.egg-info
+  writing /builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11/pip-modern-metadata-4oy3_3rl/django_rq.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11/pip-modern-metadata-4oy3_3rl/django_rq.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11/pip-modern-metadata-4oy3_3rl/django_rq.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11/pip-modern-metadata-4oy3_3rl/django_rq.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11/pip-modern-metadata-4oy3_3rl/django_rq.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11/pip-modern-metadata-4oy3_3rl/django_rq.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.txt'
+  writing manifest file '/builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11/pip-modern-metadata-4oy3_3rl/django_rq.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11/pip-modern-metadata-4oy3_3rl/django_rq-2.7.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: django-rq
+  Building wheel for django-rq (pyproject.toml): started
+  Running command Building wheel for django-rq (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/django_rq
+  copying django_rq/__init__.py -> build/lib/django_rq
+  copying django_rq/admin.py -> build/lib/django_rq
+  copying django_rq/decorators.py -> build/lib/django_rq
+  copying django_rq/jobs.py -> build/lib/django_rq
+  copying django_rq/models.py -> build/lib/django_rq
+  copying django_rq/queues.py -> build/lib/django_rq
+  copying django_rq/settings.py -> build/lib/django_rq
+  copying django_rq/thread_queue.py -> build/lib/django_rq
+  copying django_rq/urls.py -> build/lib/django_rq
+  copying django_rq/utils.py -> build/lib/django_rq
+  copying django_rq/views.py -> build/lib/django_rq
+  copying django_rq/workers.py -> build/lib/django_rq
+  running egg_info
+  writing django_rq.egg-info/PKG-INFO
+  writing dependency_links to django_rq.egg-info/dependency_links.txt
+  writing requirements to django_rq.egg-info/requires.txt
+  writing top-level names to django_rq.egg-info/top_level.txt
+  reading manifest file 'django_rq.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.txt'
+  writing manifest file 'django_rq.egg-info/SOURCES.txt'
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'django_rq.management' is absent from the `packages` configuration.
+  !!
 
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'django_rq.management' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'django_rq.management' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'django_rq.management' to be distributed and are
+          already explicitly excluding 'django_rq.management' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'django_rq.management.commands' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'django_rq.management.commands' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'django_rq.management.commands' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'django_rq.management.commands' to be distributed and are
+          already explicitly excluding 'django_rq.management.commands' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'django_rq.migrations' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'django_rq.migrations' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'django_rq.migrations' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'django_rq.migrations' to be distributed and are
+          already explicitly excluding 'django_rq.migrations' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'django_rq.templates.django_rq' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'django_rq.templates.django_rq' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'django_rq.templates.django_rq' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'django_rq.templates.django_rq' to be distributed and are
+          already explicitly excluding 'django_rq.templates.django_rq' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'django_rq.templatetags' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'django_rq.templatetags' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'django_rq.templatetags' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'django_rq.templatetags' to be distributed and are
+          already explicitly excluding 'django_rq.templatetags' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'django_rq.tests' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'django_rq.tests' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'django_rq.tests' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'django_rq.tests' to be distributed and are
+          already explicitly excluding 'django_rq.tests' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  creating build/lib/django_rq/management
+  copying django_rq/management/__init__.py -> build/lib/django_rq/management
+  creating build/lib/django_rq/management/commands
+  copying django_rq/management/commands/__init__.py -> build/lib/django_rq/management/commands
+  copying django_rq/management/commands/rqenqueue.py -> build/lib/django_rq/management/commands
+  copying django_rq/management/commands/rqscheduler.py -> build/lib/django_rq/management/commands
+  copying django_rq/management/commands/rqstats.py -> build/lib/django_rq/management/commands
+  copying django_rq/management/commands/rqworker.py -> build/lib/django_rq/management/commands
+  creating build/lib/django_rq/migrations
+  copying django_rq/migrations/0001_initial.py -> build/lib/django_rq/migrations
+  copying django_rq/migrations/__init__.py -> build/lib/django_rq/migrations
+  creating build/lib/django_rq/templates
+  creating build/lib/django_rq/templates/django_rq
+  copying django_rq/templates/django_rq/clear_queue.html -> build/lib/django_rq/templates/django_rq
+  copying django_rq/templates/django_rq/confirm_action.html -> build/lib/django_rq/templates/django_rq
+  copying django_rq/templates/django_rq/delete_job.html -> build/lib/django_rq/templates/django_rq
+  copying django_rq/templates/django_rq/job_detail.html -> build/lib/django_rq/templates/django_rq
+  copying django_rq/templates/django_rq/jobs.html -> build/lib/django_rq/templates/django_rq
+  copying django_rq/templates/django_rq/requeue_all.html -> build/lib/django_rq/templates/django_rq
+  copying django_rq/templates/django_rq/stats.html -> build/lib/django_rq/templates/django_rq
+  copying django_rq/templates/django_rq/test.html -> build/lib/django_rq/templates/django_rq
+  copying django_rq/templates/django_rq/worker_details.html -> build/lib/django_rq/templates/django_rq
+  copying django_rq/templates/django_rq/workers.html -> build/lib/django_rq/templates/django_rq
+  creating build/lib/django_rq/templatetags
+  copying django_rq/templatetags/__init__.py -> build/lib/django_rq/templatetags
+  copying django_rq/templatetags/django_rq.py -> build/lib/django_rq/templatetags
+  copying django_rq/templatetags/jquery_path.py -> build/lib/django_rq/templatetags
+  creating build/lib/django_rq/tests
+  copying django_rq/tests/__init__.py -> build/lib/django_rq/tests
+  copying django_rq/tests/fixtures.py -> build/lib/django_rq/tests
+  copying django_rq/tests/settings.py -> build/lib/django_rq/tests
+  copying django_rq/tests/test_views.py -> build/lib/django_rq/tests
+  copying django_rq/tests/tests.py -> build/lib/django_rq/tests
+  copying django_rq/tests/urls.py -> build/lib/django_rq/tests
+  copying django_rq/tests/utils.py -> build/lib/django_rq/tests
+  copying django_rq/tests/views.py -> build/lib/django_rq/tests
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/__init__.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/admin.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/decorators.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/jobs.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/models.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/queues.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/settings.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/thread_queue.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/urls.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/utils.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/views.py -> build/bdist.linux-x86_64/wheel/django_rq
+  copying build/lib/django_rq/workers.py -> build/bdist.linux-x86_64/wheel/django_rq
+  creating build/bdist.linux-x86_64/wheel/django_rq/management
+  copying build/lib/django_rq/management/__init__.py -> build/bdist.linux-x86_64/wheel/django_rq/management
+  creating build/bdist.linux-x86_64/wheel/django_rq/management/commands
+  copying build/lib/django_rq/management/commands/__init__.py -> build/bdist.linux-x86_64/wheel/django_rq/management/commands
+  copying build/lib/django_rq/management/commands/rqenqueue.py -> build/bdist.linux-x86_64/wheel/django_rq/management/commands
+  copying build/lib/django_rq/management/commands/rqscheduler.py -> build/bdist.linux-x86_64/wheel/django_rq/management/commands
+  copying build/lib/django_rq/management/commands/rqstats.py -> build/bdist.linux-x86_64/wheel/django_rq/management/commands
+  copying build/lib/django_rq/management/commands/rqworker.py -> build/bdist.linux-x86_64/wheel/django_rq/management/commands
+  creating build/bdist.linux-x86_64/wheel/django_rq/migrations
+  copying build/lib/django_rq/migrations/0001_initial.py -> build/bdist.linux-x86_64/wheel/django_rq/migrations
+  copying build/lib/django_rq/migrations/__init__.py -> build/bdist.linux-x86_64/wheel/django_rq/migrations
+  creating build/bdist.linux-x86_64/wheel/django_rq/templates
+  creating build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  copying build/lib/django_rq/templates/django_rq/clear_queue.html -> build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  copying build/lib/django_rq/templates/django_rq/confirm_action.html -> build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  copying build/lib/django_rq/templates/django_rq/delete_job.html -> build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  copying build/lib/django_rq/templates/django_rq/job_detail.html -> build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  copying build/lib/django_rq/templates/django_rq/jobs.html -> build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  copying build/lib/django_rq/templates/django_rq/requeue_all.html -> build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  copying build/lib/django_rq/templates/django_rq/stats.html -> build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  copying build/lib/django_rq/templates/django_rq/test.html -> build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  copying build/lib/django_rq/templates/django_rq/worker_details.html -> build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  copying build/lib/django_rq/templates/django_rq/workers.html -> build/bdist.linux-x86_64/wheel/django_rq/templates/django_rq
+  creating build/bdist.linux-x86_64/wheel/django_rq/templatetags
+  copying build/lib/django_rq/templatetags/__init__.py -> build/bdist.linux-x86_64/wheel/django_rq/templatetags
+  copying build/lib/django_rq/templatetags/django_rq.py -> build/bdist.linux-x86_64/wheel/django_rq/templatetags
+  copying build/lib/django_rq/templatetags/jquery_path.py -> build/bdist.linux-x86_64/wheel/django_rq/templatetags
+  creating build/bdist.linux-x86_64/wheel/django_rq/tests
+  copying build/lib/django_rq/tests/__init__.py -> build/bdist.linux-x86_64/wheel/django_rq/tests
+  copying build/lib/django_rq/tests/fixtures.py -> build/bdist.linux-x86_64/wheel/django_rq/tests
+  copying build/lib/django_rq/tests/settings.py -> build/bdist.linux-x86_64/wheel/django_rq/tests
+  copying build/lib/django_rq/tests/test_views.py -> build/bdist.linux-x86_64/wheel/django_rq/tests
+  copying build/lib/django_rq/tests/tests.py -> build/bdist.linux-x86_64/wheel/django_rq/tests
+  copying build/lib/django_rq/tests/urls.py -> build/bdist.linux-x86_64/wheel/django_rq/tests
+  copying build/lib/django_rq/tests/utils.py -> build/bdist.linux-x86_64/wheel/django_rq/tests
+  copying build/lib/django_rq/tests/views.py -> build/bdist.linux-x86_64/wheel/django_rq/tests
+  running install_egg_info
+  Copying django_rq.egg-info to build/bdist.linux-x86_64/wheel/django_rq-2.7.0-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/django_rq-2.7.0.dist-info/WHEEL
+  creating '/builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11/pip-wheel-10fro9x9/.tmp-j7ok0nrg/django_rq-2.7.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'django_rq/__init__.py'
+  adding 'django_rq/admin.py'
+  adding 'django_rq/decorators.py'
+  adding 'django_rq/jobs.py'
+  adding 'django_rq/models.py'
+  adding 'django_rq/queues.py'
+  adding 'django_rq/settings.py'
+  adding 'django_rq/thread_queue.py'
+  adding 'django_rq/urls.py'
+  adding 'django_rq/utils.py'
+  adding 'django_rq/views.py'
+  adding 'django_rq/workers.py'
+  adding 'django_rq/management/__init__.py'
+  adding 'django_rq/management/commands/__init__.py'
+  adding 'django_rq/management/commands/rqenqueue.py'
+  adding 'django_rq/management/commands/rqscheduler.py'
+  adding 'django_rq/management/commands/rqstats.py'
+  adding 'django_rq/management/commands/rqworker.py'
+  adding 'django_rq/migrations/0001_initial.py'
+  adding 'django_rq/migrations/__init__.py'
+  adding 'django_rq/templates/django_rq/clear_queue.html'
+  adding 'django_rq/templates/django_rq/confirm_action.html'
+  adding 'django_rq/templates/django_rq/delete_job.html'
+  adding 'django_rq/templates/django_rq/job_detail.html'
+  adding 'django_rq/templates/django_rq/jobs.html'
+  adding 'django_rq/templates/django_rq/requeue_all.html'
+  adding 'django_rq/templates/django_rq/stats.html'
+  adding 'django_rq/templates/django_rq/test.html'
+  adding 'django_rq/templates/django_rq/worker_details.html'
+  adding 'django_rq/templates/django_rq/workers.html'
+  adding 'django_rq/templatetags/__init__.py'
+  adding 'django_rq/templatetags/django_rq.py'
+  adding 'django_rq/templatetags/jquery_path.py'
+  adding 'django_rq/tests/__init__.py'
+  adding 'django_rq/tests/fixtures.py'
+  adding 'django_rq/tests/settings.py'
+  adding 'django_rq/tests/test_views.py'
+  adding 'django_rq/tests/tests.py'
+  adding 'django_rq/tests/urls.py'
+  adding 'django_rq/tests/utils.py'
+  adding 'django_rq/tests/views.py'
+  adding 'django_rq-2.7.0.dist-info/LICENSE.txt'
+  adding 'django_rq-2.7.0.dist-info/METADATA'
+  adding 'django_rq-2.7.0.dist-info/WHEEL'
+  adding 'django_rq-2.7.0.dist-info/top_level.txt'
+  adding 'django_rq-2.7.0.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for django-rq (pyproject.toml): finished with status 'done'
+  Created wheel for django-rq: filename=django_rq-2.7.0-py2.py3-none-any.whl size=48146 sha256=2d09cc64a75794c28e953791a70905bdb0bf9e2bdf48359a1bb0aaf7f1f5a650
+  Stored in directory: /builddir/.cache/pip/wheels/72/3a/5f/e98dda384ed4bdf939ee6d13240e30b8a85ba3c076a397342b
+Successfully built django-rq
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.kXeysv
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64
++ cd django-rq-2.7.0
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ xargs basename --multiple
+++ ls /builddir/build/BUILD/django-rq-2.7.0/pyproject-wheeldir-3.11/django_rq-2.7.0-py2.py3-none-any.whl
++ specifier=django_rq==2.7.0
++ '[' -z django_rq==2.7.0 ']'
++ TMPDIR=/builddir/build/BUILD/django-rq-2.7.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/django-rq-2.7.0/pyproject-wheeldir-3.11 django_rq==2.7.0
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/django-rq-2.7.0/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/django_rq-2.7.0-py2.py3-none-any.whl
+Installing collected packages: django_rq
+Successfully installed django_rq-2.7.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-django-rq-2.7.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/django_rq-2.7.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_rq-2.7.0.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_rq-2.7.0.dist-info/RECORD --output /builddir/build/BUILD/python-django-rq-2.7.0-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_rq-2.7.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_rq-2.7.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_rq-2.7.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_rq-2.7.0.dist-info/REQUESTED'
+++ cut -f1 '-d '
+++ wc -l /builddir/build/BUILD/python-django-rq-2.7.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-django-rq-2.7.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-django-rq-2.7.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-django-rq-2.7.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 2.7.0-1.el9 --unique-debug-suffix -2.7.0-1.el9.x86_64 --unique-debug-src-base python-django-rq-2.7.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/django-rq-2.7.0
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-django-rq-2.7.0-1.el9.noarch
+Provides: python3.11-django-rq = 2.7.0-1.el9 python3.11dist(django-rq) = 2.7
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11 python3.11dist(django) >= 2 python3.11dist(redis) >= 3 python3.11dist(rq) >= 1.2
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-django-rq-2.7.0-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-django-rq-2.7.0-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-django-rq-2.7.0-1.el9.noarch.rpm
+Finish: rpmbuild python-django-rq-2.7.0-1.el9.src.rpm
+Finish: build phase for python-django-rq-2.7.0-1.el9.src.rpm
+INFO: Done(/opt/eda-rpm/rpmbuilds/2024.3.4/SRPMS/python-django-rq-2.7.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 30 seconds
+INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 99 packages
+Directory walk done - 137 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
