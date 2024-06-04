@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-isodate-0.6.1-1.el9.src.rpm
+The lastest package built was python-jaraco-classes-3.4.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:00:46 AM CEST 2024
+The build completed at Tue Jun  4 02:01:16 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-isodate-0.6.1-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -69,7 +69,7 @@ python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm 
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | Built | [Log](logs/python-isodate-0.6.1-1.el9.src.rpm.log)
-python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rpm | **Missing** |
+python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | **Missing** |
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | **Missing** |
 python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | **Missing** |
