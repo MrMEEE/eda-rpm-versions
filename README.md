@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-secretstorage-3.3.3-1.el9.src.rpm
+The lastest package built was python-service-identity-24.1.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:41:58 AM CEST 2024
+The build completed at Tue Jun  4 02:42:25 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
+[Build Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -129,7 +129,7 @@ python3.11-rq-scheduler-0.10.0-1.el9 | python-rq-scheduler-0.10.0-1.el9.src.rpm 
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | **Missing** | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | Built | [Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
-python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | **Missing** |
+python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
 python3.11-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | **Missing** |
 python3.11-setuptools_scm-8.0.4-1.el9 | python-setuptools_scm-8.0.4-1.el9.src.rpm | **Missing** |
 python3.11-setuptools-twine-0.1.3-1.el9 | python-setuptools-twine-0.1.3-1.el9.src.rpm | **Missing** |
