@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ldap-3.4.4-1.el9.src.rpm
+The lastest package built was python-lxml-4.9.4-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:06:01 AM CEST 2024
+The build completed at Tue Jun  4 02:09:01 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
+[Build Log](logs/python-lxml-4.9.4-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -77,7 +77,7 @@ python3.11-jsonschema-specifications-2023.12.1-1.el9 | python-jsonschema-specifi
 python3.11-keyring-24.3.1-1.el9 | python-keyring-24.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-24.3.1-1.el9.src.rpm.log)
 python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
 python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | Built | [Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
-python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | **Missing** |
+python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | Built | [Log](logs/python-lxml-4.9.4-1.el9.src.rpm.log)
 python3.11-markdown-it-py-3.0.0-1.el9 | python-markdown-it-py-3.0.0-1.el9.src.rpm | **Missing** |
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | **Missing** |
 python3.11-maturin-1.5.1-1.el9 | python-maturin-1.5.1-1.el9.src.rpm | **Missing** |
@@ -157,4 +157,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing*
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-147 total packages, 27 packages built successfully, 120 packages left to fix
+147 total packages, 28 packages built successfully, 119 packages left to fix
