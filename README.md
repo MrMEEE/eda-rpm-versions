@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-virtualenv-20.26.2-1.el9.src.rpm
+The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 04:13:17 AM CEST 2024
+The build completed at Tue Jun  4 04:13:44 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-virtualenv-20.26.2-1.el9.src.rpm.log)
+[Build Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
