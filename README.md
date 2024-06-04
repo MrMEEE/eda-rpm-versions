@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-keyring-24.3.1-1.el9.src.rpm
+The lastest package built was python-kubernetes-29.0.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 04:01:56 AM CEST 2024
+The build completed at Tue Jun  4 04:02:25 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-keyring-24.3.1-1.el9.src.rpm.log)
+[Build Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
