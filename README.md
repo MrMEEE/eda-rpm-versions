@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyjwt-2.8.0-1.el9.src.rpm
+The lastest package built was python-pyopenssl-24.0.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:29:04 AM CEST 2024
+The build completed at Tue Jun  4 02:29:41 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-pyjwt-2.8.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pyopenssl-24.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -107,7 +107,7 @@ python3.11-pydantic-core-2.14.1-1.el9 | python-pydantic-core-2.14.1-1.el9.src.rp
 python3.11-pygments-2.18.0-1.el9 | python-pygments-2.18.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pygments-2.18.0-1.el9.src.rpm.log)
 python3.11-pyhamcrest-2.1.0-1.el9 | python-pyhamcrest-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pyhamcrest-2.1.0-1.el9.src.rpm.log)
 python3.11-pyjwt-2.8.0-1.el9 | python-pyjwt-2.8.0-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.8.0-1.el9.src.rpm.log)
-python3.11-pyopenssl-24.0.0-1.el9 | python-pyopenssl-24.0.0-1.el9.src.rpm | **Missing** |
+python3.11-pyopenssl-24.0.0-1.el9 | python-pyopenssl-24.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.0.0-1.el9.src.rpm.log)
 python3.11-pyproject-hooks-1.1.0-1.el9 | python-pyproject-hooks-1.1.0-1.el9.src.rpm | **Missing** |
 python3.11-pyrsistent-0.19.3-1.el9 | python-pyrsistent-0.19.3-1.el9.src.rpm | **Missing** |
 python3.11-pytest-runner-6.0.1-1.el9 | python-pytest-runner-6.0.1-1.el9.src.rpm | **Missing** |
@@ -157,4 +157,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing*
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-147 total packages, 45 packages built successfully, 102 packages left to fix
+147 total packages, 46 packages built successfully, 101 packages left to fix
