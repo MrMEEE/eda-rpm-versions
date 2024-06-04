@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-sqlparse-0.4.4-1.el9.src.rpm
+The lastest package built was python-tabulate-0.9.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:46:41 AM CEST 2024
+The build completed at Tue Jun  4 02:47:07 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
+[Build Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -138,7 +138,7 @@ python3.11-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | Built | [Log](lo
 python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
 python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
 python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
-python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | **Missing** |
+python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
 python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | **Missing** |
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | **Missing** |
 python3.11-twine-5.1.0-1.el9 | python-twine-5.1.0-1.el9.src.rpm | **Missing** |
