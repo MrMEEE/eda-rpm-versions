@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-typing-extensions-4.9.0-1.el9.src.rpm
+The lastest package built was python-tzdata-2023.3-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:50:49 AM CEST 2024
+The build completed at Tue Jun  4 02:51:26 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-typing-extensions-4.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-tzdata-2023.3-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -147,7 +147,7 @@ python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | **Missing** 
 python3.11-types-psutil-5.9.5.20240516-1.el9 | python-types-psutil-5.9.5.20240516-1.el9.src.rpm | Built | [Log](logs/python-types-psutil-5.9.5.20240516-1.el9.src.rpm.log)
 python3.11-types-setuptools-69.5.0.20240522-1.el9 | python-types-setuptools-69.5.0.20240522-1.el9.src.rpm | Built | [Log](logs/python-types-setuptools-69.5.0.20240522-1.el9.src.rpm.log)
 python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.src.rpm | Built | [Log](logs/python-typing-extensions-4.9.0-1.el9.src.rpm.log)
-python3.11-tzdata-2023.3-1.el9 | python-tzdata-2023.3-1.el9.src.rpm | **Missing** |
+python3.11-tzdata-2023.3-1.el9 | python-tzdata-2023.3-1.el9.src.rpm | Built | [Log](logs/python-tzdata-2023.3-1.el9.src.rpm.log)
 python3.11-uritemplate-4.1.1-1.el9 | python-uritemplate-4.1.1-1.el9.src.rpm | **Missing** |
 python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | **Missing** |
 python3.11-versioneer-0.29-1.el9 | python-versioneer-0.29-1.el9.src.rpm | **Missing** |
@@ -157,4 +157,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing*
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-147 total packages, 68 packages built successfully, 79 packages left to fix
+147 total packages, 69 packages built successfully, 78 packages left to fix
