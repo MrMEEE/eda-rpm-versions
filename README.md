@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-more-itertools-10.2.0-1.el9.src.rpm
+The lastest package built was python-msgpack-1.0.5-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:15:33 AM CEST 2024
+The build completed at Tue Jun  4 02:16:23 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-more-itertools-10.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-msgpack-1.0.5-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -83,7 +83,7 @@ python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | Buil
 python3.11-maturin-1.5.1-1.el9 | python-maturin-1.5.1-1.el9.src.rpm | Built | [Log](logs/python-maturin-1.5.1-1.el9.src.rpm.log)
 python3.11-mdurl-0.1.2-1.el9 | python-mdurl-0.1.2-1.el9.src.rpm | Built | [Log](logs/python-mdurl-0.1.2-1.el9.src.rpm.log)
 python3.11-more-itertools-10.2.0-1.el9 | python-more-itertools-10.2.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-10.2.0-1.el9.src.rpm.log)
-python3.11-msgpack-1.0.5-1.el9 | python-msgpack-1.0.5-1.el9.src.rpm | **Missing** |
+python3.11-msgpack-1.0.5-1.el9 | python-msgpack-1.0.5-1.el9.src.rpm | Built | [Log](logs/python-msgpack-1.0.5-1.el9.src.rpm.log)
 python3.11-mypy-1.10.0-1.el9 | python-mypy-1.10.0-1.el9.src.rpm | **Missing** |
 python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | **Missing** |
 python3.11-nh3-0.2.17-1.el9 | python-nh3-0.2.17-1.el9.src.rpm | **Missing** |
@@ -157,4 +157,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing*
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-147 total packages, 32 packages built successfully, 115 packages left to fix
+147 total packages, 33 packages built successfully, 114 packages left to fix
