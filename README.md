@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-txaio-23.1.1-1.el9.src.rpm
+The lastest package built was python-virtualenv-20.26.2-1.el9.src.rpm
 
-The build completed at Tue Jun  4 04:12:45 AM CEST 2024
+The build completed at Tue Jun  4 04:13:17 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
+[Build Log](logs/python-virtualenv-20.26.2-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
