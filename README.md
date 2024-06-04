@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-dateutil-2.9.0^post0-1.el9.src.rpm
+The lastest package built was python-django-4.2.6-1.el9.src.rpm
 
-The build completed at Tue Jun  4 03:06:19 AM CEST 2024
+The build completed at Tue Jun  4 03:06:58 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-dateutil-2.9.0^post0-1.el9.src.rpm.log)
+[Build Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
