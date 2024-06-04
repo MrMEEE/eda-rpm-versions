@@ -75,3 +75,4 @@ virtualenv
 zipp
 python-jose
 ecdsa
+django-ansible-base
