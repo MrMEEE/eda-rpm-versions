@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-automat-22.10.0-1.el9.src.rpm
+The lastest package built was python-bcrypt-4.1.3-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:59:36 AM CEST 2024
+The build completed at Tue Jun  4 03:00:22 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-bcrypt-4.1.3-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
