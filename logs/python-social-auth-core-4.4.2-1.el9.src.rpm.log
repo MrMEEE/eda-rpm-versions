@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                            22 MB/s | 199 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                20 kB/s | 4.1 kB     00:00    
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                            11 MB/s | 199 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                19 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                     [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             22 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                       [         ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   18 kB/s | 4.3 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   48 kB/s | 4.3 kB     00:00    
 Dependencies resolved.
 ================================================================================================================================================================================
  Package                                              Architecture                    Version                                  Repository                                  Size
@@ -166,7 +166,7 @@ Start: rpmbuild python-social-auth-core-4.4.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.cgW4P5
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.7At6th
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -180,7 +180,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.cgW4P5
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.BK7Lzi
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.s3qC7i
 + umask 022
 + cd /builddir/build/BUILD
 + cd social-auth-core-4.4.2
@@ -217,10 +217,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   11 kB/s | 4.3 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   42 kB/s | 4.3 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -267,7 +267,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.7i1fNW
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.P9nIMG
 + umask 022
 + cd /builddir/build/BUILD
 + cd social-auth-core-4.4.2
@@ -373,10 +373,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             16 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   48 kB/s | 4.3 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   47 kB/s | 4.3 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -389,10 +389,10 @@ Not all dependencies satisfied
 Error: Some packages could not be found.
 Finish: rpmbuild python-social-auth-core-4.4.2-1.el9.src.rpm
 Finish: build phase for python-social-auth-core-4.4.2-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/2024.3.4/SRPMS/python-social-auth-core-4.4.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 19 seconds
+ERROR: Exception(/opt/eda-rpm/rpmbuilds/2024.3.4/SRPMS/python-social-auth-core-4.4.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 18 seconds
 INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M cf7b9a9beb234f14a99b03f3235460d3 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.8emmkvam:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-social-auth-core-4.4.2-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M e5e46499911b494c8055db11dcc97f0e -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.l8sqsfot:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-social-auth-core-4.4.2-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -400,10 +400,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                             20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                             16 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                   48 kB/s | 4.3 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                   47 kB/s | 4.3 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
