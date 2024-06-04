@@ -14,7 +14,7 @@
 Summary: Ansible EDA-RPM (Event Driven Ansible Server)
 Name: eda-rpm
 Version: 2024.3.4
-Release: 7%{dist}
+Release: 8%{dist}
 Source0: eda-server-2024.3.4.tar.gz
 #Source1: settings.py-%{version}
 #Source2: awx-receiver.service-%{version}
@@ -410,7 +410,6 @@ git checkout -f %{version}
 mkdir -p /var/log/eda-rpm
 
 pip%{python3_pkgversion} install --root=%{buildroot}/ .
-popd
 
 %pre
 /usr/bin/getent group %{service_group} >/dev/null || /usr/sbin/groupadd --system %{service_group}
@@ -434,6 +433,6 @@ popd
 #%attr(0755, root, root) /usr/bin/awx-manage
 
 %changelog
-* Tue Jun 04 2024 12:40:51 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 2024.3.4
+* Tue Jun 04 2024 12:43:15 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 2024.3.4
 - New version build: 2024.3.4
 
