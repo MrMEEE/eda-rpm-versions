@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyhamcrest-2.1.0-1.el9.src.rpm
+The lastest package built was python-pytest-runner-6.0.1-1.el9.src.rpm
 
-The build completed at Tue Jun  4 03:32:32 AM CEST 2024
+The build completed at Tue Jun  4 03:32:57 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pyhamcrest-2.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pytest-runner-6.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
