@@ -1,14 +1,15 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-20240423-1.el9.src.rpm
+The lastest package built was eda-rpm-2024.3.4-5.el9.src.rpm
 
-The build completed at Tue Jun  4 11:07:04 AM CEST 2024
+The build completed at Tue Jun  4 12:00:09 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-django-ansible-base-20240423-1.el9.src.rpm.log)
+[Build Log](logs/eda-rpm-2024.3.4-5.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
+eda-rpm-2024.3.4-5.el9 | eda-rpm-2024.3.4-5.el9.src.rpm | **Missing** | [Log](logs/eda-rpm-2024.3.4-5.el9.src.rpm.log)
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -160,4 +161,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-150 total packages, 150 packages built successfully, 0 packages left to fix
+151 total packages, 150 packages built successfully, 1 packages left to fix
