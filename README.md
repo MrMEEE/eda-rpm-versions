@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-adal-1.2.7-1.el9.src.rpm
+The lastest package built was python-annotated-types-0.6.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:57:45 AM CEST 2024
+The build completed at Tue Jun  4 02:58:12 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
+[Build Log](logs/python-annotated-types-0.6.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
