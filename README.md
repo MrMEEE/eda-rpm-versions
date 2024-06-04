@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jose-3.3.0-1.el9.src.rpm
+The lastest package built was python-podman-4.9.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 11:01:07 AM CEST 2024
+The build completed at Tue Jun  4 11:01:48 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-jose-3.3.0-1.el9.src.rpm.log)
+[Build Log](logs/python-podman-4.9.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -53,6 +53,7 @@ python3.11-docutils-0.20.1-1.el9 | python-docutils-0.20.1-1.el9.src.rpm | Built 
 python3.11-drf-spectacular-0.26.5-1.el9 | python-drf-spectacular-0.26.5-1.el9.src.rpm | Built | [Log](logs/python-drf-spectacular-0.26.5-1.el9.src.rpm.log)
 python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.21.7-1.el9.src.rpm.log)
 python3.11-dynaconf-3.2.4-1.el9 | python-dynaconf-3.2.4-1.el9.src.rpm | Built | [Log](logs/python-dynaconf-3.2.4-1.el9.src.rpm.log)
+python3.11-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | **Missing** |
 python3.11-fastjsonschema-2.19.1-1.el9 | python-fastjsonschema-2.19.1-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.19.1-1.el9.src.rpm.log)
 python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
 python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
@@ -96,7 +97,7 @@ python3.11-pexpect-4.9.0-1.el9 | python-pexpect-4.9.0-1.el9.src.rpm | Built | [L
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3.11-pkginfo-1.10.0-1.el9 | python-pkginfo-1.10.0-1.el9.src.rpm | Built | [Log](logs/python-pkginfo-1.10.0-1.el9.src.rpm.log)
 python3.11-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
-python3.11-podman-4.9.0-1.el9 | python-podman-4.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-podman-4.9.0-1.el9.src.rpm.log)
+python3.11-podman-4.9.0-1.el9 | python-podman-4.9.0-1.el9.src.rpm | Built | [Log](logs/python-podman-4.9.0-1.el9.src.rpm.log)
 python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | Built | [Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
 python3.11-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | Built | [Log](logs/python-priority-1.3.0-1.el9.src.rpm.log)
@@ -158,4 +159,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-148 total packages, 144 packages built successfully, 4 packages left to fix
+149 total packages, 145 packages built successfully, 4 packages left to fix

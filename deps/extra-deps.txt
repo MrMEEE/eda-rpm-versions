@@ -74,3 +74,4 @@ versioneer
 virtualenv
 zipp
 python-jose
+ecdsa
