@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ntlm-1.1.0-1.el9.src.rpm
+The lastest package built was python-oauthlib-3.2.2-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:19:10 AM CEST 2024
+The build completed at Tue Jun  4 02:19:37 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -88,7 +88,7 @@ python3.11-mypy-1.10.0-1.el9 | python-mypy-1.10.0-1.el9.src.rpm | **Missing** | 
 python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-extensions-1.0.0-1.el9.src.rpm.log)
 python3.11-nh3-0.2.17-1.el9 | python-nh3-0.2.17-1.el9.src.rpm | Built | [Log](logs/python-nh3-0.2.17-1.el9.src.rpm.log)
 python3.11-ntlm-1.1.0-1.el9 | python-ntlm-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
-python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** |
+python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-packaging-23.2-1.el9 | python-packaging-23.2-1.el9.src.rpm | **Missing** |
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | **Missing** |
 python3.11-pexpect-4.9.0-1.el9 | python-pexpect-4.9.0-1.el9.src.rpm | **Missing** |
