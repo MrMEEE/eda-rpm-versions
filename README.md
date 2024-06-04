@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-social-auth-core-4.4.2-1.el9.src.rpm
+The lastest package built was python-virtualenv-20.26.2-1.el9.src.rpm
 
-The build completed at Tue Jun  4 04:26:56 AM CEST 2024
+The build completed at Tue Jun  4 04:27:35 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
+[Build Log](logs/python-virtualenv-20.26.2-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -151,10 +151,10 @@ python3.11-tzdata-2023.3-1.el9 | python-tzdata-2023.3-1.el9.src.rpm | Built | [L
 python3.11-uritemplate-4.1.1-1.el9 | python-uritemplate-4.1.1-1.el9.src.rpm | Built | [Log](logs/python-uritemplate-4.1.1-1.el9.src.rpm.log)
 python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | Built | [Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
 python3.11-versioneer-0.29-1.el9 | python-versioneer-0.29-1.el9.src.rpm | Built | [Log](logs/python-versioneer-0.29-1.el9.src.rpm.log)
-python3.11-virtualenv-20.26.2-1.el9 | python-virtualenv-20.26.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.2-1.el9.src.rpm.log)
+python3.11-virtualenv-20.26.2-1.el9 | python-virtualenv-20.26.2-1.el9.src.rpm | Built | [Log](logs/python-virtualenv-20.26.2-1.el9.src.rpm.log)
 python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-websocket-client-1.7.0-1.el9.src.rpm.log)
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-147 total packages, 133 packages built successfully, 14 packages left to fix
+147 total packages, 134 packages built successfully, 13 packages left to fix
