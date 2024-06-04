@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-djangorestframework-3.15.1-1.el9.src.rpm
+The lastest package built was python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm
 
-The build completed at Tue Jun  4 03:54:44 AM CEST 2024
+The build completed at Tue Jun  4 03:55:28 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-djangorestframework-3.15.1-1.el9.src.rpm.log)
+[Build Log](logs/python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -46,7 +46,7 @@ python3.11-django-auth-ldap-4.8.0-1.el9 | python-django-auth-ldap-4.8.0-1.el9.sr
 python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 python3.11-django-filter-23.5-1.el9 | python-django-filter-23.5-1.el9.src.rpm | Built | [Log](logs/python-django-filter-23.5-1.el9.src.rpm.log)
 python3.11-djangorestframework-3.15.1-1.el9 | python-djangorestframework-3.15.1-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-3.15.1-1.el9.src.rpm.log)
-python3.11-djangorestframework-simplejwt-5.3.1-1.el9 | python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm.log)
+python3.11-djangorestframework-simplejwt-5.3.1-1.el9 | python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-simplejwt-5.3.1-1.el9.src.rpm.log)
 python3.11-django-rq-2.7.0-1.el9 | python-django-rq-2.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-rq-2.7.0-1.el9.src.rpm.log)
 python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 python3.11-docutils-0.20.1-1.el9 | python-docutils-0.20.1-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.20.1-1.el9.src.rpm.log)
@@ -157,4 +157,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-147 total packages, 106 packages built successfully, 41 packages left to fix
+147 total packages, 107 packages built successfully, 40 packages left to fix
