@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-platformdirs-3.11.0-1.el9.src.rpm
+The lastest package built was python-podman-4.9.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 04:02:58 AM CEST 2024
+The build completed at Tue Jun  4 04:03:39 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
+[Build Log](logs/python-podman-4.9.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
