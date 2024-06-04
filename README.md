@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cffi-1.16.0-1.el9.src.rpm
+The lastest package built was python-channels-3.0.5-1.el9.src.rpm
 
-The build completed at Tue Jun  4 03:02:40 AM CEST 2024
+The build completed at Tue Jun  4 03:03:06 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-cffi-1.16.0-1.el9.src.rpm.log)
+[Build Log](logs/python-channels-3.0.5-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
