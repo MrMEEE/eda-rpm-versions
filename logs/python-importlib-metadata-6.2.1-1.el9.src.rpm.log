@@ -46,12 +46,12 @@ Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           1.5 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.8 MB/s |  77 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                     [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [         ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [               ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  8.1 kB/s | 2.9 kB     00:00    
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           3.3 MB/s | 145 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [         ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   28 kB/s | 2.9 kB     00:00    
 Dependencies resolved.
 ================================================================================================================================================================================
  Package                                              Architecture                    Version                                  Repository                                  Size
@@ -166,7 +166,7 @@ Start: rpmbuild python-importlib-metadata-6.2.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.qSA5XG
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.IRNqos
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -180,7 +180,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.qSA5XG
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.mONCnH
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3GwXHZ
 + umask 022
 + cd /builddir/build/BUILD
 + cd importlib_metadata-6.2.1
@@ -215,10 +215,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  8.4 kB/s | 2.9 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   30 kB/s | 2.9 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -258,7 +258,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.cVJcut
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5N1Vpd
 + umask 022
 + cd /builddir/build/BUILD
 + cd importlib_metadata-6.2.1
@@ -297,48 +297,705 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                   100% [====================================================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  6.8 kB/s | 2.9 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  9.8 kB/s | 2.9 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(setuptools-scm) >= 3.4.1'
-No matching package to install: 'python3.11dist(setuptools-scm[toml]) >= 3.4.1'
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-importlib-metadata-6.2.1-1.el9.src.rpm
-Finish: build phase for python-importlib-metadata-6.2.1-1.el9.src.rpm
-ERROR: Exception(/opt/eda-rpm/rpmbuilds/2024.3.4/SRPMS/python-importlib-metadata-6.2.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 35 seconds
-INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 8195cd631fd34b8d861e71de563e488c -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.mm3jezab:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-importlib-metadata-6.2.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+================================================================================================================================================================================
+ Package                                            Architecture               Version                             Repository                                              Size
+================================================================================================================================================================================
+Installing:
+ [1mpython3.11-setuptools                             [m noarch                     69.0.2-1.el9                        _opt_edarpm_rpmbuilds_202434_RPMS_                     1.3 M
+ [1mpython3.11-setuptools_scm                         [m noarch                     8.0.4-1.el9                         _opt_edarpm_rpmbuilds_202434_RPMS_                      98 k
+ [1mpython3.11-setuptools_scm+toml                    [m noarch                     8.0.4-1.el9                         _opt_edarpm_rpmbuilds_202434_RPMS_                     7.4 k
+Installing dependencies:
+ [1mpython3.11-typing-extensions                      [m noarch                     4.9.0-1.el9                         _opt_edarpm_rpmbuilds_202434_RPMS_                      72 k
+
+Transaction Summary
+================================================================================================================================================================================
+Install  4 Packages
+
+Total size: 1.4 M
+Installed size: 7.5 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [====================================                                                                                                               ] 1/1  Preparing        :  [=========================================================================                                                                          ] 1/1  Preparing        :  [==============================================================================================================                                     ] 1/1  Preparing        :                                                                                                                                                        1/1 
+  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [                                                                                                    ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [========                                                                                            ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [================                                                                                    ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [=========================                                                                           ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [=================================                                                                   ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [=========================================                                                           ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [==================================================                                                  ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [=========================================================                                           ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [==================================================================                                  ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [===================================================================                                 ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [======================================================================                              ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [=======================================================================                             ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [================================================================================                    ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [========================================================================================            ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [================================================================================================    ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch [=================================================================================================== ] 1/4  Installing       : python3.11-typing-extensions-4.9.0-1.el9.noarch                                                                                                        1/4 
+  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [                                                                                                          ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=                                                                                                         ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==                                                                                                        ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===                                                                                                       ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====                                                                                                      ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====                                                                                                     ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======                                                                                                    ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======                                                                                                   ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========                                                                                                  ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========                                                                                                 ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========                                                                                                ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========                                                                                               ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============                                                                                              ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============                                                                                             ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============                                                                                            ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============                                                                                           ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================                                                                                          ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================                                                                                        ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================                                                                                       ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================                                                                                      ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================                                                                                     ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================                                                                                    ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================                                                                                   ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================                                                                                  ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================                                                                                 ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================                                                                                ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================                                                                               ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================                                                                              ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================                                                                             ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================                                                                            ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================                                                                           ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================                                                                          ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================================                                                                         ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================================                                                                        ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================================                                                                      ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================                                                                     ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================================                                                                    ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================================                                                                   ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================================                                                                  ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================================                                                                 ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================================                                                                ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================================                                                               ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================================                                                              ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================================                                                             ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================================                                                            ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================================                                                           ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================================                                                          ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================================================                                                         ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================================================                                                        ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================================================                                                       ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================================                                                     ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================================================                                                    ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================================================                                                   ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================================================                                                  ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================================================                                                 ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================================================                                                ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================================================                                               ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================================================                                              ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================================================                                             ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================================================                                            ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================================================                                           ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================================================                                          ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================================================================                                         ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================================================================                                        ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================================================================                                       ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================================================================                                      ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================================================                                     ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================================================================                                   ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================================================================                                  ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================================================================                                 ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================================================================                                ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================================================================                               ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================================================================                              ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================================================================                             ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================================================================                            ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================================================================                           ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================================================================                          ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================================================================================                         ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================================================================================                        ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================================================================================                       ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================================================================================                      ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================================================================                     ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================================================================================                    ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================================================================================                   ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=========================================================================================                 ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==========================================================================================                ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===========================================================================================               ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [============================================================================================              ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=============================================================================================             ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==============================================================================================            ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===============================================================================================           ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [================================================================================================          ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=================================================================================================         ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [==================================================================================================        ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [===================================================================================================       ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [====================================================================================================      ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=====================================================================================================     ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [======================================================================================================    ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [=======================================================================================================   ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch [========================================================================================================  ] 2/4  Installing       : python3.11-setuptools-69.0.2-1.el9.noarch                                                                                                              2/4 
+  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [                                                                                                       ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==                                                                                                     ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===                                                                                                    ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=====                                                                                                  ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=======                                                                                                ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========                                                                                              ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==========                                                                                             ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===============                                                                                        ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===================                                                                                    ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=====================                                                                                  ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [========================                                                                               ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==========================                                                                             ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=============================                                                                          ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===================================                                                                    ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========================================                                                              ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==========================================                                                             ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===========================================                                                            ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=============================================                                                          ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==============================================                                                         ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===============================================                                                        ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=================================================                                                      ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===================================================                                                    ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [====================================================                                                   ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=====================================================                                                  ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [======================================================                                                 ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=======================================================                                                ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [========================================================                                               ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========================================================                                              ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==========================================================                                             ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===========================================================                                            ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [============================================================                                           ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==============================================================                                         ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===============================================================                                        ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [================================================================                                       ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=================================================================                                      ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==================================================================                                     ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===================================================================                                    ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=====================================================================                                  ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=======================================================================                                ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [========================================================================                               ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========================================================================                              ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [============================================================================                           ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=============================================================================                          ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===============================================================================                        ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===================================================================================                    ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [====================================================================================                   ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=====================================================================================                  ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=======================================================================================                ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=========================================================================================              ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==========================================================================================             ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===========================================================================================            ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==============================================================================================         ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===============================================================================================        ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [================================================================================================       ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=================================================================================================      ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [==================================================================================================     ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [===================================================================================================    ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [====================================================================================================   ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch [=====================================================================================================  ] 3/4  Installing       : python3.11-setuptools_scm-8.0.4-1.el9.noarch                                                                                                           3/4 
+  Installing       : python3.11-setuptools_scm+toml-8.0.4-1.el9.noarch [                                                                                                  ] 4/4  Installing       : python3.11-setuptools_scm+toml-8.0.4-1.el9.noarch                                                                                                      4/4 
+  Running scriptlet: python3.11-setuptools_scm+toml-8.0.4-1.el9.noarch                                                                                                      4/4 
+  Verifying        : python3.11-setuptools-69.0.2-1.el9.noarch                                                                                                              1/4 
+  Verifying        : python3.11-setuptools_scm+toml-8.0.4-1.el9.noarch                                                                                                      2/4 
+  Verifying        : python3.11-setuptools_scm-8.0.4-1.el9.noarch                                                                                                           3/4 
+  Verifying        : python3.11-typing-extensions-4.9.0-1.el9.noarch                                                                                                        4/4 
+Installed products updated.
+
+Installed:
+  python3.11-setuptools-69.0.2-1.el9.noarch                 python3.11-setuptools_scm-8.0.4-1.el9.noarch           python3.11-setuptools_scm+toml-8.0.4-1.el9.noarch          
+  python3.11-typing-extensions-4.9.0-1.el9.noarch          
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717459200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.MYUBNv
++ umask 022
++ cd /builddir/build/BUILD
++ cd importlib_metadata-6.2.1
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/importlib_metadata-6.2.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=56 from build-system.requires
+Requirement satisfied: setuptools>=56
+   (installed: setuptools 69.0.2)
+Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
+Requirement satisfied: setuptools_scm[toml]>=3.4.1
+   (installed: setuptools_scm 8.0.4)
+   (extras are currently not checked)
+running egg_info
+writing importlib_metadata.egg-info/PKG-INFO
+writing dependency_links to importlib_metadata.egg-info/dependency_links.txt
+writing requirements to importlib_metadata.egg-info/requires.txt
+writing top-level names to importlib_metadata.egg-info/top_level.txt
+reading manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement not satisfied: wheel
+Exiting dependency generation pass: get_requires_for_build_wheel
++ cat /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv '*.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-importlib-metadata-6.2.1-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                             16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                               15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                  6.8 kB/s | 2.9 kB     00:00    
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  7.2 kB/s | 2.9 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(setuptools-scm) >= 3.4.1'
-No matching package to install: 'python3.11dist(setuptools-scm[toml]) >= 3.4.1'
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3.11-setuptools_scm-8.0.4-1.el9.noarch is already installed.
+Package python3.11-setuptools_scm+toml-8.0.4-1.el9.noarch is already installed.
+Dependencies resolved.
+================================================================================================================================================================================
+ Package                                        Architecture                         Version                                      Repository                               Size
+================================================================================================================================================================================
+Installing:
+ [1mpython3.11-wheel                              [m noarch                               0.38.4-3.el9                                 appstream                               109 k
 
+Transaction Summary
+================================================================================================================================================================================
+Install  1 Package
+
+Total size: 109 k
+Installed size: 290 k
+Downloading Packages:
+[SKIPPED] python3.11-wheel-0.38.4-3.el9.noarch.rpm: Already downloaded                                                                                                         
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                        1/1 
+  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [                                                                                                               ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=                                                                                                              ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==                                                                                                             ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========                                                                                                    ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=====================                                                                                          ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==========================                                                                                     ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=================================                                                                              ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=======================================                                                                        ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=========================================                                                                      ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [============================================                                                                   ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==============================================                                                                 ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [====================================================                                                           ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=====================================================                                                          ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================================================                                                         ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==========================================================                                                     ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===============================================================                                                ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==================================================================                                             ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=====================================================================                                          ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=========================================================================                                      ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========================================================================                                    ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=================================================================================                              ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===================================================================================                            ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [====================================================================================                           ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=====================================================================================                          ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================================================================================                         ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [========================================================================================                       ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=============================================================================================                  ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===============================================================================================                ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===================================================================================================            ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================================================================================================         ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=======================================================================================================        ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=============================================================================================================  ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch                                                                                                                   1/1 
+  Running scriptlet: python3.11-wheel-0.38.4-3.el9.noarch                                                                                                                   1/1 
+  Verifying        : python3.11-wheel-0.38.4-3.el9.noarch                                                                                                                   1/1 
+Installed products updated.
+
+Installed:
+  python3.11-wheel-0.38.4-3.el9.noarch                                                                                                                                          
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717459200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Yu3VFy
++ umask 022
++ cd /builddir/build/BUILD
++ cd importlib_metadata-6.2.1
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/importlib_metadata-6.2.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=56 from build-system.requires
+Requirement satisfied: setuptools>=56
+   (installed: setuptools 69.0.2)
+Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
+Requirement satisfied: setuptools_scm[toml]>=3.4.1
+   (installed: setuptools_scm 8.0.4)
+   (extras are currently not checked)
+running egg_info
+writing importlib_metadata.egg-info/PKG-INFO
+writing dependency_links to importlib_metadata.egg-info/dependency_links.txt
+writing requirements to importlib_metadata.egg-info/requires.txt
+writing top-level names to importlib_metadata.egg-info/top_level.txt
+reading manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing importlib_metadata.egg-info/PKG-INFO
+writing dependency_links to importlib_metadata.egg-info/dependency_links.txt
+writing requirements to importlib_metadata.egg-info/requires.txt
+writing top-level names to importlib_metadata.egg-info/top_level.txt
+reading manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/importlib_metadata-6.2.1/importlib_metadata-6.2.1.dist-info'
+Handling zipp (>=0.5) from hook generated metadata: Requires-Dist (importlib-metadata)
+Requirement not satisfied: zipp (>=0.5)
+Handling typing-extensions (>=3.6.4) ; python_version < "3.8" from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: typing-extensions (>=3.6.4) ; python_version < "3.8"
+Handling sphinx (>=3.5) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: sphinx (>=3.5) ; extra == 'docs'
+Handling jaraco.packaging (>=9) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: jaraco.packaging (>=9) ; extra == 'docs'
+Handling rst.linker (>=1.9) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: rst.linker (>=1.9) ; extra == 'docs'
+Handling furo ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: furo ; extra == 'docs'
+Handling sphinx-lint ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: sphinx-lint ; extra == 'docs'
+Handling jaraco.tidelift (>=1.4) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: jaraco.tidelift (>=1.4) ; extra == 'docs'
+Handling ipython ; extra == 'perf' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: ipython ; extra == 'perf'
+Handling pytest (>=6) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest (>=6) ; extra == 'testing'
+Handling pytest-checkdocs (>=2.4) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-checkdocs (>=2.4) ; extra == 'testing'
+Handling flake8 (<5) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: flake8 (<5) ; extra == 'testing'
+Handling pytest-cov ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-cov ; extra == 'testing'
+Handling pytest-enabler (>=1.3) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-enabler (>=1.3) ; extra == 'testing'
+Handling packaging ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: packaging ; extra == 'testing'
+Handling pyfakefs ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pyfakefs ; extra == 'testing'
+Handling flufl.flake8 ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: flufl.flake8 ; extra == 'testing'
+Handling pytest-perf (>=0.9.2) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-perf (>=0.9.2) ; extra == 'testing'
+Handling pytest-black (>=0.3.7) ; (platform_python_implementation != "PyPy") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-black (>=0.3.7) ; (platform_python_implementation != "PyPy") and extra == 'testing'
+Handling pytest-mypy (>=0.9.1) ; (platform_python_implementation != "PyPy") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-mypy (>=0.9.1) ; (platform_python_implementation != "PyPy") and extra == 'testing'
+Handling pytest-flake8 ; (python_version < "3.12") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-flake8 ; (python_version < "3.12") and extra == 'testing'
+Handling importlib-resources (>=1.3) ; (python_version < "3.9") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: importlib-resources (>=1.3) ; (python_version < "3.9") and extra == 'testing'
++ cat /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv importlib_metadata-6.2.1.dist-info/
+removed 'importlib_metadata-6.2.1.dist-info/top_level.txt'
+removed 'importlib_metadata-6.2.1.dist-info/METADATA'
+removed 'importlib_metadata-6.2.1.dist-info/LICENSE'
+removed directory 'importlib_metadata-6.2.1.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-importlib-metadata-6.2.1-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   32 kB/s | 2.9 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-packaging-23.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3.11-setuptools_scm-8.0.4-1.el9.noarch is already installed.
+Package python3.11-setuptools_scm+toml-8.0.4-1.el9.noarch is already installed.
+Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
+Dependencies resolved.
+================================================================================================================================================================================
+ Package                                 Architecture                   Version                                Repository                                                  Size
+================================================================================================================================================================================
+Installing:
+ [1mpython3.11-zipp                        [m noarch                         3.17.0-1.el9                           _opt_edarpm_rpmbuilds_202434_RPMS_                          22 k
+
+Transaction Summary
+================================================================================================================================================================================
+Install  1 Package
+
+Total size: 22 k
+Installed size: 39 k
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                        1/1 
+  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [                                                                                                                ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [=                                                                                                               ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [===                                                                                                             ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [=============                                                                                                   ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [==============                                                                                                  ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [===============                                                                                                 ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [============================================                                                                    ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [===============================================                                                                 ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [================================================                                                                ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [=================================================                                                               ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [========================================================================================================        ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [============================================================================================================    ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [=============================================================================================================   ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch [==============================================================================================================  ] 1/1  Installing       : python3.11-zipp-3.17.0-1.el9.noarch                                                                                                                    1/1 
+  Running scriptlet: python3.11-zipp-3.17.0-1.el9.noarch                                                                                                                    1/1 
+  Verifying        : python3.11-zipp-3.17.0-1.el9.noarch                                                                                                                    1/1 
+Installed products updated.
+
+Installed:
+  python3.11-zipp-3.17.0-1.el9.noarch                                                                                                                                           
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717459200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.8E9ZDY
++ umask 022
++ cd /builddir/build/BUILD
++ cd importlib_metadata-6.2.1
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/importlib_metadata-6.2.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=56 from build-system.requires
+Requirement satisfied: setuptools>=56
+   (installed: setuptools 69.0.2)
+Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
+Requirement satisfied: setuptools_scm[toml]>=3.4.1
+   (installed: setuptools_scm 8.0.4)
+   (extras are currently not checked)
+running egg_info
+writing importlib_metadata.egg-info/PKG-INFO
+writing dependency_links to importlib_metadata.egg-info/dependency_links.txt
+writing requirements to importlib_metadata.egg-info/requires.txt
+writing top-level names to importlib_metadata.egg-info/top_level.txt
+reading manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing importlib_metadata.egg-info/PKG-INFO
+writing dependency_links to importlib_metadata.egg-info/dependency_links.txt
+writing requirements to importlib_metadata.egg-info/requires.txt
+writing top-level names to importlib_metadata.egg-info/top_level.txt
+reading manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/importlib_metadata-6.2.1/importlib_metadata-6.2.1.dist-info'
+Handling zipp (>=0.5) from hook generated metadata: Requires-Dist (importlib-metadata)
+Requirement satisfied: zipp (>=0.5)
+   (installed: zipp 3.17.0)
+Handling typing-extensions (>=3.6.4) ; python_version < "3.8" from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: typing-extensions (>=3.6.4) ; python_version < "3.8"
+Handling sphinx (>=3.5) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: sphinx (>=3.5) ; extra == 'docs'
+Handling jaraco.packaging (>=9) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: jaraco.packaging (>=9) ; extra == 'docs'
+Handling rst.linker (>=1.9) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: rst.linker (>=1.9) ; extra == 'docs'
+Handling furo ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: furo ; extra == 'docs'
+Handling sphinx-lint ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: sphinx-lint ; extra == 'docs'
+Handling jaraco.tidelift (>=1.4) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: jaraco.tidelift (>=1.4) ; extra == 'docs'
+Handling ipython ; extra == 'perf' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: ipython ; extra == 'perf'
+Handling pytest (>=6) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest (>=6) ; extra == 'testing'
+Handling pytest-checkdocs (>=2.4) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-checkdocs (>=2.4) ; extra == 'testing'
+Handling flake8 (<5) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: flake8 (<5) ; extra == 'testing'
+Handling pytest-cov ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-cov ; extra == 'testing'
+Handling pytest-enabler (>=1.3) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-enabler (>=1.3) ; extra == 'testing'
+Handling packaging ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: packaging ; extra == 'testing'
+Handling pyfakefs ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pyfakefs ; extra == 'testing'
+Handling flufl.flake8 ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: flufl.flake8 ; extra == 'testing'
+Handling pytest-perf (>=0.9.2) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-perf (>=0.9.2) ; extra == 'testing'
+Handling pytest-black (>=0.3.7) ; (platform_python_implementation != "PyPy") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-black (>=0.3.7) ; (platform_python_implementation != "PyPy") and extra == 'testing'
+Handling pytest-mypy (>=0.9.1) ; (platform_python_implementation != "PyPy") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-mypy (>=0.9.1) ; (platform_python_implementation != "PyPy") and extra == 'testing'
+Handling pytest-flake8 ; (python_version < "3.12") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-flake8 ; (python_version < "3.12") and extra == 'testing'
+Handling importlib-resources (>=1.3) ; (python_version < "3.9") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: importlib-resources (>=1.3) ; (python_version < "3.9") and extra == 'testing'
++ cat /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv importlib_metadata-6.2.1.dist-info/
+removed 'importlib_metadata-6.2.1.dist-info/top_level.txt'
+removed 'importlib_metadata-6.2.1.dist-info/METADATA'
+removed 'importlib_metadata-6.2.1.dist-info/LICENSE'
+removed directory 'importlib_metadata-6.2.1.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-importlib-metadata-6.2.1-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   29 kB/s | 2.9 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-packaging-23.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3.11-setuptools_scm-8.0.4-1.el9.noarch is already installed.
+Package python3.11-setuptools_scm+toml-8.0.4-1.el9.noarch is already installed.
+Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
+Package python3.11-zipp-3.17.0-1.el9.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1717459200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.HU8Lez
++ umask 022
++ cd /builddir/build/BUILD
++ cd importlib_metadata-6.2.1
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/importlib_metadata-6.2.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=56 from build-system.requires
+Requirement satisfied: setuptools>=56
+   (installed: setuptools 69.0.2)
+Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
+Requirement satisfied: setuptools_scm[toml]>=3.4.1
+   (installed: setuptools_scm 8.0.4)
+   (extras are currently not checked)
+running egg_info
+writing importlib_metadata.egg-info/PKG-INFO
+writing dependency_links to importlib_metadata.egg-info/dependency_links.txt
+writing requirements to importlib_metadata.egg-info/requires.txt
+writing top-level names to importlib_metadata.egg-info/top_level.txt
+reading manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+running dist_info
+writing importlib_metadata.egg-info/PKG-INFO
+writing dependency_links to importlib_metadata.egg-info/dependency_links.txt
+writing requirements to importlib_metadata.egg-info/requires.txt
+writing top-level names to importlib_metadata.egg-info/top_level.txt
+reading manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/importlib_metadata-6.2.1/importlib_metadata-6.2.1.dist-info'
+Handling zipp (>=0.5) from hook generated metadata: Requires-Dist (importlib-metadata)
+Requirement satisfied: zipp (>=0.5)
+   (installed: zipp 3.17.0)
+Handling typing-extensions (>=3.6.4) ; python_version < "3.8" from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: typing-extensions (>=3.6.4) ; python_version < "3.8"
+Handling sphinx (>=3.5) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: sphinx (>=3.5) ; extra == 'docs'
+Handling jaraco.packaging (>=9) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: jaraco.packaging (>=9) ; extra == 'docs'
+Handling rst.linker (>=1.9) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: rst.linker (>=1.9) ; extra == 'docs'
+Handling furo ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: furo ; extra == 'docs'
+Handling sphinx-lint ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: sphinx-lint ; extra == 'docs'
+Handling jaraco.tidelift (>=1.4) ; extra == 'docs' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: jaraco.tidelift (>=1.4) ; extra == 'docs'
+Handling ipython ; extra == 'perf' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: ipython ; extra == 'perf'
+Handling pytest (>=6) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest (>=6) ; extra == 'testing'
+Handling pytest-checkdocs (>=2.4) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-checkdocs (>=2.4) ; extra == 'testing'
+Handling flake8 (<5) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: flake8 (<5) ; extra == 'testing'
+Handling pytest-cov ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-cov ; extra == 'testing'
+Handling pytest-enabler (>=1.3) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-enabler (>=1.3) ; extra == 'testing'
+Handling packaging ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: packaging ; extra == 'testing'
+Handling pyfakefs ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pyfakefs ; extra == 'testing'
+Handling flufl.flake8 ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: flufl.flake8 ; extra == 'testing'
+Handling pytest-perf (>=0.9.2) ; extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-perf (>=0.9.2) ; extra == 'testing'
+Handling pytest-black (>=0.3.7) ; (platform_python_implementation != "PyPy") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-black (>=0.3.7) ; (platform_python_implementation != "PyPy") and extra == 'testing'
+Handling pytest-mypy (>=0.9.1) ; (platform_python_implementation != "PyPy") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-mypy (>=0.9.1) ; (platform_python_implementation != "PyPy") and extra == 'testing'
+Handling pytest-flake8 ; (python_version < "3.12") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: pytest-flake8 ; (python_version < "3.12") and extra == 'testing'
+Handling importlib-resources (>=1.3) ; (python_version < "3.9") and extra == 'testing' from hook generated metadata: Requires-Dist (importlib-metadata)
+Ignoring alien requirement: importlib-resources (>=1.3) ; (python_version < "3.9") and extra == 'testing'
++ cat /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv importlib_metadata-6.2.1.dist-info/
+removed 'importlib_metadata-6.2.1.dist-info/top_level.txt'
+removed 'importlib_metadata-6.2.1.dist-info/METADATA'
+removed 'importlib_metadata-6.2.1.dist-info/LICENSE'
+removed directory 'importlib_metadata-6.2.1.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.loN6XV
++ umask 022
++ cd /builddir/build/BUILD
++ cd importlib_metadata-6.2.1
++ mkdir -p /builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/importlib_metadata-6.2.1/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/importlib_metadata-6.2.1
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11/pip-modern-metadata-g6wj3hyj/importlib_metadata.egg-info
+  writing /builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11/pip-modern-metadata-g6wj3hyj/importlib_metadata.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11/pip-modern-metadata-g6wj3hyj/importlib_metadata.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11/pip-modern-metadata-g6wj3hyj/importlib_metadata.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11/pip-modern-metadata-g6wj3hyj/importlib_metadata.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11/pip-modern-metadata-g6wj3hyj/importlib_metadata.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11/pip-modern-metadata-g6wj3hyj/importlib_metadata.egg-info/SOURCES.txt'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11/pip-modern-metadata-g6wj3hyj/importlib_metadata.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11/pip-modern-metadata-g6wj3hyj/importlib_metadata-6.2.1.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: importlib-metadata
+  Building wheel for importlib-metadata (pyproject.toml): started
+  Running command Building wheel for importlib-metadata (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/importlib_metadata
+  copying importlib_metadata/__init__.py -> build/lib/importlib_metadata
+  copying importlib_metadata/_adapters.py -> build/lib/importlib_metadata
+  copying importlib_metadata/_collections.py -> build/lib/importlib_metadata
+  copying importlib_metadata/_compat.py -> build/lib/importlib_metadata
+  copying importlib_metadata/_functools.py -> build/lib/importlib_metadata
+  copying importlib_metadata/_itertools.py -> build/lib/importlib_metadata
+  copying importlib_metadata/_meta.py -> build/lib/importlib_metadata
+  copying importlib_metadata/_py39compat.py -> build/lib/importlib_metadata
+  copying importlib_metadata/_text.py -> build/lib/importlib_metadata
+  running egg_info
+  writing importlib_metadata.egg-info/PKG-INFO
+  writing dependency_links to importlib_metadata.egg-info/dependency_links.txt
+  writing requirements to importlib_metadata.egg-info/requires.txt
+  writing top-level names to importlib_metadata.egg-info/top_level.txt
+  reading manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+  adding license file 'LICENSE'
+  writing manifest file 'importlib_metadata.egg-info/SOURCES.txt'
+  copying importlib_metadata/py.typed -> build/lib/importlib_metadata
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/importlib_metadata
+  copying build/lib/importlib_metadata/__init__.py -> build/bdist.linux-x86_64/wheel/importlib_metadata
+  copying build/lib/importlib_metadata/_adapters.py -> build/bdist.linux-x86_64/wheel/importlib_metadata
+  copying build/lib/importlib_metadata/_collections.py -> build/bdist.linux-x86_64/wheel/importlib_metadata
+  copying build/lib/importlib_metadata/_compat.py -> build/bdist.linux-x86_64/wheel/importlib_metadata
+  copying build/lib/importlib_metadata/_functools.py -> build/bdist.linux-x86_64/wheel/importlib_metadata
+  copying build/lib/importlib_metadata/_itertools.py -> build/bdist.linux-x86_64/wheel/importlib_metadata
+  copying build/lib/importlib_metadata/_meta.py -> build/bdist.linux-x86_64/wheel/importlib_metadata
+  copying build/lib/importlib_metadata/_py39compat.py -> build/bdist.linux-x86_64/wheel/importlib_metadata
+  copying build/lib/importlib_metadata/_text.py -> build/bdist.linux-x86_64/wheel/importlib_metadata
+  copying build/lib/importlib_metadata/py.typed -> build/bdist.linux-x86_64/wheel/importlib_metadata
+  running install_egg_info
+  Copying importlib_metadata.egg-info to build/bdist.linux-x86_64/wheel/importlib_metadata-6.2.1-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/importlib_metadata-6.2.1.dist-info/WHEEL
+  creating '/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11/pip-wheel-6c6o1j94/.tmp-2b1zlx48/importlib_metadata-6.2.1-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'importlib_metadata/__init__.py'
+  adding 'importlib_metadata/_adapters.py'
+  adding 'importlib_metadata/_collections.py'
+  adding 'importlib_metadata/_compat.py'
+  adding 'importlib_metadata/_functools.py'
+  adding 'importlib_metadata/_itertools.py'
+  adding 'importlib_metadata/_meta.py'
+  adding 'importlib_metadata/_py39compat.py'
+  adding 'importlib_metadata/_text.py'
+  adding 'importlib_metadata/py.typed'
+  adding 'importlib_metadata-6.2.1.dist-info/LICENSE'
+  adding 'importlib_metadata-6.2.1.dist-info/METADATA'
+  adding 'importlib_metadata-6.2.1.dist-info/WHEEL'
+  adding 'importlib_metadata-6.2.1.dist-info/top_level.txt'
+  adding 'importlib_metadata-6.2.1.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for importlib-metadata (pyproject.toml): finished with status 'done'
+  Created wheel for importlib-metadata: filename=importlib_metadata-6.2.1-py3-none-any.whl size=21956 sha256=d4bfdfac429d78eb73a885a89a9890eeb8240f32283bafab47eba3993249c09b
+  Stored in directory: /builddir/.cache/pip/wheels/de/f0/cb/0456b6bef32403947cc91bb998f4169ed8b7443969658fd21f
+Successfully built importlib-metadata
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.eZSexR
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64
++ cd importlib_metadata-6.2.1
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ ls /builddir/build/BUILD/importlib_metadata-6.2.1/pyproject-wheeldir-3.11/importlib_metadata-6.2.1-py3-none-any.whl
++ specifier=importlib_metadata==6.2.1
++ '[' -z importlib_metadata==6.2.1 ']'
++ TMPDIR=/builddir/build/BUILD/importlib_metadata-6.2.1/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/importlib_metadata-6.2.1/pyproject-wheeldir-3.11 importlib_metadata==6.2.1
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/importlib_metadata-6.2.1/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/importlib_metadata-6.2.1-py3-none-any.whl
+Installing collected packages: importlib_metadata
+Successfully installed importlib_metadata-6.2.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/importlib_metadata-6.2.1.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib/python3.11/site-packages/importlib_metadata-6.2.1.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib/python3.11/site-packages/importlib_metadata-6.2.1.dist-info/RECORD --output /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib/python3.11/site-packages/importlib_metadata-6.2.1.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib/python3.11/site-packages/importlib_metadata-6.2.1.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib/python3.11/site-packages/importlib_metadata-6.2.1.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib/python3.11/site-packages/importlib_metadata-6.2.1.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-importlib-metadata-6.2.1-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 6.2.1-1.el9 --unique-debug-suffix -6.2.1-1.el9.x86_64 --unique-debug-src-base python-importlib-metadata-6.2.1-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/importlib_metadata-6.2.1
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-importlib-metadata-6.2.1-1.el9.noarch
+Provides: python3.11-importlib-metadata = 6.2.1-1.el9 python3.11dist(importlib-metadata) = 6.2.1
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11 python3.11dist(zipp) >= 0.5
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-importlib-metadata-6.2.1-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-importlib-metadata-6.2.1-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-importlib-metadata-6.2.1-1.el9.noarch.rpm
+Finish: rpmbuild python-importlib-metadata-6.2.1-1.el9.src.rpm
+Finish: build phase for python-importlib-metadata-6.2.1-1.el9.src.rpm
+INFO: Done(/opt/eda-rpm/rpmbuilds/2024.3.4/SRPMS/python-importlib-metadata-6.2.1-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 31 seconds
+INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 102 packages
+Directory walk done - 140 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
