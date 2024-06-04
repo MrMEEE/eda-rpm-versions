@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-rq-2.7.0-1.el9.src.rpm
+The lastest package built was python-django-split-settings-1.0.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 03:56:10 AM CEST 2024
+The build completed at Tue Jun  4 03:56:39 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-django-rq-2.7.0-1.el9.src.rpm.log)
+[Build Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
