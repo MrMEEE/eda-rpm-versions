@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatch-vcs-0.4.0-1.el9.src.rpm
+The lastest package built was python-importlib-metadata-6.2.1-1.el9.src.rpm
 
-The build completed at Tue Jun  4 03:16:23 AM CEST 2024
+The build completed at Tue Jun  4 03:17:08 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
+[Build Log](logs/python-importlib-metadata-6.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
