@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-podman-4.9.0-1.el9.src.rpm
+The lastest package built was python-poetry-1.8.3-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:23:10 AM CEST 2024
+The build completed at Tue Jun  4 02:23:37 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-podman-4.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -96,7 +96,7 @@ python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Miss
 python3.11-pkginfo-1.10.0-1.el9 | python-pkginfo-1.10.0-1.el9.src.rpm | Built | [Log](logs/python-pkginfo-1.10.0-1.el9.src.rpm.log)
 python3.11-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
 python3.11-podman-4.9.0-1.el9 | python-podman-4.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-podman-4.9.0-1.el9.src.rpm.log)
-python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | **Missing** |
+python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | **Missing** |
 python3.11-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | **Missing** |
 python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | **Missing** |
