@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-drf-spectacular-0.26.5-1.el9.src.rpm
+The lastest package built was python-filelock-3.13.1-1.el9.src.rpm
 
-The build completed at Tue Jun  4 04:19:29 AM CEST 2024
+The build completed at Tue Jun  4 04:20:02 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-drf-spectacular-0.26.5-1.el9.src.rpm.log)
+[Build Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -54,7 +54,7 @@ python3.11-drf-spectacular-0.26.5-1.el9 | python-drf-spectacular-0.26.5-1.el9.sr
 python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.21.7-1.el9.src.rpm.log)
 python3.11-dynaconf-3.2.4-1.el9 | python-dynaconf-3.2.4-1.el9.src.rpm | Built | [Log](logs/python-dynaconf-3.2.4-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.19.1-1.el9 | python-fastjsonschema-2.19.1-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.19.1-1.el9.src.rpm.log)
-python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
+python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
 python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
 python3.11-h2-4.1.0-1.el9 | python-h2-4.1.0-1.el9.src.rpm | Built | [Log](logs/python-h2-4.1.0-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
@@ -157,4 +157,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-147 total packages, 127 packages built successfully, 20 packages left to fix
+147 total packages, 128 packages built successfully, 19 packages left to fix
