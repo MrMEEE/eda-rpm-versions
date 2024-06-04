@@ -46,12 +46,12 @@ Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.3 MB/s | 3.0 kB     00:00    
-/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                            19 MB/s | 147 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                17 kB/s | 4.1 kB     00:00    
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                            17 MB/s | 184 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                18 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                     [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [         ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   29 kB/s | 2.9 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [         ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   14 kB/s | 4.3 kB     00:00    
 Dependencies resolved.
 ================================================================================================================================================================================
  Package                                              Architecture                    Version                                  Repository                                  Size
@@ -166,7 +166,7 @@ Start: rpmbuild python-podman-4.9.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.SrdIq3
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.AAXgP1
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -180,7 +180,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.SrdIq3
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.KKPZV9
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.9wIuxT
 + umask 022
 + cd /builddir/build/BUILD
 + cd podman-4.9.0
@@ -215,10 +215,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  7.2 kB/s | 2.9 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   43 kB/s | 4.3 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -258,7 +258,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.YbgX5t
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.NlwZgq
 + umask 022
 + cd /builddir/build/BUILD
 + cd podman-4.9.0
@@ -295,10 +295,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  8.7 kB/s | 2.9 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   13 kB/s | 4.3 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -336,7 +336,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Gs1YHU
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.x2eQ5d
 + umask 022
 + cd /builddir/build/BUILD
 + cd podman-4.9.0
@@ -386,8 +386,8 @@ This system is not registered with an entitlement server. You can use subscripti
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                21 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  8.5 kB/s | 2.9 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   11 kB/s | 4.3 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -427,7 +427,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.vjtJsF
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.DBnigH
 + umask 022
 + cd /builddir/build/BUILD
 + cd podman-4.9.0
@@ -497,11 +497,11 @@ Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           955 kB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                17 kB/s | 4.1 kB     00:00    
+/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                21 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                  8.4 kB/s | 2.9 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   13 kB/s | 4.3 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -571,7 +571,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.YULJ3l
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.w4UNi8
 + umask 022
 + cd /builddir/build/BUILD
 + cd podman-4.9.0
@@ -648,8 +648,8 @@ This system is not registered with an entitlement server. You can use subscripti
 /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                    [===                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/                                                                                                           2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                        [===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                21 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                     [   ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                             22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   32 kB/s | 2.9 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                       [      ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                               24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                           [         ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                           [            ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                   11 kB/s | 4.3 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -667,7 +667,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1717459200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.oQMDoz
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ZHiPtj
 + umask 022
 + cd /builddir/build/BUILD
 + cd podman-4.9.0
@@ -733,7 +733,7 @@ removed directory 'podman-4.9.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.xWITan
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Uy6scC
 + umask 022
 + cd /builddir/build/BUILD
 + cd podman-4.9.0
@@ -746,16 +746,16 @@ Processing /builddir/build/BUILD/podman-4.9.0
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-97i71bbx/podman.egg-info
-  writing /builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-97i71bbx/podman.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-97i71bbx/podman.egg-info/dependency_links.txt
-  writing requirements to /builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-97i71bbx/podman.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-97i71bbx/podman.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-97i71bbx/podman.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-97i71bbx/podman.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-1vp9s22o/podman.egg-info
+  writing /builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-1vp9s22o/podman.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-1vp9s22o/podman.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-1vp9s22o/podman.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-1vp9s22o/podman.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-1vp9s22o/podman.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-1vp9s22o/podman.egg-info/SOURCES.txt'
   adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-97i71bbx/podman.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-97i71bbx/podman-4.9.0.dist-info'
+  writing manifest file '/builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-1vp9s22o/podman.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-modern-metadata-1vp9s22o/podman-4.9.0.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: podman
   Building wheel for podman (pyproject.toml): started
@@ -864,7 +864,7 @@ Building wheels for collected packages: podman
   Copying podman.egg-info to build/bdist.linux-x86_64/wheel/podman-4.9.0-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/podman-4.9.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-wheel-cnftj9uq/.tmp-mdmv2ii5/podman-4.9.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/podman-4.9.0/.pyproject-builddir-3.11/pip-wheel-8nbh0tus/.tmp-sf6n2ptb/podman-4.9.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'podman/__init__.py'
   adding 'podman/client.py'
   adding 'podman/tlsconfig.py'
@@ -915,7 +915,7 @@ Successfully built podman
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.Y6OOUr
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.1UmuVC
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-podman-4.9.0-1.el9.x86_64 '!=' / ']'
@@ -985,12 +985,12 @@ error: Dependency tokens must begin with alpha-numeric, '_' or '/': *** PYTHON_E
 Error: The package name contains an extras name `progress-bar` that was not found in the metadata.
 Check if the extras were removed from the project. If so, consider removing the subpackage and obsoleting it from another.
 
+error: Dependency tokens must begin with alpha-numeric, '_' or '/': *** PYTHON_EXTRAS_NOT_FOUND_ERROR___SEE_STDERR ***
 Provides: python3.11-podman+progress-bar = 4.9.0-1.el9
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
 
 
 RPM build errors:
-error: Dependency tokens must begin with alpha-numeric, '_' or '/': *** PYTHON_EXTRAS_NOT_FOUND_ERROR___SEE_STDERR ***
     Dependency tokens must begin with alpha-numeric, '_' or '/': *** PYTHON_EXTRAS_NOT_FOUND_ERROR___SEE_STDERR ***
     Dependency tokens must begin with alpha-numeric, '_' or '/': *** PYTHON_EXTRAS_NOT_FOUND_ERROR___SEE_STDERR ***
 Finish: rpmbuild python-podman-4.9.0-1.el9.src.rpm
@@ -998,10 +998,10 @@ Finish: build phase for python-podman-4.9.0-1.el9.src.rpm
 ERROR: Exception(/opt/eda-rpm/rpmbuilds/2024.3.4/SRPMS/python-podman-4.9.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 32 seconds
 INFO: Results and/or logs in: /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 91190c2e3b344bd6bef2cdeb29779e41 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.tca5wtet:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-podman.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M d4ddfd36d7ff4909865eb7702ae51289 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.3fj5ai_b:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-podman.spec --nocheck'
 
 Directory walk started
-Directory walk done - 143 packages
+Directory walk done - 161 packages
 Temporary output repo path: /opt/eda-rpm/rpmbuilds/2024.3.4/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
