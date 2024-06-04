@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-drf-spectacular-0.26.5-1.el9.src.rpm
+The lastest package built was python-jsonschema-4.21.1-1.el9.src.rpm
 
-The build completed at Tue Jun  4 04:31:49 AM CEST 2024
+The build completed at Tue Jun  4 04:32:23 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-drf-spectacular-0.26.5-1.el9.src.rpm.log)
+[Build Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
