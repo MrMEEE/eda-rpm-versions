@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rpds-py-0.18.0-1.el9.src.rpm
+The lastest package built was python-rq-1.13.0-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:39:10 AM CEST 2024
+The build completed at Tue Jun  4 02:39:47 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-rpds-py-0.18.0-1.el9.src.rpm.log)
+[Build Log](logs/python-rq-1.13.0-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -124,7 +124,7 @@ python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.
 python3.11-rfc3986-2.0.0-1.el9 | python-rfc3986-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-rfc3986-2.0.0-1.el9.src.rpm.log)
 python3.11-rich-13.7.1-1.el9 | python-rich-13.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-rich-13.7.1-1.el9.src.rpm.log)
 python3.11-rpds-py-0.18.0-1.el9 | python-rpds-py-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-rpds-py-0.18.0-1.el9.src.rpm.log)
-python3.11-rq-1.13.0-1.el9 | python-rq-1.13.0-1.el9.src.rpm | **Missing** |
+python3.11-rq-1.13.0-1.el9 | python-rq-1.13.0-1.el9.src.rpm | Built | [Log](logs/python-rq-1.13.0-1.el9.src.rpm.log)
 python3.11-rq-scheduler-0.10.0-1.el9 | python-rq-scheduler-0.10.0-1.el9.src.rpm | **Missing** |
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | **Missing** |
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | **Missing** |
@@ -157,4 +157,4 @@ python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing*
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-147 total packages, 56 packages built successfully, 91 packages left to fix
+147 total packages, 57 packages built successfully, 90 packages left to fix
