@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-requests-2.31.0-1.el9.src.rpm
+The lastest package built was python-requests-oauthlib-1.3.1-1.el9.src.rpm
 
-The build completed at Tue Jun  4 02:36:05 AM CEST 2024
+The build completed at Tue Jun  4 02:36:33 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
+[Build Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
 ## Package build status for version: 2024.3.4
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -119,7 +119,7 @@ python3.11-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rp
 python3.11-redis-5.0.1-1.el9 | python-redis-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-redis-5.0.1-1.el9.src.rpm.log)
 python3.11-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | **Missing** | [Log](logs/python-referencing-0.33.0-1.el9.src.rpm.log)
 python3.11-requests-2.31.0-1.el9 | python-requests-2.31.0-1.el9.src.rpm | Built | [Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
-python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | **Missing** |
+python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | **Missing** |
 python3.11-rfc3986-2.0.0-1.el9 | python-rfc3986-2.0.0-1.el9.src.rpm | **Missing** |
 python3.11-rich-13.7.1-1.el9 | python-rich-13.7.1-1.el9.src.rpm | **Missing** |
